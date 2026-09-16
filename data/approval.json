@@ -1,0 +1,26 @@
+{
+  "updated": "2026-09-16 ET",
+  "items": [
+    {
+      "signal": "Arsenal 90-min win @ Ipswich",
+      "grade": "C",
+      "suggested_units": 0.2,
+      "max_entry": "≤ 0.71 implied / ≥1.41 decimal",
+      "status": "ALREADY OPEN"
+    },
+    {
+      "signal": "Liverpool 90-min win vs Tottenham",
+      "grade": "C",
+      "suggested_units": 0.2,
+      "max_entry": "≤ 0.48 implied / ≥2.08 decimal",
+      "status": "ALREADY OPEN"
+    },
+    {
+      "signal": "Real Madrid -1.5 @ Elche",
+      "grade": "C",
+      "suggested_units": 0,
+      "max_entry": "PASS at 0.63",
+      "status": "NO ADD"
+    }
+  ]
+}
