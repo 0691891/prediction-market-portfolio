@@ -1,0 +1,24 @@
+name: v0.3 Data Engine
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh public market data and approval gates
+        run: python src/data_engine.py
+      - name: Commit changed snapshots
+        run: |
+          git config user.name "prediction-market-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/market_snapshot.json data/approval.json
+          git diff --cached --quiet || git commit -m "data: refresh market snapshot and approval gate"
+          git push
