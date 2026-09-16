@@ -1,0 +1,35 @@
+{
+  "updated": "2026-09-16 ET",
+  "picks": [
+    {
+      "competition": "EFL Cup",
+      "match": "Ipswich Town vs Arsenal",
+      "market": "Arsenal 90-min win",
+      "decimal_odds": 1.41,
+      "fair_probability": 0.74,
+      "ev": 0.043,
+      "grade": "C",
+      "max_units": 0.25
+    },
+    {
+      "competition": "EFL Cup",
+      "match": "Liverpool vs Tottenham",
+      "market": "Liverpool 90-min win",
+      "decimal_odds": 2.08,
+      "fair_probability": 0.51,
+      "ev": 0.061,
+      "grade": "C",
+      "max_units": 0.25
+    },
+    {
+      "competition": "La Liga",
+      "match": "Elche vs Real Madrid",
+      "market": "Real Madrid -1.5",
+      "decimal_odds": 1.59,
+      "fair_probability": 0.61,
+      "ev": -0.03,
+      "grade": "C",
+      "max_units": 0.25
+    }
+  ]
+}
