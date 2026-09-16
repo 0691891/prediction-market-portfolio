@@ -1,0 +1,4 @@
+{
+  "items": [],
+  "instructions": "Optional research overrides. Each factor is a bounded log(expected-goals) delta for home/away. Only enter when supported by current evidence. Example +0.10 raises lambda by exp(0.10)=1.105 (~10.5%). Missing factor = 0. Do not encode sportsbook/Kalshi price here."
+}
