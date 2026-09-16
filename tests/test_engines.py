@@ -32,6 +32,7 @@ class EngineSmokeTests(unittest.TestCase):
             clvmod.DATA=d; clvmod.PIT=d/'pit'; clvmod.main()
             clv=json.loads((d/'clv.json').read_text()); self.assertEqual(clv['trade_clv'][0]['status'],'OK'); self.assertAlmostEqual(clv['trade_clv'][0]['clv_probability_points'],.05,places=4)
     def test_v035_attribution(self):
+        self.assertEqual(alphamod.mtype('A win × B over 2.5'),'COMBO')
         with tempfile.TemporaryDirectory() as td:
             d=pathlib.Path(td); (d/'pit').mkdir()
             self.write(d,'trades.json',{'trades':[{'trade_id':'t1','pick_id':'p1','position':'A win','stake_usd':10,'pnl_usd':2,'grade':'A','entry_horizon':'T-6H'}]})
