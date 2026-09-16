@@ -61,6 +61,39 @@
         "weather": 0.04
       },
       "note": "Initial priors, not calibrated production coefficients. Backtest and recalibrate."
+    },
+    "backtest": {
+      "version": "v0.3.3",
+      "train_fraction": 0.7,
+      "activation_min_holdout_predictions": 500,
+      "fit_metric": "multiclass_log_loss",
+      "report_metrics": [
+        "multiclass_log_loss",
+        "multiclass_brier",
+        "accuracy",
+        "calibration"
+      ],
+      "grid": {
+        "recent_half_life_days": [
+          30,
+          60,
+          90,
+          120
+        ],
+        "shrinkage_matches": [
+          4,
+          8,
+          12,
+          16
+        ],
+        "home_advantage_log": [
+          0.04,
+          0.08,
+          0.12,
+          0.16
+        ]
+      },
+      "no_lookahead": true
     }
   }
 }
