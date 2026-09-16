@@ -1,4 +1,4 @@
-name: v0.3.4 Football Intelligence + PIT + CLV Engine
+name: v0.3.5 Football Intelligence + PIT + CLV + Alpha Attribution
 on:
   workflow_dispatch:
   schedule:
@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Refresh intelligence, market data, point-in-time snapshots and CLV
+      - name: Refresh intelligence, market data, PIT, CLV and attribution
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
@@ -25,10 +25,11 @@ jobs:
           python src/data_engine.py
           python src/point_in_time.py
           python src/clv_engine.py
+          python src/alpha_attribution.py
       - name: Commit changed snapshots
         run: |
           git config user.name "prediction-market-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/football_intelligence.json data/model_fair.json data/board.json data/sportsbook_consensus.json data/market_snapshot.json data/market_candidates.json data/approval.json data/pit data/clv.json
-          git diff --cached --quiet || git commit -m "data: refresh v0.3.4 PIT and CLV snapshots"
+          git add data/football_intelligence.json data/model_fair.json data/board.json data/sportsbook_consensus.json data/market_snapshot.json data/market_candidates.json data/approval.json data/pit data/clv.json data/alpha_attribution.json
+          git diff --cached --quiet || git commit -m "data: refresh v0.3.5 attribution snapshots"
           git push
