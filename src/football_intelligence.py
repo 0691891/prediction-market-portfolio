@@ -31,7 +31,9 @@ def split_match(s):
     parts=re.split(r"\s+(?:vs\.?|v\.?|@)\s+",s,flags=re.I)
     return (parts[0].strip(),parts[1].strip()) if len(parts)>=2 else (None,None)
 def main():
-    cfg=read("config.json"); board=read("board.json"); fc=cfg["data_engine"]["football_intelligence"]; key=os.getenv(fc["api_key_env"]); now=datetime.datetime.now(datetime.timezone.utc)
+    cfg=read("config.json"); board=read("board.json"); fc=dict(cfg["data_engine"]["football_intelligence"]); key=os.getenv(fc["api_key_env"]); now=datetime.datetime.now(datetime.timezone.utc)
+    cp=read("calibrated_params.json") if (DATA/"calibrated_params.json").exists() else {"active":False}
+    if cp.get("active") and cp.get("params",{}).get("recent_half_life_days"): fc["recent_half_life_days"]=cp["params"]["recent_half_life_days"]
     if not key:
         write("football_intelligence.json",{"updated_utc":now.isoformat(),"status":"NO_FOOTBALL_DATA_KEY","provider":fc["provider"],"items":[]});return
     cache={}; items=[]
