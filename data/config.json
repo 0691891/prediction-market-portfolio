@@ -30,6 +30,37 @@
       "consensus_method": "median_de_vig_probability",
       "max_model_consensus_gap_for_auto_ready": 0.12,
       "api_key_env": "ODDS_API_KEY"
+    },
+    "football_intelligence": {
+      "provider": "football-data.org v4",
+      "api_key_env": "FOOTBALL_DATA_API_KEY",
+      "competition_codes": {
+        "Premier League": "PL",
+        "La Liga": "PD",
+        "Serie A": "SA",
+        "Bundesliga": "BL1",
+        "Ligue 1": "FL1",
+        "UEFA Champions League": "CL"
+      },
+      "lookback_days": 180,
+      "recent_half_life_days": 60,
+      "model": "Poisson goal model + transparent log-lambda adjustments",
+      "market_consensus_in_my_fair": false
+    },
+    "fair_model": {
+      "max_goals": 8,
+      "home_advantage_log": 0.12,
+      "shrinkage_matches": 8,
+      "adjustment_caps_log_lambda": {
+        "recent_form": 0.12,
+        "lineup": 0.18,
+        "injuries": 0.15,
+        "rest": 0.08,
+        "tactical": 0.1,
+        "motivation": 0.06,
+        "weather": 0.04
+      },
+      "note": "Initial priors, not calibrated production coefficients. Backtest and recalibrate."
     }
   }
 }
