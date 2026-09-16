@@ -1,24 +1,23 @@
 # Prediction Market Portfolio
 
-Football prediction-market research dashboard and trade ledger.
+Football prediction-market research dashboard + v0.3 Data Engine.
 
-## Live workflow
-Scheduled research → fair probability / EV → portfolio risk gate → paper signal → approval queue → execution only after explicit approval.
+## 流程 / Workflow
+Scheduled research → My Fair Probability → Kalshi public market snapshot → Edge/EV → Risk Gate → Paper Signal → Manual Approval → Execution (disabled in v0.3).
 
-## Dashboard tabs
-- Daily Board
-- Approval Queue
-- Trade Tracking
-- Performance
-- Risk Rules
+## Dashboard
+中英混杂 / bilingual mixed UI:
+- 今日机会 / Daily Board
+- 审批队列 / Approval Queue
+- 交易记录 / Trade Tracking
+- 业绩 / Performance
+- 风控 / Risk Rules
 
-## Portfolio rules
-- A genuine-edge single: 0.5–0.75u
-- B two-leg safer combo across different leagues: 0.25–0.5u
-- C 2.5x–4x speculative combo: ≤0.25u
-- Aggregate correlated exposure per match: ≤1u
+## v0.3
+`src/data_engine.py` refreshes verified Kalshi tickers, recalculates market probability / decimal odds / edge / EV, then generates the approval queue. Missing tickers are never guessed. GitHub Actions runs the public-data refresh hourly.
 
-## Analytics
-The ledger stores numeric stake and P&L fields. Current closed-trade metrics are calculated only from confirmed records. CLV, Brier Score and EV realization are tracked prospectively as closing probabilities become available; historical values are not backfilled without evidence.
+Hard gates: Edge ≥4pp, EV ≥5%, liquidity threshold, match exposure ≤1u. **Real-money auto execution is OFF.**
 
-GitHub Pages deploys on pushes to main. Gambling involves risk of loss.
+See `docs/DATA_ENGINE.md`.
+
+Gambling involves risk of loss.
