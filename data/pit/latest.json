@@ -1,17 +1,17 @@
 {
-  "updated_utc": "2026-09-16T11:14:17.104793+00:00",
+  "updated_utc": "2026-09-16T15:01:02.058205+00:00",
   "items": [
     {
-      "snapshot_utc": "2026-09-16T11:14:17.104793+00:00",
-      "snapshot_hour_utc": "2026-09-16T11:00:00+00:00",
-      "pick_id": "arsenal-ipswich-90m",
+      "snapshot_utc": "2026-09-16T15:01:02.058205+00:00",
+      "snapshot_hour_utc": "2026-09-16T15:00:00+00:00",
+      "pick_id": "brighton-manunited-90m-20260916",
       "competition": "EFL Cup",
-      "match": "Ipswich Town vs Arsenal",
-      "market": "Arsenal 90-min win",
+      "match": "Manchester United vs Brighton",
+      "market": "Brighton 90-min win",
       "kickoff_utc": null,
       "minutes_to_kickoff": null,
       "bucket": "UNSCHEDULED",
-      "my_fair": 0.74,
+      "my_fair": 0.31,
       "fair_source": null,
       "sportsbook_probability": null,
       "sportsbook_book_count": null,
@@ -19,19 +19,19 @@
       "kalshi_liquidity_usd": null,
       "model_status": "NO_MODEL_UPDATE",
       "football_intelligence_status": null,
-      "snapshot_id": "fee262b02c4a001d"
+      "snapshot_id": "39392fc01db4d1b5"
     },
     {
-      "snapshot_utc": "2026-09-16T11:14:17.104793+00:00",
-      "snapshot_hour_utc": "2026-09-16T11:00:00+00:00",
-      "pick_id": "liverpool-spurs-90m",
+      "snapshot_utc": "2026-09-16T15:01:02.058205+00:00",
+      "snapshot_hour_utc": "2026-09-16T15:00:00+00:00",
+      "pick_id": "coventry-villa-90m-20260916",
       "competition": "EFL Cup",
-      "match": "Liverpool vs Tottenham",
-      "market": "Liverpool 90-min win",
+      "match": "Coventry City vs Aston Villa",
+      "market": "Coventry 90-min win",
       "kickoff_utc": null,
       "minutes_to_kickoff": null,
       "bucket": "UNSCHEDULED",
-      "my_fair": 0.51,
+      "my_fair": 0.36,
       "fair_source": null,
       "sportsbook_probability": null,
       "sportsbook_book_count": null,
@@ -39,27 +39,7 @@
       "kalshi_liquidity_usd": null,
       "model_status": "NO_MODEL_UPDATE",
       "football_intelligence_status": null,
-      "snapshot_id": "09bfe61d4d5ba613"
-    },
-    {
-      "snapshot_utc": "2026-09-16T11:14:17.104793+00:00",
-      "snapshot_hour_utc": "2026-09-16T11:00:00+00:00",
-      "pick_id": "real-elche-minus15",
-      "competition": "La Liga",
-      "match": "Elche vs Real Madrid",
-      "market": "Real Madrid -1.5",
-      "kickoff_utc": null,
-      "minutes_to_kickoff": null,
-      "bucket": "UNSCHEDULED",
-      "my_fair": 0.61,
-      "fair_source": null,
-      "sportsbook_probability": null,
-      "sportsbook_book_count": null,
-      "kalshi_probability": null,
-      "kalshi_liquidity_usd": null,
-      "model_status": "NO_MODEL_UPDATE",
-      "football_intelligence_status": null,
-      "snapshot_id": "7ae1e0f5a16bcce7"
+      "snapshot_id": "c8e3a8e7061de670"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-16T11:14:17.075429+00:00",
+  "updated": "2026-09-16T15:01:02.025812+00:00",
   "items": [
     {
-      "signal": "Ipswich Town vs Arsenal — Arsenal 90-min win",
-      "grade": "C",
+      "signal": "Manchester United vs Brighton — Brighton 90-min win",
+      "grade": "A",
       "suggested_units": 0,
       "max_entry": "Edge≥4%, EV≥5%",
       "kalshi_ticker": null,
@@ -12,17 +12,7 @@
       "status": "NEEDS TICKER MAP"
     },
     {
-      "signal": "Liverpool vs Tottenham — Liverpool 90-min win",
-      "grade": "C",
-      "suggested_units": 0,
-      "max_entry": "Edge≥4%, EV≥5%",
-      "kalshi_ticker": null,
-      "sportsbook_consensus": null,
-      "model_vs_consensus_pp": null,
-      "status": "NEEDS TICKER MAP"
-    },
-    {
-      "signal": "Elche vs Real Madrid — Real Madrid -1.5",
+      "signal": "Coventry City vs Aston Villa — Coventry 90-min win",
       "grade": "C",
       "suggested_units": 0,
       "max_entry": "Edge≥4%, EV≥5%",

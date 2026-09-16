@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T13:19:39+00:00",
+  "updated": "2026-09-16T15:00:56.720591+00:00",
   "picks": [
     {
       "competition": "EFL Cup",
@@ -38,6 +38,14 @@
       "invalidation": "Villa confirm a strong first-choice XI, Coventry rotate heavily, or market reprices Coventry below 2.70."
     }
   ],
-  "no_bet_competitions": ["Premier League", "La Liga", "Serie A", "Bundesliga", "Ligue 1", "UEFA Champions League", "FA Cup"],
+  "no_bet_competitions": [
+    "Premier League",
+    "La Liga",
+    "Serie A",
+    "Bundesliga",
+    "Ligue 1",
+    "UEFA Champions League",
+    "FA Cup"
+  ],
   "note": "No qualifying fixtures / no sufficiently liquid edge identified today in the other requested competitions. No forced combo because both candidates are from the same competition."
 }

@@ -1,28 +1,47 @@
 {
-  "updated_utc": "2026-09-16T11:14:17.015865+00:00",
+  "updated_utc": "2026-09-16T15:01:01.959313+00:00",
   "items": [
     {
-      "pick_id": "arsenal-ipswich-90m",
-      "match": "Ipswich Town vs Arsenal",
-      "candidates": []
-    },
-    {
-      "pick_id": "liverpool-spurs-90m",
-      "match": "Liverpool vs Tottenham",
+      "pick_id": "brighton-manunited-90m-20260916",
+      "match": "Manchester United vs Brighton",
       "candidates": [
         {
-          "ticker": "KXURYPDGAME-26SEP20LIVRCM-LIV",
-          "title": "Liverpool M wins",
+          "ticker": "KXRLGAME-26SEP161700NRGMCE-NRG",
+          "title": "Will NRG Esports win the NRG Esports vs. Manchester City Esports Rocket League match?",
           "subtitle": null,
-          "yes_ask": "0.4600",
+          "yes_ask": "0.9300",
+          "liquidity": "0.0000",
+          "score": 0.5
+        },
+        {
+          "ticker": "KXRLGAME-26SEP161700NRGMCE-MCE",
+          "title": "Will Manchester City Esports win the NRG Esports vs. Manchester City Esports Rocket League match?",
+          "subtitle": null,
+          "yes_ask": "0.3700",
+          "liquidity": "0.0000",
+          "score": 0.5
+        },
+        {
+          "ticker": "KXRLGAME-26SEP161300SRMCE-SR",
+          "title": "Will Shopify Rebellion win the Shopify Rebellion vs. Manchester City Esports Rocket League match?",
+          "subtitle": null,
+          "yes_ask": "0.9400",
+          "liquidity": "0.0000",
+          "score": 0.5
+        },
+        {
+          "ticker": "KXRLGAME-26SEP161300SRMCE-MCE",
+          "title": "Will Manchester City Esports win the Shopify Rebellion vs. Manchester City Esports Rocket League match?",
+          "subtitle": null,
+          "yes_ask": "0.3600",
           "liquidity": "0.0000",
           "score": 0.5
         }
       ]
     },
     {
-      "pick_id": "real-elche-minus15",
-      "match": "Elche vs Real Madrid",
+      "pick_id": "coventry-villa-90m-20260916",
+      "match": "Coventry City vs Aston Villa",
       "candidates": []
     }
   ]
