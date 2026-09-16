@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""v0.3.1 sportsbook consensus engine. Read-only. Uses THE ODDS API when ODDS_API_KEY is set."""
+"""Sportsbook consensus engine. Read-only. Uses The Odds API when ODDS_API_KEY is set."""
 import os,json,pathlib,urllib.request,urllib.parse,statistics,re,datetime
 ROOT=pathlib.Path(__file__).resolve().parents[1]; DATA=ROOT/"data"
 API="https://api.the-odds-api.com/v4"
@@ -10,14 +10,15 @@ def get(url):
     with urllib.request.urlopen(url,timeout=30) as r:return json.load(r)
 def norm(s):return re.sub(r"[^a-z0-9]","",s.lower())
 def match_event(p,e):
-    a,b=[norm(x.strip()) for x in p["match"].replace("@"," vs ").split(" vs ",1)]
+    parts=re.split(r"\s+(?:vs\.?|v\.?|@)\s+",p["match"],maxsplit=1,flags=re.I)
+    if len(parts)<2:return False
+    a,b=[norm(x.strip()) for x in parts]
     h,a2=norm(e["home_team"]),norm(e["away_team"])
     return (a in h or h in a or a in a2 or a2 in a) and (b in h or h in b or b in a2 or a2 in b)
 def de_vig(prices):
     inv=[1/x for x in prices]; s=sum(inv); return [x/s for x in inv]
 def infer_pick(p,outcomes):
     m=p["market"].lower()
-    # exact team side: prefer a named outcome contained in market text
     for i,o in enumerate(outcomes):
         if o["name"].lower()!="draw" and norm(o["name"]) in norm(m): return i
     if "draw" in m:
@@ -36,7 +37,7 @@ def market_consensus(p,event):
                 if idx is None:continue
                 probs=de_vig([float(o["price"]) for o in outs]); vals.append(probs[idx]); sources.append(book["title"])
             elif want=="spreads":
-                mt=re.search(r"([+-]\d+(?:\.\d+)?)",p["market"]); 
+                mt=re.search(r"([+-]\d+(?:\.\d+)?)",p["market"])
                 if not mt:continue
                 point=float(mt.group(1)); candidates=[o for o in outs if float(o.get("point",999))==point and norm(o["name"]) in norm(p["market"])]
                 if not candidates:continue
@@ -59,15 +60,10 @@ def main():
     if not key:
         write("sportsbook_consensus.json",{"updated_utc":now,"status":"NO_ODDS_API_KEY","provider":"The Odds API v4","items":[]});return
     sports=get(f"{API}/sports/?apiKey={urllib.parse.quote(key)}")
-    by_title={s["title"]:s["key"] for s in sports if s.get("active")}
-    cache={}; items=[]
+    by_title={s["title"]:s["key"] for s in sports if s.get("active")}; cache={}; items=[]
     for p in board.get("picks",[]):
-        names=ALIASES.get(p["competition"],[p["competition"]]); sk=None
-        for n in names:
-            sk=by_title.get(n)
-            if sk:break
+        names=ALIASES.get(p["competition"],[p["competition"]]); sk=next((by_title.get(n) for n in names if by_title.get(n)),None)
         if not sk:
-            # fuzzy title fallback
             for title,k in by_title.items():
                 if norm(p["competition"]) in norm(title) or norm(title) in norm(p["competition"]):sk=k;break
         if not sk:
@@ -75,11 +71,12 @@ def main():
         if sk not in cache:
             q=urllib.parse.urlencode({"apiKey":key,"regions":cfg["data_engine"]["sportsbook"]["regions"],"markets":cfg["data_engine"]["sportsbook"]["markets"],"oddsFormat":"decimal"})
             try:cache[sk]=get(f"{API}/sports/{sk}/odds/?{q}")
-            except Exception as e:cache[sk]=[] 
+            except Exception:cache[sk]=[]
         ev=next((e for e in cache[sk] if match_event(p,e)),None)
         if not ev:items.append({"pick_id":p.get("id"),"sport_key":sk,"status":"EVENT_NOT_FOUND"});continue
+        meta={"sport_key":sk,"event_id":ev["id"],"commence_time":ev.get("commence_time"),"home_team":ev.get("home_team"),"away_team":ev.get("away_team")}
         c=market_consensus(p,ev)
-        if not c:items.append({"pick_id":p.get("id"),"sport_key":sk,"event_id":ev["id"],"status":"MARKET_NOT_MATCHED"});continue
-        items.append({"pick_id":p.get("id"),"sport_key":sk,"event_id":ev["id"],"status":"OK",**c,"model_probability":p["fair_probability"],"model_vs_consensus_pp":round(p["fair_probability"]-c["consensus_probability"],4)})
+        if not c:items.append({"pick_id":p.get("id"),**meta,"status":"MARKET_NOT_MATCHED"});continue
+        items.append({"pick_id":p.get("id"),**meta,"status":"OK",**c,"model_probability":p["fair_probability"],"model_vs_consensus_pp":round(p["fair_probability"]-c["consensus_probability"],4)})
     write("sportsbook_consensus.json",{"updated_utc":now,"status":"OK","provider":"The Odds API v4","method":"median de-vig probability","items":items})
 if __name__=="__main__":main()
