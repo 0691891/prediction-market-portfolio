@@ -22,6 +22,14 @@
     "min_liquidity_usd": 100,
     "max_match_exposure_units": 1,
     "auto_real_money_execution": false,
-    "kalshi_base_url": "https://external-api.kalshi.com/trade-api/v2"
+    "kalshi_base_url": "https://external-api.kalshi.com/trade-api/v2",
+    "sportsbook": {
+      "provider": "the_odds_api_v4",
+      "regions": "us,uk,eu",
+      "markets": "h2h,spreads,totals",
+      "consensus_method": "median_de_vig_probability",
+      "max_model_consensus_gap_for_auto_ready": 0.12,
+      "api_key_env": "ODDS_API_KEY"
+    }
   }
 }
