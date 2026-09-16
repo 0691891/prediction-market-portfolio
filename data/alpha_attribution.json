@@ -1,17 +1,73 @@
 {
-  "updated_utc": null,
+  "updated_utc": "2026-09-16T11:14:17.154302+00:00",
   "version": "v0.3.5",
-  "status": "NOT_RUN",
+  "status": "TRACKING",
   "summary": {
-    "rows": 0,
-    "closed_rows": 0,
+    "rows": 6,
+    "closed_rows": 5,
     "tracked_clv_rows": 0,
-    "realized_roi": null,
+    "realized_roi": -0.5048,
     "mean_clv_pp": null
   },
-  "by_league": [],
-  "by_market_type": [],
-  "by_grade": [],
-  "by_entry_horizon": [],
-  "by_edge_bucket": []
+  "by_league": [
+    {
+      "group": "UNKNOWN",
+      "n": 6,
+      "closed_n": 5,
+      "stake_usd": 99.04,
+      "pnl_usd": -50.0,
+      "roi": -0.5048,
+      "clv_n": 0,
+      "mean_clv_pp": null
+    }
+  ],
+  "by_market_type": [
+    {
+      "group": "COMBO",
+      "n": 6,
+      "closed_n": 5,
+      "stake_usd": 99.04,
+      "pnl_usd": -50.0,
+      "roi": -0.5048,
+      "clv_n": 0,
+      "mean_clv_pp": null
+    }
+  ],
+  "by_grade": [
+    {
+      "group": "UNKNOWN",
+      "n": 6,
+      "closed_n": 5,
+      "stake_usd": 99.04,
+      "pnl_usd": -50.0,
+      "roi": -0.5048,
+      "clv_n": 0,
+      "mean_clv_pp": null
+    }
+  ],
+  "by_entry_horizon": [
+    {
+      "group": "UNKNOWN",
+      "n": 6,
+      "closed_n": 5,
+      "stake_usd": 99.04,
+      "pnl_usd": -50.0,
+      "roi": -0.5048,
+      "clv_n": 0,
+      "mean_clv_pp": null
+    }
+  ],
+  "by_edge_bucket": [
+    {
+      "group": "UNKNOWN",
+      "n": 6,
+      "closed_n": 5,
+      "stake_usd": 99.04,
+      "pnl_usd": -50.0,
+      "roi": -0.5048,
+      "clv_n": 0,
+      "mean_clv_pp": null
+    }
+  ],
+  "notes": "Historical records lacking pick_id/entry probability remain UNKNOWN and are not assigned synthetic CLV. Combo stake/P&L is split evenly across legs only for attribution bookkeeping, not to claim true leg-level economic P&L."
 }

@@ -1,26 +1,37 @@
 {
-  "updated": "2026-09-16 ET",
+  "updated": "2026-09-16T11:14:17.075429+00:00",
   "items": [
     {
-      "signal": "Arsenal 90-min win @ Ipswich",
-      "grade": "C",
-      "suggested_units": 0.2,
-      "max_entry": "≤ 0.71 implied / ≥1.41 decimal",
-      "status": "ALREADY OPEN"
-    },
-    {
-      "signal": "Liverpool 90-min win vs Tottenham",
-      "grade": "C",
-      "suggested_units": 0.2,
-      "max_entry": "≤ 0.48 implied / ≥2.08 decimal",
-      "status": "ALREADY OPEN"
-    },
-    {
-      "signal": "Real Madrid -1.5 @ Elche",
+      "signal": "Ipswich Town vs Arsenal — Arsenal 90-min win",
       "grade": "C",
       "suggested_units": 0,
-      "max_entry": "PASS at 0.63",
-      "status": "NO ADD"
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Liverpool vs Tottenham — Liverpool 90-min win",
+      "grade": "C",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Elche vs Real Madrid — Real Madrid -1.5",
+      "grade": "C",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
     }
-  ]
+  ],
+  "mode": "PAPER / MANUAL APPROVAL",
+  "real_money_execution": false
 }
