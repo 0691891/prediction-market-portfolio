@@ -9,7 +9,11 @@
       "fair_probability": 0.74,
       "ev": 0.043,
       "grade": "C",
-      "max_units": 0.25
+      "max_units": 0.25,
+      "id": "arsenal-ipswich-90m",
+      "kalshi_ticker": null,
+      "kalshi_side": "yes",
+      "edge_pp": 0.030780141843971598
     },
     {
       "competition": "EFL Cup",
@@ -19,7 +23,11 @@
       "fair_probability": 0.51,
       "ev": 0.061,
       "grade": "C",
-      "max_units": 0.25
+      "max_units": 0.25,
+      "id": "liverpool-spurs-90m",
+      "kalshi_ticker": null,
+      "kalshi_side": "yes",
+      "edge_pp": 0.029230769230769282
     },
     {
       "competition": "La Liga",
@@ -29,7 +37,11 @@
       "fair_probability": 0.61,
       "ev": -0.03,
       "grade": "C",
-      "max_units": 0.25
+      "max_units": 0.25,
+      "id": "real-elche-minus15",
+      "kalshi_ticker": null,
+      "kalshi_side": "yes",
+      "edge_pp": -0.018930817610062878
     }
   ]
 }
