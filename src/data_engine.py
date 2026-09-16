@@ -11,7 +11,9 @@ def fnum(v):
     try:return float(v)
     except:return None
 def main():
-    cfg=read("config.json"); board=read("board.json"); gate=cfg["data_engine"]; snap=[]; items=[]\n    consensus=read("sportsbook_consensus.json") if (DATA/"sportsbook_consensus.json").exists() else {"items":[]}\n    cby={x.get("pick_id"):x for x in consensus.get("items",[])}
+    cfg=read("config.json"); board=read("board.json"); gate=cfg["data_engine"]; snap=[]; items=[]
+    consensus=read("sportsbook_consensus.json") if (DATA/"sportsbook_consensus.json").exists() else {"items":[]}
+    cby={x.get("pick_id"):x for x in consensus.get("items",[])}
     for p in board.get("picks",[]):
         q=dict(p); ticker=p.get("kalshi_ticker"); side=p.get("kalshi_side","yes")
         if ticker:
@@ -26,7 +28,9 @@ def main():
             except Exception as e:q["data_error"]=str(e)[:160]
         edge=q.get("edge_pp"); ev=q.get("ev"); liq=q.get("liquidity_usd")
         mapped=bool(ticker)
-        c=cby.get(p.get("id"),{}); gap=c.get("model_vs_consensus_pp"); maxgap=gate.get("sportsbook",{}).get("max_model_consensus_gap_for_auto_ready",0.12)\n        consensus_ok = gap is None or abs(gap)<=maxgap\n        passes= mapped and edge is not None and ev is not None and edge>=gate["min_edge_pp"] and ev>=gate["min_ev"] and (liq is None or liq>=gate["min_liquidity_usd"]) and consensus_ok
+        c=cby.get(p.get("id"),{}); gap=c.get("model_vs_consensus_pp"); maxgap=gate.get("sportsbook",{}).get("max_model_consensus_gap_for_auto_ready",0.12)
+        consensus_ok = gap is None or abs(gap)<=maxgap
+        passes= mapped and edge is not None and ev is not None and edge>=gate["min_edge_pp"] and ev>=gate["min_ev"] and (liq is None or liq>=gate["min_liquidity_usd"]) and consensus_ok
         status="READY FOR APPROVAL" if passes else ("NEEDS TICKER MAP" if not mapped else ("MODEL/CONSENSUS REVIEW" if not consensus_ok else "WATCH / FAILS GATE"))
         items.append({"signal":f'{p["match"]} — {p["market"]}',"grade":p["grade"],"suggested_units":p["max_units"] if passes else 0,"max_entry":f'Edge≥{gate["min_edge_pp"]:.0%}, EV≥{gate["min_ev"]:.0%}',"kalshi_ticker":ticker,"sportsbook_consensus":c.get("consensus_probability"),"model_vs_consensus_pp":gap,"status":status})
         snap.append(q)
