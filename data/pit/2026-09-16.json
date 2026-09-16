@@ -140,6 +140,46 @@
       "model_status": "NO_MODEL_UPDATE",
       "football_intelligence_status": null,
       "snapshot_id": "133dcfe0af5caa75"
+    },
+    {
+      "snapshot_utc": "2026-09-16T22:13:18.707467+00:00",
+      "snapshot_hour_utc": "2026-09-16T22:00:00+00:00",
+      "pick_id": "brighton-manunited-90m-20260916",
+      "competition": "EFL Cup",
+      "match": "Manchester United vs Brighton",
+      "market": "Brighton 90-min win",
+      "kickoff_utc": null,
+      "minutes_to_kickoff": null,
+      "bucket": "UNSCHEDULED",
+      "my_fair": 0.31,
+      "fair_source": null,
+      "sportsbook_probability": null,
+      "sportsbook_book_count": null,
+      "kalshi_probability": null,
+      "kalshi_liquidity_usd": null,
+      "model_status": "NO_MODEL_UPDATE",
+      "football_intelligence_status": null,
+      "snapshot_id": "cfa25b68e1006803"
+    },
+    {
+      "snapshot_utc": "2026-09-16T22:13:18.707467+00:00",
+      "snapshot_hour_utc": "2026-09-16T22:00:00+00:00",
+      "pick_id": "coventry-villa-90m-20260916",
+      "competition": "EFL Cup",
+      "match": "Coventry City vs Aston Villa",
+      "market": "Coventry 90-min win",
+      "kickoff_utc": null,
+      "minutes_to_kickoff": null,
+      "bucket": "UNSCHEDULED",
+      "my_fair": 0.36,
+      "fair_source": null,
+      "sportsbook_probability": null,
+      "sportsbook_book_count": null,
+      "kalshi_probability": null,
+      "kalshi_liquidity_usd": null,
+      "model_status": "NO_MODEL_UPDATE",
+      "football_intelligence_status": null,
+      "snapshot_id": "779efed43eb19e62"
     }
   ]
 }

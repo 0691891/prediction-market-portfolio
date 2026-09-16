@@ -1,20 +1,37 @@
 {
-  "updated_utc": "2026-09-16T18:55:44.567622+00:00",
+  "updated_utc": "2026-09-16T22:13:18.641955+00:00",
   "items": [
     {
       "pick_id": "brighton-manunited-90m-20260916",
       "match": "Manchester United vs Brighton",
-      "candidates": []
+      "candidates": [
+        {
+          "ticker": "KXEFLCUP1HSPREAD-26SEP17MCINOR-MCI2",
+          "title": "Manchester City wins by more than 1.5 goals in the 1st Half",
+          "subtitle": null,
+          "yes_ask": "0.4000",
+          "liquidity": "0.0000",
+          "score": 0.5
+        },
+        {
+          "ticker": "KXEFLCUP1H-26SEP17MCINOR-MCI",
+          "title": "Manchester City wins 1st Half",
+          "subtitle": null,
+          "yes_ask": "0.7200",
+          "liquidity": "0.0000",
+          "score": 0.5
+        }
+      ]
     },
     {
       "pick_id": "coventry-villa-90m-20260916",
       "match": "Coventry City vs Aston Villa",
       "candidates": [
         {
-          "ticker": "KXLGRAM-26BUP-LAV",
-          "title": "Will La Villa win Best Urban Performance at the 2026 Latin Grammy Awards?",
-          "subtitle": ":: Ryan Castro, Kapo & Gangsta",
-          "yes_ask": "0.9700",
+          "ticker": "KXEPLTCORNERS-26SEP19NFOCOV-COV4",
+          "title": "Coventry: 4+ corners",
+          "subtitle": null,
+          "yes_ask": "0.9900",
           "liquidity": "0.0000",
           "score": 0.333
         }
