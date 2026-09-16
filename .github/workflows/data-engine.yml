@@ -1,6 +1,13 @@
 name: v0.3.5 Football Intelligence + PIT + CLV + Alpha Attribution
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'tests/**'
+      - 'data/config.json'
+      - '.github/workflows/data-engine.yml'
   schedule:
     - cron: "17 * * * *"
 permissions:
