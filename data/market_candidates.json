@@ -1,48 +1,24 @@
 {
-  "updated_utc": "2026-09-16T15:01:01.959313+00:00",
+  "updated_utc": "2026-09-16T18:55:44.567622+00:00",
   "items": [
     {
       "pick_id": "brighton-manunited-90m-20260916",
       "match": "Manchester United vs Brighton",
-      "candidates": [
-        {
-          "ticker": "KXRLGAME-26SEP161700NRGMCE-NRG",
-          "title": "Will NRG Esports win the NRG Esports vs. Manchester City Esports Rocket League match?",
-          "subtitle": null,
-          "yes_ask": "0.9300",
-          "liquidity": "0.0000",
-          "score": 0.5
-        },
-        {
-          "ticker": "KXRLGAME-26SEP161700NRGMCE-MCE",
-          "title": "Will Manchester City Esports win the NRG Esports vs. Manchester City Esports Rocket League match?",
-          "subtitle": null,
-          "yes_ask": "0.3700",
-          "liquidity": "0.0000",
-          "score": 0.5
-        },
-        {
-          "ticker": "KXRLGAME-26SEP161300SRMCE-SR",
-          "title": "Will Shopify Rebellion win the Shopify Rebellion vs. Manchester City Esports Rocket League match?",
-          "subtitle": null,
-          "yes_ask": "0.9400",
-          "liquidity": "0.0000",
-          "score": 0.5
-        },
-        {
-          "ticker": "KXRLGAME-26SEP161300SRMCE-MCE",
-          "title": "Will Manchester City Esports win the Shopify Rebellion vs. Manchester City Esports Rocket League match?",
-          "subtitle": null,
-          "yes_ask": "0.3600",
-          "liquidity": "0.0000",
-          "score": 0.5
-        }
-      ]
+      "candidates": []
     },
     {
       "pick_id": "coventry-villa-90m-20260916",
       "match": "Coventry City vs Aston Villa",
-      "candidates": []
+      "candidates": [
+        {
+          "ticker": "KXLGRAM-26BUP-LAV",
+          "title": "Will La Villa win Best Urban Performance at the 2026 Latin Grammy Awards?",
+          "subtitle": ":: Ryan Castro, Kapo & Gangsta",
+          "yes_ask": "0.9700",
+          "liquidity": "0.0000",
+          "score": 0.333
+        }
+      ]
     }
   ]
 }
