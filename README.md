@@ -24,3 +24,7 @@ Gambling involves risk of loss.\n\n## v0.3.1 Sportsbook Consensus\nOptional The 
 
 ## v0.3.2 Football Intelligence
 Adds a football-data.org adapter plus a transparent expected-goals/Poisson fair-probability model. Market prices are excluded from My Fair. Machine factors currently include scoring environment, attack/defense strength, recency decay, home advantage and rest. Lineup/injury/tactical/motivation/weather adjustments are explicit bounded research overrides until dedicated feeds are connected. Add GitHub secret `FOOTBALL_DATA_API_KEY` to activate the automated match-history layer.
+
+
+## v0.3.3 Backtesting & Calibration
+Adds chronological no-lookahead backtesting, training-only grid search, untouched 30% holdout evaluation, calibration buckets, and per-league diagnostics. Calibrated parameters activate in the live model only after at least 500 holdout predictions. No historical CLV or ROI is invented when historical odds are unavailable. See `docs/BACKTEST.md`.
