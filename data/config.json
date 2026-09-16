@@ -1,0 +1,18 @@
+{
+  "coverage": [
+    "Premier League",
+    "La Liga",
+    "Serie A",
+    "Bundesliga",
+    "Ligue 1",
+    "UEFA Champions League",
+    "EFL/Carabao Cup",
+    "FA Cup"
+  ],
+  "rules": {
+    "A": "0.5–0.75u",
+    "B": "0.25–0.5u; different leagues",
+    "C": "2.5x–4x; ≤0.25u",
+    "match_cap": "≤1u"
+  }
+}
