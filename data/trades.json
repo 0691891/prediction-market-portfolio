@@ -3,50 +3,56 @@
     {
       "date": "2026-09-13",
       "position": "Man United NOT win × Atletico NOT win",
-      "stake": "$14.79",
-      "payout": "$0",
-      "pnl": "-$14.79",
-      "status": "LOSS"
+      "stake_usd": 14.79,
+      "payout_display": "$0.00",
+      "pnl_usd": -14.79,
+      "status": "LOSS",
+      "execution": "Held to settlement"
     },
     {
       "date": "2026-09-13",
       "position": "Man City win × Barcelona O3.5",
-      "stake": "$14.99",
-      "payout": "$4.78",
-      "pnl": "-$10.22",
-      "status": "CASHED OUT"
+      "stake_usd": 14.99,
+      "payout_display": "$4.77",
+      "pnl_usd": -10.22,
+      "status": "CASHED OUT",
+      "execution": "Both legs later resolved Yes"
     },
     {
       "date": "2026-09-14",
       "position": "Newcastle win × Villarreal NOT win",
-      "stake": "$17.91",
-      "payout": "$0",
-      "pnl": "-$17.91",
-      "status": "LOSS"
+      "stake_usd": 17.91,
+      "payout_display": "$0.00",
+      "pnl_usd": -17.91,
+      "status": "LOSS",
+      "execution": "Held to settlement"
     },
     {
       "date": "2026-09-14",
       "position": "Leeds–Newcastle BTTS × Villarreal NOT win",
-      "stake": "$24.99",
-      "payout": "$21.35",
-      "pnl": "-$3.64",
-      "status": "CASHED OUT"
+      "stake_usd": 24.99,
+      "payout_display": "$21.35",
+      "pnl_usd": -3.64,
+      "status": "CASHED OUT",
+      "execution": "Both legs later resolved Yes"
     },
     {
       "date": "2026-09-14",
       "position": "Leeds–Newcastle BTTS × Villarreal–Betis U3.5",
-      "stake": "$26.36",
-      "payout": "$22.92",
-      "pnl": "-$3.44",
-      "status": "CASHED OUT"
+      "stake_usd": 26.36,
+      "payout_display": "$22.92",
+      "pnl_usd": -3.44,
+      "status": "CASHED OUT",
+      "execution": "Both legs later resolved Yes"
     },
     {
       "date": "2026-09-15",
       "position": "Arsenal win × Liverpool win × Real Madrid -1.5",
-      "stake": "$20.51",
-      "payout": "Max $89.60",
-      "pnl": "OPEN",
-      "status": "OPEN"
+      "stake_usd": 20.51,
+      "payout_display": "Max $89.60",
+      "pnl_usd": null,
+      "status": "OPEN",
+      "execution": "C-class; no add"
     }
   ]
 }
