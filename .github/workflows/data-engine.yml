@@ -1,4 +1,4 @@
-name: v0.3.2 Football Intelligence Engine
+name: v0.3.4 Football Intelligence + PIT + CLV Engine
 on:
   workflow_dispatch:
   schedule:
@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Refresh football intelligence, sportsbook, Kalshi and approval gates
+      - name: Refresh intelligence, market data, point-in-time snapshots and CLV
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
@@ -23,10 +23,12 @@ jobs:
           python src/sportsbook_consensus.py
           python src/discover_markets.py
           python src/data_engine.py
+          python src/point_in_time.py
+          python src/clv_engine.py
       - name: Commit changed snapshots
         run: |
           git config user.name "prediction-market-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/football_intelligence.json data/model_fair.json data/board.json data/sportsbook_consensus.json data/market_snapshot.json data/market_candidates.json data/approval.json
-          git diff --cached --quiet || git commit -m "data: refresh v0.3.2 intelligence snapshots"
+          git add data/football_intelligence.json data/model_fair.json data/board.json data/sportsbook_consensus.json data/market_snapshot.json data/market_candidates.json data/approval.json data/pit data/clv.json
+          git diff --cached --quiet || git commit -m "data: refresh v0.3.4 PIT and CLV snapshots"
           git push
