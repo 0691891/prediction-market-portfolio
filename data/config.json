@@ -74,26 +74,39 @@
         "calibration"
       ],
       "grid": {
-        "recent_half_life_days": [
-          30,
-          60,
-          90,
-          120
-        ],
-        "shrinkage_matches": [
-          4,
-          8,
-          12,
-          16
-        ],
-        "home_advantage_log": [
-          0.04,
-          0.08,
-          0.12,
-          0.16
-        ]
+        "recent_half_life_days": [30,60,90,120],
+        "shrinkage_matches": [4,8,12,16],
+        "home_advantage_log": [0.04,0.08,0.12,0.16]
       },
       "no_lookahead": true
+    },
+    "point_in_time": {
+      "version": "v0.3.4",
+      "snapshot_frequency": "hourly",
+      "immutable_daily_archives": true,
+      "horizon_buckets_minutes": {
+        "CLOSE": [0,45],
+        "T-1H": [45,120],
+        "T-6H": [120,540],
+        "T-24H": [540,2160],
+        "EARLY": [2160,null]
+      },
+      "fields": [
+        "my_fair",
+        "sportsbook_probability",
+        "kalshi_probability",
+        "kalshi_liquidity_usd",
+        "kickoff_utc",
+        "model_status",
+        "football_intelligence_status"
+      ]
+    },
+    "clv": {
+      "version": "v0.3.4",
+      "yes_side_definition": "closing_probability - entry_probability",
+      "preferred_close_reference": "kalshi",
+      "fallback_close_reference": "sportsbook_consensus",
+      "retroactive_imputation": false
     }
   }
 }
