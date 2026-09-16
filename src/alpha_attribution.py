@@ -12,11 +12,12 @@ def save(path,obj):
     (DATA/path).write_text(json.dumps(obj,indent=2,ensure_ascii=False)+'\n')
 def mtype(s):
     t=(s or '').lower()
+    # Combo detection must happen first: a parlay can contain ML/BTTS/totals words.
+    if '×' in (s or '') or 'combo' in t or 'parlay' in t:return 'COMBO'
     if 'btts' in t or 'both teams' in t:return 'BTTS'
     if re.search(r'\b(o|over|u|under)\s*\d',t) or 'over ' in t or 'under ' in t:return 'TOTALS'
     if re.search(r'[+-]\d',t):return 'SPREAD'
     if 'win' in t or 'not win' in t or 'moneyline' in t or ' ml' in t:return 'MONEYLINE'
-    if '×' in (s or '') or 'combo' in t or 'parlay' in t:return 'COMBO'
     return 'OTHER'
 def edge_bucket(x):
     if x is None:return 'UNKNOWN'
