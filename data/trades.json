@@ -53,6 +53,15 @@
       "pnl_usd": null,
       "status": "OPEN",
       "execution": "C-class; no add"
+    },
+    {
+      "date": "2026-09-16",
+      "position": "Manchester United regulation-time win × Barcelona wins by more than 2.5 goals",
+      "stake_usd": 25.92,
+      "payout_display": "Max $69.28",
+      "pnl_usd": null,
+      "status": "OPEN",
+      "execution": "Confirmed open position from Kalshi screenshot; entry legs shown at Man United 52% and Barcelona -2.5 68%. Current cash-out shown $22.47 (-$3.45) at screenshot time; unrealized only."
     }
   ]
 }
