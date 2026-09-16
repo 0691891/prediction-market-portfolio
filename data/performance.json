@@ -3,12 +3,12 @@
   "realized_pnl_usd": -50,
   "closed_roi": -0.5048465266558966,
   "open_stake_usd": 20.51,
-  "known_execution_leakage_usd": 17.3,
   "trade_count": 6,
   "closed_trade_count": 5,
   "open_trade_count": 1,
   "clv": "Tracking prospectively",
   "brier_score": "Tracking prospectively",
   "ev_realization": "Tracking prospectively",
-  "notes": "Known execution leakage is the realized loss on three cash-outs whose legs later resolved Yes; it is an execution-review metric, not a claim that full payout was guaranteed at exit."
+  "notes": "Cash-out realized P&L is the sum of confirmed P&L on the three cash-out trades. It does not estimate counterfactual full-settlement profit.",
+  "cashout_realized_pnl_usd": -17.3
 }
