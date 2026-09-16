@@ -14,5 +14,14 @@
     "B": "0.25–0.5u; different leagues",
     "C": "2.5x–4x; ≤0.25u",
     "match_cap": "≤1u"
+  },
+  "data_engine": {
+    "mode": "paper_and_approval",
+    "min_edge_pp": 0.04,
+    "min_ev": 0.05,
+    "min_liquidity_usd": 100,
+    "max_match_exposure_units": 1,
+    "auto_real_money_execution": false,
+    "kalshi_base_url": "https://external-api.kalshi.com/trade-api/v2"
   }
 }
