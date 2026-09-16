@@ -1,0 +1,26 @@
+name: v0.3.3 Backtest & Calibration
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "35 6 * * 0"
+permissions:
+  contents: write
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run no-lookahead walk-forward calibration
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+        run: python src/backtest.py
+      - name: Commit validated metrics
+        run: |
+          git config user.name "prediction-market-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/backtest.json data/calibrated_params.json
+          git diff --cached --quiet || git commit -m "model: refresh v0.3.3 backtest calibration"
+          git push
