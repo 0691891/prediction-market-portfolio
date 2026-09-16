@@ -18,8 +18,12 @@ def label(minutes):
     if minutes<=540:return 'T-6H'
     if minutes<=2160:return 'T-24H'
     return 'EARLY'
-def index(items,key='pick_id'):
-    return {x.get(key):x for x in items if x.get(key)}
+def index(items):
+    out={}
+    for x in items:
+        key=x.get('pick_id') or x.get('id')
+        if key:out[key]=x
+    return out
 def main():
     now=datetime.datetime.now(datetime.timezone.utc); hour=now.replace(minute=0,second=0,microsecond=0)
     board=load('board.json',{'picks':[]}); books=index(load('sportsbook_consensus.json',{'items':[]}).get('items',[])); kal=index(load('market_snapshot.json',{'markets':[]}).get('markets',[])); model=index(load('model_fair.json',{'items':[]}).get('items',[])); intel=index(load('football_intelligence.json',{'items':[]}).get('items',[]))
@@ -30,7 +34,7 @@ def main():
         row={'snapshot_utc':now.isoformat(),'snapshot_hour_utc':hour.isoformat(),'pick_id':pid,'competition':p.get('competition'),'match':p.get('match'),'market':p.get('market'),'kickoff_utc':b.get('commence_time'),'minutes_to_kickoff':round(mins,1) if mins is not None else None,'bucket':label(mins),'my_fair':p.get('fair_probability'),'fair_source':p.get('fair_source'),'sportsbook_probability':b.get('consensus_probability'),'sportsbook_book_count':b.get('book_count'),'kalshi_probability':k.get('market_probability'),'kalshi_liquidity_usd':k.get('liquidity_usd'),'model_status':m.get('status'),'football_intelligence_status':i.get('status')}
         row['snapshot_id']=hashlib.sha1((str(pid)+hour.isoformat()).encode()).hexdigest()[:16]; rows.append(row)
     day=PIT/(now.date().isoformat()+'.json'); doc=json.loads(day.read_text()) if day.exists() else {'date':now.date().isoformat(),'snapshots':[]}; seen={x.get('snapshot_id') for x in doc['snapshots']}; doc['snapshots'] += [r for r in rows if r['snapshot_id'] not in seen]; save(day,doc)
-    idx=load('pit/index.json',{'days':[]});
+    idx=load('pit/index.json',{'days':[]})
     if day.name not in idx['days']:idx['days'].append(day.name);idx['days'].sort()
     idx['updated_utc']=now.isoformat();save(PIT/'index.json',idx);save(PIT/'latest.json',{'updated_utc':now.isoformat(),'items':rows})
     closing=load('pit/closing.json',{'items':[]}); cmap={x['pick_id']:x for x in closing.get('items',[]) if x.get('pick_id')}
