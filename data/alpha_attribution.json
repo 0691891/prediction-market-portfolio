@@ -1,0 +1,17 @@
+{
+  "updated_utc": null,
+  "version": "v0.3.5",
+  "status": "NOT_RUN",
+  "summary": {
+    "rows": 0,
+    "closed_rows": 0,
+    "tracked_clv_rows": 0,
+    "realized_roi": null,
+    "mean_clv_pp": null
+  },
+  "by_league": [],
+  "by_market_type": [],
+  "by_grade": [],
+  "by_entry_horizon": [],
+  "by_edge_bucket": []
+}
