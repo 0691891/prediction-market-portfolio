@@ -67,7 +67,7 @@ def main():
         dh=max(-cap,min(cap,float(vals.get("home_log_lambda",0)))); da=max(-cap,min(cap,float(vals.get("away_log_lambda",0))))
         lh*=math.exp(dh); la*=math.exp(da); components[key+"_home_log"]=dh; components[key+"_away_log"]=da
       lh=max(.15,min(4.5,lh)); la=max(.15,min(4.5,la)); p1=probs(lh,la,fc["max_goals"]); fair=market_prob(p["market"],x["home_team"],x["away_team"],p1,lh,la,fc["max_goals"])
-      outputs.append({"pick_id":p.get("id"),"status":"MODELLED","lambda_home":round(lh,4),"lambda_away":round(la,4),"home_win":round(p1[0],4),"draw":round(p1[1],4),"away_win":round(p1[2],4),"fair_probability":round(fair,4) if fair is not None else None,"components":components,"manual_notes":man.get("notes",[]),"market_prices_used_in_fair":False})
+      outputs.append({"pick_id":p.get("id"),"status":"MODELLED","lambda_home":round(lh,4),"lambda_away":round(la,4),"home_win":round(p1[0],4),"draw":round(p1[1],4),"away_win":round(p1[2],4),"fair_probability":round(fair,4) if fair is not None else None,"components":components,"manual_notes":man.get("notes",[]),"market_prices_used_in_fair":False,"calibrated_params_active":bool(cp.get("active"))})
       if fair is not None:p["fair_probability"]=round(fair,4); p["fair_source"]="v0.3.2 football intelligence model"
-    board["updated"]=datetime.datetime.now(datetime.timezone.utc).isoformat(); write("board.json",board); write("model_fair.json",{"updated_utc":board["updated"],"model":"Poisson + shrunk recency-weighted team attack/defense + bounded log-lambda adjustments","items":outputs})
+    board["updated"]=datetime.datetime.now(datetime.timezone.utc).isoformat(); write("board.json",board); write("model_fair.json",{"updated_utc":board["updated"],"model":"v0.3.3 Poisson + shrunk recency-weighted team attack/defense + calibrated core when validated + bounded research adjustments","items":outputs})
 if __name__=="__main__":main()
