@@ -17,6 +17,8 @@ jobs:
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: |
+          python src/football_intelligence.py
+          python src/fair_model.py
           python src/sportsbook_consensus.py
           python src/discover_markets.py
           python src/data_engine.py
@@ -24,6 +26,6 @@ jobs:
         run: |
           git config user.name "prediction-market-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/sportsbook_consensus.json data/market_snapshot.json data/market_candidates.json data/approval.json
+          git add data/football_intelligence.json data/model_fair.json data/board.json data/sportsbook_consensus.json data/market_snapshot.json data/market_candidates.json data/approval.json
           git diff --cached --quiet || git commit -m "data: refresh v0.3.1 market snapshots"
           git push
