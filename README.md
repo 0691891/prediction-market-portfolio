@@ -1,6 +1,6 @@
 # Prediction Market Portfolio
 
-Football prediction-market research dashboard + v0.3 Data Engine.
+Football prediction-market research dashboard + v0.3.1 Data Engine.
 
 ## 流程 / Workflow
 Scheduled research → My Fair Probability → Kalshi public market snapshot → Edge/EV → Risk Gate → Paper Signal → Manual Approval → Execution (disabled in v0.3).
@@ -20,4 +20,4 @@ Hard gates: Edge ≥4pp, EV ≥5%, liquidity threshold, match exposure ≤1u. **
 
 See `docs/DATA_ENGINE.md`.
 
-Gambling involves risk of loss.
+Gambling involves risk of loss.\n\n## v0.3.1 Sportsbook Consensus\nOptional The Odds API v4 adapter de-vigs bookmaker prices and computes a median consensus. Add repository secret `ODDS_API_KEY` to activate it. Large model-vs-consensus disagreements are sent to manual review.\n
