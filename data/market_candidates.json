@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-17T20:22:17.400733+00:00",
+  "updated_utc": "2026-09-17T20:44:50.824629+00:00",
   "items": [
     {
       "pick_id": null,
@@ -9,7 +9,7 @@
           "ticker": "KXUELSPREAD-26SEP17CELFTC-FTC4",
           "title": "Ferencvarosi wins by more than 3.5 goals?",
           "subtitle": null,
-          "yes_ask": "0.0400",
+          "yes_ask": "0.0100",
           "liquidity": "0.0000",
           "score": 0.25
         },
@@ -17,7 +17,7 @@
           "ticker": "KXUELTEAMTOTAL-26SEP17CELFTC-FTC5",
           "title": "Will Ferencvarosi score over 4.5 goals?",
           "subtitle": null,
-          "yes_ask": "0.7200",
+          "yes_ask": "0.1900",
           "liquidity": "0.0000",
           "score": 0.25
         },
@@ -25,7 +25,7 @@
           "ticker": "KXUELTEAMTOTAL-26SEP17CELFTC-FTC4",
           "title": "Will Ferencvarosi score over 3.5 goals?",
           "subtitle": null,
-          "yes_ask": "0.4800",
+          "yes_ask": "0.4400",
           "liquidity": "0.0000",
           "score": 0.25
         },
@@ -33,7 +33,7 @@
           "ticker": "KXUELTEAMTOTAL-26SEP17RSOBOU-BOU5",
           "title": "Will Bournemouth score over 4.5 goals?",
           "subtitle": null,
-          "yes_ask": "0.6000",
+          "yes_ask": "0.1300",
           "liquidity": "0.0000",
           "score": 0.25
         },
@@ -41,7 +41,7 @@
           "ticker": "KXUELSPREAD-26SEP17RSOBOU-BOU4",
           "title": "Bournemouth wins by more than 3.5 goals?",
           "subtitle": null,
-          "yes_ask": "0.0200",
+          "yes_ask": "0.0300",
           "liquidity": "0.0000",
           "score": 0.25
         },
@@ -49,7 +49,7 @@
           "ticker": "KXUELTEAMTOTAL-26SEP17RSOBOU-BOU4",
           "title": "Will Bournemouth score over 3.5 goals?",
           "subtitle": null,
-          "yes_ask": "0.7100",
+          "yes_ask": "0.4400",
           "liquidity": "0.0000",
           "score": 0.25
         },
@@ -57,7 +57,7 @@
           "ticker": "KXUELTEAMTOTAL-26SEP17CELFTC-CEL4",
           "title": "Will Celtic score over 3.5 goals?",
           "subtitle": null,
-          "yes_ask": "0.1700",
+          "yes_ask": "0.1500",
           "liquidity": "0.0000",
           "score": 0.25
         }

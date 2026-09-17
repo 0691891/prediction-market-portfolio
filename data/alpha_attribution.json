@@ -1,22 +1,22 @@
 {
-  "updated_utc": "2026-09-17T20:22:17.577543+00:00",
+  "updated_utc": "2026-09-17T20:44:50.998916+00:00",
   "version": "v0.3.5",
   "status": "TRACKING",
   "summary": {
     "rows": 8,
-    "closed_rows": 5,
+    "closed_rows": 6,
     "tracked_clv_rows": 0,
-    "realized_roi": -0.5048,
+    "realized_roi": -0.5503,
     "mean_clv_pp": null
   },
   "by_league": [
     {
       "group": "UNKNOWN",
       "n": 8,
-      "closed_n": 5,
-      "stake_usd": 99.04,
-      "pnl_usd": -50.0,
-      "roi": -0.5048,
+      "closed_n": 6,
+      "stake_usd": 109.04,
+      "pnl_usd": -60.0,
+      "roi": -0.5503,
       "clv_n": 0,
       "mean_clv_pp": null
     }
@@ -25,10 +25,10 @@
     {
       "group": "COMBO",
       "n": 8,
-      "closed_n": 5,
-      "stake_usd": 99.04,
-      "pnl_usd": -50.0,
-      "roi": -0.5048,
+      "closed_n": 6,
+      "stake_usd": 109.04,
+      "pnl_usd": -60.0,
+      "roi": -0.5503,
       "clv_n": 0,
       "mean_clv_pp": null
     }
@@ -37,10 +37,10 @@
     {
       "group": "UNKNOWN",
       "n": 8,
-      "closed_n": 5,
-      "stake_usd": 99.04,
-      "pnl_usd": -50.0,
-      "roi": -0.5048,
+      "closed_n": 6,
+      "stake_usd": 109.04,
+      "pnl_usd": -60.0,
+      "roi": -0.5503,
       "clv_n": 0,
       "mean_clv_pp": null
     }
@@ -49,10 +49,10 @@
     {
       "group": "UNKNOWN",
       "n": 8,
-      "closed_n": 5,
-      "stake_usd": 99.04,
-      "pnl_usd": -50.0,
-      "roi": -0.5048,
+      "closed_n": 6,
+      "stake_usd": 109.04,
+      "pnl_usd": -60.0,
+      "roi": -0.5503,
       "clv_n": 0,
       "mean_clv_pp": null
     }
@@ -61,10 +61,10 @@
     {
       "group": "UNKNOWN",
       "n": 8,
-      "closed_n": 5,
-      "stake_usd": 99.04,
-      "pnl_usd": -50.0,
-      "roi": -0.5048,
+      "closed_n": 6,
+      "stake_usd": 109.04,
+      "pnl_usd": -60.0,
+      "roi": -0.5503,
       "clv_n": 0,
       "mean_clv_pp": null
     }
