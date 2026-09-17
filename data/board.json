@@ -1,51 +1,33 @@
 {
-  "updated": "2026-09-17T11:48:45.031774+00:00",
-  "picks": [
+  "updated": "2026-09-17T13:36:00Z",
+  "picks": [],
+  "watchlist": [
     {
-      "competition": "EFL Cup",
-      "match": "Manchester United vs Brighton",
-      "market": "Brighton 90-min win",
-      "decimal_odds": 3.75,
-      "break_even_probability": 0.2667,
-      "fair_probability": 0.31,
-      "ev": 0.1625,
-      "grade": "A",
-      "max_units": 0.5,
-      "id": "brighton-manunited-90m-20260916",
-      "kalshi_ticker": null,
-      "kalshi_side": "yes",
-      "edge_pp": 0.0433,
-      "score_range": "1-1 / 1-2 / 2-2",
-      "thesis": "Brighton arrive with materially stronger attacking form and have won three of the last five meetings; United have only two wins in all competitions and may rotate after the Manchester derby.",
-      "invalidation": "Brighton price shortens below 3.25, confirmed XI shows heavy Brighton rotation, or United field a near-full-strength attack while Brighton rest core creators."
+      "competition": "La Liga",
+      "match": "Real Betis vs Getafe",
+      "market": "No forced trade — watch Betis price / totals after confirmed XI",
+      "fair_1x2": {"betis": 0.54, "draw": 0.27, "getafe": 0.19},
+      "score_range": "1-0 / 1-1 / 2-0",
+      "thesis": "Betis have the stronger start and home edge; Getafe arrive with one win in five and a longer injury list, but both teams have conceded only six league goals, limiting appetite to chase a short home price.",
+      "invalidation": "Material Betis rotation or unexpected Getafe returns; only trade if live market offers a clear positive EV margin versus fair pricing."
     },
     {
       "competition": "EFL Cup",
-      "match": "Coventry City vs Aston Villa",
-      "market": "Coventry 90-min win",
-      "decimal_odds": 2.92,
-      "break_even_probability": 0.3425,
-      "fair_probability": 0.36,
-      "ev": 0.0512,
-      "grade": "C",
-      "max_units": 0.25,
-      "id": "coventry-villa-90m-20260916",
-      "kalshi_ticker": null,
-      "kalshi_side": "yes",
-      "edge_pp": 0.0175,
-      "score_range": "1-0 / 1-1 / 2-1",
-      "thesis": "Both sides are struggling; Villa face a quick turnaround before Tottenham and are expected to rotate, reducing the normal talent-gap advantage in a knockout cup tie.",
-      "invalidation": "Villa confirm a strong first-choice XI, Coventry rotate heavily, or market reprices Coventry below 2.70."
+      "match": "Manchester City vs Norwich City",
+      "market": "No forced trade — City ML too short; monitor BTTS / handicap after confirmed XI",
+      "fair_1x2": {"man_city": 0.84, "draw": 0.10, "norwich": 0.06},
+      "score_range": "3-0 / 3-1 / 4-1",
+      "thesis": "City are five-for-five and Norwich recently conceded four at Middlesbrough, but heavy City rotation is expected. Public City ML prices around 1.11-1.12 require roughly 89-90% and do not clear the model fair probability.",
+      "invalidation": "Confirmed City XI materially stronger than expected or market reprices enough to create a genuine edge."
     }
   ],
   "no_bet_competitions": [
     "Premier League",
-    "La Liga",
     "Serie A",
     "Bundesliga",
     "Ligue 1",
     "UEFA Champions League",
     "FA Cup"
   ],
-  "note": "No qualifying fixtures / no sufficiently liquid edge identified today in the other requested competitions. No forced combo because both candidates are from the same competition."
+  "note": "2026-09-17: 无强制下注 / No forced trade. Today the requested universe is thin: Betis-Getafe and Man City-Norwich are the main liquid fixtures, but current pricing does not provide enough margin to qualify under the portfolio rules. Preserve capital rather than manufacture picks."
 }
