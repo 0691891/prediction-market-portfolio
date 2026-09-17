@@ -67,10 +67,10 @@
       "date": "2026-09-17",
       "position": "Celtic win × Real Sociedad-Bournemouth Under 3.5 goals",
       "stake_usd": 10.0,
-      "payout_display": "Max $25.54",
-      "pnl_usd": null,
-      "status": "OPEN",
-      "execution": "Recorded at user instruction from Kalshi combo slip: Celtic win 58c × Real Sociedad-Bournemouth U3.5 64c; $10 pays $25.54."
+      "payout_display": "$0.00",
+      "pnl_usd": -10.0,
+      "status": "LOSS",
+      "execution": "User confirmed the combo lost. Entry was Celtic win 58c × Real Sociedad-Bournemouth U3.5 64c; $10 max payout $25.54."
     }
   ]
 }
