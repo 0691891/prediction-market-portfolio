@@ -1,24 +1,73 @@
 {
-  "updated": "2026-09-17T13:36:00Z",
-  "picks": [],
+  "updated": "2026-09-17T16:20:00Z",
+  "picks": [
+    {
+      "competition": "La Liga",
+      "match": "Malaga vs Villarreal",
+      "market": "Under 3.5 goals",
+      "market_odds": "62c YES / 1.61x",
+      "break_even_probability": 0.62,
+      "my_fair_probability": 0.66,
+      "estimated_ev": 0.0645,
+      "grade": "A",
+      "max_stake": "0.5u",
+      "score_range": "0-1 / 1-1 / 1-2 / 0-2",
+      "thesis": "Villarreal have the stronger attacking ceiling but the 1X2 market is close to fair at 50%; Under 3.5 gives more margin against a distribution concentrated around 2-3 total goals. User-confirmed market screenshot showed O3.5 38% / U3.5 62%.",
+      "invalidation": "Pass if Under 3.5 reprices to 66c+ or confirmed attacking lineups materially raise the expected-goals distribution."
+    }
+  ],
   "watchlist": [
+    {
+      "competition": "EFL/Carabao Cup",
+      "match": "Manchester City vs Norwich City",
+      "market": "Manchester City -2.5",
+      "market_odds": "47c YES / 2.13x",
+      "break_even_probability": 0.47,
+      "my_fair_probability": 0.50,
+      "estimated_ev": 0.0638,
+      "grade_if_triggered": "A",
+      "max_stake_if_triggered": "0.5u",
+      "score_range": "2-0 / 3-0 / 3-1 / 4-1",
+      "thesis": "City are expected to rotate, but their second unit remains high-level and Norwich have multiple absences. Historical cup dominance supports the win thesis more strongly than the margin thesis, so -2.5 requires confirmed-XI validation.",
+      "trigger": "Only promote if confirmed City XI retains sufficient first-team attacking quality and the price remains 47c or better.",
+      "invalidation": "Academy-heavy attack or removal of the main senior creators/finishers without a compensating price move."
+    },
     {
       "competition": "La Liga",
       "match": "Real Betis vs Getafe",
-      "market": "No forced trade — watch Betis price / totals after confirmed XI",
-      "fair_1x2": {"betis": 0.54, "draw": 0.27, "getafe": 0.19},
+      "market": "PASS at Betis 65c",
+      "fair_1x2": {"betis": 0.58, "draw": 0.25, "getafe": 0.17},
       "score_range": "1-0 / 1-1 / 2-0",
-      "thesis": "Betis have the stronger start and home edge; Getafe arrive with one win in five and a longer injury list, but both teams have conceded only six league goals, limiting appetite to chase a short home price.",
-      "invalidation": "Material Betis rotation or unexpected Getafe returns; only trade if live market offers a clear positive EV margin versus fair pricing."
+      "thesis": "Betis have the stronger form and home edge, but the user-confirmed 65c market price already embeds a substantial favorite premium.",
+      "invalidation": "Reassess only after a meaningful price dislocation or major confirmed-team-news change."
     },
     {
-      "competition": "EFL Cup",
-      "match": "Manchester City vs Norwich City",
-      "market": "No forced trade — City ML too short; monitor BTTS / handicap after confirmed XI",
-      "fair_1x2": {"man_city": 0.84, "draw": 0.10, "norwich": 0.06},
-      "score_range": "3-0 / 3-1 / 4-1",
-      "thesis": "City are five-for-five and Norwich recently conceded four at Middlesbrough, but heavy City rotation is expected. Public City ML prices around 1.11-1.12 require roughly 89-90% and do not clear the model fair probability.",
-      "invalidation": "Confirmed City XI materially stronger than expected or market reprices enough to create a genuine edge."
+      "competition": "UEFA Europa League",
+      "match": "Real Sociedad vs Bournemouth",
+      "market": "Watch 1X2 / totals — no trade without prediction-market price",
+      "thesis": "One of the most balanced and liquid Europa League fixtures on the Sep 17 slate; public bookmaker pricing makes Bournemouth only a modest away favorite, so price discovery matters more than forcing a side.",
+      "invalidation": "No entry unless prediction-market price creates a measurable gap versus fair probability after confirmed XI."
+    },
+    {
+      "competition": "UEFA Europa League",
+      "match": "Besiktas vs Marseille",
+      "market": "Watch totals / BTTS — no trade without prediction-market price",
+      "thesis": "Public market is competitive rather than one-sided and independent previews lean toward goals; useful candidate for totals once Kalshi pricing and confirmed XI are available.",
+      "invalidation": "Pass if totals price fully reflects an open-game thesis or either side rotates its main attacking unit."
+    },
+    {
+      "competition": "UEFA Europa League",
+      "match": "Crystal Palace vs Lech Poznan",
+      "market": "Watch Palace handicap / O2.5 — no trade without prediction-market price",
+      "thesis": "Palace are a strong home favorite in public markets; the potentially interesting expression is handicap or goals rather than chasing a short ML.",
+      "invalidation": "Heavy Palace rotation or handicap/totals repricing that removes the margin."
+    },
+    {
+      "competition": "UEFA Europa League",
+      "match": "Juventus vs NEC Nijmegen",
+      "market": "PASS ML; watch handicap only",
+      "thesis": "Juventus are extremely short in public 1X2 pricing, leaving little value in ML. Any opportunity would need to come from a mispriced handicap after confirmed XI.",
+      "invalidation": "No handicap entry without a clear positive-EV price after team news."
     }
   ],
   "no_bet_competitions": [
@@ -29,5 +78,5 @@
     "UEFA Champions League",
     "FA Cup"
   ],
-  "note": "2026-09-17: 无强制下注 / No forced trade. Today the requested universe is thin: Betis-Getafe and Man City-Norwich are the main liquid fixtures, but current pricing does not provide enough margin to qualify under the portfolio rules. Preserve capital rather than manufacture picks."
+  "note": "2026-09-17 rerun after adding UEFA Europa League. Current actionable candidate: Malaga-Villarreal Under 3.5 at the user-confirmed 62c price, A grade, max 0.5u. Man City -2.5 at 47c remains conditional on confirmed XI. Europa League is now part of the permanent scan universe, but no Europa trade is forced without prediction-market prices. Existing trade/performance ledger is intentionally unchanged because no new execution or settlement was confirmed in this update. Gambling can result in loss of principal."
 }
