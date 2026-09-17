@@ -78,9 +78,24 @@
         "calibration"
       ],
       "grid": {
-        "recent_half_life_days": [30,60,90,120],
-        "shrinkage_matches": [4,8,12,16],
-        "home_advantage_log": [0.04,0.08,0.12,0.16]
+        "recent_half_life_days": [
+          30,
+          60,
+          90,
+          120
+        ],
+        "shrinkage_matches": [
+          4,
+          8,
+          12,
+          16
+        ],
+        "home_advantage_log": [
+          0.04,
+          0.08,
+          0.12,
+          0.16
+        ]
       },
       "no_lookahead": true
     },
@@ -89,11 +104,26 @@
       "snapshot_frequency": "hourly",
       "immutable_daily_archives": true,
       "horizon_buckets_minutes": {
-        "CLOSE": [0,45],
-        "T-1H": [45,120],
-        "T-6H": [120,540],
-        "T-24H": [540,2160],
-        "EARLY": [2160,null]
+        "CLOSE": [
+          0,
+          45
+        ],
+        "T-1H": [
+          45,
+          120
+        ],
+        "T-6H": [
+          120,
+          540
+        ],
+        "T-24H": [
+          540,
+          2160
+        ],
+        "EARLY": [
+          2160,
+          null
+        ]
       },
       "fields": [
         "my_fair",
@@ -111,6 +141,33 @@
       "preferred_close_reference": "kalshi",
       "fallback_close_reference": "sportsbook_consensus",
       "retroactive_imputation": false
+    },
+    "core_parlay": {
+      "version": "v0.3.6",
+      "philosophy": "probability_first_then_ev",
+      "leg_market_probability_min": 0.65,
+      "leg_fair_probability_min": 0.68,
+      "preferred_fair_probability_range": [
+        0.68,
+        0.82
+      ],
+      "min_model_edge_pp": 0.03,
+      "combo_fair_probability_min": 0.5,
+      "legs": 2,
+      "require_different_matches": true,
+      "prefer_different_competitions": true,
+      "fragile_favorite_exclusions": [
+        "major lineup uncertainty",
+        "motivation uncertainty",
+        "unresolved injury shock",
+        "poor relative squad-depth resilience"
+      ],
+      "value_single_fair_range": [
+        0.55,
+        0.68
+      ],
+      "speculative_fair_max": 0.55,
+      "note": "A high market probability is not alpha by itself. Core legs must pass both probability and price/edge gates. A leg below 65% market probability or below 68% My Fair is not a 'safe/core' leg."
     }
   }
 }
