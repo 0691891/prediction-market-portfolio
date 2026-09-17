@@ -1,68 +1,30 @@
 {
-  "updated": "2026-09-17T20:45:11.806411+00:00",
+  "updated": "2026-09-17T20:46:00Z",
   "picks": [
     {
       "competition": "UEFA Europa League",
       "match": "Celtic vs Ferencvarosi × Real Sociedad vs Bournemouth",
       "market": "Celtic win × Real Sociedad-Bournemouth Under 3.5 goals",
-      "market_odds": "58c × 64c; $10 pays $25.54",
+      "market_odds": "58c × 64c; $10 max payout $25.54",
       "break_even_probability": 0.3915,
-      "my_fair_probability_range": "0.44-0.45",
-      "estimated_ev_range": "+12%-15%",
-      "grade": "B-style combo / same-competition exception noted",
-      "stake": "$10 recorded",
-      "status": "OPEN",
-      "thesis": "Celtic ML at 58c was the cleaner favorite price after confirmed lineups; Sociedad-Bournemouth U3.5 at 64c offered a more robust expression than taking a side in a balanced 1X2 market. Combo payout implies about a 39.15% break-even probability.",
-      "invalidation": "No add after kickoff. Treat the two legs as one combo exposure for portfolio accounting."
+      "pre_match_fair_probability_range": "0.44-0.45",
+      "pre_match_estimated_ev_range": "+12%-15%",
+      "stake": "$10",
+      "status": "LOSS",
+      "pnl_usd": -10.0,
+      "execution": "User confirmed loss; settled at $0 payout."
     }
   ],
-  "watchlist": [
+  "model_learning": [
     {
       "competition": "EFL/Carabao Cup",
-      "match": "Manchester City vs Norwich City",
-      "market": "PASS City -2.5 at 47c after confirmed XI",
-      "market_odds": "47c YES",
-      "my_fair_probability_range": "0.47-0.49",
-      "thesis": "City and Norwich both rotated heavily. City retain creation quality, but the finishing unit is weaker than the pre-lineup assumption, leaving insufficient margin at 47c for a three-goal winning-margin requirement."
-    },
-    {
-      "competition": "La Liga",
-      "match": "Real Betis vs Getafe",
-      "market": "PASS Betis ML at 65c",
-      "thesis": "The favorite premium already absorbs most of the home/form edge."
-    },
-    {
-      "competition": "UEFA Europa League",
-      "match": "Real Sociedad vs Bournemouth",
-      "market": "Sociedad ML 28c watch only; executed expression is U3.5",
-      "thesis": "Sociedad ML had contrarian price appeal, but the portfolio chose the lower-variance U3.5 leg for the recorded combo."
-    },
-    {
-      "competition": "UEFA Europa League",
-      "match": "Besiktas vs Marseille",
-      "market": "PASS Besiktas ML at 57c",
-      "thesis": "57c is close to model fair after lineup/news adjustment."
-    },
-    {
-      "competition": "UEFA Europa League",
-      "match": "Crystal Palace vs Lech Poznan",
-      "market": "PASS/Watch Palace ML at 70c",
-      "thesis": "Palace are deserved favorites, but 70c prices in most of the edge."
-    },
-    {
-      "competition": "UEFA Europa League",
-      "match": "Juventus vs Nijmegen",
-      "market": "PASS Juventus ML at 82c",
-      "thesis": "High win probability but insufficient price margin for the portfolio framework."
+      "match": "Manchester City 5-0 Norwich City",
+      "lesson": "Do not equate heavy rotation with loss of structural quality. Evaluate the rotated XI relative to the opponent, especially when an elite/deep top-tier squad faces a lower-tier side.",
+      "implementation": "v0.3.5 adds tier_gap, squad_depth and rotation depth-mismatch/resilience terms. Negative lineup penalties can be softened when pre-match evidence shows the second unit still has a large quality edge.",
+      "guardrail": "One 5-0 result is a learning example, not coefficient calibration. Backtest the interaction on historical point-in-time cup lineups. Win probability and -2.5 cover probability remain separate outputs."
     }
   ],
-  "no_bet_competitions": [
-    "Premier League",
-    "Serie A",
-    "Bundesliga",
-    "Ligue 1",
-    "UEFA Champions League",
-    "FA Cup"
-  ],
-  "note": "Sep 17 board updated from the user's current Kalshi screenshots and confirmed instruction to record the $10 Celtic win × Real Sociedad-Bournemouth U3.5 combo. Prior Sep 15/Sep 16 positions are marked closed with P&L pending until final settlement values are supplied. Gambling can result in loss of principal."
+  "watchlist": [],
+  "no_bet_competitions": [],
+  "note": "Sep 17 post-settlement update. The $10 Europa combo was confirmed lost. City-Norwich is incorporated as a model-design lesson: relative squad quality and tier/depth mismatch must offset naive rotation penalties, subject to historical backtesting. Gambling can result in loss of principal."
 }
