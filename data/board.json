@@ -1,77 +1,59 @@
 {
-  "updated": "2026-09-17T17:05:04.387357+00:00",
+  "updated": "2026-09-17T18:46:00Z",
   "picks": [
     {
-      "competition": "La Liga",
-      "match": "Malaga vs Villarreal",
-      "market": "Under 3.5 goals",
-      "market_odds": "62c YES / 1.61x",
-      "break_even_probability": 0.62,
-      "my_fair_probability": 0.66,
-      "estimated_ev": 0.0645,
-      "grade": "A",
-      "max_stake": "0.5u",
-      "score_range": "0-1 / 1-1 / 1-2 / 0-2",
-      "thesis": "Villarreal have the stronger attacking ceiling but the 1X2 market is close to fair at 50%; Under 3.5 gives more margin against a distribution concentrated around 2-3 total goals. User-confirmed market screenshot showed O3.5 38% / U3.5 62%.",
-      "invalidation": "Pass if Under 3.5 reprices to 66c+ or confirmed attacking lineups materially raise the expected-goals distribution."
+      "competition": "UEFA Europa League",
+      "match": "Celtic vs Ferencvarosi × Real Sociedad vs Bournemouth",
+      "market": "Celtic win × Real Sociedad-Bournemouth Under 3.5 goals",
+      "market_odds": "58c × 64c; $10 pays $25.54",
+      "break_even_probability": 0.3915,
+      "my_fair_probability_range": "0.44-0.45",
+      "estimated_ev_range": "+12%-15%",
+      "grade": "B-style combo / same-competition exception noted",
+      "stake": "$10 recorded",
+      "status": "OPEN",
+      "thesis": "Celtic ML at 58c was the cleaner favorite price after confirmed lineups; Sociedad-Bournemouth U3.5 at 64c offered a more robust expression than taking a side in a balanced 1X2 market. Combo payout implies about a 39.15% break-even probability.",
+      "invalidation": "No add after kickoff. Treat the two legs as one combo exposure for portfolio accounting."
     }
   ],
   "watchlist": [
     {
       "competition": "EFL/Carabao Cup",
       "match": "Manchester City vs Norwich City",
-      "market": "Manchester City -2.5",
-      "market_odds": "47c YES / 2.13x",
-      "break_even_probability": 0.47,
-      "my_fair_probability": 0.5,
-      "estimated_ev": 0.0638,
-      "grade_if_triggered": "A",
-      "max_stake_if_triggered": "0.5u",
-      "score_range": "2-0 / 3-0 / 3-1 / 4-1",
-      "thesis": "City are expected to rotate, but their second unit remains high-level and Norwich have multiple absences. Historical cup dominance supports the win thesis more strongly than the margin thesis, so -2.5 requires confirmed-XI validation.",
-      "trigger": "Only promote if confirmed City XI retains sufficient first-team attacking quality and the price remains 47c or better.",
-      "invalidation": "Academy-heavy attack or removal of the main senior creators/finishers without a compensating price move."
+      "market": "PASS City -2.5 at 47c after confirmed XI",
+      "market_odds": "47c YES",
+      "my_fair_probability_range": "0.47-0.49",
+      "thesis": "City and Norwich both rotated heavily. City retain creation quality, but the finishing unit is weaker than the pre-lineup assumption, leaving insufficient margin at 47c for a three-goal winning-margin requirement."
     },
     {
       "competition": "La Liga",
       "match": "Real Betis vs Getafe",
-      "market": "PASS at Betis 65c",
-      "fair_1x2": {
-        "betis": 0.58,
-        "draw": 0.25,
-        "getafe": 0.17
-      },
-      "score_range": "1-0 / 1-1 / 2-0",
-      "thesis": "Betis have the stronger form and home edge, but the user-confirmed 65c market price already embeds a substantial favorite premium.",
-      "invalidation": "Reassess only after a meaningful price dislocation or major confirmed-team-news change."
+      "market": "PASS Betis ML at 65c",
+      "thesis": "The favorite premium already absorbs most of the home/form edge."
     },
     {
       "competition": "UEFA Europa League",
       "match": "Real Sociedad vs Bournemouth",
-      "market": "Watch 1X2 / totals — no trade without prediction-market price",
-      "thesis": "One of the most balanced and liquid Europa League fixtures on the Sep 17 slate; public bookmaker pricing makes Bournemouth only a modest away favorite, so price discovery matters more than forcing a side.",
-      "invalidation": "No entry unless prediction-market price creates a measurable gap versus fair probability after confirmed XI."
+      "market": "Sociedad ML 28c watch only; executed expression is U3.5",
+      "thesis": "Sociedad ML had contrarian price appeal, but the portfolio chose the lower-variance U3.5 leg for the recorded combo."
     },
     {
       "competition": "UEFA Europa League",
       "match": "Besiktas vs Marseille",
-      "market": "Watch totals / BTTS — no trade without prediction-market price",
-      "thesis": "Public market is competitive rather than one-sided and independent previews lean toward goals; useful candidate for totals once Kalshi pricing and confirmed XI are available.",
-      "invalidation": "Pass if totals price fully reflects an open-game thesis or either side rotates its main attacking unit."
+      "market": "PASS Besiktas ML at 57c",
+      "thesis": "57c is close to model fair after lineup/news adjustment."
     },
     {
       "competition": "UEFA Europa League",
       "match": "Crystal Palace vs Lech Poznan",
-      "market": "Watch Palace handicap / O2.5 — no trade without prediction-market price",
-      "thesis": "Palace are a strong home favorite in public markets; the potentially interesting expression is handicap or goals rather than chasing a short ML.",
-      "invalidation": "Heavy Palace rotation or handicap/totals repricing that removes the margin."
+      "market": "PASS/Watch Palace ML at 70c",
+      "thesis": "Palace are deserved favorites, but 70c prices in most of the edge."
     },
     {
       "competition": "UEFA Europa League",
-      "match": "Juventus vs NEC Nijmegen",
-      "market": "PASS ML; watch handicap only",
-      "thesis": "Juventus are extremely short in public 1X2 pricing, leaving little value in ML. Any opportunity would need to come from a mispriced handicap after confirmed XI.",
-      "invalidation": "No handicap entry without a clear positive-EV price after team news."
+      "match": "Juventus vs Nijmegen",
+      "market": "PASS Juventus ML at 82c",
+      "thesis": "High win probability but insufficient price margin for the portfolio framework."
     }
   ],
   "no_bet_competitions": [
@@ -82,5 +64,5 @@
     "UEFA Champions League",
     "FA Cup"
   ],
-  "note": "2026-09-17 rerun after adding UEFA Europa League. Current actionable candidate: Malaga-Villarreal Under 3.5 at the user-confirmed 62c price, A grade, max 0.5u. Man City -2.5 at 47c remains conditional on confirmed XI. Europa League is now part of the permanent scan universe, but no Europa trade is forced without prediction-market prices. Existing trade/performance ledger is intentionally unchanged because no new execution or settlement was confirmed in this update. Gambling can result in loss of principal."
+  "note": "Sep 17 board updated from the user's current Kalshi screenshots and confirmed instruction to record the $10 Celtic win × Real Sociedad-Bournemouth U3.5 combo. Prior Sep 15/Sep 16 positions are marked closed with P&L pending until final settlement values are supplied. Gambling can result in loss of principal."
 }
