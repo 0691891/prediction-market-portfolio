@@ -1,18 +1,12 @@
 {
-  "updated_utc": "2026-09-17T11:48:45.031774+00:00",
+  "updated_utc": "2026-09-17T17:05:04.387357+00:00",
   "model": "v0.3.3 Poisson goal-space model",
   "calibrated_params_active": false,
   "items": [
     {
-      "pick_id": "brighton-manunited-90m-20260916",
+      "pick_id": null,
       "status": "NO_MODEL_UPDATE",
-      "fair_probability": 0.31,
-      "source": "existing research estimate"
-    },
-    {
-      "pick_id": "coventry-villa-90m-20260916",
-      "status": "NO_MODEL_UPDATE",
-      "fair_probability": 0.36,
+      "fair_probability": null,
       "source": "existing research estimate"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T16:20:00Z",
+  "updated": "2026-09-17T17:05:04.387357+00:00",
   "picks": [
     {
       "competition": "La Liga",
@@ -23,7 +23,7 @@
       "market": "Manchester City -2.5",
       "market_odds": "47c YES / 2.13x",
       "break_even_probability": 0.47,
-      "my_fair_probability": 0.50,
+      "my_fair_probability": 0.5,
       "estimated_ev": 0.0638,
       "grade_if_triggered": "A",
       "max_stake_if_triggered": "0.5u",
@@ -36,7 +36,11 @@
       "competition": "La Liga",
       "match": "Real Betis vs Getafe",
       "market": "PASS at Betis 65c",
-      "fair_1x2": {"betis": 0.58, "draw": 0.25, "getafe": 0.17},
+      "fair_1x2": {
+        "betis": 0.58,
+        "draw": 0.25,
+        "getafe": 0.17
+      },
       "score_range": "1-0 / 1-1 / 2-0",
       "thesis": "Betis have the stronger form and home edge, but the user-confirmed 65c market price already embeds a substantial favorite premium.",
       "invalidation": "Reassess only after a meaningful price dislocation or major confirmed-team-news change."

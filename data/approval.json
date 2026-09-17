@@ -1,19 +1,9 @@
 {
-  "updated": "2026-09-17T11:48:46.501199+00:00",
+  "updated": "2026-09-17T17:05:06.572099+00:00",
   "items": [
     {
-      "signal": "Manchester United vs Brighton — Brighton 90-min win",
+      "signal": "Malaga vs Villarreal — Under 3.5 goals",
       "grade": "A",
-      "suggested_units": 0,
-      "max_entry": "Edge≥4%, EV≥5%",
-      "kalshi_ticker": null,
-      "sportsbook_consensus": null,
-      "model_vs_consensus_pp": null,
-      "status": "NEEDS TICKER MAP"
-    },
-    {
-      "signal": "Coventry City vs Aston Villa — Coventry 90-min win",
-      "grade": "C",
       "suggested_units": 0,
       "max_entry": "Edge≥4%, EV≥5%",
       "kalshi_ticker": null,

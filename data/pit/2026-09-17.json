@@ -120,6 +120,26 @@
       "model_status": "NO_MODEL_UPDATE",
       "football_intelligence_status": null,
       "snapshot_id": "aa4c906fa0a050d1"
+    },
+    {
+      "snapshot_utc": "2026-09-17T17:05:06.605202+00:00",
+      "snapshot_hour_utc": "2026-09-17T17:00:00+00:00",
+      "pick_id": null,
+      "competition": "La Liga",
+      "match": "Malaga vs Villarreal",
+      "market": "Under 3.5 goals",
+      "kickoff_utc": null,
+      "minutes_to_kickoff": null,
+      "bucket": "UNSCHEDULED",
+      "my_fair": null,
+      "fair_source": null,
+      "sportsbook_probability": null,
+      "sportsbook_book_count": null,
+      "kalshi_probability": null,
+      "kalshi_liquidity_usd": null,
+      "model_status": null,
+      "football_intelligence_status": null,
+      "snapshot_id": "348c07688048d6dd"
     }
   ]
 }

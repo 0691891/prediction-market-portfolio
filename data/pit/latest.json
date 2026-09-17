@@ -1,45 +1,25 @@
 {
-  "updated_utc": "2026-09-17T11:48:46.535208+00:00",
+  "updated_utc": "2026-09-17T17:05:06.605202+00:00",
   "items": [
     {
-      "snapshot_utc": "2026-09-17T11:48:46.535208+00:00",
-      "snapshot_hour_utc": "2026-09-17T11:00:00+00:00",
-      "pick_id": "brighton-manunited-90m-20260916",
-      "competition": "EFL Cup",
-      "match": "Manchester United vs Brighton",
-      "market": "Brighton 90-min win",
+      "snapshot_utc": "2026-09-17T17:05:06.605202+00:00",
+      "snapshot_hour_utc": "2026-09-17T17:00:00+00:00",
+      "pick_id": null,
+      "competition": "La Liga",
+      "match": "Malaga vs Villarreal",
+      "market": "Under 3.5 goals",
       "kickoff_utc": null,
       "minutes_to_kickoff": null,
       "bucket": "UNSCHEDULED",
-      "my_fair": 0.31,
+      "my_fair": null,
       "fair_source": null,
       "sportsbook_probability": null,
       "sportsbook_book_count": null,
       "kalshi_probability": null,
       "kalshi_liquidity_usd": null,
-      "model_status": "NO_MODEL_UPDATE",
+      "model_status": null,
       "football_intelligence_status": null,
-      "snapshot_id": "266416e3f356fc9a"
-    },
-    {
-      "snapshot_utc": "2026-09-17T11:48:46.535208+00:00",
-      "snapshot_hour_utc": "2026-09-17T11:00:00+00:00",
-      "pick_id": "coventry-villa-90m-20260916",
-      "competition": "EFL Cup",
-      "match": "Coventry City vs Aston Villa",
-      "market": "Coventry 90-min win",
-      "kickoff_utc": null,
-      "minutes_to_kickoff": null,
-      "bucket": "UNSCHEDULED",
-      "my_fair": 0.36,
-      "fair_source": null,
-      "sportsbook_probability": null,
-      "sportsbook_book_count": null,
-      "kalshi_probability": null,
-      "kalshi_liquidity_usd": null,
-      "model_status": "NO_MODEL_UPDATE",
-      "football_intelligence_status": null,
-      "snapshot_id": "aa4c906fa0a050d1"
+      "snapshot_id": "348c07688048d6dd"
     }
   ]
 }
