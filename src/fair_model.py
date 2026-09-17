@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
-"""v0.3.3 transparent live fair-probability model.
+"""v0.3.5 transparent live fair-probability model.
 Independent of sportsbook/Kalshi prices. Uses calibrated core params only after holdout activation.
+
+v0.3.5 adds relative-squad context for cup rotation. A rotated elite XI is evaluated
+against the opponent actually faced, not only against the elite club's own first XI.
+The new terms are transparent priors and must be backtested; one match result never
+retroactively determines a coefficient.
 """
 import json,pathlib,math,datetime,re
 ROOT=pathlib.Path(__file__).resolve().parents[1]; DATA=ROOT/"data"
@@ -18,6 +23,13 @@ def probs(lh,la,maxg=8):
         p=pois(h,lh)*pois(a,la); z[0 if h>a else 1 if h==a else 2]+=p
     s=sum(z);return tuple(x/s for x in z)
 def norm(s):return re.sub(r"[^a-z0-9]","",s.lower())
+def bounded(v,cap):return max(-cap,min(cap,float(v)))
+def rotation_resilient_lineup(raw,depth_mismatch,resilience):
+    """Soften a negative rotation penalty when the rotated squad still has a large
+    quality/depth edge over the actual opponent. depth_mismatch is research input
+    in [0,1], assessed pre-match. Positive lineup upgrades are unchanged."""
+    raw=float(raw); d=max(0.,min(1.,float(depth_mismatch or 0.)))
+    return raw*(1-resilience*d) if raw<0 else raw
 def market_prob(market,home,away,p1,lh,la,maxg=8):
     s=market.lower();ph,pd,pa=p1
     if "win" in s and norm(home) in norm(s):return ph
@@ -62,11 +74,27 @@ def main():
       lh=base*home_attack*away_def*math.exp(fc["home_advantage_log"]);la=base*away_attack*home_def*math.exp(-fc["home_advantage_log"])
       components={"team_strength_home_log":round(math.log(max(.01,home_attack*away_def)),4),"team_strength_away_log":round(math.log(max(.01,away_attack*home_def)),4),"home_advantage_log":fc["home_advantage_log"]}
       ra=rest_adj(x.get("home_rest_days"),x.get("away_rest_days"),fc["adjustment_caps_log_lambda"]["rest"]);lh*=math.exp(ra);la*=math.exp(-ra);components["relative_rest_home_log"]=round(ra,4)
-      for key in ("recent_form","lineup","injuries","tactical","motivation","weather"):
-        vals=man.get(key,{});cap=fc["adjustment_caps_log_lambda"][key];dh=max(-cap,min(cap,float(vals.get("home_log_lambda",0))));da=max(-cap,min(cap,float(vals.get("away_log_lambda",0))))
-        lh*=math.exp(dh);la*=math.exp(da);components[key+"_home_log"]=dh;components[key+"_away_log"]=da
+
+      # Confirmed/projected lineup is relative to the opponent, not merely to the
+      # club's own best XI. For cup rotation, a pre-match depth-mismatch score can
+      # soften a negative lineup penalty for an elite/deep squad facing a weaker tier.
+      lineup=man.get("lineup",{});cap=fc["adjustment_caps_log_lambda"]["lineup"]
+      raw_h=bounded(lineup.get("home_log_lambda",0),cap);raw_a=bounded(lineup.get("away_log_lambda",0),cap)
+      ctx=man.get("rotation_context",{});res=float(fc.get("rotation_depth_resilience",0.65))
+      dh=rotation_resilient_lineup(raw_h,ctx.get("home_depth_mismatch",0),res)
+      da=rotation_resilient_lineup(raw_a,ctx.get("away_depth_mismatch",0),res)
+      lh*=math.exp(dh);la*=math.exp(da)
+      components["lineup_home_log_raw"]=raw_h;components["lineup_away_log_raw"]=raw_a
+      components["lineup_home_log_effective"]=round(dh,4);components["lineup_away_log_effective"]=round(da,4)
+      components["home_depth_mismatch"]=float(ctx.get("home_depth_mismatch",0) or 0);components["away_depth_mismatch"]=float(ctx.get("away_depth_mismatch",0) or 0)
+
+      # Explicit cross-division / squad-depth terms. These must be supported by
+      # pre-match evidence and are bounded; they are not inferred from the result.
+      for key in ("tier_gap","squad_depth","recent_form","injuries","tactical","motivation","weather"):
+        vals=man.get(key,{});cap=fc["adjustment_caps_log_lambda"][key];fh=bounded(vals.get("home_log_lambda",0),cap);fa=bounded(vals.get("away_log_lambda",0),cap)
+        lh*=math.exp(fh);la*=math.exp(fa);components[key+"_home_log"]=fh;components[key+"_away_log"]=fa
       lh=max(.15,min(4.5,lh));la=max(.15,min(4.5,la));p1=probs(lh,la,fc["max_goals"]);fair=market_prob(p["market"],x["home_team"],x["away_team"],p1,lh,la,fc["max_goals"])
       outputs.append({"pick_id":p.get("id"),"status":"MODELLED","lambda_home":round(lh,4),"lambda_away":round(la,4),"home_win":round(p1[0],4),"draw":round(p1[1],4),"away_win":round(p1[2],4),"fair_probability":round(fair,4) if fair is not None else None,"components":components,"manual_notes":man.get("notes",[]),"market_prices_used_in_fair":False,"calibrated_params_active":bool(cp.get("active"))})
-      if fair is not None:p["fair_probability"]=round(fair,4);p["fair_source"]="v0.3.3 calibrated football model" if cp.get("active") else "v0.3.3 uncalibrated football model"
-    board["updated"]=datetime.datetime.now(datetime.timezone.utc).isoformat();write("board.json",board);write("model_fair.json",{"updated_utc":board["updated"],"model":"v0.3.3 Poisson goal-space model","calibrated_params_active":bool(cp.get("active")),"items":outputs})
+      if fair is not None:p["fair_probability"]=round(fair,4);p["fair_source"]="v0.3.5 calibrated football model" if cp.get("active") else "v0.3.5 uncalibrated football model"
+    board["updated"]=datetime.datetime.now(datetime.timezone.utc).isoformat();write("board.json",board);write("model_fair.json",{"updated_utc":board["updated"],"model":"v0.3.5 Poisson + relative squad-depth/rotation model","calibrated_params_active":bool(cp.get("active")),"items":outputs})
 if __name__=="__main__":main()
