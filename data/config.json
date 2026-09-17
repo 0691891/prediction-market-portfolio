@@ -6,6 +6,7 @@
     "Bundesliga",
     "Ligue 1",
     "UEFA Champions League",
+    "UEFA Europa League",
     "EFL/Carabao Cup",
     "FA Cup"
   ],
@@ -51,19 +52,22 @@
       "max_goals": 8,
       "home_advantage_log": 0.12,
       "shrinkage_matches": 8,
+      "rotation_depth_resilience": 0.65,
       "adjustment_caps_log_lambda": {
         "recent_form": 0.12,
         "lineup": 0.18,
+        "tier_gap": 0.16,
+        "squad_depth": 0.12,
         "injuries": 0.15,
         "rest": 0.08,
         "tactical": 0.1,
         "motivation": 0.06,
         "weather": 0.04
       },
-      "note": "Initial priors, not calibrated production coefficients. Backtest and recalibrate."
+      "note": "Initial priors, not calibrated production coefficients. Cup rotation is evaluated relative to opponent quality: negative lineup penalties may be softened by a pre-match depth-mismatch score, while tier_gap and squad_depth are explicit bounded terms. Backtest and recalibrate; do not fit coefficients from one result."
     },
     "backtest": {
-      "version": "v0.3.3",
+      "version": "v0.3.5",
       "train_fraction": 0.7,
       "activation_min_holdout_predictions": 500,
       "fit_metric": "multiclass_log_loss",
