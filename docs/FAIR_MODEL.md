@@ -1,4 +1,4 @@
-# v0.3.5 Football Intelligence + My Fair Model
+# v0.3.6 Football Intelligence + My Fair Model
 
 ## Principle
 **My Fair is independent of sportsbook and Kalshi prices.** Market prices are used only after the model produces a probability, for comparison, EV and sanity checks.
@@ -72,3 +72,18 @@ Historical H2H is not a direct model input because squads/coaches change and it 
 
 ## Validation
 Track log loss, Brier score, calibration buckets, CLV, ROI, and model-vs-book consensus. Backtest by date with no look-ahead. Tune coefficients on training windows and validate on later seasons. For the new cup-rotation terms, maintain a separate slice for top-tier elite/deep squads versus lower-tier opponents and compare calibration for ML, -1.5, -2.5 and totals.
+
+## v0.3.6 Probability-first Core Parlay construction
+My Fair remains independent of market price. Portfolio construction happens only **after** My Fair is produced.
+
+Core Parlay is now a separate bucket, not a synonym for "favorite":
+- current market probability >= 65%
+- My Fair >= 68% (preferred 68-82%)
+- My Fair minus market probability >= 3 percentage points
+- exactly two legs; different matches required and different competitions preferred
+- estimated combined My Fair >= 50%
+- exclude fragile favorites when lineup, motivation, injury or relative squad-depth uncertainty is unresolved
+
+A 58% leg can still be a positive-EV Value Single, but it is **not** a Core/"safe" parlay leg. This prevents a 58% × 64% structure from being described as high-hit-rate simply because both legs individually look plausible.
+
+The objective is not to maximize hit rate at any price. It is: **high probability first -> remove fragile favorites -> require positive edge -> combine only the best two survivors.** Short-priced favorites with no edge remain PASS.
