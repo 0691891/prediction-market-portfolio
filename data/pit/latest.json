@@ -1,9 +1,9 @@
 {
-  "updated_utc": "2026-09-17T00:37:33.872100+00:00",
+  "updated_utc": "2026-09-17T06:11:01.726061+00:00",
   "items": [
     {
-      "snapshot_utc": "2026-09-17T00:37:33.872100+00:00",
-      "snapshot_hour_utc": "2026-09-17T00:00:00+00:00",
+      "snapshot_utc": "2026-09-17T06:11:01.726061+00:00",
+      "snapshot_hour_utc": "2026-09-17T06:00:00+00:00",
       "pick_id": "brighton-manunited-90m-20260916",
       "competition": "EFL Cup",
       "match": "Manchester United vs Brighton",
@@ -19,11 +19,11 @@
       "kalshi_liquidity_usd": null,
       "model_status": "NO_MODEL_UPDATE",
       "football_intelligence_status": null,
-      "snapshot_id": "a861928ad5224e52"
+      "snapshot_id": "55b019700be360bc"
     },
     {
-      "snapshot_utc": "2026-09-17T00:37:33.872100+00:00",
-      "snapshot_hour_utc": "2026-09-17T00:00:00+00:00",
+      "snapshot_utc": "2026-09-17T06:11:01.726061+00:00",
+      "snapshot_hour_utc": "2026-09-17T06:00:00+00:00",
       "pick_id": "coventry-villa-90m-20260916",
       "competition": "EFL Cup",
       "match": "Coventry City vs Aston Villa",
@@ -39,7 +39,7 @@
       "kalshi_liquidity_usd": null,
       "model_status": "NO_MODEL_UPDATE",
       "football_intelligence_status": null,
-      "snapshot_id": "3cb94dce41a4ae94"
+      "snapshot_id": "d249bff1e2bfaa83"
     }
   ]
 }
