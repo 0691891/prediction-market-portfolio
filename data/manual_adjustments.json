@@ -1,4 +1,4 @@
 {
   "items": [],
-  "instructions": "Optional research overrides. Each factor is a bounded log(expected-goals) delta for home/away. Only enter when supported by current evidence. Example +0.10 raises lambda by exp(0.10)=1.105 (~10.5%). Missing factor = 0. Do not encode sportsbook/Kalshi price here."
+  "instructions": "Optional pre-match research overrides. Each factor is a bounded log(expected-goals) delta for home/away and must be supported by information available before kickoff. Supported factors include recent_form, lineup, tier_gap, squad_depth, injuries, tactical, motivation and weather. For cup rotation, rotation_context may include home_depth_mismatch / away_depth_mismatch on a 0-1 scale; this softens a negative lineup penalty when a deep elite squad still has a large quality edge over the actual opponent. Evaluate rotated XI relative to opponent quality, not only relative to the club's own best XI. Do not infer adjustments from the final result and do not encode sportsbook/Kalshi prices here."
 }
