@@ -1,19 +1,19 @@
 {
-  "updated_utc": "2026-09-17T17:05:06.572099+00:00",
+  "updated_utc": "2026-09-17T20:22:17.475920+00:00",
   "markets": [
     {
-      "competition": "La Liga",
-      "match": "Malaga vs Villarreal",
-      "market": "Under 3.5 goals",
-      "market_odds": "62c YES / 1.61x",
-      "break_even_probability": 0.62,
-      "my_fair_probability": 0.66,
-      "estimated_ev": 0.0645,
-      "grade": "A",
-      "max_stake": "0.5u",
-      "score_range": "0-1 / 1-1 / 1-2 / 0-2",
-      "thesis": "Villarreal have the stronger attacking ceiling but the 1X2 market is close to fair at 50%; Under 3.5 gives more margin against a distribution concentrated around 2-3 total goals. User-confirmed market screenshot showed O3.5 38% / U3.5 62%.",
-      "invalidation": "Pass if Under 3.5 reprices to 66c+ or confirmed attacking lineups materially raise the expected-goals distribution."
+      "competition": "UEFA Europa League",
+      "match": "Celtic vs Ferencvarosi × Real Sociedad vs Bournemouth",
+      "market": "Celtic win × Real Sociedad-Bournemouth Under 3.5 goals",
+      "market_odds": "58c × 64c; $10 pays $25.54",
+      "break_even_probability": 0.3915,
+      "my_fair_probability_range": "0.44-0.45",
+      "estimated_ev_range": "+12%-15%",
+      "grade": "B-style combo / same-competition exception noted",
+      "stake": "$10 recorded",
+      "status": "OPEN",
+      "thesis": "Celtic ML at 58c was the cleaner favorite price after confirmed lineups; Sociedad-Bournemouth U3.5 at 64c offered a more robust expression than taking a side in a balanced 1X2 market. Combo payout implies about a 39.15% break-even probability.",
+      "invalidation": "No add after kickoff. Treat the two legs as one combo exposure for portfolio accounting."
     }
   ]
 }

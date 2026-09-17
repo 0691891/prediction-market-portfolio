@@ -140,6 +140,26 @@
       "model_status": null,
       "football_intelligence_status": null,
       "snapshot_id": "348c07688048d6dd"
+    },
+    {
+      "snapshot_utc": "2026-09-17T20:22:17.513140+00:00",
+      "snapshot_hour_utc": "2026-09-17T20:00:00+00:00",
+      "pick_id": null,
+      "competition": "UEFA Europa League",
+      "match": "Celtic vs Ferencvarosi × Real Sociedad vs Bournemouth",
+      "market": "Celtic win × Real Sociedad-Bournemouth Under 3.5 goals",
+      "kickoff_utc": null,
+      "minutes_to_kickoff": null,
+      "bucket": "UNSCHEDULED",
+      "my_fair": null,
+      "fair_source": null,
+      "sportsbook_probability": null,
+      "sportsbook_book_count": null,
+      "kalshi_probability": null,
+      "kalshi_liquidity_usd": null,
+      "model_status": null,
+      "football_intelligence_status": null,
+      "snapshot_id": "1d730fdc385b34bf"
     }
   ]
 }

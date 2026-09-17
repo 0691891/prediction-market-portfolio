@@ -1,9 +1,9 @@
 {
-  "updated_utc": "2026-09-17T17:05:06.662617+00:00",
+  "updated_utc": "2026-09-17T20:22:17.577543+00:00",
   "version": "v0.3.5",
   "status": "TRACKING",
   "summary": {
-    "rows": 7,
+    "rows": 8,
     "closed_rows": 5,
     "tracked_clv_rows": 0,
     "realized_roi": -0.5048,
@@ -12,7 +12,7 @@
   "by_league": [
     {
       "group": "UNKNOWN",
-      "n": 7,
+      "n": 8,
       "closed_n": 5,
       "stake_usd": 99.04,
       "pnl_usd": -50.0,
@@ -24,7 +24,7 @@
   "by_market_type": [
     {
       "group": "COMBO",
-      "n": 7,
+      "n": 8,
       "closed_n": 5,
       "stake_usd": 99.04,
       "pnl_usd": -50.0,
@@ -36,7 +36,7 @@
   "by_grade": [
     {
       "group": "UNKNOWN",
-      "n": 7,
+      "n": 8,
       "closed_n": 5,
       "stake_usd": 99.04,
       "pnl_usd": -50.0,
@@ -48,7 +48,7 @@
   "by_entry_horizon": [
     {
       "group": "UNKNOWN",
-      "n": 7,
+      "n": 8,
       "closed_n": 5,
       "stake_usd": 99.04,
       "pnl_usd": -50.0,
@@ -60,7 +60,7 @@
   "by_edge_bucket": [
     {
       "group": "UNKNOWN",
-      "n": 7,
+      "n": 8,
       "closed_n": 5,
       "stake_usd": 99.04,
       "pnl_usd": -50.0,
