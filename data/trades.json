@@ -51,8 +51,8 @@
       "stake_usd": 20.51,
       "payout_display": "Max $89.60",
       "pnl_usd": null,
-      "status": "OPEN",
-      "execution": "C-class; no add"
+      "status": "CLOSED_PENDING_PNL",
+      "execution": "User confirmed all prior open positions are closed; final payout/P&L not yet provided."
     },
     {
       "date": "2026-09-16",
@@ -60,8 +60,17 @@
       "stake_usd": 25.92,
       "payout_display": "Max $69.28",
       "pnl_usd": null,
+      "status": "CLOSED_PENDING_PNL",
+      "execution": "User confirmed all prior open positions are closed; final payout/P&L not yet provided. Earlier screenshot showed $22.47 cash-out value (-$3.45) but that was unrealized only."
+    },
+    {
+      "date": "2026-09-17",
+      "position": "Celtic win × Real Sociedad-Bournemouth Under 3.5 goals",
+      "stake_usd": 10.0,
+      "payout_display": "Max $25.54",
+      "pnl_usd": null,
       "status": "OPEN",
-      "execution": "Confirmed open position from Kalshi screenshot; entry legs shown at Man United 52% and Barcelona -2.5 68%. Current cash-out shown $22.47 (-$3.45) at screenshot time; unrealized only."
+      "execution": "Recorded at user instruction from Kalshi combo slip: Celtic win 58c × Real Sociedad-Bournemouth U3.5 64c; $10 pays $25.54."
     }
   ]
 }
