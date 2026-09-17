@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""v0.3.5 transparent live fair-probability model.
+"""v0.3.6 transparent live fair-probability model.
 Independent of sportsbook/Kalshi prices. Uses calibrated core params only after holdout activation.
 
-v0.3.5 adds relative-squad context for cup rotation. A rotated elite XI is evaluated
+v0.3.5 added relative-squad context for cup rotation.\nv0.3.6 adds probability-first portfolio classification for Core Parlay candidates. A rotated elite XI is evaluated
 against the opponent actually faced, not only against the elite club's own first XI.
 The new terms are transparent priors and must be backtested; one match result never
 retroactively determines a coefficient.
@@ -30,6 +30,23 @@ def rotation_resilient_lineup(raw,depth_mismatch,resilience):
     in [0,1], assessed pre-match. Positive lineup upgrades are unchanged."""
     raw=float(raw); d=max(0.,min(1.,float(depth_mismatch or 0.)))
     return raw*(1-resilience*d) if raw<0 else raw
+
+def portfolio_bucket(fair,market_p,cfg):
+    """Classify after My Fair is produced; never feed market price back into My Fair."""
+    if fair is None:return {"bucket":"UNCLASSIFIED","core_parlay_eligible":False,"reason":"no fair probability"}
+    pcfg=cfg.get("data_engine",{}).get("core_parlay",{})
+    if not pcfg:return {"bucket":"UNCLASSIFIED","core_parlay_eligible":False,"reason":"core parlay config missing"}
+    f=float(fair)
+    if market_p is None:
+      if f>=pcfg.get("leg_fair_probability_min",.68):return {"bucket":"CORE_REVIEW","core_parlay_eligible":False,"reason":"high fair probability; current market probability required for price/edge gate"}
+      if f>=pcfg.get("value_single_fair_range",[.55,.68])[0]:return {"bucket":"VALUE_SINGLE","core_parlay_eligible":False,"reason":"below core fair threshold"}
+      return {"bucket":"SPECULATIVE_OR_PASS","core_parlay_eligible":False,"reason":"low hit-rate; not a core parlay leg"}
+    mp=float(market_p); edge=f-mp
+    eligible=(mp>=pcfg.get("leg_market_probability_min",.65) and f>=pcfg.get("leg_fair_probability_min",.68) and edge>=pcfg.get("min_model_edge_pp",.03))
+    if eligible:return {"bucket":"CORE_PARLAY","core_parlay_eligible":True,"reason":"passes probability + positive-edge gates","model_edge_pp":round(edge,4)}
+    if f>=pcfg.get("value_single_fair_range",[.55,.68])[0]:return {"bucket":"VALUE_SINGLE_OR_PASS","core_parlay_eligible":False,"reason":"does not pass all core gates","model_edge_pp":round(edge,4)}
+    return {"bucket":"SPECULATIVE_OR_PASS","core_parlay_eligible":False,"reason":"low hit-rate; not a core parlay leg","model_edge_pp":round(edge,4)}
+
 def market_prob(market,home,away,p1,lh,la,maxg=8):
     s=market.lower();ph,pd,pa=p1
     if "win" in s and norm(home) in norm(s):return ph
@@ -94,7 +111,8 @@ def main():
         vals=man.get(key,{});cap=fc["adjustment_caps_log_lambda"][key];fh=bounded(vals.get("home_log_lambda",0),cap);fa=bounded(vals.get("away_log_lambda",0),cap)
         lh*=math.exp(fh);la*=math.exp(fa);components[key+"_home_log"]=fh;components[key+"_away_log"]=fa
       lh=max(.15,min(4.5,lh));la=max(.15,min(4.5,la));p1=probs(lh,la,fc["max_goals"]);fair=market_prob(p["market"],x["home_team"],x["away_team"],p1,lh,la,fc["max_goals"])
-      outputs.append({"pick_id":p.get("id"),"status":"MODELLED","lambda_home":round(lh,4),"lambda_away":round(la,4),"home_win":round(p1[0],4),"draw":round(p1[1],4),"away_win":round(p1[2],4),"fair_probability":round(fair,4) if fair is not None else None,"components":components,"manual_notes":man.get("notes",[]),"market_prices_used_in_fair":False,"calibrated_params_active":bool(cp.get("active"))})
-      if fair is not None:p["fair_probability"]=round(fair,4);p["fair_source"]="v0.3.5 calibrated football model" if cp.get("active") else "v0.3.5 uncalibrated football model"
-    board["updated"]=datetime.datetime.now(datetime.timezone.utc).isoformat();write("board.json",board);write("model_fair.json",{"updated_utc":board["updated"],"model":"v0.3.5 Poisson + relative squad-depth/rotation model","calibrated_params_active":bool(cp.get("active")),"items":outputs})
+      bucket=portfolio_bucket(fair,p.get("market_probability"),cfg)
+      outputs.append({"pick_id":p.get("id"),"status":"MODELLED","lambda_home":round(lh,4),"lambda_away":round(la,4),"home_win":round(p1[0],4),"draw":round(p1[1],4),"away_win":round(p1[2],4),"fair_probability":round(fair,4) if fair is not None else None,"portfolio_bucket":bucket["bucket"],"core_parlay_eligible":bucket["core_parlay_eligible"],"portfolio_reason":bucket["reason"],"model_edge_pp":bucket.get("model_edge_pp"),"components":components,"manual_notes":man.get("notes",[]),"market_prices_used_in_fair":False,"calibrated_params_active":bool(cp.get("active"))})
+      if fair is not None:p["fair_probability"]=round(fair,4);p["fair_source"]="v0.3.6 calibrated football model" if cp.get("active") else "v0.3.6 uncalibrated football model"; p.update(portfolio_bucket(fair,p.get("market_probability"),cfg))
+    board["updated"]=datetime.datetime.now(datetime.timezone.utc).isoformat();write("board.json",board);write("model_fair.json",{"updated_utc":board["updated"],"model":"v0.3.6 Poisson + relative squad-depth/rotation + probability-first portfolio classifier","calibrated_params_active":bool(cp.get("active")),"items":outputs})
 if __name__=="__main__":main()
