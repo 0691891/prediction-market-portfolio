@@ -6,6 +6,7 @@ backtest=mod('backtest',pathlib.Path('src/backtest.py'))
 pitmod=mod('point_in_time',pathlib.Path('src/point_in_time.py'))
 clvmod=mod('clv_engine',pathlib.Path('src/clv_engine.py'))
 alphamod=mod('alpha_attribution',pathlib.Path('src/alpha_attribution.py'))
+datamod=mod('data_engine',pathlib.Path('src/data_engine.py'))
 class EngineSmokeTests(unittest.TestCase):
     def write(self,d,name,obj):
         p=d/name; p.parent.mkdir(parents=True,exist_ok=True); p.write_text(json.dumps(obj)); return p
@@ -41,4 +42,15 @@ class EngineSmokeTests(unittest.TestCase):
             self.write(d,'pit/latest.json',{'items':[{'pick_id':'p1','bucket':'T-6H'}]})
             alphamod.DATA=d; alphamod.main()
             a=json.loads((d/'alpha_attribution.json').read_text()); self.assertEqual(a['summary']['tracked_clv_rows'],1); self.assertAlmostEqual(a['summary']['realized_roi'],.2); self.assertEqual(a['by_market_type'][0]['group'],'MONEYLINE')
+    def test_data_engine_handles_missing_optional_pick_fields(self):
+        with tempfile.TemporaryDirectory() as td:
+            d=pathlib.Path(td)
+            self.write(d,'config.json',{'data_engine':{'kalshi_base_url':'https://example.test','min_edge_pp':.03,'min_ev':.02,'min_liquidity_usd':100,'sportsbook':{'max_model_consensus_gap_for_auto_ready':.12}}})
+            self.write(d,'board.json',{'picks':[{'id':'p1','match':'A vs B','market':'A win','fair_probability':.6}]})
+            self.write(d,'sportsbook_consensus.json',{'items':[{'pick_id':'p1','consensus_probability':.58}]})
+            datamod.DATA=d; datamod.main()
+            approval=json.loads((d/'approval.json').read_text())
+            self.assertEqual(approval['items'][0]['grade'],'UNKNOWN')
+            self.assertEqual(approval['items'][0]['suggested_units'],0)
+            self.assertEqual(approval['items'][0]['status'],'NEEDS TICKER MAP')
 if __name__=='__main__': unittest.main()
