@@ -1,20 +1,6 @@
 {
-  "updated": "2026-09-17T20:46:00Z",
-  "picks": [
-    {
-      "competition": "UEFA Europa League",
-      "match": "Celtic vs Ferencvarosi × Real Sociedad vs Bournemouth",
-      "market": "Celtic win × Real Sociedad-Bournemouth Under 3.5 goals",
-      "market_odds": "58c × 64c; $10 max payout $25.54",
-      "break_even_probability": 0.3915,
-      "pre_match_fair_probability_range": "0.44-0.45",
-      "pre_match_estimated_ev_range": "+12%-15%",
-      "stake": "$10",
-      "status": "LOSS",
-      "pnl_usd": -10.0,
-      "execution": "User confirmed loss; settled at $0 payout."
-    }
-  ],
+  "updated": "2026-09-18T11:42:22Z",
+  "picks": [],
   "model_learning": [
     {
       "competition": "EFL/Carabao Cup",
@@ -24,7 +10,19 @@
       "guardrail": "One 5-0 result is a learning example, not coefficient calibration. Backtest the interaction on historical point-in-time cup lineups. Win probability and -2.5 cover probability remain separate outputs."
     }
   ],
-  "watchlist": [],
-  "no_bet_competitions": [],
-  "note": "Sep 17 post-settlement update. The $10 Europa combo was confirmed lost. City-Norwich is incorporated as a model-design lesson: relative squad quality and tier/depth mismatch must offset naive rotation penalties, subject to historical backtesting. Gambling can result in loss of principal."
+  "watchlist": [
+    {
+      "competition": "Bundesliga",
+      "match": "Bayern Munich vs Union Berlin",
+      "kickoff": "2026-09-18T18:30:00Z",
+      "refresh": "T-1H",
+      "market": "Bayern ML",
+      "market_odds": "-650 ESPN snapshot (~86.7% raw break-even)",
+      "status": "PASS / NO FORCED BET",
+      "thesis": "Large relative-quality and squad-depth advantage for Bayern; Union entered with poor early-season results and multiple reported absences. However, the fresh search did not surface a reliable confirmed XI or a current Kalshi/prediction-market contract price, so v0.3.7 hard-exclusion rules prevent promoting this to Core Parlay despite the high favorite probability.",
+      "risk_flags": ["confirmed XI not verified in this refresh", "current Kalshi price unavailable", "price dispersion across public sportsbook sources"]
+    }
+  ],
+  "no_bet_competitions": ["Premier League","La Liga","Serie A","Ligue 1","UEFA Champions League","UEFA Europa League","EFL/Carabao Cup","FA Cup"],
+  "note": "Sep 18 T-1H refresh. Bayern-Union was the only covered match found inside the next ~90 minutes. No recommendation because confirmed XI/current prediction-market price could not be verified to the required standard. No trade ledger changes. Gambling/parlays can lose the full principal."
 }
