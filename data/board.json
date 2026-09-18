@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T14:32:56.222362+00:00",
+  "updated": "2026-09-18T17:31:37Z",
   "picks": [],
   "model_learning": [
     {
@@ -7,35 +7,46 @@
       "match": "Manchester City 5-0 Norwich City",
       "lesson": "Do not equate heavy rotation with loss of structural quality. Evaluate the rotated XI relative to the opponent, especially when an elite/deep top-tier squad faces a lower-tier side.",
       "implementation": "v0.3.5 adds tier_gap, squad_depth and rotation depth-mismatch/resilience terms. Negative lineup penalties can be softened when pre-match evidence shows the second unit still has a large quality edge.",
-      "guardrail": "One 5-0 result is a learning example, not coefficient calibration. Backtest the interaction on historical point-in-time cup lineups. Win probability and -2.5 cover probability remain separate outputs."
+      "guardrail": "One result is a learning example, not coefficient calibration. Backtest the interaction on historical point-in-time cup lineups."
     }
   ],
   "watchlist": [
     {
-      "competition": "Bundesliga",
-      "match": "Bayern Munich vs Union Berlin",
-      "kickoff": "2026-09-18T18:30:00Z",
+      "competition": "Premier League",
+      "match": "Brentford vs Chelsea",
+      "kickoff": "2026-09-18T19:00:00Z",
       "refresh": "T-1H",
-      "market": "Bayern ML",
-      "market_odds": "-650 ESPN snapshot (~86.7% raw break-even)",
-      "status": "PASS / NO FORCED BET",
-      "thesis": "Large relative-quality and squad-depth advantage for Bayern; Union entered with poor early-season results and multiple reported absences. However, the fresh search did not surface a reliable confirmed XI or a current Kalshi/prediction-market contract price, so v0.3.7 hard-exclusion rules prevent promoting this to Core Parlay despite the high favorite probability.",
-      "risk_flags": [
-        "confirmed XI not verified in this refresh",
-        "current Kalshi price unavailable",
-        "price dispersion across public sportsbook sources"
-      ]
+      "market": "Chelsea ML",
+      "market_odds": "+125 public sportsbook snapshot (~44.4% raw break-even)",
+      "status": "PASS",
+      "thesis": "Chelsea have the higher absolute talent ceiling, but Brentford are unbeaten and tactically well suited to attack Chelsea's defensive/set-piece weakness. Chelsea also carry significant availability uncertainty. The ML market probability is below the v0.3.7 55% Core-leg floor.",
+      "risk_flags": ["Chelsea availability/injury uncertainty", "Brentford counter/set-piece matchup", "Core probability gate fails"]
+    },
+    {
+      "competition": "La Liga",
+      "match": "Espanyol vs Elche",
+      "kickoff": "2026-09-18T19:00:00Z",
+      "refresh": "T-1H",
+      "market": "Espanyol ML",
+      "market_odds": "-123 public sportsbook snapshot (~55.2% raw break-even)",
+      "my_fair_probability": "0.58-0.60 provisional",
+      "estimated_ev": "about +5%-9% at -123 if lineup assumptions hold",
+      "status": "WATCH / NOT CORE UNTIL XI VERIFIED",
+      "thesis": "Elche are winless and have conceded heavily; Espanyol have home advantage and Roberto Fernandez form. Counterweights are Espanyol's multiple absences and suspension, so the price qualifies for the probability gate but lineup confirmation is required before promotion.",
+      "risk_flags": ["Espanyol Puado/Kike Garcia/Jofre Carreras out", "Omar El Hilali suspended", "confirmed XI not verified"]
+    },
+    {
+      "competition": "Serie A",
+      "match": "Monza vs Sassuolo",
+      "kickoff": "2026-09-18T18:45:00Z",
+      "refresh": "T-1H",
+      "market": "Sassuolo ML",
+      "market_odds": "+130 public snapshot (~43.5% raw break-even)",
+      "status": "PASS",
+      "thesis": "Sassuolo have better recent momentum and Monza are without captain Matteo Pessina, but the 3-way win probability is below the v0.3.7 Core-leg floor. Do not force into a parlay.",
+      "risk_flags": ["Core probability gate fails", "away favorite/near-balanced 1X2 structure"]
     }
   ],
-  "no_bet_competitions": [
-    "Premier League",
-    "La Liga",
-    "Serie A",
-    "Ligue 1",
-    "UEFA Champions League",
-    "UEFA Europa League",
-    "EFL/Carabao Cup",
-    "FA Cup"
-  ],
-  "note": "Sep 18 T-1H refresh. Bayern-Union was the only covered match found inside the next ~90 minutes. No recommendation because confirmed XI/current prediction-market price could not be verified to the required standard. No trade ledger changes. Gambling/parlays can lose the full principal."
+  "no_bet_competitions": ["Bundesliga","Ligue 1","UEFA Champions League","UEFA Europa League","EFL/Carabao Cup","FA Cup"],
+  "note": "Sep 18 13:31 ET T-1H refresh. No B-class Core Parlay: no two verified low-correlation legs simultaneously clear v0.3.7 probability, edge and lineup-quality gates. Espanyol ML is the only provisional value candidate but remains WATCH until XI verification. No trade-ledger changes. Football bets/parlays can lose the full principal."
 }
