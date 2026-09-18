@@ -12,7 +12,7 @@
   ],
   "rules": {
     "A": "0.5–0.75u",
-    "B": "0.25–0.5u; different leagues",
+    "B": "0.25–0.5u; 2-leg Core Parlay; each leg Market >=55%, prefer 65–82%; My Fair >= Market +3pp; combo My Fair >=40%; different matches, low correlation; exclude unresolved rotation/motivation/lineup shocks",
     "C": "2.5x–4x; ≤0.25u",
     "match_cap": "≤1u"
   },
@@ -143,31 +143,26 @@
       "retroactive_imputation": false
     },
     "core_parlay": {
-      "version": "v0.3.6",
+      "version": "v0.3.7",
       "philosophy": "probability_first_then_ev",
-      "leg_market_probability_min": 0.65,
-      "leg_fair_probability_min": 0.68,
-      "preferred_fair_probability_range": [
-        0.68,
+      "leg_market_probability_min": 0.55,
+      "preferred_market_probability_range": [
+        0.65,
         0.82
       ],
+      "leg_fair_probability_min": 0.58,
       "min_model_edge_pp": 0.03,
-      "combo_fair_probability_min": 0.5,
+      "combo_fair_probability_min": 0.4,
       "legs": 2,
       "require_different_matches": true,
+      "prefer_low_correlation": true,
       "prefer_different_competitions": true,
-      "fragile_favorite_exclusions": [
-        "major lineup uncertainty",
+      "hard_exclusions": [
+        "rotation uncertainty",
         "motivation uncertainty",
-        "unresolved injury shock",
-        "poor relative squad-depth resilience"
+        "lineup shock"
       ],
-      "value_single_fair_range": [
-        0.55,
-        0.68
-      ],
-      "speculative_fair_max": 0.55,
-      "note": "A high market probability is not alpha by itself. Core legs must pass both probability and price/edge gates. A leg below 65% market probability or below 68% My Fair is not a 'safe/core' leg."
+      "note": "B-class Core Parlay: each leg must have Market Probability >=55% and My Fair >= Market +3pp; 65%-82% Market Probability is preferred, not mandatory. Two-leg combo My Fair must be >=40%. Use different matches and prefer low correlation. Exclude any leg with unresolved rotation uncertainty, motivation uncertainty, or lineup shock. High market probability alone is not alpha."
     }
   }
 }
