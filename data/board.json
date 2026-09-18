@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T17:31:37Z",
+  "updated": "2026-09-18T18:31:58.697852+00:00",
   "picks": [],
   "model_learning": [
     {
@@ -20,7 +20,11 @@
       "market_odds": "+125 public sportsbook snapshot (~44.4% raw break-even)",
       "status": "PASS",
       "thesis": "Chelsea have the higher absolute talent ceiling, but Brentford are unbeaten and tactically well suited to attack Chelsea's defensive/set-piece weakness. Chelsea also carry significant availability uncertainty. The ML market probability is below the v0.3.7 55% Core-leg floor.",
-      "risk_flags": ["Chelsea availability/injury uncertainty", "Brentford counter/set-piece matchup", "Core probability gate fails"]
+      "risk_flags": [
+        "Chelsea availability/injury uncertainty",
+        "Brentford counter/set-piece matchup",
+        "Core probability gate fails"
+      ]
     },
     {
       "competition": "La Liga",
@@ -33,7 +37,11 @@
       "estimated_ev": "about +5%-9% at -123 if lineup assumptions hold",
       "status": "WATCH / NOT CORE UNTIL XI VERIFIED",
       "thesis": "Elche are winless and have conceded heavily; Espanyol have home advantage and Roberto Fernandez form. Counterweights are Espanyol's multiple absences and suspension, so the price qualifies for the probability gate but lineup confirmation is required before promotion.",
-      "risk_flags": ["Espanyol Puado/Kike Garcia/Jofre Carreras out", "Omar El Hilali suspended", "confirmed XI not verified"]
+      "risk_flags": [
+        "Espanyol Puado/Kike Garcia/Jofre Carreras out",
+        "Omar El Hilali suspended",
+        "confirmed XI not verified"
+      ]
     },
     {
       "competition": "Serie A",
@@ -44,9 +52,19 @@
       "market_odds": "+130 public snapshot (~43.5% raw break-even)",
       "status": "PASS",
       "thesis": "Sassuolo have better recent momentum and Monza are without captain Matteo Pessina, but the 3-way win probability is below the v0.3.7 Core-leg floor. Do not force into a parlay.",
-      "risk_flags": ["Core probability gate fails", "away favorite/near-balanced 1X2 structure"]
+      "risk_flags": [
+        "Core probability gate fails",
+        "away favorite/near-balanced 1X2 structure"
+      ]
     }
   ],
-  "no_bet_competitions": ["Bundesliga","Ligue 1","UEFA Champions League","UEFA Europa League","EFL/Carabao Cup","FA Cup"],
+  "no_bet_competitions": [
+    "Bundesliga",
+    "Ligue 1",
+    "UEFA Champions League",
+    "UEFA Europa League",
+    "EFL/Carabao Cup",
+    "FA Cup"
+  ],
   "note": "Sep 18 13:31 ET T-1H refresh. No B-class Core Parlay: no two verified low-correlation legs simultaneously clear v0.3.7 probability, edge and lineup-quality gates. Espanyol ML is the only provisional value candidate but remains WATCH until XI verification. No trade-ledger changes. Football bets/parlays can lose the full principal."
 }
