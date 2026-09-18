@@ -1,19 +1,4 @@
 {
-  "updated_utc": "2026-09-17T20:45:13.568423+00:00",
-  "markets": [
-    {
-      "competition": "UEFA Europa League",
-      "match": "Celtic vs Ferencvarosi × Real Sociedad vs Bournemouth",
-      "market": "Celtic win × Real Sociedad-Bournemouth Under 3.5 goals",
-      "market_odds": "58c × 64c; $10 pays $25.54",
-      "break_even_probability": 0.3915,
-      "my_fair_probability_range": "0.44-0.45",
-      "estimated_ev_range": "+12%-15%",
-      "grade": "B-style combo / same-competition exception noted",
-      "stake": "$10 recorded",
-      "status": "OPEN",
-      "thesis": "Celtic ML at 58c was the cleaner favorite price after confirmed lineups; Sociedad-Bournemouth U3.5 at 64c offered a more robust expression than taking a side in a balanced 1X2 market. Combo payout implies about a 39.15% break-even probability.",
-      "invalidation": "No add after kickoff. Treat the two legs as one combo exposure for portfolio accounting."
-    }
-  ]
+  "updated_utc": "2026-09-18T14:33:00.084068+00:00",
+  "markets": []
 }

@@ -1,17 +1,6 @@
 {
-  "updated": "2026-09-17T20:45:13.568423+00:00",
-  "items": [
-    {
-      "signal": "Celtic vs Ferencvarosi × Real Sociedad vs Bournemouth — Celtic win × Real Sociedad-Bournemouth Under 3.5 goals",
-      "grade": "B-style combo / same-competition exception noted",
-      "suggested_units": 0,
-      "max_entry": "Edge≥4%, EV≥5%",
-      "kalshi_ticker": null,
-      "sportsbook_consensus": null,
-      "model_vs_consensus_pp": null,
-      "status": "NEEDS TICKER MAP"
-    }
-  ],
+  "updated": "2026-09-18T14:33:00.084068+00:00",
+  "items": [],
   "mode": "PAPER / MANUAL APPROVAL",
   "real_money_execution": false
 }

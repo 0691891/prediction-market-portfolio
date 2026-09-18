@@ -1,13 +1,6 @@
 {
-  "updated_utc": "2026-09-17T20:45:11.806411+00:00",
-  "model": "v0.3.5 Poisson + relative squad-depth/rotation model",
+  "updated_utc": "2026-09-18T14:32:56.222362+00:00",
+  "model": "v0.3.6 Poisson + relative squad-depth/rotation + probability-first portfolio classifier",
   "calibrated_params_active": false,
-  "items": [
-    {
-      "pick_id": null,
-      "status": "NO_MODEL_UPDATE",
-      "fair_probability": null,
-      "source": "existing research estimate"
-    }
-  ]
+  "items": []
 }

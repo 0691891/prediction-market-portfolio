@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T11:42:22Z",
+  "updated": "2026-09-18T14:32:56.222362+00:00",
   "picks": [],
   "model_learning": [
     {
@@ -20,9 +20,22 @@
       "market_odds": "-650 ESPN snapshot (~86.7% raw break-even)",
       "status": "PASS / NO FORCED BET",
       "thesis": "Large relative-quality and squad-depth advantage for Bayern; Union entered with poor early-season results and multiple reported absences. However, the fresh search did not surface a reliable confirmed XI or a current Kalshi/prediction-market contract price, so v0.3.7 hard-exclusion rules prevent promoting this to Core Parlay despite the high favorite probability.",
-      "risk_flags": ["confirmed XI not verified in this refresh", "current Kalshi price unavailable", "price dispersion across public sportsbook sources"]
+      "risk_flags": [
+        "confirmed XI not verified in this refresh",
+        "current Kalshi price unavailable",
+        "price dispersion across public sportsbook sources"
+      ]
     }
   ],
-  "no_bet_competitions": ["Premier League","La Liga","Serie A","Ligue 1","UEFA Champions League","UEFA Europa League","EFL/Carabao Cup","FA Cup"],
+  "no_bet_competitions": [
+    "Premier League",
+    "La Liga",
+    "Serie A",
+    "Ligue 1",
+    "UEFA Champions League",
+    "UEFA Europa League",
+    "EFL/Carabao Cup",
+    "FA Cup"
+  ],
   "note": "Sep 18 T-1H refresh. Bayern-Union was the only covered match found inside the next ~90 minutes. No recommendation because confirmed XI/current prediction-market price could not be verified to the required standard. No trade ledger changes. Gambling/parlays can lose the full principal."
 }
