@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-19T23:09:48.117225+00:00",
+  "updated_utc": "2026-09-19T23:11:25.507460+00:00",
   "definition": "For a YES-side position, positive CLV means the chosen outcome closed at a higher implied probability than entry. Trade CLV prefers Kalshi close, falling back to de-vig sportsbook consensus. Combo trades are evaluated leg by leg unless an explicit combo market is separately mapped.",
   "trade_clv": [
     {
