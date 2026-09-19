@@ -301,6 +301,19 @@ with tabs[4]:
                 if x.get("sources"):
                     st.caption("Verification sources: "+", ".join(x["sources"]))
     else:st.info("No recorded same-day review. Do not infer outcomes from match status.")
+    whatif=review.get("hypothetical_ex_ante_t1h",[])
+    summ=review.get("hypothetical_summary",{})
+    if whatif:
+        st.markdown("### T-1H hypothetical P&L / 当时如果按建议下单")
+        st.warning("Counterfactual using quoted T-1H odds, NOT an actual paper fill or confirmed executable quote. Real NAV is unchanged.")
+        c1,c2,c3=st.columns(3)
+        c1.metric("What-if P&L",money(summ.get("hypothetical_net_pnl_usd")))
+        c2.metric("What-if stake",money(summ.get("hypothetical_stake_usd")))
+        c3.metric("What-if NAV",money(summ.get("hypothetical_nav_if_executed_and_settled_usd")))
+        show=["match","market","decision","odds","fair","stake_units","stake_usd",
+              "final_score","result","profit_usd","quote_status"]
+        st.dataframe(pd.DataFrame(whatif)[show],hide_index=True,use_container_width=True)
+        st.caption("Mainz ML was an unpriced lean: no dollar P&L. Hamburg Over was PASS at negative EV despite winning. No real or paper ledger changes.")
     bundes=review.get("bundesliga_matchday_review",[])
     if bundes:
         st.markdown("### Bundesliga — complete matchday review / 德甲全部比赛")
