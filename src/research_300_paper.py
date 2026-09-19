@@ -26,7 +26,7 @@ def main():
  signals=read("signals.json",{"signals":[]})
  existing={s["match_id"] for s in signals["signals"] if s.get("cohort")=="ALL_MATCHES_300_RESEARCH"}
  state=read("state.json",{"trades":[]})
- existing.update(t["match_id"] for t in state["trades"] if t.get("cohort")=="ALL_MATCHES_300_RESEARCH")
+ existing.update(t["match_id"] for t in state["trades"] if t.get("cohort")=="ALL_MATCHES_300_RESEARCH" and not t.get("legs"))
  by={}
  for r in rows:
   if r["market"]!="h2h":continue
@@ -76,7 +76,8 @@ def main():
  for i,a in enumerate(new_singles):
   if a["match_id"] in used:continue
   b=next((x for x in new_singles[i+1:] if x["match_id"] not in used and x["competition"]!=a["competition"]
-          and abs((utc(x["quote_timestamp_utc"])-utc(a["quote_timestamp_utc"])).total_seconds())<=1800),None)
+          and abs((utc(x["quote_timestamp_utc"])-utc(a["quote_timestamp_utc"])).total_seconds())<=1800
+          and max(utc(x["quote_timestamp_utc"]),utc(a["quote_timestamp_utc"]))<min(utc(x["kickoff_utc"]),utc(a["kickoff_utc"]))),None)
   if b is None:continue
   used.update((a["match_id"],b["match_id"]))
   legkeys=("match_id","market_id","selection","kickoff_utc","quote_timestamp_utc","decimal_odds")
