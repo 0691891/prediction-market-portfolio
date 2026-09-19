@@ -8,6 +8,10 @@ import os
 import urllib.error
 import urllib.parse
 import urllib.request
+import sys
+import pathlib
+sys.path.insert(0,str(pathlib.Path(__file__).resolve().parents[1]/"src"))
+from european_coverage import VERIFIED_ODDS_KEYS
 
 ESPN={
 "Premier League":"eng.1","La Liga":"esp.1","Serie A":"ita.1",
@@ -22,6 +26,9 @@ ODDS={
 "UEFA Europa League":"soccer_uefa_europa_league",
 "EFL/Carabao Cup":"soccer_england_efl_cup","FA Cup":"soccer_fa_cup",
 }
+# Registry is broader than the provider's actual live catalogue.
+# Never invent keys: only activate keys returned by the authenticated sports endpoint.
+ODDS.update(VERIFIED_ODDS_KEYS)
 def get(url,headers=None):
     req=urllib.request.Request(url,headers={"User-Agent":"FootballAlphaResearchDashboard/1.1",**(headers or {})})
     with urllib.request.urlopen(req,timeout=9) as r:
@@ -55,7 +62,7 @@ def odds(api_key,regions="us,uk,eu",leagues=None):
     rows=[];errors={}; retrieved=dt.datetime.now(dt.timezone.utc).isoformat()
     for league in (leagues or list(ODDS)):
         key=ODDS.get(league)
-        if not key:continue
+        if not key or key not in active:continue
         params=urllib.parse.urlencode({"apiKey":api_key,"regions":regions,
                   "markets":"h2h,spreads,totals","oddsFormat":"decimal"})
         url="https://api.the-odds-api.com/v4/sports/"+key+"/odds/?"+params
