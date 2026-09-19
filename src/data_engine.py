@@ -47,10 +47,10 @@ def main():
         passes=(mapped and edge is not None and ev is not None and
                 edge>=gate["min_edge_pp"] and ev>=gate["min_ev"] and
                 (liq is None or liq>=gate["min_liquidity_usd"]) and consensus_ok)
-        status="READY FOR APPROVAL" if passes else ("NEEDS TICKER MAP" if not mapped else ("MODEL/CONSENSUS REVIEW" if not consensus_ok else "WATCH / FAILS GATE"))
+        status="PAPER ENTRY CANDIDATE" if passes else ("NEEDS TICKER MAP" if not mapped else ("MODEL/CONSENSUS REVIEW" if not consensus_ok else "NO PAPER ENTRY / FAILS GATE"))
         items.append({"signal":f'{p["match"]} — {p["market"]}',"grade":p["grade"],"suggested_units":p["max_units"] if passes else 0,"max_entry":f'Edge≥{gate["min_edge_pp"]:.0%}, EV≥{gate["min_ev"]:.0%}',"kalshi_ticker":ticker,"sportsbook_consensus":c.get("consensus_probability"),"model_vs_consensus_pp":gap,"status":status})
         snap.append(q)
     now=datetime.datetime.now(datetime.timezone.utc).isoformat()
     write("market_snapshot.json",{"updated_utc":now,"markets":snap})
-    write("approval.json",{"updated":now,"items":items,"mode":"PAPER / MANUAL APPROVAL","real_money_execution":False})
+    write("approval.json",{"updated":now,"items":items,"mode":"PAPER / AUTO-ENTRY ON VERIFIED POSITIVE RISK-REWARD","real_money_execution":False})
 if __name__=="__main__": main()
