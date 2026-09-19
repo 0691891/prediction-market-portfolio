@@ -1,0 +1,16 @@
+{
+  "mode": "PAPER_ONLY",
+  "initial_capital_usd": 1000000,
+  "realized_pnl_usd": 0,
+  "realized_nav_usd": 1000000,
+  "open_stake_usd": 0,
+  "available_cash_usd": 1000000,
+  "settled_stake_usd": 0,
+  "settled_stake_roi": null,
+  "paper_orders": 0,
+  "open_orders": 0,
+  "settled_orders": 0,
+  "trades": [],
+  "rejections": [],
+  "valuation_note": "Realized NAV excludes unreliable unrealized marks; OPEN stake reserved."
+}
