@@ -1,0 +1,14 @@
+{
+  "coverage": {
+    "discovered_series": 0,
+    "note": "Pagination/coverage limited; configure series tickers to widen.",
+    "pages_per_series": 1,
+    "watch_count": 0
+  },
+  "errors": {},
+  "market_count": 0,
+  "markets": [],
+  "note": "Public Kalshi sampled series, NOT exhaustive. Indicative bid/ask not a proven fill.",
+  "status": "EMPTY_OR_SOURCE_ERROR",
+  "updated_utc": "2026-09-19T17:44:50.140096+00:00"
+}
