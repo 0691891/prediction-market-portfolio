@@ -36,6 +36,10 @@ FILES = {
     "fixture_universe": "data/fixtures/2026-09-19.json",
     "research_archive": "paper/research_archive.json",
     "hypothetical_performance": "paper/hypothetical_performance.json",
+    "kalshi_public": "data/kalshi_public_snapshot.json",
+    "kalshi_research": "data/kalshi_research.json",
+    "kalshi_clv": "data/kalshi_clv.json",
+    "kalshi_whatif": "data/kalshi_whatif.json",
 }
 st.set_page_config(page_title="Football Alpha Terminal | PAPER", page_icon="⚽",
                    layout="wide", initial_sidebar_state="expanded")
@@ -189,6 +193,28 @@ with tabs[1]:
         fcols=["competition","match","kickoff_utc","quote_status","model_fair_status","paper_trade_status"]
         st.dataframe(pd.DataFrame(fx)[fcols],hide_index=True,use_container_width=True)
     else:st.info("No durable fixture-universe snapshot loaded.")
+    st.subheader("Kalshi public football quotes / Kalshi 真实市场报价")
+    kd=D.get("kalshi_public",{})
+    st.caption("GitHub public-data snapshot: "+stamp(kd.get("updated_utc"))+
+               " · hourly workflow snapshots, NOT exchange streaming or personal account data.")
+    km=kd.get("markets",[])
+    if km:
+        ks=pd.DataFrame(km)
+        columns=[x for x in ["ticker","title","status","yes_bid_usd","yes_ask_usd",
+                            "no_bid_usd","no_ask_usd","market_updated_utc","fetched_utc"] if x in ks.columns]
+        st.dataframe(ks[columns],hide_index=True,use_container_width=True)
+    else:st.info("No public Kalshi football quotes fetched yet. Data feed / series discovery requires verification.")
+    rr=D.get("kalshi_research",{}).get("items",[])
+    st.subheader("Kalshi mapped model-vs-market / 模型与盘口")
+    if rr:
+        kdf=pd.DataFrame(rr)
+        columns=[x for x in ["match","market","ticker","side","entry_ask_usd",
+             "break_even_probability_gross","model_fair_probability","edge_pp","gross_ev",
+             "net_ev","contract_verified","fair_side_verified","quote_quality",
+             "kickoff_utc","fetched_utc"] if x in kdf.columns]
+        st.dataframe(kdf[columns],hide_index=True,use_container_width=True)
+        st.caption("Fair is from independent MODELLED output only; net EV requires fee, and visible quotes do not imply fills.")
+    else:st.info("No verified Kalshi ticker ↔ model pick mappings. Market prices are collected separately; no fabricated fair/EV.")
     st.subheader("All-fixture market scanner / 全赛程观察")
     st.caption("PASS and missing-data matches belong in the research universe. No synthetic odds or inferred fills.")
     board=D["board"]
@@ -295,6 +321,18 @@ with tabs[3]:
                 st.markdown("**"+group.replace("_"," ").title()+" attribution**")
                 st.dataframe(g,use_container_width=True)
     else:st.info("Alpha attribution awaits verified settlements. No win-rate, Brier score or CLV is imputed.")
+    st.subheader("Kalshi same-contract CLV & historical What-if")
+    kc=D.get("kalshi_clv",{})
+    kw=D.get("kalshi_whatif",{})
+    st.caption("Kalshi PIT: "+stamp(kc.get("updated_utc"))+
+               " · settlement research: "+stamp(kw.get("updated_utc")))
+    if kc.get("items"):st.dataframe(pd.DataFrame(kc["items"]),hide_index=True,use_container_width=True)
+    else:st.info("No ≥2 independent observed PREMATCH snapshots for same Kalshi ticker and side.")
+    if kw.get("trades"):
+        st.metric("Kalshi hypothetical GROSS P&L",money(kw.get("gross_pnl_usd")))
+        st.dataframe(pd.DataFrame(kw["trades"]),hide_index=True,use_container_width=True)
+    else:st.info("No verified Kalshi-settled, originally priced prospective paper research entries.")
+    st.caption("Kalshi What-if is separate from $1m verified paper NAV and actual-money account. Net P&L unavailable without fees.")
     st.subheader("Model vs market / 预测校准")
     pit=D["pit"].get("items",[])
     if pit:
