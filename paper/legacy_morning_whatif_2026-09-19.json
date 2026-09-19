@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-19",
+  "timezone": "America/New_York",
+  "cohort": "LEGACY_08_TO_10_ET_CONVERSATION_QUOTES",
+  "mode": "WHAT_IF_RESEARCH_ONLY_NOT_VERIFIED_PAPER_FILLS",
+  "audit_status": "PARTIAL_RECONCILIATION_NOT_FULL_DAY",
+  "confirmed_quoted_subtotal": {
+    "league": "Bundesliga",
+    "winning_selections": 3,
+    "settled_stake_usd": 8250,
+    "quoted_pnl_usd": 4622.5,
+    "stake_weighted_roi": 0.56030303,
+    "virtual_reference_nav_usd": 1004622.5,
+    "source": "Prior Sep 19 desk quoted what-if aggregate; individual legs/quotes not fully recovered from immutable repository",
+    "verification": "LEGACY_QUOTED_AGGREGATE_NOT_INDEPENDENTLY_RECONCILED"
+  },
+  "morning_cohort_incomplete": true,
+  "known_original_morning_signals": [
+    {
+      "match": "Gladbach vs Mainz",
+      "selection": "Over 2.5",
+      "odds": 1.55,
+      "fair": 0.7,
+      "grade": "A",
+      "stake_usd": 3750,
+      "source_phase": "09:00-10:00 refresh",
+      "note": "Not counted again into aggregate; individual allocation of quoted Bundesliga subtotal unverified"
+    },
+    {
+      "match": "Brighton vs Arsenal",
+      "selection": "Arsenal ML",
+      "odds": 1.78,
+      "fair": 0.62,
+      "grade": "A",
+      "stake_usd": 3000,
+      "source_phase": "09:00-10:00 refresh",
+      "outcome": "LOSS",
+      "hypothetical_pnl_usd": -3000,
+      "note": "Original morning grade retained; later rerun PASS is separate version, not retroactive grade replacement"
+    }
+  ],
+  "conditional_arithmetic_only": {
+    "bundesliga_quoted_subtotal_plus_arsenal_morning_loss_usd": 1622.5,
+    "not_full_day_total": true,
+    "not_additional_bundesliga_leg": true
+  },
+  "exclusions": "Other morning signals and final odds/results not fully reconciled; no claimed daily net, no retroactive odds or fills.",
+  "actual_paper": {
+    "nav_usd": 1000000,
+    "verified_fills": 0,
+    "realized_pnl_usd": 0
+  },
+  "risk": "Bets and parlays may lose the full stake."
+}
