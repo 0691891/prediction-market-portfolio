@@ -33,6 +33,9 @@ FILES = {
     "pit": "data/pit/latest.json",
     "clv": "data/clv.json",
     "morning_review": "data/reviews/2026-09-19-morning.json",
+    "fixture_universe": "data/fixtures/2026-09-19.json",
+    "research_archive": "paper/research_archive.json",
+    "hypothetical_performance": "paper/hypothetical_performance.json",
 }
 st.set_page_config(page_title="Football Alpha Terminal | PAPER", page_icon="⚽",
                    layout="wide", initial_sidebar_state="expanded")
@@ -177,6 +180,15 @@ with tabs[0]:
     st.warning("Live scoreboard and odds are separate provider feeds; event-name matching is NOT a verified synchronized event state. Do not paper-fill on this display alone.")
 
 with tabs[1]:
+    st.subheader("Today's covered fixture universe / 全赛事覆盖")
+    schedule=D.get("fixture_universe",{})
+    fx=schedule.get("fixtures",[])
+    if fx:
+        st.caption("Schedule snapshot: "+str(schedule.get("date"))+" • fixtures: "+str(len(fx))+
+                   " • fixture schedule is NOT model/price coverage")
+        fcols=["competition","match","kickoff_utc","quote_status","model_fair_status","paper_trade_status"]
+        st.dataframe(pd.DataFrame(fx)[fcols],hide_index=True,use_container_width=True)
+    else:st.info("No durable fixture-universe snapshot loaded.")
     st.subheader("All-fixture market scanner / 全赛程观察")
     st.caption("PASS and missing-data matches belong in the research universe. No synthetic odds or inferred fills.")
     board=D["board"]
@@ -257,6 +269,14 @@ with tabs[2]:
 
 with tabs[3]:
     st.subheader("Alpha Research / 模型迭代")
+    archived=D.get("research_archive",{}).get("observations",[])
+    hypo=D.get("hypothetical_performance",{})
+    st.caption("Prospective archived observations: "+str(len(archived))+
+               " • prospective settled what-if signals: "+str(hypo.get("sample_size",0))+
+               " • confirmed paper trades only: "+str(len(trades)))
+    st.metric("Prospective-only hypothetical P&L",money(hypo.get("hypothetical_pnl_usd",0)))
+    st.caption("Legacy Sep 19 morning T-1H what-if is shown in Match Review only, NOT added again here or to NAV.")
+
     settled=[t for t in trades if t.get("status")=="SETTLED"]
     s1,s2,s3,s4=st.columns(4)
     s1.metric("Fixture observations",len(observations))
