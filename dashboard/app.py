@@ -133,7 +133,7 @@ pnl=float(state.get("realized_pnl_usd",0))
 now=datetime.now(timezone.utc)
 
 st.title("FOOTBALL / ALPHA TERMINAL")
-st.markdown('<div class="signal">● PAPER MODE &nbsp; $1,000,000 virtual bankroll &nbsp; | &nbsp; Pre-match + In-play mispricing research &nbsp; | &nbsp; Live execution disabled</div>',unsafe_allow_html=True)
+st.markdown('<div class="signal">● PAPER MODE &nbsp; $1,000,000 virtual bankroll &nbsp; | &nbsp; Pre-match predictions → verified full-time settlement &nbsp; | &nbsp; Live execution disabled</div>',unsafe_allow_html=True)
 if "state" in errors:
     st.error("PAPER STATE UNAVAILABLE — showing initial account fallback, not a verified NAV.")
 a,b,c,d,e=st.columns(5)
@@ -177,7 +177,7 @@ with tabs[0]:
     else:st.info("No current sportsbook quotes. Connect ODDS_API_KEY via Streamlit secrets and verify API plan/league coverage.")
     if odds_errors:
         with st.expander("Odds feed / quota / coverage errors"):st.json(odds_errors)
-    st.warning("Live scoreboard and odds are separate provider feeds; event-name matching is NOT a verified synchronized event state. Do not paper-fill on this display alone.")
+    st.warning("Scoreboard is observational only. In-play trading and live fair-value models are disabled; paper research enters before kickoff and settles after verified full time.")
 
 with tabs[1]:
     st.subheader("Today's covered fixture universe / 全赛事覆盖")
@@ -397,7 +397,7 @@ with tabs[6]:
         if clv.get(name):
             st.markdown("**"+name.replace("_"," ").title()+"**")
             st.dataframe(pd.DataFrame(clv[name]),hide_index=True,use_container_width=True)
-    st.warning("LIVE CLV requires later executable quotes on the SAME event + SAME contract. A pre-match closing price cannot be compared with a post-goal live entry.")
+    st.warning("Prematch-only CLV: compare same selection and market at observed entry with a genuinely timestamped pre-kickoff closing quote. Do not construct CLV from final scores.")
     if clv.get("summary"):st.json(clv["summary"])
 
 with tabs[7]:
@@ -423,5 +423,5 @@ with tabs[7]:
         stale=age_h is not None and age_h>2
         st.write(f"{'🔴' if key in errors or stale else '🟢' if ts else '⚪'} {key}: {stamp(ts)}"+(f" • {age_h:.1f}h old" if age_h is not None else "")+
                  (f" • {errors[key]}" if key in errors else ""))
-    st.error("Refresh of this screen does not increase data-source frequency. Current GitHub workflow/model may be hourly and sportsbook feed may be unconfigured. Do not treat data as live executable odds.")
+    st.error("Screen refresh does not increase upstream data frequency. Prematch trading only; sportsbook feed may be unconfigured. Do not treat quoted prices as verified paper fills.")
 st.caption("All values are PAPER ONLY. Football bets/parlays can lose 100% of capital committed. Arbitrage is not established without same-outcome coverage, net fees, execution and settlement-rule reconciliation.")
