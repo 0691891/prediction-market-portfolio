@@ -14,6 +14,7 @@ from datetime import datetime, timezone
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
+from streamlit_autorefresh import st_autorefresh
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 BASE = "https://raw.githubusercontent.com/0691891/prediction-market-portfolio/main/"
@@ -86,15 +87,7 @@ with st.sidebar:
     st.caption("Read-only research. No betting execution. A stale quote is not a tradable opportunity.")
 
 if auto:
-    # Built-in fragment refresh; avoids external streamlit-autorefresh dependency.
-    import time
-    if "refresh_until" not in st.session_state:
-        st.session_state.refresh_until=time.monotonic()+30
-    if time.monotonic()>=st.session_state.refresh_until:
-        fetch.clear()
-        st.session_state.refresh_until=time.monotonic()+30
-        st.rerun()
-    st.caption("Display refresh requested: use ↻ Refresh now if not using a component-based timer.")
+    st_autorefresh(interval=30_000, limit=None, key="paper-refresh")
 
 D={}; errors={}
 for key,path in FILES.items():
