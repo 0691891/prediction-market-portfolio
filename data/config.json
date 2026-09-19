@@ -14,7 +14,8 @@
     "A": "0.5–0.75u",
     "B": "0.25–0.5u; 2-leg Core Parlay; each leg Market >=55%, prefer 65–82%; My Fair >= Market +3pp; combo My Fair >=40%; different matches, low correlation; exclude unresolved rotation/motivation/lineup shocks",
     "C": "2.5x–4x; ≤0.25u",
-    "match_cap": "≤1u"
+    "match_cap": "≤1u",
+    "A-": "Qualified positive-edge but lower-confidence than A; <=0.5u; no forced entry"
   },
   "data_engine": {
     "mode": "paper_prematch_only",
@@ -188,6 +189,19 @@
       "automatic_live_paper_orders": false,
       "trigger": "user explicitly requests analysis of a specific in-progress match",
       "rules": "Fresh timestamped score/minute, red cards, XI, odds, conditional fair and event status; absent current synchronized feeds report WATCH/PASS with no made-up EV. Never edit frozen prematch forecast or simulate live entry without actual contemporaneous quote; preserve historical ex ante records."
+    },
+    "grade_policy": {
+      "version": "v1.2_A_priority",
+      "primary_paper_review_grades": [
+        "A",
+        "A-"
+      ],
+      "policy": "Prioritize ex-ante A/A- qualified value signals as core paper research basket, without retroactively upgrading calls. Grade cannot override positive net EV, verified fresh quote, model uncertainty, lineup/risk gates or exposure caps. A- max 0.5u and A max 0.75u. Report B/C, PASS and all fixtures as separate diagnostic cohorts. Compare A vs A- vs B by hit rate, hypothetical stake ROI, CLV, Brier and uncertainty with sample size and confidence intervals. No grade is a guarantee.",
+      "A_max_units": 0.75,
+      "A-_max_units": 0.5,
+      "min_positive_ev_after_costs": true,
+      "include_all_losses": true,
+      "ex_ante_grade_freeze": true
     }
   },
   "post_match_review": {
