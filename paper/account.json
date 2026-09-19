@@ -11,5 +11,6 @@
   "virtual_trades": [],
   "settlements": [],
   "fixture_observations": [],
-  "note": "Paper account starts empty; historical actual trades do not become paper fills."
+  "note": "Paper account includes user-directed migration of Sep 19 legacy research simulations as simulated fills; these are not independently verified executable fills.",
+  "accounting_policy": "Research signals explicitly promoted by user to paper are booked into NAV; no separate what-if P&L ledger."
 }
