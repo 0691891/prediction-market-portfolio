@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "mappings": [],
+  "mapping_requirements": [
+    "pick_id matches an existing data/board.json picks[].id",
+    "ticker is real Kalshi market ticker verified in contract",
+    "side is yes or no",
+    "fair_is_mapped_side true only after independent fair selection semantically matches Kalshi side",
+    "contract_verified true only after match period, void/postponement, exact market definition check",
+    "kickoff_utc is independently verified UTC time",
+    "fee_per_contract_usd only if confirmed for intended size/order"
+  ],
+  "example_is_documentation_only": "Never add invented ticker. A missing mapping is a research PASS, not a reason to guess."
+}
