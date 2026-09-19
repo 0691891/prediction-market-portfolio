@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-19",
+  "review_scope": "Morning ET desk messages in this conversation; contemporaneous GitHub board picks empty, no frozen executable paper orders.",
+  "review_status": "PARTIAL_SAME_DAY",
+  "not_a_backtest": true,
+  "not_paper_settlement": true,
+  "matched_recommendations": [
+    {
+      "match": "Brighton vs Arsenal",
+      "competition": "Premier League",
+      "market": "Arsenal ML",
+      "original_desk_decision": "PASS",
+      "pre_match_public_odds_decimal_approx": 1.67,
+      "pre_match_break_even_approx": 0.6,
+      "original_provisional_fair_range": [
+        0.55,
+        0.56
+      ],
+      "final_score": "Brighton 3-0 Arsenal",
+      "result_status": "FT",
+      "market_outcome": "LOSS_IF_BOUGHT",
+      "paper_stake_usd": 0,
+      "realized_paper_pnl_usd": 0,
+      "process_review": "Declined a popular favorite because provisional fair < quoted breakeven. Result direction consistent with avoiding this price, NOT proof of calibrated alpha. Analyze tactical matchup, Brighton transition/shot quality and Arsenal absence; freeze proper forecasts on future games.",
+      "sources": [
+        "https://www.theguardian.com/football/live/2026/sep/19/brighton-arsenal-newcastle-hull-more-football-clockwatch-live-scores-updates"
+      ]
+    },
+    {
+      "match": "Everton vs Ipswich Town",
+      "competition": "Premier League",
+      "market": "Everton ML",
+      "original_desk_decision": "PASS",
+      "original_provisional_fair_range": [
+        0.54,
+        0.56
+      ],
+      "final_score": "Everton 1-0 Ipswich Town",
+      "result_status": "FT",
+      "market_outcome": "WIN_IF_BOUGHT",
+      "paper_stake_usd": 0,
+      "realized_paper_pnl_usd": 0,
+      "process_review": "PASS can miss winners; rejection was due to inadequate verified price-to-fair edge. Do not relabel PASS as successful prediction; review side vs execution price separately.",
+      "sources": [
+        "https://www.theguardian.com/football/live/2026/sep/19/brighton-arsenal-newcastle-hull-more-football-clockwatch-live-scores-updates"
+      ]
+    },
+    {
+      "match": "Newcastle United vs Hull City",
+      "competition": "Premier League",
+      "market": "Newcastle ML",
+      "original_desk_decision": "PASS",
+      "original_provisional_fair_range": [
+        0.54,
+        0.57
+      ],
+      "final_score": "Newcastle United 2-1 Hull City",
+      "result_status": "FT",
+      "market_outcome": "WIN_IF_BOUGHT",
+      "paper_stake_usd": 0,
+      "realized_paper_pnl_usd": 0,
+      "process_review": "Assess lineup/availability uncertainty separately from structural talent edge; do not over-discount quality/depth on rotation; absence of frozen executable price prevents return calculations.",
+      "sources": [
+        "https://www.theguardian.com/football/live/2026/sep/19/brighton-arsenal-newcastle-hull-more-football-clockwatch-live-scores-updates"
+      ]
+    },
+    {
+      "match": "Athletic Club vs Alaves",
+      "competition": "La Liga",
+      "market": "Athletic ML",
+      "original_desk_decision": "PASS",
+      "pre_match_public_odds_decimal_approx": 1.67,
+      "original_provisional_fair_approx": 0.59,
+      "result_status": "AWAIT_VERIFIED_FT",
+      "market_outcome": null,
+      "paper_stake_usd": 0,
+      "realized_paper_pnl_usd": 0,
+      "process_review": "Do not settle until verified 90-minute result."
+    },
+    {
+      "match": "Athletic Club vs Alaves",
+      "competition": "La Liga",
+      "market": "Under 2.5",
+      "original_desk_decision": "WATCH_ONLY_NO_EXECUTABLE_PRICE",
+      "original_provisional_fair_range": [
+        0.6,
+        0.62
+      ],
+      "result_status": "AWAIT_VERIFIED_FT",
+      "market_outcome": null,
+      "paper_stake_usd": 0,
+      "realized_paper_pnl_usd": 0,
+      "process_review": "Fair range was provisional and no timestamped ask was obtained, so cannot claim positive-EV executed trade or realized win even if total is under."
+    },
+    {
+      "match": "Roma vs Inter Milan",
+      "competition": "Serie A",
+      "market": "Inter ML / BTTS Yes",
+      "original_desk_decision": "PASS_MISSING_QUOTE",
+      "result_status": "NOT_REVIEWED_AS_FT",
+      "paper_stake_usd": 0,
+      "realized_paper_pnl_usd": 0
+    },
+    {
+      "match": "Nottingham Forest vs Coventry City",
+      "competition": "Premier League",
+      "market": "Unspecified",
+      "original_desk_decision": "PASS_MISSING_QUOTE",
+      "result_status": "NOT_REVIEWED_AS_FT",
+      "paper_stake_usd": 0,
+      "realized_paper_pnl_usd": 0
+    },
+    {
+      "match": "Celta Vigo vs Racing Santander",
+      "competition": "La Liga",
+      "market": "Celta ML / Under 2.5",
+      "original_desk_decision": "PASS_NO_INDEPENDENT_FROZEN_FAIR",
+      "pre_match_published_decimal_approx": 1.81,
+      "result_status": "NOT_REVIEWED_AS_FT",
+      "paper_stake_usd": 0,
+      "realized_paper_pnl_usd": 0
+    },
+    {
+      "match": "Stuttgart vs Dortmund",
+      "competition": "Bundesliga",
+      "market": "Unspecified",
+      "original_desk_decision": "PASS_MISSING_QUOTE",
+      "result_status": "NOT_REVIEWED_AS_FT",
+      "paper_stake_usd": 0,
+      "realized_paper_pnl_usd": 0
+    }
+  ],
+  "non_recommendation_context": [
+    {
+      "match": "Tottenham vs Aston Villa",
+      "final_score": "Tottenham 2-3 Aston Villa",
+      "result_status": "FT",
+      "original_desk_decision": "NO_DOCUMENTED_TRADE_PICK",
+      "sources": [
+        "https://www.reuters.com/sports/soccer/wrapup-soccer-manzambi-jackson-buendia-fire-villa-first-win-spurs-misery-deepens-2026-09-19/"
+      ]
+    },
+    {
+      "match": "Osasuna vs Rayo Vallecano",
+      "final_score": "Osasuna 1-1 Rayo Vallecano",
+      "result_status": "FT",
+      "original_desk_decision": "NO_DOCUMENTED_TRADE_PICK",
+      "sources": [
+        "https://cadenaser.com/nacional/2026/09/19/ca-osasuna-1-1-rayo-vallecano-resumen-resultado-y-goles-del-partido-de-la-jornada-7-de-laliga-ea-sports-cadena-ser/"
+      ]
+    }
+  ],
+  "learning_rules": [
+    "Separate directional correctness from price/EV correctness and observed executed P&L. A PASS on a winner is not a losing trade, a PASS on a loser is not a winning trade.",
+    "Store prospectively all evaluated candidates including PASS with immutable pre-kickoff timestamp and source. Do not reconstruct quote/model outputs after seeing scores.",
+    "Separate quality/depth prior from actual XI availability and tactic/transition vulnerability. Analyze elite-team upset and short-odds downside using pregame xG, lineup and style matchup, not final score hindsight.",
+    "Do not tune coefficients to one match or label this a calibrated backtest; aggregate 300-500 genuinely frozen predictions across all fixtures and evaluate Brier/log loss, ROI and CLV.",
+    "Maintain explicit incomplete/no-quote/unknown results status and do not modify paper/signals.json, paper/results.json or confirmed real trade ledger from merely theoretical picks."
+  ]
+}
