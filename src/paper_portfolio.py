@@ -55,8 +55,9 @@ def run():
         why = None
         try:
             if s.get("competition") not in LEAGUES: raise ValueError("unsupported league")
-            if s.get("paper_eligible") is not True: raise ValueError("not paper eligible")
-            if s.get("lineup_status") != "CONFIRMED": raise ValueError("lineup unconfirmed")
+            if s.get("paper_eligible") is False: raise ValueError("explicitly paper-ineligible")
+            if s.get("lineup_status") == "UNCONFIRMED" and s.get("lineup_uncertainty_resolved") is not True:
+                raise ValueError("unresolved lineup uncertainty")
             if any(flag in str(s.get("risk_flags", [])).lower() for flag in
                    ("unresolved rotation", "unresolved motivation", "lineup shock")):
                 raise ValueError("unresolved risk gate")
@@ -77,7 +78,9 @@ def run():
             if not (1 < odds <= 1001 and 0 < fair < 1 and stake > 0):
                 raise ValueError("invalid odds, fair or stake")
             if stake > GRADES[grade] * unit + 0.001: raise ValueError("grade stake cap")
-            if fair * odds <= 1: raise ValueError("nonpositive EV")
+            net_ev = fair * odds - 1 - float(s.get("fees_usd", 0)) / stake
+            if net_ev <= 0: raise ValueError("nonpositive net EV")
+            if net_ev < float(s.get("min_net_ev", 0.05)): raise ValueError("net EV below paper entry threshold")
             if s.get("liquidity_usd") is not None and float(s["liquidity_usd"]) < stake:
                 raise ValueError("insufficient quoted liquidity")
             open_rows = [t for t in trades.values() if t["status"] == "OPEN"]
@@ -100,7 +103,7 @@ def run():
             "quote_source": s["quote_source"], "quote_url": s["quote_url"],
             "kickoff_utc": s["kickoff_utc"], "model_version": s["model_version"],
             "fair_probability_at_entry": fair, "decimal_odds": odds, "stake_usd": stake,
-            "entry_ev": round(fair * odds - 1, 6), "grade": grade,
+            "entry_ev": round(fair * odds - 1, 6), "entry_net_ev": round(net_ev, 6), "grade": grade,
             "scenario": s["scenario"], "entry_phase": entry_phase,
             "live_entry_state": ({k: s.get(k) for k in
                 ("event_state_timestamp_utc", "home_score", "away_score",
