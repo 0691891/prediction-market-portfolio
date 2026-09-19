@@ -181,6 +181,13 @@
       "separate_from_paper_state": true,
       "include_pass_and_unpriced_leans": true,
       "only_original_timestamped_quotes": true
+    },
+    "on_demand_live_research": {
+      "enabled": true,
+      "automatic_live_scan": false,
+      "automatic_live_paper_orders": false,
+      "trigger": "user explicitly requests analysis of a specific in-progress match",
+      "rules": "Fresh timestamped score/minute, red cards, XI, odds, conditional fair and event status; absent current synchronized feeds report WATCH/PASS with no made-up EV. Never edit frozen prematch forecast or simulate live entry without actual contemporaneous quote; preserve historical ex ante records."
     }
   },
   "post_match_review": {
