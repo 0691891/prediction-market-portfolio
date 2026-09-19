@@ -33,10 +33,11 @@ jobs:
           python src/point_in_time.py
           python src/clv_engine.py
           python src/alpha_attribution.py
+          python src/research_archive.py
       - name: Commit changed snapshots
         run: |
           git config user.name "prediction-market-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/football_intelligence.json data/model_fair.json data/board.json data/sportsbook_consensus.json data/market_snapshot.json data/market_candidates.json data/approval.json data/pit data/clv.json data/alpha_attribution.json
+          git add data/football_intelligence.json data/model_fair.json data/board.json data/sportsbook_consensus.json data/market_snapshot.json data/market_candidates.json data/approval.json data/pit data/clv.json data/alpha_attribution.json paper/research_archive.json paper/hypothetical_performance.json
           git diff --cached --quiet || git commit -m "data: refresh v0.3.5 attribution snapshots"
           git push
