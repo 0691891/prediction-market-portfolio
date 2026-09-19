@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-09-19T20:46:47.817843+00:00",
+  "updated_utc": "2026-09-19T22:39:46.093597+00:00",
   "model": "v0.3.6 Poisson + relative squad-depth/rotation + probability-first portfolio classifier",
-  "calibrated_params_active": false,
+  "calibrated_params_active": true,
   "items": []
 }
