@@ -1,0 +1,112 @@
+{
+  "date": "2026-09-19",
+  "research_cutoff_utc": "2026-09-19T16:41:00Z",
+  "mode": "NON_EXECUTABLE_MARKET_RESEARCH",
+  "data_integrity": "Current public pages are cached/asynchronous and cannot support same-second live paper entry. Production model_fair items empty because board picks empty and football-data key missing.",
+  "confirmed_repo_before_scan": {
+    "model_fair_items": 0,
+    "football_intelligence_status": "NO_FOOTBALL_DATA_KEY",
+    "sportsbook_consensus_status": "NO_ODDS_API_KEY",
+    "paper_signals": 0,
+    "actual_paper_pnl_usd": 0
+  },
+  "watch": [
+    {
+      "match": "Roma vs Inter Milan",
+      "competition": "Serie A",
+      "kickoff_utc": "2026-09-19T16:00:00Z",
+      "phase": "LIVE_AS_OF_RESEARCH_CUTOFF",
+      "verified_lineups": "Roma: Svilar; Mancini Ndicka Hermoso; Molina Kone Cristante Wesley; Dybala Soule; Malen. Inter: Martinez; Bisseck Akanji Bastoni; Diouf Barella Zielinski Jones Dimarco; Thuram Lautaro.",
+      "injury_context": "Calhanoglu and Stones reported absent for Inter",
+      "live_score_verified": false,
+      "live_quote_verified": false,
+      "independent_conditional_fair": false,
+      "decision": "PASS_NO_SYNCHRONOUS_LIVE_STATE_OR_QUOTE",
+      "paper_stake_usd": 0,
+      "source": "https://sport.virgilio.it/dirette/live/serie-a/19-9-2026/roma-inter/2638169/"
+    },
+    {
+      "match": "Stuttgart vs Borussia Dortmund",
+      "competition": "Bundesliga",
+      "kickoff_utc": "2026-09-19T16:30:00Z",
+      "phase": "NEAR_KICKOFF",
+      "research_price_sample": "O2.5 ~1.36-1.40; U3.5 ~1.90-1.97 from non-executable public pages",
+      "independent_internal_fair": false,
+      "external_scenario_lambda_home": 1.76,
+      "external_scenario_lambda_away": 1.68,
+      "external_scenario_fair_under_3_5": 0.5496,
+      "source_xg": "https://www.realsportsinsider.com/football/matches/stuttgart-vs-dortmund-O0aCSacL",
+      "source_odds": "https://tipsterarea.com/match/stuttgart-borussia-dortmund-bundesliga-germany-945868",
+      "decision": "WATCH_UNDER_3_5_ONLY_IF_REVALIDATED_CONCURRENT_PRICE_AND_INDEPENDENT_MODEL",
+      "paper_stake_usd": 0
+    },
+    {
+      "match": "Nottingham Forest vs Coventry City",
+      "competition": "Premier League",
+      "kickoff_utc": "2026-09-19T16:30:00Z",
+      "research_price_sample": "Forest ML -164 publicly listed; Forebet third party 49% (not internal fair)",
+      "independent_internal_fair": false,
+      "decision": "PASS_NO_INDEPENDENT_FAIR_OR_VERIFIED_T1H_QUOTE",
+      "paper_stake_usd": 0,
+      "source": "https://www.forebet.com/en/football/matches/nottingham-forest-coventry-city-2495593"
+    },
+    {
+      "match": "Celta Vigo vs Racing Santander",
+      "competition": "La Liga",
+      "kickoff_utc": "2026-09-19T16:30:00Z",
+      "research_price_sample": "Celta ~1.81 earlier published; not a current executable quote",
+      "decision": "PASS_NO_FROZEN_MY_FAIR",
+      "paper_stake_usd": 0
+    },
+    {
+      "match": "Sevilla vs Barcelona",
+      "competition": "La Liga",
+      "kickoff_utc": "2026-09-19T19:00:00Z",
+      "research_price_sample": "Polymarket O3.5 58c U3.5 43c from cached page; external Dimers Barca 74%, not internal fair",
+      "decision": "WATCH_T1H_CONFIRMED_XI_INJURY_GOALS_MARGIN",
+      "paper_stake_usd": 0,
+      "source": "https://polymarket.com/sports/laliga/lal-sev-bar-2026-09-19?outcomeIndex=0"
+    },
+    {
+      "match": "Venezia vs Lazio",
+      "competition": "Serie A",
+      "kickoff_utc": "2026-09-19T18:45:00Z",
+      "research_price_sample": "Lazio best public +160 oddschecker (not executable)",
+      "decision": "WATCH_FRESH_ODDS_AND_MY_FAIR",
+      "paper_stake_usd": 0,
+      "source": "https://www.oddschecker.com/us/soccer/serie-a/venezia-v-lazio"
+    },
+    {
+      "match": "Le Mans vs Lorient",
+      "competition": "Ligue 1",
+      "kickoff_utc": "2026-09-19T18:45:00Z",
+      "research_price_sample": "Lorient +145 from public oddschecker (not executable)",
+      "decision": "WATCH_FRESH_ODDS_AND_MY_FAIR",
+      "paper_stake_usd": 0
+    },
+    {
+      "match": "Angers vs Troyes",
+      "competition": "Ligue 1",
+      "kickoff_utc": "2026-09-19T18:45:00Z",
+      "research_price_sample": "Angers 2.0 publicly listed (not executable)",
+      "decision": "WATCH_FRESH_ODDS_AND_MY_FAIR",
+      "paper_stake_usd": 0
+    },
+    {
+      "match": "Toulouse vs Le Havre",
+      "competition": "Ligue 1",
+      "kickoff_utc": "2026-09-19T18:45:00Z",
+      "research_price_sample": "Toulouse -135 publicly listed (not executable)",
+      "decision": "WATCH_FRESH_ODDS_AND_MY_FAIR",
+      "paper_stake_usd": 0
+    },
+    {
+      "match": "Lyon vs Rennes",
+      "competition": "Ligue 1",
+      "kickoff_utc": "2026-09-19T18:45:00Z",
+      "decision": "WATCH_NO_FROZEN_INDEPENDENT_MODEL_OR_EXECUTABLE_QUOTE",
+      "paper_stake_usd": 0
+    }
+  ],
+  "no_claim_of_real_time_inplay": "Current public web crawl cannot synchronously verify clock/score/cards and current orderbook; LIVE alerts require feed upgrade."
+}
