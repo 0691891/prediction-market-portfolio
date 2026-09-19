@@ -23,7 +23,14 @@ TOP_FLIGHTS={
 "Andorran Primera Divisió":"Andorra","Gibraltar Football League":"Gibraltar",
 "San Marino Campionato":"San Marino"}
 INTERNATIONAL={"UEFA Nations League","UEFA EURO Qualifying","UEFA European Qualifiers"}
-CUPS={"UEFA Champions League","UEFA Europa League","UEFA Conference League","EFL/Carabao Cup","FA Cup"}
+CUPS={"UEFA Champions League","UEFA Europa League","UEFA Conference League",
+"FA Cup","EFL/Carabao Cup","Community Shield",
+"Copa del Rey","Supercopa de España",
+"Coppa Italia","Supercoppa Italiana",
+"DFB-Pokal","DFL-Supercup",
+"Coupe de France","Trophée des Champions"}
+# Historical only: Coupe de la Ligue ended after 2019/20.
+HISTORICAL_CUPS={"Coupe de la Ligue"}
 COVERAGE=set(TOP_FLIGHTS)|INTERNATIONAL|CUPS
 # Verify actual provider sport keys from its live catalog before mapping.
 VERIFIED_ODDS_KEYS={
