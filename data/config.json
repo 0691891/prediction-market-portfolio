@@ -46,8 +46,8 @@
       },
       "lookback_days": 180,
       "recent_half_life_days": 60,
-      "model": "Poisson goal model + transparent log-lambda adjustments",
-      "market_consensus_in_my_fair": false
+      "model": "market de-vig prior + calibrated football residual + uncertainty-aware EV; Poisson is supporting goal distribution only",
+      "market_consensus_in_my_fair": true
     },
     "fair_model": {
       "max_goals": 8,
@@ -178,10 +178,8 @@
     ],
     "settlement_mode": "verified_90_minute_after_full_time",
     "what_if": {
-      "enabled": true,
-      "separate_from_paper_state": true,
-      "include_pass_and_unpriced_leans": true,
-      "only_original_timestamped_quotes": true
+      "enabled": false,
+      "separate_from_paper_state": false
     },
     "on_demand_live_research": {
       "enabled": true,
@@ -202,6 +200,16 @@
       "min_positive_ev_after_costs": true,
       "include_all_losses": true,
       "ex_ante_grade_freeze": true
+    },
+    "residual_model": {
+      "version": "v0.4",
+      "market_prior": "timestamped de-vig consensus from full mutually exclusive market",
+      "trained_weights": {},
+      "calibration": null,
+      "uncertainty_pp": 0.03,
+      "auto_paper_requires_calibrated_residual": true,
+      "feature_inputs": "frozen PIT z-scores; absent factor => no adjustment; unfitted weights => no trade",
+      "activation": "requires chronological out-of-sample residual-vs-market ROI, calibration and CLV improvement; 500-match raw Poisson backtest ROI -20.39%"
     }
   },
   "post_match_review": {
