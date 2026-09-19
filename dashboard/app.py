@@ -116,7 +116,7 @@ d.metric("REALIZED P&L",money(pnl))
 e.metric("SETTLED TRADES",str(state.get("settled_orders",0)),f"{state.get('open_orders',0)} open")
 st.caption(f"Data source: {'GitHub main' if remote else 'Local repository'} · Screen time {now:%Y-%m-%d %H:%M:%S} UTC · Market/model freshness shown below. Screen refresh ≠ real-time exchange feed.")
 
-tabs=st.tabs(["◉ MARKET WATCH","▣ PAPER POSITIONS","⌁ ALPHA LAB","◷ PIT / CLV","⚑ RISK & DATA HEALTH"])
+tabs=st.tabs(["◉ MARKET WATCH","▣ PAPER POSITIONS","⌁ ALPHA LAB","⇄ ARB SCANNER","◷ PIT / CLV","⚑ RISK & DATA HEALTH"])
 
 with tabs[0]:
     st.subheader("All-fixture market scanner / 全赛程观察")
@@ -228,6 +228,48 @@ with tabs[2]:
     st.info("Proper calibration needs resolved predictions across ALL fixtures, including PASS. Event-level Brier/log loss must not be computed from selected wins alone.")
 
 with tabs[3]:
+    st.subheader("Cross-venue arbitrage / 跨平台价差")
+    st.caption("Screen only — NOT an executable arbitrage claim. Requires every mutually exclusive and exhaustive outcome, same settlement rule, fees, timestamp and fillable depth.")
+    groups={}
+    for o in observations:
+        if not (o.get("executable_verified") is True and o.get("settlement_rule") and
+                o.get("market_group_id") and o.get("outcome_id") and o.get("expected_outcomes")):
+            continue
+        if not o.get("quote_timestamp_utc") or not o.get("decimal_odds"):continue
+        try:
+            age=(now-datetime.fromisoformat(o["quote_timestamp_utc"].replace("Z","+00:00")).astimezone(timezone.utc)).total_seconds()
+            if not (0 <= age <= 30):continue
+            if float(o["decimal_odds"]) <= 1:continue
+        except (ValueError,TypeError,KeyError):continue
+        key=(o["market_group_id"],o["settlement_rule"])
+        groups.setdefault(key,[]).append(o)
+    arbs=[]
+    for (mid,rule),quotes in groups.items():
+        expected=set(str(i) for i in quotes[0].get("expected_outcomes",[]))
+        if not expected or any(set(str(i) for i in q.get("expected_outcomes",[]))!=expected for q in quotes):
+            continue
+        best={}
+        for q in quotes:
+            oid=str(q["outcome_id"])
+            if oid not in expected:continue
+            cost=1/float(q["decimal_odds"])+float(q.get("fee_per_dollar_payout",0))
+            if oid not in best or cost<best[oid][0]:best[oid]=(cost,q)
+        if set(best)!=expected:continue
+        sumcost=sum(v[0] for v in best.values())
+        if sumcost<1:
+            arbs.append({"Market":mid,"Settlement":rule,
+                         "All-in implied sum":round(sumcost,5),
+                         "Gross margin (before slippage)":round(1-sumcost,5),
+                         "Outcomes":", ".join(sorted(best)),
+                         "Venues":", ".join(str(best[x][1].get("quote_source","?")) for x in sorted(best)),
+                         "Caveat":"Check depth / partial fills / fees / venue payout and suspension"})
+    if arbs:
+        st.dataframe(pd.DataFrame(arbs),hide_index=True,use_container_width=True)
+    else:
+        st.info("No verified, fresh, complete cross-venue arb baskets. A disagreement in quotes alone is not guaranteed profit.")
+    st.warning("For Kalshi YES/NO and sportsbook ML, settlement definitions may differ (90 min vs extra time, voids, commission). Do not match incompatible contracts.")
+
+with tabs[4]:
     st.subheader("Point-in-time archive / Closing line")
     clv=D["clv"]
     st.caption("Latest PIT: "+stamp(D["pit"].get("updated_utc"))+
@@ -239,7 +281,7 @@ with tabs[3]:
     st.warning("LIVE CLV requires later executable quotes on the SAME event + SAME contract. A pre-match closing price cannot be compared with a post-goal live entry.")
     if clv.get("summary"):st.json(clv["summary"])
 
-with tabs[4]:
+with tabs[5]:
     st.subheader("Risk engine / Operational status")
     r1,r2,r3=st.columns(3)
     matchcap=float(account.get("maximum_exposure_per_match_usd",5000))
