@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "date": "2026-09-19",
   "review_scope": "Morning ET desk messages in this conversation; contemporaneous GitHub board picks empty, no frozen executable paper orders.",
-  "review_status": "PARTIAL_SAME_DAY",
+  "review_status": "EXPANDED_BUNDESLIGA_FT_AS_OF_2026-09-19_12_06_ET",
   "not_a_backtest": true,
   "not_paper_settlement": true,
   "matched_recommendations": [
@@ -156,6 +156,66 @@
     "Store prospectively all evaluated candidates including PASS with immutable pre-kickoff timestamp and source. Do not reconstruct quote/model outputs after seeing scores.",
     "Separate quality/depth prior from actual XI availability and tactic/transition vulnerability. Analyze elite-team upset and short-odds downside using pregame xG, lineup and style matchup, not final score hindsight.",
     "Do not tune coefficients to one match or label this a calibrated backtest; aggregate 300-500 genuinely frozen predictions across all fixtures and evaluate Brier/log loss, ROI and CLV.",
-    "Maintain explicit incomplete/no-quote/unknown results status and do not modify paper/signals.json, paper/results.json or confirmed real trade ledger from merely theoretical picks."
+    "Maintain explicit incomplete/no-quote/unknown results status and do not modify paper/signals.json, paper/results.json or confirmed real trade ledger from merely theoretical picks.",
+    "Live-game example: Bremen 0-2 Augsburg and 3-2 FT belongs in *retrospective hypothesis*; reconstructing a positive-EV hypothetical after the final is prohibited. Require frozen event state, quote age and conditional fair before paper execution.",
+    "All scheduled Bundesliga fixtures must appear in the fixture-universe review, even if there was no morning model/market recommendation. Clearly mark NO_DOCUMENTED_CALL instead of scoring them as predictions.",
+    "A low-scoring prior form streak must be decomposed into shot quality/volume, opponent class and finishing noise, as exemplified by Hamburg's first league win/goals. Do not fit coefficients to one upset."
+  ],
+  "bundesliga_matchday_review": [
+    {
+      "match": "Bayern Munich vs Union Berlin",
+      "date": "2026-09-18",
+      "result": "7-0",
+      "status": "FT",
+      "morning_desk_call": "NONE",
+      "learning": "Pre-existing depth/tier-gap research example only; not a Sep 19 morning recommendation.",
+      "source": "https://datencenter.dfb.de/en/competitions/12/seasons/current/current_matchweek"
+    },
+    {
+      "match": "Eintracht Frankfurt vs Freiburg",
+      "date": "2026-09-19",
+      "result": "2-2",
+      "status": "FT",
+      "morning_desk_call": "NONE",
+      "learning": "Both sides scored twice. Freiburg first non-win; review pre-match attacking strength and draw/totals pricing only if frozen historic quotes exist.",
+      "source": "https://profis.eintracht.de/news/flottes-remis-spielbericht-eintracht-freiburg-4-spieltag-179370/"
+    },
+    {
+      "match": "Borussia Mönchengladbach vs Mainz",
+      "date": "2026-09-19",
+      "result": "3-4",
+      "status": "FT",
+      "morning_desk_call": "NONE",
+      "learning": "Fragile defense and coaching transition are candidate context variables; do not assume every 7-goal match was predictable ex ante.",
+      "source": "https://www.welt.de/regionales/nrw/article6aaeac46556d2f0b574e9222/spektakulaeres-3-4-gladbach-verliert-auch-gegen-mainz.html"
+    },
+    {
+      "match": "Hamburger SV vs Köln",
+      "date": "2026-09-19",
+      "result": "2-1",
+      "status": "FT",
+      "morning_desk_call": "NONE",
+      "learning": "Hamburg won despite 0 goals, 0 points in prior three league matches; evaluate whether form-only model overstated persistent finishing weakness versus scoring chances/variance.",
+      "source": "https://www.welt.de/newsticker/dpa_nt/infoline_nt/sport_nt/article6aaeac82b1857e86757a76ba/freiburgs-siegesserie-reisst-erste-tore-und-punkte-fuer-hsv.html"
+    },
+    {
+      "match": "Werder Bremen vs Augsburg",
+      "date": "2026-09-19",
+      "result": "3-2",
+      "status": "FT",
+      "morning_desk_call": "NONE",
+      "learning": "Bremen came back after 0-2 at 58', scored 64', 86', 90+3'; study live comeback conditional fair with current on-field XI, remaining time, substitution and Augsburg game-state response. Do NOT infer an actual live paper fill or retroactive winning trade.",
+      "source": "https://www.welt.de/article6aaead36c8e0b1ae1ffedbf2"
+    },
+    {
+      "match": "Stuttgart vs Borussia Dortmund",
+      "date": "2026-09-19",
+      "kickoff_local": "12:30 ET / 18:30 CEST",
+      "result": null,
+      "status": "NOT_KICKED_OFF_AS_OF_REVIEW",
+      "morning_desk_call": "PASS_MISSING_EXECUTABLE_QUOTE",
+      "learning": "Do not fabricate FT or treat PASS as a paper order. T-1H quote/confirmed XI if obtainable.",
+      "source": "https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/4/vfb-stuttgart-vs-borussia-dortmund/liveticker"
+    }
   ]
 }
