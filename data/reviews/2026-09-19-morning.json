@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "date": "2026-09-19",
   "review_scope": "Morning ET desk messages in this conversation; contemporaneous GitHub board picks empty, no frozen executable paper orders.",
-  "review_status": "EXPANDED_BUNDESLIGA_FT_AS_OF_2026-09-19_12_06_ET",
+  "review_status": "EX_ANTE_RECOMMENDATION_RECONCILED_WITH_VERIFIED_SCORES",
   "not_a_backtest": true,
   "not_paper_settlement": true,
   "matched_recommendations": [
@@ -159,7 +159,9 @@
     "Maintain explicit incomplete/no-quote/unknown results status and do not modify paper/signals.json, paper/results.json or confirmed real trade ledger from merely theoretical picks.",
     "Live-game example: Bremen 0-2 Augsburg and 3-2 FT belongs in *retrospective hypothesis*; reconstructing a positive-EV hypothetical after the final is prohibited. Require frozen event state, quote age and conditional fair before paper execution.",
     "All scheduled Bundesliga fixtures must appear in the fixture-universe review, even if there was no morning model/market recommendation. Clearly mark NO_DOCUMENTED_CALL instead of scoring them as predictions.",
-    "A low-scoring prior form streak must be decomposed into shot quality/volume, opponent class and finishing noise, as exemplified by Hamburg's first league win/goals. Do not fit coefficients to one upset."
+    "A low-scoring prior form streak must be decomposed into shot quality/volume, opponent class and finishing noise, as exemplified by Hamburg's first league win/goals. Do not fit coefficients to one upset.",
+    "Research audit must look across overnight and T-1H assistant messages before classifying NO_DOCUMENTED_CALL; retain versioned odds, fair, stake and signal status as originally said. Do not silently erase winning calls when no actual paper fill exists.",
+    "Record hypothetical what-if P&L separately from actually booked paper P&L; show quote verification status, slippage/fees and priced-vs-unpriced leans."
   ],
   "bundesliga_matchday_review": [
     {
@@ -176,7 +178,7 @@
       "date": "2026-09-19",
       "result": "2-2",
       "status": "FT",
-      "morning_desk_call": "NONE",
+      "morning_desk_call": "T-1H O2.5 @1.60 / fair 70% / 0.50u: WIN",
       "learning": "Both sides scored twice. Freiburg first non-win; review pre-match attacking strength and draw/totals pricing only if frozen historic quotes exist.",
       "source": "https://profis.eintracht.de/news/flottes-remis-spielbericht-eintracht-freiburg-4-spieltag-179370/"
     },
@@ -185,7 +187,7 @@
       "date": "2026-09-19",
       "result": "3-4",
       "status": "FT",
-      "morning_desk_call": "NONE",
+      "morning_desk_call": "T-1H O2.5 @1.55 / fair 70% / 0.75u: WIN; Mainz ML lean unpriced",
       "learning": "Fragile defense and coaching transition are candidate context variables; do not assume every 7-goal match was predictable ex ante.",
       "source": "https://www.welt.de/regionales/nrw/article6aaeac46556d2f0b574e9222/spektakulaeres-3-4-gladbach-verliert-auch-gegen-mainz.html"
     },
@@ -194,7 +196,7 @@
       "date": "2026-09-19",
       "result": "2-1",
       "status": "FT",
-      "morning_desk_call": "NONE",
+      "morning_desk_call": "T-1H O2.5 @1.57 / fair 59% / negative EV: PASS",
       "learning": "Hamburg won despite 0 goals, 0 points in prior three league matches; evaluate whether form-only model overstated persistent finishing weakness versus scoring chances/variance.",
       "source": "https://www.welt.de/newsticker/dpa_nt/infoline_nt/sport_nt/article6aaeac82b1857e86757a76ba/freiburgs-siegesserie-reisst-erste-tore-und-punkte-fuer-hsv.html"
     },
@@ -203,7 +205,7 @@
       "date": "2026-09-19",
       "result": "3-2",
       "status": "FT",
-      "morning_desk_call": "NONE",
+      "morning_desk_call": "T-1H O2.5 @1.53 / fair 68% / 0.40u: WIN",
       "learning": "Bremen came back after 0-2 at 58', scored 64', 86', 90+3'; study live comeback conditional fair with current on-field XI, remaining time, substitution and Augsburg game-state response. Do NOT infer an actual live paper fill or retroactive winning trade.",
       "source": "https://www.welt.de/article6aaead36c8e0b1ae1ffedbf2"
     },
@@ -217,5 +219,94 @@
       "learning": "Do not fabricate FT or treat PASS as a paper order. T-1H quote/confirmed XI if obtainable.",
       "source": "https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/4/vfb-stuttgart-vs-borussia-dortmund/liveticker"
     }
-  ]
+  ],
+  "correction_to_previous_review": "Previous review incorrectly labeled all 9:30am ET Bundesliga games NO_DOCUMENTED_CALL. Prior assistant morning messages included T-1H Over 2.5 picks for Gladbach–Mainz, Frankfurt–Freiburg and Bremen–Augsburg; Hamburg–Köln had a pre-match Over mention but T-1H became a negative-EV PASS. Mainz win was a lean only, no executable ML odds/fair/stake. The actual paper order ledger remains empty.",
+  "hypothetical_ex_ante_t1h": [
+    {
+      "match": "Borussia Mönchengladbach vs Mainz",
+      "market": "Over 2.5 goals",
+      "final_score": "3-4",
+      "result": "WIN",
+      "odds": 1.55,
+      "fair": 0.7,
+      "stake_units": 0.75,
+      "stake_usd": 3750,
+      "profit_usd": 2062.5,
+      "estimated_ev": 0.085,
+      "decision": "A Core",
+      "quote_status": "assistant-reported T-1H quote; independent executable fill not verified"
+    },
+    {
+      "match": "Frankfurt vs Freiburg",
+      "market": "Over 2.5 goals",
+      "final_score": "2-2",
+      "result": "WIN",
+      "odds": 1.6,
+      "fair": 0.7,
+      "stake_units": 0.5,
+      "stake_usd": 2500,
+      "profit_usd": 1500,
+      "estimated_ev": 0.12,
+      "decision": "A",
+      "quote_status": "assistant-reported T-1H quote; independent executable fill not verified"
+    },
+    {
+      "match": "Bremen vs Augsburg",
+      "market": "Over 2.5 goals",
+      "final_score": "3-2",
+      "result": "WIN",
+      "odds": 1.53,
+      "fair": 0.68,
+      "stake_units": 0.4,
+      "stake_usd": 2000,
+      "profit_usd": 1060,
+      "estimated_ev": 0.0404,
+      "decision": "B+",
+      "quote_status": "assistant-reported T-1H quote; independent executable fill not verified"
+    },
+    {
+      "match": "Hamburg vs Köln",
+      "market": "Over 2.5 goals",
+      "final_score": "2-1",
+      "result": "WIN_IF_ENTERED",
+      "odds": 1.57,
+      "fair": 0.59,
+      "stake_units": 0,
+      "stake_usd": 0,
+      "profit_usd": 0,
+      "estimated_ev": -0.0737,
+      "decision": "T-1H PASS",
+      "quote_status": "assistant-reported T-1H quote; independent executable fill not verified",
+      "counterfactual_if_forced_one_unit_profit_usd": 2850
+    },
+    {
+      "match": "Borussia Mönchengladbach vs Mainz",
+      "market": "Mainz ML",
+      "final_score": "3-4",
+      "result": "WIN_IF_ENTERED",
+      "odds": null,
+      "fair": null,
+      "stake_units": 0,
+      "stake_usd": 0,
+      "profit_usd": null,
+      "estimated_ev": null,
+      "decision": "LEAN ONLY—NOT PRICED",
+      "quote_status": "No original logged T-1H ML odds/fair/stake; cannot quantify dollar P&L without inventing an entry",
+      "profit_formula": "stake_usd * (actual_entry_decimal_odds - 1)"
+    }
+  ],
+  "hypothetical_summary": {
+    "reference": "T-1H assistant recommendations, not overnight quotes",
+    "eligible_win_count": 3,
+    "eligible_loss_count": 0,
+    "hypothetical_stake_usd": 8250,
+    "hypothetical_net_pnl_usd": 4622.5,
+    "hypothetical_roi_on_stake": 0.5603030303030303,
+    "hypothetical_nav_if_executed_and_settled_usd": 1004622.5,
+    "actual_paper_nav_usd": 1000000,
+    "actual_paper_pnl_usd": 0,
+    "mainz_ml_excluded_unpriced": true,
+    "hamburg_over_excluded_pass": true,
+    "notes": "No commissions, slippage or liquidity adjustments; same-match Mainz ML + Over would share $5k cap. Not claimed as actual executable fills."
+  }
 }
