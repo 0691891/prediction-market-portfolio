@@ -16,8 +16,8 @@ from decimal import Decimal, InvalidOperation
 
 API = "https://external-api.kalshi.com"
 PREFIX = "/trade-api/v2"
-FOOTBALL = re.compile(r"(?i)\\b(soccer|premier league|la liga|serie a|bundesliga|ligue 1|champions league|europa league|carabao|fa cup|uefa|mls|world cup|epl|football match|futbol)\\b")
-SKIP = re.compile(r"(?i)\\b(nfl|nba|nhl|ncaa|super bowl|american football|college football)\\b")
+FOOTBALL = re.compile(r"(?i)\b(soccer|premier league|la liga|serie a|bundesliga|ligue 1|champions league|europa league|carabao|fa cup|uefa|mls|world cup|epl|football match|futbol)\b")
+SKIP = re.compile(r"(?i)\b(nfl|nba|nhl|ncaa|super bowl|american football|college football)\b")
 
 def _now():
     return dt.datetime.now(dt.timezone.utc).isoformat()
