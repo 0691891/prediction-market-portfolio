@@ -1,0 +1,12 @@
+{
+  "updated_utc": "2026-09-19T23:10:16.800317+00:00",
+  "target": 300,
+  "fixtures_with_signal": 0,
+  "new_signals": 0,
+  "settlements_available": 0,
+  "status": "NO_ODDS_API_KEY",
+  "provider_errors": {
+    "all": "ODDS_API_KEY missing"
+  },
+  "warning": "One per match is a market-baseline control, not trained residual alpha. Paper fills are simulated from observed quotes; no real-money orders. Historical records cannot be used as ex-ante xG/lineup/tactics features unless those features were frozen before kickoff."
+}
