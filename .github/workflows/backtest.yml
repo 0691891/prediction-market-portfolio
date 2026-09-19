@@ -1,6 +1,11 @@
-name: v0.3.3 Backtest & Calibration
+name: 500-Match Backtest & Calibration
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/backtest.py"
+      - ".github/workflows/backtest.yml"
   schedule:
     - cron: "35 6 * * 0"
 permissions:
@@ -13,14 +18,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Run no-lookahead walk-forward calibration
-        env:
-          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+      - name: Run 500-match public-data no-lookahead backtest
         run: python src/backtest.py
-      - name: Commit validated metrics
+      - name: Commit metrics
         run: |
           git config user.name "prediction-market-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/backtest.json data/calibrated_params.json
-          git diff --cached --quiet || git commit -m "model: refresh v0.3.3 backtest calibration"
+          git diff --cached --quiet || git commit -m "model: refresh 500-match holdout performance"
           git push
