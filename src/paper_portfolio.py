@@ -7,14 +7,14 @@ never reads or writes data/trades.json and never sends orders.
 import datetime as dt
 import json
 import math
+from european_coverage import COVERAGE
 import pathlib
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 PAPER = ROOT / "paper"
 GRADES = {"A": 0.75, "B": 0.5, "C": 0.25}
-LEAGUES = {"Premier League", "La Liga", "Serie A", "Bundesliga", "Ligue 1",
-           "UEFA Champions League", "UEFA Europa League", "EFL/Carabao Cup", "FA Cup"}
+LEAGUES = COVERAGE
 
 def load(name, default):
     p = PAPER / name
