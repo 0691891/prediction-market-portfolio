@@ -19,7 +19,7 @@ class KalshiResearchTests(unittest.TestCase):
                            "yes_ask_dollars":"0.44",
                            "last_price_dollars":"0.30","status":"open"},"2026-01-01T00:00:00Z","test")
         self.assertAlmostEqual(research.quote_for(m,"yes"),0.44)
-        self.assertAlmostEqual(research.quote_for(m,"no"),None) if False else None
+        self.assertIsNone(research.quote_for(m,"no"))
 
     def test_only_confirmed_binary_settlement_counts(self):
         self.assertIsNone(research.settlement({"status":"open","result":"yes"}))
