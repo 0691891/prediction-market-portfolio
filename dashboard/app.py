@@ -87,7 +87,10 @@ with st.sidebar:
     live_scores_enabled=st.toggle("Live scores / 全赛事比分",value=True)
     sportsbook_enabled=st.toggle("Sportsbook current quotes",value=True,
         help="Needs ODDS_API_KEY in Streamlit Secrets or environment. Quota applies.")
-    configured_key=st.secrets.get("ODDS_API_KEY") if "ODDS_API_KEY" in st.secrets else os.getenv("ODDS_API_KEY")
+    try:
+        configured_key=st.secrets.get("ODDS_API_KEY",os.getenv("ODDS_API_KEY"))
+    except (FileNotFoundError, OSError):
+        configured_key=os.getenv("ODDS_API_KEY")
     if sportsbook_enabled and not configured_key:
         st.warning("No ODDS_API_KEY — odds feed inactive. Never interpret GitHub snapshots as live prices.")
     st.divider()
@@ -346,6 +349,7 @@ with tabs[6]:
     st.progress(min(1,open_exposure/bookcap) if bookcap else 0)
     st.subheader("Upstream data & freshness")
     st.write("ESPN scoreboard: "+stamp(scores_at)+" | Odds provider: "+stamp(odds_at))
+    st.write("Current ESPN matches: "+str(len(score_rows))+" | Current sportsbook quotes: "+str(len(live_quotes)))
     for key,path in FILES.items():
         doc=D[key]
         ts=doc.get("updated_utc") or doc.get("updated")
