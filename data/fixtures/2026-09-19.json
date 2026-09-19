@@ -1,0 +1,269 @@
+{
+  "date": "2026-09-19",
+  "schema_version": "1.0",
+  "schedule_source": "https://www.mrgolazoo.com/fixtures/?date=2026-09-19",
+  "source_verified_asof_utc": "2026-09-19T16:38:00Z",
+  "coverage_total": 23,
+  "fixtures": [
+    {
+      "match_id": "schedule_20260919_01",
+      "competition": "Premier League",
+      "home_team": "Tottenham Hotspur",
+      "away_team": "Aston Villa",
+      "match": "Tottenham Hotspur vs Aston Villa",
+      "kickoff_utc": "2026-09-19T11:30:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_02",
+      "competition": "Premier League",
+      "home_team": "Brighton",
+      "away_team": "Arsenal",
+      "match": "Brighton vs Arsenal",
+      "kickoff_utc": "2026-09-19T14:00:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_03",
+      "competition": "Premier League",
+      "home_team": "Everton",
+      "away_team": "Ipswich Town",
+      "match": "Everton vs Ipswich Town",
+      "kickoff_utc": "2026-09-19T14:00:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_04",
+      "competition": "Premier League",
+      "home_team": "Newcastle United",
+      "away_team": "Hull City",
+      "match": "Newcastle United vs Hull City",
+      "kickoff_utc": "2026-09-19T14:00:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_05",
+      "competition": "Premier League",
+      "home_team": "Nottingham Forest",
+      "away_team": "Coventry City",
+      "match": "Nottingham Forest vs Coventry City",
+      "kickoff_utc": "2026-09-19T16:30:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_06",
+      "competition": "La Liga",
+      "home_team": "Osasuna",
+      "away_team": "Rayo Vallecano",
+      "match": "Osasuna vs Rayo Vallecano",
+      "kickoff_utc": "2026-09-19T12:00:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_07",
+      "competition": "La Liga",
+      "home_team": "Athletic Club",
+      "away_team": "Alaves",
+      "match": "Athletic Club vs Alaves",
+      "kickoff_utc": "2026-09-19T14:15:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_08",
+      "competition": "La Liga",
+      "home_team": "Celta Vigo",
+      "away_team": "Racing Santander",
+      "match": "Celta Vigo vs Racing Santander",
+      "kickoff_utc": "2026-09-19T16:30:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_09",
+      "competition": "La Liga",
+      "home_team": "Sevilla",
+      "away_team": "Barcelona",
+      "match": "Sevilla vs Barcelona",
+      "kickoff_utc": "2026-09-19T19:00:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_10",
+      "competition": "Serie A",
+      "home_team": "Bologna",
+      "away_team": "Torino",
+      "match": "Bologna vs Torino",
+      "kickoff_utc": "2026-09-19T13:00:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_11",
+      "competition": "Serie A",
+      "home_team": "Udinese",
+      "away_team": "Cagliari",
+      "match": "Udinese vs Cagliari",
+      "kickoff_utc": "2026-09-19T13:00:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_12",
+      "competition": "Serie A",
+      "home_team": "Roma",
+      "away_team": "Inter Milan",
+      "match": "Roma vs Inter Milan",
+      "kickoff_utc": "2026-09-19T16:00:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_13",
+      "competition": "Serie A",
+      "home_team": "Venezia",
+      "away_team": "Lazio",
+      "match": "Venezia vs Lazio",
+      "kickoff_utc": "2026-09-19T18:45:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_14",
+      "competition": "Bundesliga",
+      "home_team": "Borussia Mönchengladbach",
+      "away_team": "Mainz",
+      "match": "Borussia Mönchengladbach vs Mainz",
+      "kickoff_utc": "2026-09-19T13:30:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_15",
+      "competition": "Bundesliga",
+      "home_team": "Eintracht Frankfurt",
+      "away_team": "Freiburg",
+      "match": "Eintracht Frankfurt vs Freiburg",
+      "kickoff_utc": "2026-09-19T13:30:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_16",
+      "competition": "Bundesliga",
+      "home_team": "Hamburger SV",
+      "away_team": "Köln",
+      "match": "Hamburger SV vs Köln",
+      "kickoff_utc": "2026-09-19T13:30:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_17",
+      "competition": "Bundesliga",
+      "home_team": "Werder Bremen",
+      "away_team": "Augsburg",
+      "match": "Werder Bremen vs Augsburg",
+      "kickoff_utc": "2026-09-19T13:30:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_18",
+      "competition": "Bundesliga",
+      "home_team": "Stuttgart",
+      "away_team": "Borussia Dortmund",
+      "match": "Stuttgart vs Borussia Dortmund",
+      "kickoff_utc": "2026-09-19T16:30:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_19",
+      "competition": "Ligue 1",
+      "home_team": "Paris FC",
+      "away_team": "Strasbourg",
+      "match": "Paris FC vs Strasbourg",
+      "kickoff_utc": "2026-09-19T15:15:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_20",
+      "competition": "Ligue 1",
+      "home_team": "Le Mans",
+      "away_team": "Lorient",
+      "match": "Le Mans vs Lorient",
+      "kickoff_utc": "2026-09-19T18:45:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_21",
+      "competition": "Ligue 1",
+      "home_team": "Angers",
+      "away_team": "Troyes",
+      "match": "Angers vs Troyes",
+      "kickoff_utc": "2026-09-19T18:45:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_22",
+      "competition": "Ligue 1",
+      "home_team": "Toulouse",
+      "away_team": "Le Havre",
+      "match": "Toulouse vs Le Havre",
+      "kickoff_utc": "2026-09-19T18:45:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    },
+    {
+      "match_id": "schedule_20260919_23",
+      "competition": "Ligue 1",
+      "home_team": "Lyon",
+      "away_team": "Rennes",
+      "match": "Lyon vs Rennes",
+      "kickoff_utc": "2026-09-19T18:45:00Z",
+      "quote_status": "NOT_VERIFIED",
+      "model_fair_status": "NOT_GENERATED_FROM_FROZEN_FEATURES",
+      "paper_trade_status": "NO_VERIFIED_FILL"
+    }
+  ],
+  "competitions_with_no_fixtures": [
+    "UEFA Champions League",
+    "UEFA Europa League",
+    "EFL/Carabao Cup",
+    "FA Cup"
+  ],
+  "note": "Fixture IDs are temporary deterministic schedule IDs; map provider-native IDs before merging independently supplied API feeds. Kickoff schedule only: this file does not imply match results or pre-kickoff model forecasts."
+}
