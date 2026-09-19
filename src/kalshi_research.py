@@ -193,6 +193,14 @@ def main():
         entry=timeparse(o.get("quote_timestamp_utc"));kickoff=timeparse(o.get("kickoff_utc"))
         price=val(o.get("entry_ask_usd")); stake=val(o.get("stake_usd"))
         if not entry or not kickoff or entry>=kickoff or price is None or not 0<price<1 or not stake or stake<=0:continue
+        # Do not book a retrospective hypothetical without its original, immutable
+        # exchange quote in the pre-match PIT archive at the claimed entry time.
+        matched=any(z.get("ticker")==ticker and z.get("side")==side
+                    and timeparse(z.get("fetched_utc"))==entry
+                    and z.get("entry_ask_usd") is not None
+                    and abs(float(z["entry_ask_usd"])-price)<0.000001
+                    and z.get("prematch") is True for z in timeline)
+        if not matched:continue
         if o.get("contract_verified") is not True or o.get("fair_is_mapped_side") is not True:continue
         settled=r["settlement_outcome"]; win=side==settled
         fee=val(o.get("fees_usd"))
