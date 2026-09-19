@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "mode": "PAPER_ONLY",
+  "created_utc": "2026-09-19T15:22:00Z",
+  "initial_capital_usd": 1000000,
+  "unit_usd": 5000,
+  "maximum_exposure_per_match_usd": 5000,
+  "maximum_total_open_exposure_usd": 50000,
+  "starting_cash_usd": 1000000,
+  "base_currency": "USD",
+  "virtual_trades": [],
+  "settlements": [],
+  "fixture_observations": [],
+  "note": "Paper account starts empty; historical actual trades do not become paper fills."
+}
