@@ -1,7 +1,18 @@
 {
-  "updated_utc": null,
-  "status": "NOT_RUN",
-  "params": null,
-  "active": false,
-  "minimum_holdout_for_activation": 500
+  "updated_utc": "2026-09-19T22:13:29.968767+00:00",
+  "status": "VALIDATED_500",
+  "source": "500-match public-data holdout",
+  "params": {
+    "recent_half_life_days": 120,
+    "shrinkage_matches": 4,
+    "home_advantage_log": 0.08
+  },
+  "holdout": {
+    "n": 500,
+    "log_loss": 0.99993,
+    "brier": 0.59641,
+    "accuracy": 0.52
+  },
+  "minimum_holdout_for_activation": 500,
+  "active": true
 }
