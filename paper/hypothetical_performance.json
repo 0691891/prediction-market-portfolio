@@ -1,0 +1,12 @@
+{
+  "hypothetical_nav_reference_usd": 1000000,
+  "hypothetical_pnl_usd": 0,
+  "hypothetical_roi": null,
+  "initial_virtual_reference_usd": 1000000,
+  "mode": "WHAT_IF_RESEARCH_ONLY_NOT_PAPER_FILLS",
+  "note": "Only prospectively stored priced signals. Ex-ante conversation reviews remain a separate legacy audit. Paper/account and paper/state unchanged.",
+  "sample_size": 0,
+  "schema_version": "1.0",
+  "settled_stake_usd": 0,
+  "trades": []
+}
