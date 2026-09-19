@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-19",
+  "timezone": "America/New_York",
+  "mode": "WHAT_IF_FACTOR_ATTRIBUTION_NOT_CAUSAL_NOT_ACTUAL_FILL",
+  "source_review": "data/reviews/2026-09-19-morning.json",
+  "methodology": {
+    "entry_edge_pp": "model_fair_probability - market_break_even_probability",
+    "factor_ev_usd": "stake_usd * decimal_odds * factor_probability_contribution",
+    "realized_pnl_factor_attribution_usd": "realized_trade_pnl_usd * factor_probability_contribution / total_positive_edge_pp",
+    "warning": "Factor P&L is attribution, not proof that a factor caused the realized win. Realized match P&L is binary and cannot be causally decomposed from one result. Use this to audit model thinking and sizing, not to overfit."
+  },
+  "summary": {
+    "trade_count": 3,
+    "wins": 3,
+    "losses": 0,
+    "settled_stake_usd": 8250.0,
+    "realized_whatif_pnl_usd": 4622.5,
+    "ex_ante_model_ev_usd": 699.55,
+    "roi_on_stake": 0.5603030303,
+    "whatif_nav_usd": 1004622.5,
+    "actual_paper_nav_usd": 1000000.0,
+    "actual_verified_fills": 0
+  },
+  "trades": [
+    {
+      "match": "Borussia Mönchengladbach vs Mainz",
+      "short_match": "Gladbach–Mainz",
+      "competition": "Bundesliga",
+      "market": "Over 2.5 goals",
+      "decimal_odds": 1.55,
+      "market_break_even_probability": 0.6451612903,
+      "model_fair_probability": 0.70,
+      "total_edge_pp": 0.0548387097,
+      "stake_usd": 3750.0,
+      "result": "WIN",
+      "realized_whatif_pnl_usd": 2062.5,
+      "ex_ante_model_ev_usd": 318.75,
+      "factor_rows": [
+        {"factor": "Defensive fragility / 两队防线脆弱", "probability_contribution_pp": 0.0200000000, "cumulative_fair_after_factor": 0.6651612903, "cumulative_fair_odds_after_factor": 1.5033947624, "factor_ev_usd": 116.25, "realized_pnl_factor_attribution_usd": 752.21},
+        {"factor": "Tempo & transition / 节奏转换", "probability_contribution_pp": 0.0150000000, "cumulative_fair_after_factor": 0.6801612903, "cumulative_fair_odds_after_factor": 1.4702398564, "factor_ev_usd": 87.19, "realized_pnl_factor_attribution_usd": 564.15},
+        {"factor": "Shot volume / 射门量", "probability_contribution_pp": 0.0100000000, "cumulative_fair_after_factor": 0.6901612903, "cumulative_fair_odds_after_factor": 1.4489361013, "factor_ev_usd": 58.13, "realized_pnl_factor_attribution_usd": 376.10},
+        {"factor": "Lineup-coach risk / 阵容教练变量", "probability_contribution_pp": 0.0050000000, "cumulative_fair_after_factor": 0.6951612903, "cumulative_fair_odds_after_factor": 1.4385150812, "factor_ev_usd": 29.06, "realized_pnl_factor_attribution_usd": 188.05},
+        {"factor": "Market price gap / 盘口错价", "probability_contribution_pp": 0.0048387097, "cumulative_fair_after_factor": 0.7000000000, "cumulative_fair_odds_after_factor": 1.4285714286, "factor_ev_usd": 28.12, "realized_pnl_factor_attribution_usd": 181.99}
+      ]
+    },
+    {
+      "match": "Eintracht Frankfurt vs Freiburg",
+      "short_match": "Frankfurt–Freiburg",
+      "competition": "Bundesliga",
+      "market": "Over 2.5 goals",
+      "decimal_odds": 1.60,
+      "market_break_even_probability": 0.6250000000,
+      "model_fair_probability": 0.70,
+      "total_edge_pp": 0.0750000000,
+      "stake_usd": 2500.0,
+      "result": "WIN",
+      "realized_whatif_pnl_usd": 1500.0,
+      "ex_ante_model_ev_usd": 300.0,
+      "factor_rows": [
+        {"factor": "Attack quality / 进攻质量", "probability_contribution_pp": 0.0250000000, "cumulative_fair_after_factor": 0.6500000000, "cumulative_fair_odds_after_factor": 1.5384615385, "factor_ev_usd": 100.00, "realized_pnl_factor_attribution_usd": 500.00},
+        {"factor": "BTTS overlap / 双方进球相关", "probability_contribution_pp": 0.0200000000, "cumulative_fair_after_factor": 0.6700000000, "cumulative_fair_odds_after_factor": 1.4925373134, "factor_ev_usd": 80.00, "realized_pnl_factor_attribution_usd": 400.00},
+        {"factor": "Game-state pace / 比赛状态节奏", "probability_contribution_pp": 0.0150000000, "cumulative_fair_after_factor": 0.6850000000, "cumulative_fair_odds_after_factor": 1.4598540146, "factor_ev_usd": 60.00, "realized_pnl_factor_attribution_usd": 300.00},
+        {"factor": "Defensive concessions / 防守让机会", "probability_contribution_pp": 0.0100000000, "cumulative_fair_after_factor": 0.6950000000, "cumulative_fair_odds_after_factor": 1.4388489209, "factor_ev_usd": 40.00, "realized_pnl_factor_attribution_usd": 200.00},
+        {"factor": "Market price gap / 盘口错价", "probability_contribution_pp": 0.0050000000, "cumulative_fair_after_factor": 0.7000000000, "cumulative_fair_odds_after_factor": 1.4285714286, "factor_ev_usd": 20.00, "realized_pnl_factor_attribution_usd": 100.00}
+      ]
+    },
+    {
+      "match": "Werder Bremen vs Augsburg",
+      "short_match": "Bremen–Augsburg",
+      "competition": "Bundesliga",
+      "market": "Over 2.5 goals",
+      "decimal_odds": 1.53,
+      "market_break_even_probability": 0.6535947712,
+      "model_fair_probability": 0.68,
+      "total_edge_pp": 0.0264052288,
+      "stake_usd": 2000.0,
+      "result": "WIN",
+      "realized_whatif_pnl_usd": 1060.0,
+      "ex_ante_model_ev_usd": 80.80,
+      "factor_rows": [
+        {"factor": "Defensive fragility / 防线脆弱", "probability_contribution_pp": 0.0090000000, "cumulative_fair_after_factor": 0.6625947712, "cumulative_fair_odds_after_factor": 1.5092143625, "factor_ev_usd": 27.54, "realized_pnl_factor_attribution_usd": 361.29},
+        {"factor": "Open-game tendency / 开放比赛倾向", "probability_contribution_pp": 0.0070000000, "cumulative_fair_after_factor": 0.6695947712, "cumulative_fair_odds_after_factor": 1.4934404707, "factor_ev_usd": 21.42, "realized_pnl_factor_attribution_usd": 281.00},
+        {"factor": "Set-piece/chaos / 定位球混乱", "probability_contribution_pp": 0.0050000000, "cumulative_fair_after_factor": 0.6745947712, "cumulative_fair_odds_after_factor": 1.4823707724, "factor_ev_usd": 15.30, "realized_pnl_factor_attribution_usd": 200.72},
+        {"factor": "Substitution depth / 换人深度", "probability_contribution_pp": 0.0030000000, "cumulative_fair_after_factor": 0.6775947712, "cumulative_fair_odds_after_factor": 1.4758081084, "factor_ev_usd": 9.18, "realized_pnl_factor_attribution_usd": 120.43},
+        {"factor": "Market price gap / 盘口错价", "probability_contribution_pp": 0.0024052288, "cumulative_fair_after_factor": 0.6800000000, "cumulative_fair_odds_after_factor": 1.4705882353, "factor_ev_usd": 7.36, "realized_pnl_factor_attribution_usd": 96.55}
+      ]
+    }
+  ]
+}
