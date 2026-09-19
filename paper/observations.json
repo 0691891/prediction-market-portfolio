@@ -30,7 +30,7 @@
       "match": "Lyon vs Rennes",
       "home_team": "Lyon",
       "away_team": "Rennes",
-      "kickoff_utc": "2026-09-19T20:00:00Z",
+      "kickoff_utc": "2026-09-19T18:45:00Z",
       "market": "1x2 / totals / btts / handicap",
       "selection": null,
       "entry_phase": "PREMATCH",
@@ -41,8 +41,8 @@
       "stake_usd": 0,
       "quote_timestamp_utc": null,
       "model_version": null,
-      "source_url": "https://bleacherreport.com/game/olympique-lyonnais-vs-stade-rennais-fc-2026-9-19-20-00",
-      "notes": "Time shown by game listing 20:00 UTC / 16:00 ET; pending independent official confirmation and kickoff XI."
+      "source_url": "https://www.lequipe.fr/Football/match-direct/ligue-1/2026-2027/lyon-rennes-preview/690298",
+      "notes": "Kickoff corrected to 20:45 CEST =14:45 ET from L'Equipe and Rennes official team news; previous third-party schedule said 20:00 UTC. No actual quote/fair frozen."
     },
     {
       "observation_id": "20260919-stuttgart-dortmund-no-retro-price",
