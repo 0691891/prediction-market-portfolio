@@ -17,7 +17,7 @@
     "match_cap": "≤1u"
   },
   "data_engine": {
-    "mode": "paper_and_approval",
+    "mode": "paper_prematch_only",
     "min_edge_pp": 0.04,
     "min_ev": 0.05,
     "min_liquidity_usd": 100,
@@ -163,6 +163,24 @@
         "lineup shock"
       ],
       "note": "B-class Core Parlay: each leg must have Market Probability >=55% and My Fair >= Market +3pp; 65%-82% Market Probability is preferred, not mandatory. Two-leg combo My Fair must be >=40%. Use different matches and prefer low correlation. Exclude any leg with unresolved rotation uncertainty, motivation uncertainty, or lineup shock. High market probability alone is not alpha."
+    },
+    "live_trading_enabled": false,
+    "entry_allowed_phases": [
+      "PREMATCH"
+    ],
+    "research_horizons": [
+      "EARLY",
+      "T-24H",
+      "T-6H",
+      "T-1H",
+      "CLOSE"
+    ],
+    "settlement_mode": "verified_90_minute_after_full_time",
+    "what_if": {
+      "enabled": true,
+      "separate_from_paper_state": true,
+      "include_pass_and_unpriced_leans": true,
+      "only_original_timestamped_quotes": true
     }
   },
   "post_match_review": {
