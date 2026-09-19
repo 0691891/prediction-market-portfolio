@@ -56,7 +56,8 @@ def run():
         try:
             if s.get("competition") not in LEAGUES: raise ValueError("unsupported league")
             if s.get("paper_eligible") is False: raise ValueError("explicitly paper-ineligible")
-            if s.get("lineup_status") == "UNCONFIRMED" and s.get("lineup_uncertainty_resolved") is not True:
+            research = s.get("cohort") == "ALL_MATCHES_300_RESEARCH" and s.get("model_version") == "v0.5-market-baseline-control"
+            if s.get("lineup_status") == "UNCONFIRMED" and not research and s.get("lineup_uncertainty_resolved") is not True:
                 raise ValueError("unresolved lineup uncertainty")
             if any(flag in str(s.get("risk_flags", [])).lower() for flag in
                    ("unresolved rotation", "unresolved motivation", "lineup shock")):
@@ -79,8 +80,8 @@ def run():
                 raise ValueError("invalid odds, fair or stake")
             if stake > GRADES[grade] * unit + 0.001: raise ValueError("grade stake cap")
             net_ev = fair * odds - 1 - float(s.get("fees_usd", 0)) / stake
-            if net_ev <= 0: raise ValueError("nonpositive net EV")
-            if net_ev < float(s.get("min_net_ev", 0.05)): raise ValueError("net EV below paper entry threshold")
+            if not research and net_ev <= 0: raise ValueError("nonpositive net EV")
+            if not research and net_ev < float(s.get("min_net_ev", 0.05)): raise ValueError("net EV below paper entry threshold")
             if s.get("liquidity_usd") is not None and float(s["liquidity_usd"]) < stake:
                 raise ValueError("insufficient quoted liquidity")
             open_rows = [t for t in trades.values() if t["status"] == "OPEN"]
@@ -105,6 +106,8 @@ def run():
             "fair_probability_at_entry": fair, "decimal_odds": odds, "stake_usd": stake,
             "entry_ev": round(fair * odds - 1, 6), "entry_net_ev": round(net_ev, 6), "grade": grade,
             "scenario": s["scenario"], "entry_phase": entry_phase,
+            "cohort": s.get("cohort", "ALPHA_CANDIDATE"),
+            "entry_reason": s.get("entry_reason"),
             "live_entry_state": ({k: s.get(k) for k in
                 ("event_state_timestamp_utc", "home_score", "away_score",
                  "match_minute", "home_red_cards", "away_red_cards",
