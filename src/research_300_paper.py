@@ -20,7 +20,7 @@ def norm(s):return re.sub(r"[^a-z0-9]","",str(s).lower())
 def main():
  now=dt.datetime.now(dt.timezone.utc)
  key=os.getenv("ODDS_API_KEY")
- rows,errors,fetched=odds(key,markets if False else "us,uk,eu")
+ rows,errors,fetched=odds(key,"us,uk,eu")
  signals=read("signals.json",{"signals":[]})
  existing={s["match_id"] for s in signals["signals"] if s.get("cohort")=="ALL_MATCHES_300_RESEARCH"}
  state=read("state.json",{"trades":[]})
