@@ -62,33 +62,10 @@ def run():
                 raise ValueError("unresolved risk gate")
             kickoff, quote = utc(s["kickoff_utc"]), utc(s["quote_timestamp_utc"])
             entry_phase = s.get("entry_phase", "PREMATCH")
-            if entry_phase == "PREMATCH":
-                if quote >= kickoff: raise ValueError("prematch quote was not pre-kickoff")
-            elif entry_phase == "LIVE":
-                if quote < kickoff: raise ValueError("live quote was pre-kickoff")
-                if s.get("market_status") != "OPEN": raise ValueError("live market suspended or not open")
-                if s.get("event_state_verified") is not True: raise ValueError("live event state not verified")
-                if s.get("quote_executable_verified") is not True: raise ValueError("live quote not executable")
-                if s.get("independent_live_fair_verified") is not True: raise ValueError("conditional live fair not verified")
-                if s.get("in_play_final_whistle") is True: raise ValueError("game ended")
-                for key in ("event_state_timestamp_utc", "home_score", "away_score",
-                            "match_minute", "home_red_cards", "away_red_cards",
-                            "live_fair_method", "score_source"):
-                    if s.get(key) is None: raise ValueError("missing live " + key)
-                event_time = utc(s["event_state_timestamp_utc"])
-                if quote < event_time: raise ValueError("quote predates verified event state")
-                if (quote - event_time).total_seconds() > 30:
-                    raise ValueError("stale live event state")
-                if s.get("quote_age_seconds") is None or not (0 <= float(s["quote_age_seconds"]) <= 15):
-                    raise ValueError("live quote stale or quote age unverified")
-                if not (0 <= float(s["match_minute"]) <= 130):
-                    raise ValueError("invalid match minute")
-                if any(int(s[k]) < 0 for k in ("home_score", "away_score", "home_red_cards", "away_red_cards")):
-                    raise ValueError("invalid score/card counts")
-                if s.get("market_suspension_pending") is not False:
-                    raise ValueError("possible market suspension")
-            else:
-                raise ValueError("invalid entry phase")
+            if entry_phase != "PREMATCH":
+                raise ValueError("in-play paper trading disabled: prematch-only research mode")
+            if quote >= kickoff:
+                raise ValueError("prematch quote was not pre-kickoff")
             for key in ("match_id", "match", "market", "selection", "market_id",
                         "quote_source", "quote_url", "model_version", "scenario"):
                 if not s.get(key): raise ValueError("missing " + key)
@@ -101,8 +78,6 @@ def run():
                 raise ValueError("invalid odds, fair or stake")
             if stake > GRADES[grade] * unit + 0.001: raise ValueError("grade stake cap")
             if fair * odds <= 1: raise ValueError("nonpositive EV")
-            if entry_phase == "LIVE" and not s.get("live_fair_uncertainty_reviewed"):
-                raise ValueError("live fair uncertainty not reviewed")
             if s.get("liquidity_usd") is not None and float(s["liquidity_usd"]) < stake:
                 raise ValueError("insufficient quoted liquidity")
             open_rows = [t for t in trades.values() if t["status"] == "OPEN"]
