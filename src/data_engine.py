@@ -48,7 +48,7 @@ def main():
                 edge>=gate["min_edge_pp"] and ev>=gate["min_ev"] and
                 (liq is None or liq>=gate["min_liquidity_usd"]) and consensus_ok)
         status="READY FOR APPROVAL" if passes else ("NEEDS TICKER MAP" if not mapped else ("MODEL/CONSENSUS REVIEW" if not consensus_ok else "WATCH / FAILS GATE"))
-        items.append({"signal":f'{p["match"]} — {p["market"]}',"grade":p["grade"],"suggested_units":p["max_units"] if passes else 0,"max_entry":f'Edge≥{gate["min_edge_pp"]:.0%}, EV≥{gate["min_ev"]:.0%}',"kalshi_ticker":ticker,"sportsbook_consensus":c.get("consensus_probability"),"model_vs_consensus_pp":gap,"status":status})
+        items.append({"signal":f'{p["match"]} — {p["market"]}',"grade":p.get("grade","UNKNOWN"),"suggested_units":p.get("max_units",0) if passes else 0,"max_entry":f'Edge≥{gate["min_edge_pp"]:.0%}, EV≥{gate["min_ev"]:.0%}',"kalshi_ticker":ticker,"sportsbook_consensus":c.get("consensus_probability"),"model_vs_consensus_pp":gap,"status":status})
         snap.append(q)
     now=datetime.datetime.now(datetime.timezone.utc).isoformat()
     write("market_snapshot.json",{"updated_utc":now,"markets":snap})
