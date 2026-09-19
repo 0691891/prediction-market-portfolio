@@ -1,0 +1,226 @@
+{
+  "updated_utc": "2026-09-19T22:54:28.734455+00:00",
+  "status": "COMPLETED_500_PROXY",
+  "version": "v0.4 market-prior + goal-model residual PROXY",
+  "warning": "Not the full factor model: no point-in-time xG, lineup, injuries, tactics, human factors or true executable T-1H quotes.",
+  "method": "Train-only weight selection on 2024/25; first 100 games per league 2025/26 holdout; same-day results excluded; closing odds used as retrospective baseline and proxy execution.",
+  "train_matches": 1594,
+  "holdout_matches": 500,
+  "weight_grid": [
+    {
+      "football_weight": 0,
+      "n": 1594,
+      "log_loss": 0.96197,
+      "brier": 0.57126,
+      "accuracy": 0.54642
+    },
+    {
+      "football_weight": 0.05,
+      "n": 1594,
+      "log_loss": 0.96263,
+      "brier": 0.57168,
+      "accuracy": 0.5458
+    },
+    {
+      "football_weight": 0.1,
+      "n": 1594,
+      "log_loss": 0.9634,
+      "brier": 0.57218,
+      "accuracy": 0.54454
+    },
+    {
+      "football_weight": 0.15,
+      "n": 1594,
+      "log_loss": 0.9643,
+      "brier": 0.57276,
+      "accuracy": 0.54454
+    },
+    {
+      "football_weight": 0.2,
+      "n": 1594,
+      "log_loss": 0.96533,
+      "brier": 0.57343,
+      "accuracy": 0.53952
+    },
+    {
+      "football_weight": 0.3,
+      "n": 1594,
+      "log_loss": 0.96776,
+      "brier": 0.57504,
+      "accuracy": 0.53952
+    },
+    {
+      "football_weight": 0.4,
+      "n": 1594,
+      "log_loss": 0.9707,
+      "brier": 0.57702,
+      "accuracy": 0.53576
+    },
+    {
+      "football_weight": 0.5,
+      "n": 1594,
+      "log_loss": 0.97417,
+      "brier": 0.57937,
+      "accuracy": 0.53325
+    },
+    {
+      "football_weight": 0.65,
+      "n": 1594,
+      "log_loss": 0.98038,
+      "brier": 0.58364,
+      "accuracy": 0.52823
+    },
+    {
+      "football_weight": 0.8,
+      "n": 1594,
+      "log_loss": 0.98781,
+      "brier": 0.5888,
+      "accuracy": 0.52384
+    },
+    {
+      "football_weight": 1,
+      "n": 1594,
+      "log_loss": 0.99967,
+      "brier": 0.5971,
+      "accuracy": 0.51443
+    }
+  ],
+  "selected_football_residual_weight": 0,
+  "market_baseline": {
+    "n": 500,
+    "log_loss": 0.9627,
+    "brier": 0.57188,
+    "accuracy": 0.53
+  },
+  "pure_football_model": {
+    "n": 500,
+    "log_loss": 0.99992,
+    "brier": 0.5964,
+    "accuracy": 0.52
+  },
+  "market_anchored_proxy": {
+    "n": 500,
+    "log_loss": 0.9627,
+    "brier": 0.57188,
+    "accuracy": 0.53
+  },
+  "paper_rule": "One highest conservative EV 1X2 pick per match, only if (fair - 3pp)*closing_odds - 1 >= 5%; flat $100, no fees/slippage.",
+  "paper": {
+    "trades": 0,
+    "wins": 0,
+    "pnl_usd": 0,
+    "stake_usd": 0,
+    "roi": null
+  },
+  "per_competition": [
+    {
+      "league": "Premier League",
+      "holdout": {
+        "n": 100,
+        "log_loss": 0.96745,
+        "brier": 0.5733,
+        "accuracy": 0.54
+      },
+      "paper": {
+        "trades": 0,
+        "wins": 0,
+        "pnl_usd": 0,
+        "stake_usd": 0,
+        "roi": null
+      }
+    },
+    {
+      "league": "La Liga",
+      "holdout": {
+        "n": 100,
+        "log_loss": 0.97697,
+        "brier": 0.58171,
+        "accuracy": 0.51
+      },
+      "paper": {
+        "trades": 0,
+        "wins": 0,
+        "pnl_usd": 0,
+        "stake_usd": 0,
+        "roi": null
+      }
+    },
+    {
+      "league": "Serie A",
+      "holdout": {
+        "n": 100,
+        "log_loss": 1.00769,
+        "brier": 0.60403,
+        "accuracy": 0.49
+      },
+      "paper": {
+        "trades": 0,
+        "wins": 0,
+        "pnl_usd": 0,
+        "stake_usd": 0,
+        "roi": null
+      }
+    },
+    {
+      "league": "Bundesliga",
+      "holdout": {
+        "n": 100,
+        "log_loss": 0.91461,
+        "brier": 0.53811,
+        "accuracy": 0.6
+      },
+      "paper": {
+        "trades": 0,
+        "wins": 0,
+        "pnl_usd": 0,
+        "stake_usd": 0,
+        "roi": null
+      }
+    },
+    {
+      "league": "Ligue 1",
+      "holdout": {
+        "n": 100,
+        "log_loss": 0.94679,
+        "brier": 0.56227,
+        "accuracy": 0.51
+      },
+      "paper": {
+        "trades": 0,
+        "wins": 0,
+        "pnl_usd": 0,
+        "stake_usd": 0,
+        "roi": null
+      }
+    }
+  ],
+  "trade_log": [],
+  "sources": {
+    "E0": {
+      "train": "https://www.football-data.co.uk/mmz4281/2425/E0.csv",
+      "holdout": "https://www.football-data.co.uk/mmz4281/2526/E0.csv"
+    },
+    "SP1": {
+      "train": "https://www.football-data.co.uk/mmz4281/2425/SP1.csv",
+      "holdout": "https://www.football-data.co.uk/mmz4281/2526/SP1.csv"
+    },
+    "I1": {
+      "train": "https://www.football-data.co.uk/mmz4281/2425/I1.csv",
+      "holdout": "https://www.football-data.co.uk/mmz4281/2526/I1.csv"
+    },
+    "D1": {
+      "train": "https://www.football-data.co.uk/mmz4281/2425/D1.csv",
+      "holdout": "https://www.football-data.co.uk/mmz4281/2526/D1.csv"
+    },
+    "F1": {
+      "train": "https://www.football-data.co.uk/mmz4281/2425/F1.csv",
+      "holdout": "https://www.football-data.co.uk/mmz4281/2526/F1.csv"
+    }
+  },
+  "limitations": [
+    "Closing odds cannot represent a verified earlier T-1H fill; this is a close-price proxy.",
+    "Train weight optimized for log loss, not holdout ROI.",
+    "No fee, slippage or market capacity modeled; 500 games do not prove alpha.",
+    "Full football factor weights remain unfitted; no automatic activation of v0.4 trading."
+  ]
+}

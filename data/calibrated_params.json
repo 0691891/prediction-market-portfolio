@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-19T22:13:29.968767+00:00",
+  "updated_utc": "2026-09-19T22:53:47.932026+00:00",
   "status": "VALIDATED_500",
   "source": "500-match public-data holdout",
   "params": {
@@ -9,8 +9,8 @@
   },
   "holdout": {
     "n": 500,
-    "log_loss": 0.99993,
-    "brier": 0.59641,
+    "log_loss": 0.99992,
+    "brier": 0.5964,
     "accuracy": 0.52
   },
   "minimum_holdout_for_activation": 500,
