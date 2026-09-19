@@ -32,6 +32,7 @@ FILES = {
     "sportsbook": "data/sportsbook_consensus.json",
     "pit": "data/pit/latest.json",
     "clv": "data/clv.json",
+    "morning_review": "data/reviews/2026-09-19-morning.json",
 }
 st.set_page_config(page_title="Football Alpha Terminal | PAPER", page_icon="⚽",
                    layout="wide", initial_sidebar_state="expanded")
@@ -140,7 +141,7 @@ d.metric("REALIZED P&L",money(pnl))
 e.metric("SETTLED TRADES",str(state.get("settled_orders",0)),f"{state.get('open_orders',0)} open")
 st.caption(f"Data source: {'GitHub main' if remote else 'Local repository'} · Screen time {now:%Y-%m-%d %H:%M:%S} UTC · Market/model freshness shown below. Screen refresh ≠ real-time exchange feed.")
 
-tabs=st.tabs(["● LIVE SCORES","◉ MARKET WATCH","▣ PAPER POSITIONS","⌁ ALPHA LAB","⇄ ARB SCANNER","◷ PIT / CLV","⚑ RISK & DATA HEALTH"])
+tabs=st.tabs(["● LIVE SCORES","◉ MARKET WATCH","▣ PAPER POSITIONS","⌁ ALPHA LAB","✓ MATCH REVIEW","⇄ ARB SCANNER","◷ PIT / CLV","⚑ RISK & DATA HEALTH"])
 
 with tabs[0]:
     st.subheader("Live scoreboard / 今日全赛事")
@@ -285,6 +286,27 @@ with tabs[3]:
     st.info("Proper calibration needs resolved predictions across ALL fixtures, including PASS. Event-level Brier/log loss must not be computed from selected wins alone.")
 
 with tabs[4]:
+    st.subheader("Morning post-match review / 赛后复盘")
+    review=D.get("morning_review",{})
+    st.caption("Historical assistant recommendations vs verified results — not production-model backtest and not paper fills.")
+    st.write("Review date: "+str(review.get("date","—"))+" | Status: "+str(review.get("review_status","—")))
+    items=review.get("matched_recommendations",[])
+    if items:
+        cols=["competition","match","market","original_desk_decision","final_score",
+              "result_status","market_outcome","paper_stake_usd","realized_paper_pnl_usd"]
+        st.dataframe(pd.DataFrame(items)[cols],hide_index=True,use_container_width=True)
+        for x in items:
+            with st.expander(x.get("match","—")+" · "+x.get("market","—")):
+                st.write(x.get("process_review") or "No verified final/result yet.")
+                if x.get("sources"):
+                    st.caption("Verification sources: "+", ".join(x["sources"]))
+    else:st.info("No recorded same-day review. Do not infer outcomes from match status.")
+    st.info("A PASS can avoid a loser or miss a winner: neither generates paper P&L. No past theoretical recommendation has been converted into a paper fill.")
+    if review.get("learning_rules"):
+        st.markdown("**Model-learning guardrails**")
+        for rule in review["learning_rules"]:st.write("• "+rule)
+
+with tabs[5]:
     st.subheader("Cross-venue arbitrage / 跨平台价差")
     st.caption("Screen only — NOT an executable arbitrage claim. Requires every mutually exclusive and exhaustive outcome, same settlement rule, fees, timestamp and fillable depth.")
     groups={}
@@ -326,7 +348,7 @@ with tabs[4]:
         st.info("No verified, fresh, complete cross-venue arb baskets. A disagreement in quotes alone is not guaranteed profit.")
     st.warning("For Kalshi YES/NO and sportsbook ML, settlement definitions may differ (90 min vs extra time, voids, commission). Do not match incompatible contracts.")
 
-with tabs[5]:
+with tabs[6]:
     st.subheader("Point-in-time archive / Closing line")
     clv=D["clv"]
     st.caption("Latest PIT: "+stamp(D["pit"].get("updated_utc"))+
@@ -338,7 +360,7 @@ with tabs[5]:
     st.warning("LIVE CLV requires later executable quotes on the SAME event + SAME contract. A pre-match closing price cannot be compared with a post-goal live entry.")
     if clv.get("summary"):st.json(clv["summary"])
 
-with tabs[6]:
+with tabs[7]:
     st.subheader("Risk engine / Operational status")
     r1,r2,r3=st.columns(3)
     matchcap=float(account.get("maximum_exposure_per_match_usd",5000))
