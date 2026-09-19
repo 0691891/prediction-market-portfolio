@@ -1,0 +1,38 @@
+name: 300-Match Prospective Paper Research
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/research_300_paper.py"
+      - ".github/workflows/research-300-paper.yml"
+  schedule:
+    - cron: "42 * * * *"
+permissions:
+  contents: write
+concurrency:
+  group: paper-300-writer
+  cancel-in-progress: false
+jobs:
+  paper:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh scoreboard, record pre-match virtual entries and settle
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: |
+          python src/fixture_ingest.py
+          python src/research_300_paper.py
+          python src/paper_portfolio.py
+      - name: Commit virtual-only ledger
+        run: |
+          git config user.name "prediction-market-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add paper/observations.json paper/signals.json paper/results.json paper/state.json paper/research_300_status.json
+          git diff --cached --quiet || git commit -m "paper: update prospective 300-match research cohort"
+          git pull --rebase
+          git push
