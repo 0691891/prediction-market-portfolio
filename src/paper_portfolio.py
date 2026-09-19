@@ -131,18 +131,33 @@ def run():
 
     for t in trades.values():
         if t["status"] != "OPEN": continue
-        key = (t["match_id"], t["market_id"], t["selection"])
-        result = result_index.get(key)
-        if not result: continue
-        outcome = result.get("outcome")
-        if outcome not in ("WIN", "LOSS", "VOID", "PUSH"): continue
+        legs=t.get("legs") or []
+        if legs:
+            leg_results=[result_index.get((x["match_id"],x["market_id"],x["selection"])) for x in legs]
+            if any(not x or not x.get("result_source") or not x.get("verified_at_utc") for x in leg_results): continue
+            if any(utc(x["verified_at_utc"])<=utc(t["quote_timestamp_utc"]) for x in leg_results): raise ValueError("parlay result before entry")
+            if any(x["outcome"]=="LOSS" for x in leg_results): outcome="LOSS"
+            elif all(x["outcome"]=="WIN" for x in leg_results): outcome="WIN"
+            elif all(x["outcome"] in ("WIN","VOID","PUSH") for x in leg_results):
+                outcome="VOID" if all(x["outcome"] in ("VOID","PUSH") for x in leg_results) else "PARTIAL_VOID"
+            else: continue
+            result={"outcome":outcome,"result_source":"; ".join(x["result_source"] for x in leg_results),
+                    "verified_at_utc":max(x["verified_at_utc"] for x in leg_results)}
+            if outcome=="PARTIAL_VOID":
+                t["decimal_odds_settled"]=float(__import__("math").prod(float(leg["decimal_odds"]) for leg,res in zip(legs,leg_results) if res["outcome"]=="WIN"))
+        else:
+            key = (t["match_id"], t["market_id"], t["selection"])
+            result = result_index.get(key)
+            if not result: continue
+            outcome = result.get("outcome")
+        if outcome not in ("WIN", "LOSS", "VOID", "PUSH", "PARTIAL_VOID"): continue
         if not result.get("result_source") or not result.get("verified_at_utc"):
             continue
         if utc(result["verified_at_utc"]) <= utc(t["kickoff_utc"]):
             raise ValueError("result verified before kickoff " + t["signal_id"])
-        stake, odds, fees = t["stake_usd"], t["decimal_odds"], t["fees_usd"]
+        stake, odds, fees = t["stake_usd"], t.get("decimal_odds_settled",t["decimal_odds"]), t["fees_usd"]
         t["realized_pnl_usd"] = round(
-            (stake * (odds - 1) if outcome == "WIN" else
+            (stake * (odds - 1) if outcome in ("WIN","PARTIAL_VOID") else
              -stake if outcome == "LOSS" else 0) - fees, 2)
         t["outcome"] = outcome
         t["result_source"] = result["result_source"]
