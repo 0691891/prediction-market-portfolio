@@ -96,7 +96,7 @@ def run():
                 if len(legs) not in (2,3): raise ValueError("parlay requires 2 or 3 legs")
                 same_game=len({x.get("match_id") for x in legs})==1
                 if same_game:
-                    if len(legs)!=2 or s.get("market_id")!="SGP-2": raise ValueError("same-game parlay requires 2 legs and SGP-2")
+                    if s.get("market_id")!="SGP-"+str(len(legs)): raise ValueError("same-game parlay requires matching SGP-2 or SGP-3")
                     if len({(x.get("market_id"),x.get("selection")) for x in legs})!=len(legs): raise ValueError("duplicate SGP leg")
                     if not s.get("sgp_joint_quote_verified") or not s.get("joint_probability_method"): raise ValueError("SGP requires independently observed joint quote and correlated fair method")
                 elif len({x.get("match_id") for x in legs})!=len(legs) or s.get("market_id")!="PARLAY-"+str(len(legs)):
@@ -118,7 +118,7 @@ def run():
             continue
         trades[sid] = {
             "signal_id": sid, "match_id": s["match_id"], "match_ids": [x["match_id"] for x in s.get("legs",[])] if s.get("legs") else [s["match_id"]],
-            "legs": s.get("legs",[]), "bet_type": ("SGP_2" if s.get("market_id")=="SGP-2" else "PARLAY_"+str(len(s["legs"]))) if s.get("legs") else "SINGLE",
+            "legs": s.get("legs",[]), "bet_type": (("SGP_" if str(s.get("market_id","")).startswith("SGP-") else "PARLAY_")+str(len(s["legs"]))) if s.get("legs") else "SINGLE",
             "competition": s["competition"], "match": s["match"],
             "market": s["market"], "selection": s["selection"], "market_id": s["market_id"],
             "quote_timestamp_utc": s["quote_timestamp_utc"],
