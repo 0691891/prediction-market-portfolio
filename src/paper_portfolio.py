@@ -90,14 +90,26 @@ def run():
                              if s["match_id"] in t.get("match_ids", [t["match_id"]]))
             if this_match + stake > per_match + 0.001: raise ValueError("match exposure limit")
             if open_total + stake > total_cap + 0.001: raise ValueError("total exposure limit")
-            if s.get("legs"): raise ValueError("combos require separate multi-match risk accounting")
+            legs=s.get("legs") or []
+            if legs:
+                if len(legs)!=2 or len({x.get("match_id") for x in legs})!=2: raise ValueError("parlay requires two distinct fixtures")
+                if s.get("market_id")!="PARLAY-2": raise ValueError("parlay market_id must be PARLAY-2")
+                if any(not all(x.get(k) for k in ("match_id","market_id","selection","kickoff_utc","quote_timestamp_utc","decimal_odds")) for x in legs): raise ValueError("missing parlay leg fields")
+                if any(utc(x["quote_timestamp_utc"])>=utc(x["kickoff_utc"]) for x in legs): raise ValueError("parlay leg quote after kickoff")
+                if any(abs((utc(x["quote_timestamp_utc"])-quote).total_seconds())>1800 for x in legs): raise ValueError("unsynchronized parlay quotes")
+                if abs(odds-float(legs[0]["decimal_odds"])*float(legs[1]["decimal_odds"]))>0.0001: raise ValueError("invalid parlay product odds")
+                if grade!="B" or stake>0.5*unit+0.001: raise ValueError("parlay grade B cap")
+                if not research and not s.get("joint_probability_method"): raise ValueError("joint probability method required")
+                for m in (x["match_id"] for x in legs):
+                    if sum(float(t["stake_usd"]) for t in open_rows if m in t.get("match_ids",[t["match_id"]]))+stake>per_match+0.001: raise ValueError("parlay leg exposure cap")
         except (KeyError, TypeError, ValueError) as e:
             why = str(e)
         if why:
             rejections[sid] = {"signal_id": sid, "reason": why}
             continue
         trades[sid] = {
-            "signal_id": sid, "match_id": s["match_id"], "match_ids": [s["match_id"]],
+            "signal_id": sid, "match_id": s["match_id"], "match_ids": [x["match_id"] for x in s.get("legs",[])] if s.get("legs") else [s["match_id"]],
+            "legs": s.get("legs",[]), "bet_type": "PARLAY_2" if s.get("legs") else "SINGLE",
             "competition": s["competition"], "match": s["match"],
             "market": s["market"], "selection": s["selection"], "market_id": s["market_id"],
             "quote_timestamp_utc": s["quote_timestamp_utc"],
