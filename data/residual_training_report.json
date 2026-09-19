@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-19T23:06:18.526038+00:00",
+  "updated_utc": "2026-09-19T23:23:24.230278+00:00",
   "status": "INSUFFICIENT_PIT_DATA",
   "rows_total": 0,
   "train_matches": 0,
@@ -100,11 +100,84 @@
     "market_movement": {
       "train": 0,
       "holdout": 0
+    },
+    "league_goal_environment": {
+      "train": 0,
+      "holdout": 0
+    },
+    "league_draw_rate": {
+      "train": 0,
+      "holdout": 0
+    },
+    "league_home_advantage": {
+      "train": 0,
+      "holdout": 0
+    },
+    "league_goal_dispersion": {
+      "train": 0,
+      "holdout": 0
+    },
+    "league_market_margin": {
+      "train": 0,
+      "holdout": 0
+    },
+    "league_market_depth": {
+      "train": 0,
+      "holdout": 0
+    },
+    "league_style_matchup": {
+      "train": 0,
+      "holdout": 0
+    },
+    "league_schedule_congestion": {
+      "train": 0,
+      "holdout": 0
+    },
+    "league_squad_depth": {
+      "train": 0,
+      "holdout": 0
+    },
+    "league_referee_penalties": {
+      "train": 0,
+      "holdout": 0
+    },
+    "league_weather_pitch": {
+      "train": 0,
+      "holdout": 0
+    },
+    "league_season_phase": {
+      "train": 0,
+      "holdout": 0
+    },
+    "national_team_cohesion": {
+      "train": 0,
+      "holdout": 0
+    },
+    "national_team_callups": {
+      "train": 0,
+      "holdout": 0
+    },
+    "national_team_travel": {
+      "train": 0,
+      "holdout": 0
+    },
+    "national_team_tier_gap": {
+      "train": 0,
+      "holdout": 0
+    },
+    "national_team_group_incentive": {
+      "train": 0,
+      "holdout": 0
+    },
+    "competition_format_epoch": {
+      "train": 0,
+      "holdout": 0
     }
   },
   "errors": [
     "PIT training file not yet supplied"
   ],
+  "competition_coverage": {},
   "method": "1X2 market-offset multiclass L2; fixed 2025-07-01 holdout boundary; training-only z-score; 3pp EV uncertainty; no auto activation",
   "minimum_train": 500,
   "minimum_holdout": 300
