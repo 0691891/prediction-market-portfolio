@@ -65,7 +65,7 @@ def main():
         if not oid:
             oid=hashlib.sha256(json.dumps(o,ensure_ascii=False,sort_keys=True).encode()).hexdigest()[:22]
         if oid in byid:
-            if {k:v for k,v in byid[oid].items() if k not in ("observation_id",)} != o:
+            if {k:v for k,v in byid[oid].items() if k not in ("observation_id",)} != {k:v for k,v in o.items() if k not in ("observation_id",)}:
                 errors.append({"id":oid,"reason":"immutable observation id changed; original retained"})
             continue
         record=dict(o);record["observation_id"]=oid
