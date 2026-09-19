@@ -1,3 +1,5 @@
+> **CURRENT MODE (2026-09-19): PREMATCH → VERIFIED FULL TIME ONLY.** The historical live/in-play design notes below are archived reference, NOT an active strategy. `src/paper_portfolio.py` rejects LIVE entry_phase. Scoreboard display may remain read-only. Record pre-kickoff predictions, settle after verified final scores. No in-play model, bets or fabricated fills. Counterfactual P&L and actual Paper NAV are separate.
+
 # Paper Portfolio v1.0 — $1,000,000 virtual capital
 
 Purpose: collect **all covered football fixtures as observations** and simulate only reproducible positive-EV paper orders. This is completely separate from `data/trades.json` (real confirmed transactions). No real-money execution.
