@@ -1,0 +1,31 @@
+name: Train PIT Residual Alpha
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/train_residual_alpha.py"
+      - "data/pit_training/**"
+      - ".github/workflows/train-residual.yml"
+  schedule:
+    - cron: "10 7 * * 0"
+permissions:
+  contents: write
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate PIT data and train residual
+        run: python src/train_residual_alpha.py
+      - name: Commit training report (never activate model automatically)
+        run: |
+          git config user.name "prediction-market-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/residual_training_report.json
+          if [ -f data/residual_trained_candidate.json ]; then git add data/residual_trained_candidate.json; fi
+          git diff --cached --quiet || git commit -m "model: PIT residual training and coverage report"
+          git push
