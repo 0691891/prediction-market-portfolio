@@ -1,4 +1,4 @@
-const $=s=>document.querySelector(s);let tab=(location.hash||'#board').slice(1),D={};
+const $=s=>document.querySelector(s);const visibleTabs=new Set(['board','trades','performance','factor','model']);let tab=visibleTabs.has(location.hash.slice(1))?location.hash.slice(1):'board',D={};
 const pct=x=>x==null?'—':(100*Number(x)).toFixed(1)+'%';
 const money=x=>x==null?'—':'$'+Number(x).toFixed(2);
 async function j(path,def={}){try{return await fetch(path+'?'+Date.now()).then(r=>r.ok?r.json():def)}catch(e){return def}}
