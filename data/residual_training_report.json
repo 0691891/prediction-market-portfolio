@@ -1,0 +1,111 @@
+{
+  "updated_utc": "2026-09-19T23:06:18.526038+00:00",
+  "status": "INSUFFICIENT_PIT_DATA",
+  "rows_total": 0,
+  "train_matches": 0,
+  "holdout_matches": 0,
+  "coverage": {
+    "attack_xg": {
+      "train": 0,
+      "holdout": 0
+    },
+    "defense_xga": {
+      "train": 0,
+      "holdout": 0
+    },
+    "shot_volume": {
+      "train": 0,
+      "holdout": 0
+    },
+    "xg_per_shot": {
+      "train": 0,
+      "holdout": 0
+    },
+    "finishing_regression": {
+      "train": 0,
+      "holdout": 0
+    },
+    "form_opponent_adjusted": {
+      "train": 0,
+      "holdout": 0
+    },
+    "home_away": {
+      "train": 0,
+      "holdout": 0
+    },
+    "coach_tactical_matchup": {
+      "train": 0,
+      "holdout": 0
+    },
+    "pressing_build_up": {
+      "train": 0,
+      "holdout": 0
+    },
+    "transition": {
+      "train": 0,
+      "holdout": 0
+    },
+    "set_piece": {
+      "train": 0,
+      "holdout": 0
+    },
+    "game_state_asymmetry": {
+      "train": 0,
+      "holdout": 0
+    },
+    "lineup": {
+      "train": 0,
+      "holdout": 0
+    },
+    "injuries_suspensions": {
+      "train": 0,
+      "holdout": 0
+    },
+    "squad_depth": {
+      "train": 0,
+      "holdout": 0
+    },
+    "tier_gap": {
+      "train": 0,
+      "holdout": 0
+    },
+    "rotation_depth_interaction": {
+      "train": 0,
+      "holdout": 0
+    },
+    "rest_fatigue": {
+      "train": 0,
+      "holdout": 0
+    },
+    "travel": {
+      "train": 0,
+      "holdout": 0
+    },
+    "motivation": {
+      "train": 0,
+      "holdout": 0
+    },
+    "weather": {
+      "train": 0,
+      "holdout": 0
+    },
+    "human_disagreement": {
+      "train": 0,
+      "holdout": 0
+    },
+    "market_sentiment": {
+      "train": 0,
+      "holdout": 0
+    },
+    "market_movement": {
+      "train": 0,
+      "holdout": 0
+    }
+  },
+  "errors": [
+    "PIT training file not yet supplied"
+  ],
+  "method": "1X2 market-offset multiclass L2; fixed 2025-07-01 holdout boundary; training-only z-score; 3pp EV uncertainty; no auto activation",
+  "minimum_train": 500,
+  "minimum_holdout": 300
+}
