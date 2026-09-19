@@ -301,6 +301,13 @@ with tabs[4]:
                 if x.get("sources"):
                     st.caption("Verification sources: "+", ".join(x["sources"]))
     else:st.info("No recorded same-day review. Do not infer outcomes from match status.")
+    bundes=review.get("bundesliga_matchday_review",[])
+    if bundes:
+        st.markdown("### Bundesliga — complete matchday review / 德甲全部比赛")
+        st.caption("Rows without a documented morning call are learning context only, not model wins/losses.")
+        bcols=["match","date","result","status","morning_desk_call","learning"]
+        st.dataframe(pd.DataFrame(bundes)[bcols],hide_index=True,use_container_width=True)
+
     st.info("A PASS can avoid a loser or miss a winner: neither generates paper P&L. No past theoretical recommendation has been converted into a paper fill.")
     if review.get("learning_rules"):
         st.markdown("**Model-learning guardrails**")
