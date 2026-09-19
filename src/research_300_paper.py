@@ -11,8 +11,9 @@ from live_feed import odds,scores
 from residual_pricing import devig
 PAPER=ROOT/"paper"
 TARGET=300
-# Optional research parlays: one independent 2-leg ticket when two new singles share a snapshot.
+# Optional 2- and 3-fixture research tickets. Same-game parlays require separate verified joint quotes.
 PARLAY_STAKE=50
+THREE_LEG_STAKE=25
 def read(name,default):
  p=PAPER/name
  return json.loads(p.read_text()) if p.exists() else default
@@ -24,7 +25,7 @@ def main():
  key=os.getenv("ODDS_API_KEY")
  rows,errors,fetched=odds(key,"us,uk,eu")
  signals=read("signals.json",{"signals":[]})
- existing={s["match_id"] for s in signals["signals"] if s.get("cohort")=="ALL_MATCHES_300_RESEARCH"}
+ existing={s["match_id"] for s in signals["signals"] if s.get("cohort")=="ALL_MATCHES_300_RESEARCH" and not s.get("legs")}
  state=read("state.json",{"trades":[]})
  existing.update(t["match_id"] for t in state["trades"] if t.get("cohort")=="ALL_MATCHES_300_RESEARCH" and not t.get("legs"))
  by={}
@@ -95,6 +96,34 @@ def main():
    "decimal_odds":round(a["decimal_odds"]*b["decimal_odds"],6),"stake_usd":PARLAY_STAKE,
    "grade":"B","fees_usd":0,"entry_phase":"PREMATCH","paper_eligible":True,"legs":legs,
    "model_training_eligible":False})
+ # Optional 3-fixture research parlay; all legs must be quoted before first kickoff.
+ # Do not manufacture same-game parlay prices from individual odds.
+ if len(new_singles)>=3:
+  import itertools
+  for group in itertools.combinations(new_singles,3):
+   if len({x["competition"] for x in group})!=3:continue
+   if max(utc(x["quote_timestamp_utc"]) for x in group)>=min(utc(x["kickoff_utc"]) for x in group):continue
+   if max(utc(x["quote_timestamp_utc"]) for x in group)-min(utc(x["quote_timestamp_utc"]) for x in group)>dt.timedelta(minutes=30):continue
+   legkeys=("match_id","market_id","selection","kickoff_utc","quote_timestamp_utc","decimal_odds")
+   legs=[{k:x[k] for k in legkeys} for x in group]
+   from math import prod
+   signals["signals"].append({"signal_id":"research-300:parlay3:"+":".join(x["match_id"] for x in group),
+    "match_id":"parlay3:"+":".join(x["match_id"] for x in group),
+    "match":" + ".join(x["match"] for x in group),"competition":group[0]["competition"],
+    "market":"3-leg 1X2 parlay","market_id":"PARLAY-3",
+    "selection":" + ".join(x["selection"] for x in group),
+    "quote_timestamp_utc":max(x["quote_timestamp_utc"] for x in group),
+    "quote_source":" / ".join(x["quote_source"] for x in group),
+    "quote_url":"https://the-odds-api.com/","kickoff_utc":min(x["kickoff_utc"] for x in group),
+    "model_version":"v0.5-market-baseline-control",
+    "scenario":"Three distinct competitions, untrained market-baseline control, independence proxy only",
+    "cohort":"ALL_MATCHES_300_RESEARCH","entry_reason":"OPTIONAL_3_LEG_RESEARCH_NOT_POSITIVE_EV",
+    "fair_probability":round(prod(x["fair_probability"] for x in group),8),
+    "joint_probability_method":"product; distinct competitions; unverified independence proxy",
+    "decimal_odds":round(prod(x["decimal_odds"] for x in group),6),
+    "stake_usd":THREE_LEG_STAKE,"grade":"C","fees_usd":0,"entry_phase":"PREMATCH",
+    "paper_eligible":True,"legs":legs,"model_training_eligible":False})
+   break
  write("signals.json",signals)
  # Results from ESPN scoreboard; only exact normalized home/away match and final state.
  observations=read("observations.json",{"observations":[]}).get("observations",[])
@@ -129,7 +158,7 @@ def main():
  write("research_300_status.json",{"updated_utc":now.isoformat(),"target":TARGET,
   "fixtures_with_signal":len(existing),"new_signals":added,
   "settlements_available":len([r for r in results["results"] if str(r.get("match_id","")).startswith("odds:")]),
-  "status":"COLLECTING" if key else "NO_ODDS_API_KEY",
+  "status":"COLLECTING" if os.getenv("ODDS_API_KEY") else "NO_ODDS_API_KEY",
   "provider_errors":errors,
   "warning":"One per match is a market-baseline control, not trained residual alpha. Paper fills are simulated from observed quotes; no real-money orders. Historical records cannot be used as ex-ante xG/lineup/tactics features unless those features were frozen before kickoff."})
  print("research cohort",len(existing),"added",added)
