@@ -6,6 +6,7 @@ never reads or writes data/trades.json and never sends orders.
 """
 import datetime as dt
 import json
+import math
 import pathlib
 import sys
 
@@ -92,14 +93,22 @@ def run():
             if open_total + stake > total_cap + 0.001: raise ValueError("total exposure limit")
             legs=s.get("legs") or []
             if legs:
-                if len(legs)!=2 or len({x.get("match_id") for x in legs})!=2: raise ValueError("parlay requires two distinct fixtures")
-                if s.get("market_id")!="PARLAY-2": raise ValueError("parlay market_id must be PARLAY-2")
+                if len(legs) not in (2,3): raise ValueError("parlay requires 2 or 3 legs")
+                same_game=len({x.get("match_id") for x in legs})==1
+                if same_game:
+                    if len(legs)!=2 or s.get("market_id")!="SGP-2": raise ValueError("same-game parlay requires 2 legs and SGP-2")
+                    if len({(x.get("market_id"),x.get("selection")) for x in legs})!=len(legs): raise ValueError("duplicate SGP leg")
+                    if not s.get("sgp_joint_quote_verified") or not s.get("joint_probability_method"): raise ValueError("SGP requires independently observed joint quote and correlated fair method")
+                elif len({x.get("match_id") for x in legs})!=len(legs) or s.get("market_id")!="PARLAY-"+str(len(legs)):
+                    raise ValueError("cross-match parlay requires distinct fixtures and matching market_id")
                 if any(not all(x.get(k) for k in ("match_id","market_id","selection","kickoff_utc","quote_timestamp_utc","decimal_odds")) for x in legs): raise ValueError("missing parlay leg fields")
                 if any(utc(x["quote_timestamp_utc"])>=utc(x["kickoff_utc"]) for x in legs): raise ValueError("parlay leg quote after kickoff")
                 if any(abs((utc(x["quote_timestamp_utc"])-quote).total_seconds())>1800 for x in legs): raise ValueError("unsynchronized parlay quotes")
-                if abs(odds-float(legs[0]["decimal_odds"])*float(legs[1]["decimal_odds"]))>0.0001: raise ValueError("invalid parlay product odds")
-                if grade!="B" or stake>0.5*unit+0.001: raise ValueError("parlay grade B cap")
-                if not research and not s.get("joint_probability_method"): raise ValueError("joint probability method required")
+                if not same_game and abs(odds-math.prod(float(x["decimal_odds"]) for x in legs))>0.0001: raise ValueError("invalid parlay product odds")
+                if same_game and not s.get("sgp_joint_quote_timestamp_utc"): raise ValueError("SGP joint quote timestamp required")
+                if same_game and utc(s["sgp_joint_quote_timestamp_utc"])>=min(utc(x["kickoff_utc"]) for x in legs): raise ValueError("SGP quote after kickoff")
+                if grade!=("C" if same_game or len(legs)==3 else "B"): raise ValueError("parlay grade must be C for SGP/3-leg and B for 2-leg")
+                if not s.get("joint_probability_method"): raise ValueError("joint probability method required")
                 for m in (x["match_id"] for x in legs):
                     if sum(float(t["stake_usd"]) for t in open_rows if m in t.get("match_ids",[t["match_id"]]))+stake>per_match+0.001: raise ValueError("parlay leg exposure cap")
         except (KeyError, TypeError, ValueError) as e:
@@ -109,7 +118,7 @@ def run():
             continue
         trades[sid] = {
             "signal_id": sid, "match_id": s["match_id"], "match_ids": [x["match_id"] for x in s.get("legs",[])] if s.get("legs") else [s["match_id"]],
-            "legs": s.get("legs",[]), "bet_type": "PARLAY_2" if s.get("legs") else "SINGLE",
+            "legs": s.get("legs",[]), "bet_type": ("SGP_2" if s.get("market_id")=="SGP-2" else "PARLAY_"+str(len(s["legs"]))) if s.get("legs") else "SINGLE",
             "competition": s["competition"], "match": s["match"],
             "market": s["market"], "selection": s["selection"], "market_id": s["market_id"],
             "quote_timestamp_utc": s["quote_timestamp_utc"],
@@ -144,7 +153,7 @@ def run():
             result={"outcome":outcome,"result_source":"; ".join(x["result_source"] for x in leg_results),
                     "verified_at_utc":max(x["verified_at_utc"] for x in leg_results)}
             if outcome=="PARTIAL_VOID":
-                t["decimal_odds_settled"]=float(__import__("math").prod(float(leg["decimal_odds"]) for leg,res in zip(legs,leg_results) if res["outcome"]=="WIN"))
+                t["decimal_odds_settled"]=float(math.prod(float(leg["decimal_odds"]) for leg,res in zip(legs,leg_results) if res["outcome"]=="WIN"))
         else:
             key = (t["match_id"], t["market_id"], t["selection"])
             result = result_index.get(key)
