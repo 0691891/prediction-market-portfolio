@@ -164,5 +164,11 @@
       ],
       "note": "B-class Core Parlay: each leg must have Market Probability >=55% and My Fair >= Market +3pp; 65%-82% Market Probability is preferred, not mandatory. Two-leg combo My Fair must be >=40%. Use different matches and prefer low correlation. Exclude any leg with unresolved rotation uncertainty, motivation uncertainty, or lineup shock. High market probability alone is not alpha."
     }
+  },
+  "post_match_review": {
+    "latest": "data/reviews/2026-09-19-morning.json",
+    "mode": "research_audit_only",
+    "eligible_for_calibration": false,
+    "policy": "Do not count conversational PASS predictions as paper fills or coefficient training. Use genuinely frozen ex ante PIT snapshots, verified market definition and results; evaluate all fixtures including PASS."
   }
 }
