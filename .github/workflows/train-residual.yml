@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - "src/train_residual_alpha.py"
+      - "src/european_coverage.py"
+      - "src/league_residual_features.py"
       - "data/pit_training/**"
       - ".github/workflows/train-residual.yml"
   schedule:
