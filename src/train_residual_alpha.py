@@ -7,11 +7,13 @@ No same-season holdout fitting. This script is safe to run without data.
 """
 import json,math,datetime as dt,pathlib,collections,random
 from residual_pricing import CAPS,devig
+from european_coverage import COVERAGE,competition_group
+from league_residual_features import FEATURES as LEAGUE_FEATURES
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 SOURCE=ROOT/"data/pit_training/matches.jsonl"
 OUT=ROOT/"data/residual_training_report.json"
 WEIGHTS=ROOT/"data/residual_trained_candidate.json"
-FEATURES=list(CAPS)
+FEATURES=list(CAPS)+list(LEAGUE_FEATURES)
 def softmax(v):
     m=max(v);e=[math.exp(x-m) for x in v];return [x/sum(e) for x in e]
 def loss(rows,w,mu,sd):
@@ -38,13 +40,14 @@ def read():
             if r.get("feature_observed_utc"):
                 for k,t in r["feature_observed_utc"].items():
                     if k in r.get("features",{}) and dt.datetime.fromisoformat(t.replace("Z","+00:00"))>snap:raise ValueError("feature observed after snapshot: "+k)
-            f={k:float(v) for k,v in r["features"].items() if k in CAPS and v is not None}
+            if r["league"] not in COVERAGE:raise ValueError("unknown European competition")
+            f={k:float(v) for k,v in r["features"].items() if k in FEATURES and v is not None}
             if any(not math.isfinite(v) for v in f.values()):raise ValueError("nonfinite feature")
             # Input must carry a same-timestamp full 1X2 odds market.
             if dt.datetime.fromisoformat(r["market_observed_utc"].replace("Z","+00:00"))>snap:raise ValueError("future odds")
             if (snap-dt.datetime.fromisoformat(r["market_observed_utc"].replace("Z","+00:00"))).total_seconds()>3600:raise ValueError("stale odds >1h")
             y={"H":0,"D":1,"A":2}[r["result_90m"]]
-            rows.append({"id":str(r["match_id"]),"ko":ko,"snap":snap,"league":r["league"],"f":f,"prior":devig(r["market_odds_1x2"]),"odds":[float(v) for v in r["market_odds_1x2"]],"y":y})
+            rows.append({"id":str(r["match_id"]),"ko":ko,"snap":snap,"league":r["league"],"competition_group":competition_group(r["league"]),"f":f,"prior":devig(r["market_odds_1x2"]),"odds":[float(v) for v in r["market_odds_1x2"]],"y":y})
         except Exception as e:errors.append(f"line {lineno}: {str(e)[:120]}")
     # One snapshot per match, select most recent snapshot before kickoff.
     uniq={}
@@ -95,7 +98,7 @@ def main():
     coverage={k:{"train":sum(k in r["f"] for r in train),"holdout":sum(k in r["f"] for r in hold)} for k in FEATURES}
     report={"updated_utc":now,"status":"INSUFFICIENT_PIT_DATA","rows_total":len(rows),
             "train_matches":len(train),"holdout_matches":len(hold),"coverage":coverage,
-            "errors":errors[:50],"method":"1X2 market-offset multiclass L2; fixed 2025-07-01 holdout boundary; training-only z-score; 3pp EV uncertainty; no auto activation",
+            "errors":errors[:50],"competition_coverage":{k:{"train":sum(r["league"]==k for r in train),"holdout":sum(r["league"]==k for r in hold)} for k in sorted({r["league"] for r in rows})},"method":"1X2 market-offset multiclass L2; fixed 2025-07-01 holdout boundary; training-only z-score; 3pp EV uncertainty; no auto activation",
             "minimum_train":500,"minimum_holdout":300}
     if len(train)>=500 and len(hold)>=300:
         w,mu,sd=fit(train);zero=[[0.,0.,0.] for k in FEATURES]
