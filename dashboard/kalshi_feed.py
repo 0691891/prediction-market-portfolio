@@ -101,12 +101,25 @@ def public_markets(series_tickers=None, watch_tickers=None, pages_per_series=2):
     if not series:
         try:
             d=get(PREFIX+"/series",{"category":"Sports"})
-            sources=[x.get("ticker") for x in d.get("series",[]) if _football_title(x) and x.get("ticker")][:24]
+            eligible=[x for x in d.get("series",[]) if _football_title(x) and x.get("ticker")]
+            # Front-load match-result series, rather than season props; cap API
+            # requests per hourly scan to reduce Kalshi 429 rate-limit responses.
+            def priority(x):
+                name=str(x.get("title","")).lower()
+                ticker=str(x.get("ticker","")).upper()
+                match_terms=("match winner","game winner","match result","soccer game","to win the match")
+                league_terms=("premier league","la liga","bundesliga","serie a","ligue 1","champions league","europa league")
+                return (int(any(z in name for z in match_terms) or ticker.endswith("GAME")),
+                        int(any(z in name for z in league_terms)),
+                        -int("season" in name or "top scorer" in name))
+            eligible.sort(key=priority,reverse=True)
+            sources=[x["ticker"] for x in eligible[:10]]
         except (RuntimeError,OSError,ValueError,urllib.error.URLError) as exc:
             errors["series_discovery"]=str(exc)
     else:sources=series[:24]
     for ticker in sources:
         cursor=None
+        time.sleep(0.22)
         for _ in range(pages_per_series):
             try:
                 d=get(PREFIX+"/markets",{"series_ticker":ticker,"status":"open",
@@ -130,7 +143,7 @@ def public_markets(series_tickers=None, watch_tickers=None, pages_per_series=2):
         if not ticker or ticker in seen:continue
         seen.add(ticker)
         rows.append(market_row(m,fetched,"Kalshi REST GET"))
-    return rows,errors,fetched,{"discovered_series":len(sources),"pages_per_series":pages_per_series,
+    return rows,errors,fetched,{"discovered_series":len(sources),"selected_series":sources,"pages_per_series":pages_per_series,
                                 "watch_count":len(watch),"note":"Pagination/coverage limited; configure series tickers to widen."}
 
 def read_account(key_id,pem):
