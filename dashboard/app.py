@@ -7,6 +7,7 @@ No order entry, no modification of real trade ledger.
 """
 import json
 import pathlib
+import os
 import urllib.error
 import urllib.request
 from datetime import datetime, timezone
@@ -15,6 +16,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 from streamlit_autorefresh import st_autorefresh
+from live_feed import scores as get_live_scores, odds as get_live_odds
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 BASE = "https://raw.githubusercontent.com/0691891/prediction-market-portfolio/main/"
@@ -34,16 +36,16 @@ FILES = {
 st.set_page_config(page_title="Football Alpha Terminal | PAPER", page_icon="⚽",
                    layout="wide", initial_sidebar_state="expanded")
 st.markdown("""<style>
-.stApp{background:#080d16;color:#e9f1fa}
-[data-testid="stSidebar"]{background:#101a2a}
-h1,h2,h3{color:#eff7ff!important}
-[data-testid="stMetric"]{background:#101b2d;border:1px solid #263a50;
- border-radius:13px;padding:15px}
-[data-testid="stMetricLabel"]{color:#a3b8cc}
+.stApp{background:#f5f8fc;color:#142c47}
+[data-testid="stSidebar"]{background:#ecf3fb}
+h1,h2,h3{color:#18324e!important}
+[data-testid="stMetric"]{background:#fff;border:1px solid #dbe5f0;
+ border-radius:13px;padding:15px;box-shadow:0 2px 8px #24456609}
+[data-testid="stMetricLabel"]{color:#536981}
 div.stButton>button{border-radius:9px}
-.signal{padding:12px 16px;background:#122336;border-left:3px solid #22ceb3;
- border-radius:9px;margin-bottom:12px}
-.muted{color:#9badc2;font-size:13px}
+.signal{padding:12px 16px;background:#eaf8f2;border-left:3px solid #12a67c;
+ border-radius:9px;margin-bottom:12px;color:#245344}
+.muted{color:#607991;font-size:13px}
 </style>""", unsafe_allow_html=True)
 
 def money(x):
@@ -74,12 +76,20 @@ def fetch(path, remote):
 with st.sidebar:
     st.markdown("## ⚽ ALPHA / TERMINAL")
     st.caption("PAPER TRADING • NO REAL ORDERS")
-    remote=st.toggle("GitHub data mode",value=False,help="Enable for Streamlit Cloud or when repo data are not mounted locally.")
-    auto=st.toggle("Auto-refresh / 30s",value=False,
+    remote=st.toggle("GitHub data mode",value=True,help="Enable for Streamlit Cloud or when repo data are not mounted locally.")
+    auto=st.toggle("Auto-refresh / 30s",value=True,
                    help="Refreshes display; underlying upstream data may be hourly, not real-time.")
     if st.button("↻ Refresh now",use_container_width=True):
         fetch.clear()
         st.rerun()
+    st.divider()
+    st.markdown("**Live feeds / 数据源**")
+    live_scores_enabled=st.toggle("Live scores / 全赛事比分",value=True)
+    sportsbook_enabled=st.toggle("Sportsbook current quotes",value=True,
+        help="Needs ODDS_API_KEY in Streamlit Secrets or environment. Quota applies.")
+    configured_key=st.secrets.get("ODDS_API_KEY") if "ODDS_API_KEY" in st.secrets else os.getenv("ODDS_API_KEY")
+    if sportsbook_enabled and not configured_key:
+        st.warning("No ODDS_API_KEY — odds feed inactive. Never interpret GitHub snapshots as live prices.")
     st.divider()
     st.markdown("**Coverage**")
     st.caption("PL · La Liga · Serie A · Bundesliga · Ligue 1 · UCL · UEL · EFL · FA Cup")
@@ -88,6 +98,17 @@ with st.sidebar:
 
 if auto:
     st_autorefresh(interval=30_000, limit=None, key="paper-refresh")
+
+@st.cache_data(ttl=25, show_spinner=False)
+def live_scores_data():
+    return get_live_scores()
+
+@st.cache_data(ttl=60, show_spinner=False)
+def live_odds_data(key):
+    return get_live_odds(key)
+
+score_rows, score_errors, scores_at = live_scores_data() if live_scores_enabled else ([],{},None)
+live_quotes, odds_errors, odds_at = live_odds_data(configured_key) if sportsbook_enabled and configured_key else ([],{},None)
 
 D={}; errors={}
 for key,path in FILES.items():
@@ -116,9 +137,42 @@ d.metric("REALIZED P&L",money(pnl))
 e.metric("SETTLED TRADES",str(state.get("settled_orders",0)),f"{state.get('open_orders',0)} open")
 st.caption(f"Data source: {'GitHub main' if remote else 'Local repository'} · Screen time {now:%Y-%m-%d %H:%M:%S} UTC · Market/model freshness shown below. Screen refresh ≠ real-time exchange feed.")
 
-tabs=st.tabs(["◉ MARKET WATCH","▣ PAPER POSITIONS","⌁ ALPHA LAB","⇄ ARB SCANNER","◷ PIT / CLV","⚑ RISK & DATA HEALTH"])
+tabs=st.tabs(["● LIVE SCORES","◉ MARKET WATCH","▣ PAPER POSITIONS","⌁ ALPHA LAB","⇄ ARB SCANNER","◷ PIT / CLV","⚑ RISK & DATA HEALTH"])
 
 with tabs[0]:
+    st.subheader("Live scoreboard / 今日全赛事")
+    st.caption("ESPN public scoreboard • fetched "+stamp(scores_at)+
+               " • display refresh 30s; provider delays possible. Scores are NOT executable odds.")
+    if score_rows:
+        s=pd.DataFrame(score_rows)
+        s["Score"]=s["home_score"].fillna("–").astype(str)+" : "+s["away_score"].fillna("–").astype(str)
+        show=[x for x in ["competition","home_team","Score","away_team","status","clock","kickoff_utc","match_id"] if x in s]
+        st.dataframe(s[show].sort_values(["competition","kickoff_utc"]),hide_index=True,use_container_width=True)
+    else:st.info("No score rows received. Check provider/API status before inferring no matches.")
+    if score_errors:
+        with st.expander("Scoreboard provider errors"):st.json(score_errors)
+    st.subheader("Current sportsbook prices / 当前盘口")
+    st.caption("The Odds API • fetched "+stamp(odds_at)+
+               " • quote timestamps are book timestamps. Prices are indicative, NOT confirmed paper fills.")
+    if live_quotes:
+        o=pd.DataFrame(live_quotes)
+        league_options=sorted(o["competition"].dropna().unique())
+        choose=st.multiselect("Quote league",league_options,default=league_options,key="live-league")
+        o=o[o["competition"].isin(choose)]
+        o["quote_age_seconds"]=pd.to_datetime(odds_at,utc=True).timestamp()-pd.to_datetime(o["quote_timestamp_utc"],utc=True,errors="coerce").apply(
+            lambda z: z.timestamp() if pd.notna(z) else float("nan"))
+        o["freshness"]=o["quote_age_seconds"].apply(lambda age:"FRESH <30s" if pd.notna(age) and 0<=age<=30 else "STALE / UNKNOWN")
+        show=["competition","home_team","away_team","market","selection","point","bookmaker",
+              "decimal_odds","break_even","quote_timestamp_utc","freshness","status"]
+        st.dataframe(o[show],hide_index=True,use_container_width=True,
+            column_config={"break_even":st.column_config.NumberColumn(format="%.3f"),
+                           "decimal_odds":st.column_config.NumberColumn(format="%.3f")})
+    else:st.info("No current sportsbook quotes. Connect ODDS_API_KEY via Streamlit secrets and verify API plan/league coverage.")
+    if odds_errors:
+        with st.expander("Odds feed / quota / coverage errors"):st.json(odds_errors)
+    st.warning("Live scoreboard and odds are separate provider feeds; event-name matching is NOT a verified synchronized event state. Do not paper-fill on this display alone.")
+
+with tabs[1]:
     st.subheader("All-fixture market scanner / 全赛程观察")
     st.caption("PASS and missing-data matches belong in the research universe. No synthetic odds or inferred fills.")
     board=D["board"]
@@ -173,7 +227,7 @@ with tabs[0]:
     st.caption("Model fair status: "+str(D["model"].get("model","UNAVAILABLE"))+
                " • Sportsbook feed: "+str(D["sportsbook"].get("status","UNAVAILABLE")))
 
-with tabs[1]:
+with tabs[2]:
     st.subheader("Paper portfolio / 虚拟持仓")
     if trades:
         v=pd.DataFrame(trades)
@@ -186,7 +240,7 @@ with tabs[1]:
             fig=go.Figure(go.Scatter(x=list(range(len(settled)+1)),
               y=[initial]+[initial+z for z in settled["realized_pnl_usd"].fillna(0).cumsum()],
               mode="lines+markers",name="Realized NAV",line_color="#20d4b5"))
-            fig.update_layout(template="plotly_dark",paper_bgcolor="#080d16",plot_bgcolor="#080d16",
+            fig.update_layout(template="plotly_white",paper_bgcolor="#ffffff",plot_bgcolor="#ffffff",
                               title="Realized NAV by settlement",height=330)
             st.plotly_chart(fig,use_container_width=True)
     else:st.info("No verified virtual orders. Account remains at $1,000,000; research/PASS rows are not fills.")
@@ -197,7 +251,7 @@ with tabs[1]:
         with st.expander("Rejected paper signals"):
             st.dataframe(pd.DataFrame(state["rejections"]),hide_index=True)
 
-with tabs[2]:
+with tabs[3]:
     st.subheader("Alpha Research / 模型迭代")
     settled=[t for t in trades if t.get("status")=="SETTLED"]
     s1,s2,s3,s4=st.columns(4)
@@ -227,7 +281,7 @@ with tabs[2]:
     else:st.caption("No frozen PIT predictions in latest snapshot.")
     st.info("Proper calibration needs resolved predictions across ALL fixtures, including PASS. Event-level Brier/log loss must not be computed from selected wins alone.")
 
-with tabs[3]:
+with tabs[4]:
     st.subheader("Cross-venue arbitrage / 跨平台价差")
     st.caption("Screen only — NOT an executable arbitrage claim. Requires every mutually exclusive and exhaustive outcome, same settlement rule, fees, timestamp and fillable depth.")
     groups={}
@@ -269,7 +323,7 @@ with tabs[3]:
         st.info("No verified, fresh, complete cross-venue arb baskets. A disagreement in quotes alone is not guaranteed profit.")
     st.warning("For Kalshi YES/NO and sportsbook ML, settlement definitions may differ (90 min vs extra time, voids, commission). Do not match incompatible contracts.")
 
-with tabs[4]:
+with tabs[5]:
     st.subheader("Point-in-time archive / Closing line")
     clv=D["clv"]
     st.caption("Latest PIT: "+stamp(D["pit"].get("updated_utc"))+
@@ -281,7 +335,7 @@ with tabs[4]:
     st.warning("LIVE CLV requires later executable quotes on the SAME event + SAME contract. A pre-match closing price cannot be compared with a post-goal live entry.")
     if clv.get("summary"):st.json(clv["summary"])
 
-with tabs[5]:
+with tabs[6]:
     st.subheader("Risk engine / Operational status")
     r1,r2,r3=st.columns(3)
     matchcap=float(account.get("maximum_exposure_per_match_usd",5000))
@@ -291,6 +345,7 @@ with tabs[5]:
     r3.metric("Remaining book capacity",money(max(0,bookcap-open_exposure)))
     st.progress(min(1,open_exposure/bookcap) if bookcap else 0)
     st.subheader("Upstream data & freshness")
+    st.write("ESPN scoreboard: "+stamp(scores_at)+" | Odds provider: "+stamp(odds_at))
     for key,path in FILES.items():
         doc=D[key]
         ts=doc.get("updated_utc") or doc.get("updated")
