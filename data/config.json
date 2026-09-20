@@ -210,6 +210,30 @@
       "auto_paper_requires_calibrated_residual": true,
       "feature_inputs": "frozen PIT z-scores; absent factor => no adjustment; unfitted weights => no trade",
       "activation": "requires chronological out-of-sample residual-vs-market ROI, calibration and CLV improvement; 500-match raw Poisson backtest ROI -20.39%"
+    },
+    "v04": {
+      "mode": "RESEARCH_ONLY",
+      "independent_model": "v0.4-independent-goals-research",
+      "fixture_sources_priority": [
+        "ESPN",
+        "Football-Data.co.uk fixture CSV",
+        "openfootball community fixtures"
+      ],
+      "contract_mapping_policy": "MANUAL_APPROVAL_EXACT_EVENT_DATE_MARKET_SIDE_SETTLEMENT",
+      "all_fixture_predictions": true,
+      "markets": [
+        "HOME_WIN",
+        "DRAW",
+        "AWAY_WIN",
+        "OVER_2_5",
+        "UNDER_2_5",
+        "BTTS_YES",
+        "BTTS_NO"
+      ],
+      "never_feed_exchange_price_to_independent_fair": true,
+      "require_known_fee_for_net_ev": true,
+      "auto_paper_execution_enabled": false,
+      "activation_guard": "Historical standalone football 1X2 closing-odds proxy -20.39% ROI (383 bets); no automatic A/A- recommendation until improved genuine out-of-time verification."
     }
   },
   "post_match_review": {
