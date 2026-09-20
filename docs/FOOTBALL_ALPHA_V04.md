@@ -42,3 +42,13 @@ python src/v04_mapping.py
 ```
 
 No Streamlit Cloud setup or private Kalshi account credentials required for this pipeline.
+
+## Data source recovery — September 19 late ET update
+
+The later observed v0.4 snapshot recovered **43 community fixture rows and 140 prematch selection rows, 21 modelled selections (3 matches)** despite 27 ESPN 403 errors. This is RECOVERED RESEARCH COVERAGE, **not** independently verified match times or production-ready model performance. In the then-current snapshot the Kalshi mapping candidate queue remained empty. More aliases and candidate matching rules were committed afterward; re-evaluate using the newest committed `data/v04_data_health.json` rather than these historical counts.
+
+The revised source priority is ESPN → optional football-data.org `FOOTBALL_DATA_API_KEY` (official UTC timestamp API) → Football-Data.co.uk dated fixture CSV → community Openfootball JSON. The last two options are explicitly labeled provisional until independently cross-checked; ESPN's 403 is an upstream access problem, not a bug that can be fixed by renaming user agents. Do not bypass access controls. football-data.org can return 403/429 or restricted competitions depending on account/plan: record statuses and fall back rather than assuming access.
+
+To enable the optional alternative, create an account/key at football-data.org and add `FOOTBALL_DATA_API_KEY` to **GitHub repository → Settings → Secrets and variables → Actions**. Do not paste keys in chat, workflow YAML or source files. This is separate from Kalshi's API key; Kalshi public market-data snapshots need no RSA key.
+
+The new `src/validate_sources.py` writes `data/v04_data_health.json`: fixture source type and 403 counts, model coverage, stale vs recent Kalshi market-update timestamps, explicit verified contract sides, and separate actual research-vs-trading activation gates. It never reports an unverified community kickoff as independently confirmed, and 15-minute-fresh market data is not a guaranteed quote fill. Read the Dashboard Risk & Data Health section, not just green GitHub workflow checkmarks.
