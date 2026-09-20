@@ -154,6 +154,13 @@ def main(now=None):
     fixtures,ferrors=discover_fixtures(now)
     hist,herrors=history_data(now)
     old=load("data/board.json",{})
+    if not fixtures:
+        save("data/v04_fixture_universe.json",{"updated_utc":now.isoformat(),
+            "status":"FIXTURE_FEED_UNAVAILABLE_PREVIOUS_BOARD_RETAINED",
+            "fixtures":[],"errors":{"schedule":ferrors,"history":herrors},
+            "note":"Refuse to erase prior model/board data on a transient zero-fixture response."})
+        print(json.dumps({"status":"FIXTURE_FEED_UNAVAILABLE_PREVIOUS_BOARD_RETAINED"}))
+        return
     picks=[];model=[];allfixture=[]
     for f in fixtures:
         ko=parse(f.get("kickoff_utc"))
