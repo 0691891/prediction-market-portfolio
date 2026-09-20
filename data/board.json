@@ -1,61 +1,11 @@
 {
-  "updated": "2026-09-20T02:12:47.684651+00:00",
-  "picks": [],
   "model_learning": [
     {
       "competition": "EFL/Carabao Cup",
-      "match": "Manchester City 5-0 Norwich City",
-      "lesson": "Do not equate heavy rotation with loss of structural quality. Evaluate the rotated XI relative to the opponent, especially when an elite/deep top-tier squad faces a lower-tier side.",
+      "guardrail": "One result is a learning example, not coefficient calibration. Backtest the interaction on historical point-in-time cup lineups.",
       "implementation": "v0.3.5 adds tier_gap, squad_depth and rotation depth-mismatch/resilience terms. Negative lineup penalties can be softened when pre-match evidence shows the second unit still has a large quality edge.",
-      "guardrail": "One result is a learning example, not coefficient calibration. Backtest the interaction on historical point-in-time cup lineups."
-    }
-  ],
-  "watchlist": [
-    {
-      "competition": "Premier League",
-      "match": "Brentford vs Chelsea",
-      "kickoff": "2026-09-18T19:00:00Z",
-      "refresh": "T-1H",
-      "market": "Chelsea ML",
-      "market_odds": "+125 public sportsbook snapshot (~44.4% raw break-even)",
-      "status": "PASS",
-      "thesis": "Chelsea have the higher absolute talent ceiling, but Brentford are unbeaten and tactically well suited to attack Chelsea's defensive/set-piece weakness. Chelsea also carry significant availability uncertainty. The ML market probability is below the v0.3.7 55% Core-leg floor.",
-      "risk_flags": [
-        "Chelsea availability/injury uncertainty",
-        "Brentford counter/set-piece matchup",
-        "Core probability gate fails"
-      ]
-    },
-    {
-      "competition": "La Liga",
-      "match": "Espanyol vs Elche",
-      "kickoff": "2026-09-18T19:00:00Z",
-      "refresh": "T-1H",
-      "market": "Espanyol ML",
-      "market_odds": "-123 public sportsbook snapshot (~55.2% raw break-even)",
-      "my_fair_probability": "0.58-0.60 provisional",
-      "estimated_ev": "about +5%-9% at -123 if lineup assumptions hold",
-      "status": "WATCH / NOT CORE UNTIL XI VERIFIED",
-      "thesis": "Elche are winless and have conceded heavily; Espanyol have home advantage and Roberto Fernandez form. Counterweights are Espanyol's multiple absences and suspension, so the price qualifies for the probability gate but lineup confirmation is required before promotion.",
-      "risk_flags": [
-        "Espanyol Puado/Kike Garcia/Jofre Carreras out",
-        "Omar El Hilali suspended",
-        "confirmed XI not verified"
-      ]
-    },
-    {
-      "competition": "Serie A",
-      "match": "Monza vs Sassuolo",
-      "kickoff": "2026-09-18T18:45:00Z",
-      "refresh": "T-1H",
-      "market": "Sassuolo ML",
-      "market_odds": "+130 public snapshot (~43.5% raw break-even)",
-      "status": "PASS",
-      "thesis": "Sassuolo have better recent momentum and Monza are without captain Matteo Pessina, but the 3-way win probability is below the v0.3.7 Core-leg floor. Do not force into a parlay.",
-      "risk_flags": [
-        "Core probability gate fails",
-        "away favorite/near-balanced 1X2 structure"
-      ]
+      "lesson": "Do not equate heavy rotation with loss of structural quality. Evaluate the rotated XI relative to the opponent, especially when an elite/deep top-tier squad faces a lower-tier side.",
+      "match": "Manchester City 5-0 Norwich City"
     }
   ],
   "no_bet_competitions": [
@@ -66,5 +16,57 @@
     "EFL/Carabao Cup",
     "FA Cup"
   ],
-  "note": "Sep 18 13:31 ET T-1H refresh. No B-class Core Parlay: no two verified low-correlation legs simultaneously clear v0.3.7 probability, edge and lineup-quality gates. Espanyol ML is the only provisional value candidate but remains WATCH until XI verification. No trade-ledger changes. Football bets/parlays can lose the full principal."
+  "note": "Sep 18 13:31 ET T-1H refresh. No B-class Core Parlay: no two verified low-correlation legs simultaneously clear v0.3.7 probability, edge and lineup-quality gates. Espanyol ML is the only provisional value candidate but remains WATCH until XI verification. No trade-ledger changes. Football bets/parlays can lose the full principal.",
+  "picks": [],
+  "updated": "2026-09-20T02:13:35.737307+00:00",
+  "v04_note": "Model never sees Kalshi odds. Grades UNRATED until independent quote/mapping and additional validation.",
+  "v04_status": "INDEPENDENT_RESEARCH_ONLY",
+  "watchlist": [
+    {
+      "competition": "Premier League",
+      "kickoff": "2026-09-18T19:00:00Z",
+      "market": "Chelsea ML",
+      "market_odds": "+125 public sportsbook snapshot (~44.4% raw break-even)",
+      "match": "Brentford vs Chelsea",
+      "refresh": "T-1H",
+      "risk_flags": [
+        "Chelsea availability/injury uncertainty",
+        "Brentford counter/set-piece matchup",
+        "Core probability gate fails"
+      ],
+      "status": "PASS",
+      "thesis": "Chelsea have the higher absolute talent ceiling, but Brentford are unbeaten and tactically well suited to attack Chelsea's defensive/set-piece weakness. Chelsea also carry significant availability uncertainty. The ML market probability is below the v0.3.7 55% Core-leg floor."
+    },
+    {
+      "competition": "La Liga",
+      "estimated_ev": "about +5%-9% at -123 if lineup assumptions hold",
+      "kickoff": "2026-09-18T19:00:00Z",
+      "market": "Espanyol ML",
+      "market_odds": "-123 public sportsbook snapshot (~55.2% raw break-even)",
+      "match": "Espanyol vs Elche",
+      "my_fair_probability": "0.58-0.60 provisional",
+      "refresh": "T-1H",
+      "risk_flags": [
+        "Espanyol Puado/Kike Garcia/Jofre Carreras out",
+        "Omar El Hilali suspended",
+        "confirmed XI not verified"
+      ],
+      "status": "WATCH / NOT CORE UNTIL XI VERIFIED",
+      "thesis": "Elche are winless and have conceded heavily; Espanyol have home advantage and Roberto Fernandez form. Counterweights are Espanyol's multiple absences and suspension, so the price qualifies for the probability gate but lineup confirmation is required before promotion."
+    },
+    {
+      "competition": "Serie A",
+      "kickoff": "2026-09-18T18:45:00Z",
+      "market": "Sassuolo ML",
+      "market_odds": "+130 public snapshot (~43.5% raw break-even)",
+      "match": "Monza vs Sassuolo",
+      "refresh": "T-1H",
+      "risk_flags": [
+        "Core probability gate fails",
+        "away favorite/near-balanced 1X2 structure"
+      ],
+      "status": "PASS",
+      "thesis": "Sassuolo have better recent momentum and Monza are without captain Matteo Pessina, but the 3-way win probability is below the v0.3.7 Core-leg floor. Do not force into a parlay."
+    }
+  ]
 }

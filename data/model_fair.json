@@ -1,6 +1,7 @@
 {
-  "updated_utc": "2026-09-20T02:12:47.684651+00:00",
-  "model": "v0.3.6 Poisson + relative squad-depth/rotation + probability-first portfolio classifier",
   "calibrated_params_active": true,
-  "items": []
+  "items": [],
+  "limitations": "Historical 1X2 tuned parameters do not validate O/U/BTTS or demonstrate edge; old holdout 1X2 paper proxy lost money.",
+  "model": "v0.4-independent-goals-research",
+  "updated_utc": "2026-09-20T02:13:35.737307+00:00"
 }
