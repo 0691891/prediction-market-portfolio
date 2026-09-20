@@ -35,6 +35,7 @@ FILES = {
     "morning_review": "data/reviews/2026-09-19-morning.json",
     "fixture_universe": "data/v04_fixture_universe.json",
     "v04_mapping_candidates": "data/v04_mapping_candidates.json",
+    "v04_data_health": "data/v04_data_health.json",
     "research_archive": "paper/research_archive.json",
     "hypothetical_performance": "paper/hypothetical_performance.json",
     "kalshi_public": "data/kalshi_public_snapshot.json",
@@ -470,6 +471,25 @@ with tabs[7]:
     r2.metric("Book open cap",money(bookcap))
     r3.metric("Remaining book capacity",money(max(0,bookcap-open_exposure)))
     st.progress(min(1,open_exposure/bookcap) if bookcap else 0)
+    st.subheader("v0.4 Source Verification / 数据源验证")
+    health=D.get("v04_data_health",{})
+    st.caption("Source audit: "+stamp(health.get("updated_utc"))+
+               " · no automatic A/A- activation from raw unvalidated fair.")
+    if health:
+        q1,q2,q3,q4=st.columns(4)
+        q1.metric("Fixtures",health.get("fixture",{}).get("observed",0))
+        q2.metric("Modelled market rows",health.get("model",{}).get("modelled_rows",0))
+        q3.metric("Kalshi fresh YES asks",health.get("kalshi",{}).get("recent_open_yes_asks",0))
+        q4.metric("Verified contract sides",health.get("mapping",{}).get("verified_market_side_rows",0))
+        st.write("Fixture source quality:",health.get("fixture",{}).get("source_quality_counts",{}))
+        st.write("Model missing-data reasons:",health.get("fixture",{}).get("model_status_counts",{}))
+        st.write("Football-data.org:",health.get("third_party",{}).get("football_intelligence"),
+                 "| Sportsbook:",health.get("third_party",{}).get("sportsbook"))
+        if health.get("fixture",{}).get("schedule_error_count"):
+            st.warning("Primary scoreboard source has errors; fallback fixtures remain unverified until independently cross-checked.")
+        if health.get("kalshi",{}).get("stale_yes_asks"):
+            st.warning("Some Kalshi market timestamps are stale, even if GET completed recently.")
+    else:st.info("v0.4 source health report has not been generated.")
     st.subheader("Upstream data & freshness")
     st.write("ESPN scoreboard: "+stamp(scores_at)+" | Odds provider: "+stamp(odds_at))
     st.write("Current ESPN matches: "+str(len(score_rows))+" | Current sportsbook quotes: "+str(len(live_quotes)))
