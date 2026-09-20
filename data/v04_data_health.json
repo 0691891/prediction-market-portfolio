@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-20T16:51:14.625978+00:00",
+  "updated_utc": "2026-09-20T19:30:51.290855+00:00",
   "status": "RESEARCH_ONLY_INCOMPLETE_INPUTS",
   "fixture": {
     "observed": 20,
@@ -7,25 +7,23 @@
       "COMMUNITY_SOURCE_NEEDS_CROSSCHECK": 20
     },
     "model_status_counts": {
-      "MATCH_ALREADY_STARTED_NO_RETRO_PREDICTION": 16,
-      "MISSING_HISTORY_OR_TEAM_ALIAS": 1,
-      "MODELLED": 3
+      "MATCH_ALREADY_STARTED_NO_RETRO_PREDICTION": 20
     },
     "schedule_error_count": 28,
     "history_error_count": 0,
     "cross_verified_kickoffs": 0
   },
   "model": {
-    "prospective_market_rows": 28,
-    "modelled_rows": 21,
+    "prospective_market_rows": 0,
+    "modelled_rows": 0,
     "independent_model": "v0.4-independent-goals-research",
-    "model_data_coverage": 0.75,
+    "model_data_coverage": null,
     "not_proof_of_alpha": true
   },
   "kalshi": {
-    "market_rows": 36,
+    "market_rows": 9,
     "recent_open_yes_asks": 0,
-    "stale_yes_asks": 36,
+    "stale_yes_asks": 9,
     "unknown_age_yes_asks": 0,
     "not_open": 0,
     "invalid_yes_asks": 0,
@@ -41,7 +39,7 @@
     "football_intelligence": "NO_FOOTBALL_DATA_KEY"
   },
   "activation": {
-    "research": true,
+    "research": false,
     "automatic_a_grade_paper": false,
     "reason": "Requires independently cross-checked schedule, verified contract semantics, current ASK and fee/capacity as well as out-of-sample calibrated positive-edge evidence."
   },
