@@ -33,7 +33,8 @@ FILES = {
     "pit": "data/pit/latest.json",
     "clv": "data/clv.json",
     "morning_review": "data/reviews/2026-09-19-morning.json",
-    "fixture_universe": "data/fixtures/2026-09-19.json",
+    "fixture_universe": "data/v04_fixture_universe.json",
+    "v04_mapping_candidates": "data/v04_mapping_candidates.json",
     "research_archive": "paper/research_archive.json",
     "hypothetical_performance": "paper/hypothetical_performance.json",
     "kalshi_public": "data/kalshi_public_snapshot.json",
@@ -205,6 +206,28 @@ with tabs[1]:
         st.dataframe(ks[columns],hide_index=True,use_container_width=True)
     else:st.info("No public Kalshi football quotes fetched yet. Data feed / series discovery requires verification.")
     rr=D.get("kalshi_research",{}).get("items",[])
+    st.subheader("Football Alpha v0.4 — prospectively generated fair")
+    fm=D.get("model",{})
+    st.caption("Model: "+str(fm.get("model","UNAVAILABLE"))+
+               " • generated "+stamp(fm.get("updated_utc"))+
+               " • current-board entries are pre-kickoff research, not historical fills.")
+    mm=fm.get("items",[])
+    if mm:
+        dfm=pd.DataFrame(mm)
+        cols=[z for z in ["pick_id","selection","status","fair_probability",
+                          "lambda_home","lambda_away","feature_snapshot_utc"] if z in dfm]
+        st.dataframe(dfm[cols],hide_index=True,use_container_width=True)
+    else:st.info("No independent model rows. Check fixture feed and historical results availability.")
+    candidates=D.get("v04_mapping_candidates",{})
+    st.subheader("Kalshi contract mapping — needs verification / 合约匹配审核")
+    st.caption("Candidates: "+str(len(candidates.get("candidates",[])))+
+               " • automatically APPROVED: 0; verify event/date/90min outcome, market side and void rules.")
+    for candidate in candidates.get("candidates",[])[:20]:
+        with st.expander(str(candidate.get("match"))+" ↔ "+str(candidate.get("event_ticker"))):
+            st.dataframe(pd.DataFrame(candidate.get("candidate_markets",[])),
+                         use_container_width=True,hide_index=True)
+    if not candidates.get("candidates"):
+        st.info("No match-label candidates yet. Zero means incomplete feed or no semantically matched event, NOT zero alpha.")
     st.subheader("Kalshi mapped model-vs-market / 模型与盘口")
     if rr:
         kdf=pd.DataFrame(rr)
