@@ -1,4 +1,4 @@
-name: v0.3.5 Football Intelligence + PIT + CLV + Alpha Attribution
+name: v0.4 Football Independent Fair + Kalshi PIT + Review
 on:
   workflow_dispatch:
   push:
@@ -10,6 +10,9 @@ on:
       - '.github/workflows/data-engine.yml'
   schedule:
     - cron: "17 * * * *"
+concurrency:
+  group: football-v04-main
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
@@ -25,10 +28,10 @@ jobs:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
         run: |
+          python -m unittest discover -s tests -p 'test_v04_engine.py'
+          python src/v04_engine.py
           python src/football_intelligence.py
-          python src/fair_model.py
           python src/sportsbook_consensus.py
-          python src/discover_markets.py
           python src/data_engine.py
           python src/point_in_time.py
           python src/clv_engine.py
@@ -36,10 +39,11 @@ jobs:
           python src/fixture_ingest.py
           python src/research_archive.py
           python src/kalshi_research.py
+          python src/v04_mapping.py
       - name: Commit changed snapshots
         run: |
           git config user.name "prediction-market-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/football_intelligence.json data/model_fair.json data/board.json data/sportsbook_consensus.json data/market_snapshot.json data/market_candidates.json data/approval.json data/pit data/clv.json data/alpha_attribution.json data/kalshi_public_snapshot.json data/kalshi_research.json data/kalshi_clv.json data/kalshi_whatif.json data/kalshi_pit paper/observations.json paper/research_archive.json paper/hypothetical_performance.json
+          git add data/v04_fixture_universe.json data/v04_mapping_candidates.json data/football_intelligence.json data/model_fair.json data/board.json data/sportsbook_consensus.json data/market_snapshot.json data/market_candidates.json data/approval.json data/pit data/clv.json data/alpha_attribution.json data/kalshi_public_snapshot.json data/kalshi_research.json data/kalshi_clv.json data/kalshi_whatif.json data/kalshi_pit paper/observations.json paper/research_archive.json paper/hypothetical_performance.json
           git diff --cached --quiet || git commit -m "data: refresh v0.3.5 attribution snapshots"
           git push
