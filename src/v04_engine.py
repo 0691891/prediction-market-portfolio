@@ -6,6 +6,9 @@ creates orders. Historical match-day CSVs do not expose kickoff hour: strictly
 exclude all matches on the target calendar day to avoid look-ahead.
 """
 import datetime as dt
+import csv
+import io
+import urllib.request
 import json
 import math
 import pathlib
@@ -133,6 +136,50 @@ def history_data(now):
             except Exception as exc:errors[f"{code}:{season}"]=type(exc).__name__
         output[code]=sorted(found,key=lambda r:r["date"])
     return output,errors
+def fixtures_csv(now,days=3):
+    """Fallback if ESPN returns 403. Football-data.co.uk free fixtures, UK local Time."""
+    url="https://www.football-data.co.uk/matches/resources/fixtures.csv"
+    try:
+        req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 FootballAlpha/0.4"})
+        with urllib.request.urlopen(req,timeout=20) as res:
+            rows=list(csv.DictReader(io.StringIO(res.read().decode("utf-8-sig","replace"))))
+    except Exception as exc:
+        return [],{"csv_fixture_feed":type(exc).__name__+":"+str(exc)[:60]}
+    out=[];errors={}
+    today=now.astimezone(ZoneInfo("America/New_York")).date()
+    for i,row in enumerate(rows):
+        div=(row.get("Div") or row.get("League") or "").strip()
+        league=historical.LEAGUES.get(div)
+        if league is None:continue
+        dstr=(row.get("Date") or "").strip()
+        tstr=(row.get("Time") or "").strip()
+        date=None
+        for fmt in ("%d/%m/%Y","%d/%m/%y","%Y-%m-%d"):
+            try:date=dt.datetime.strptime(dstr,fmt).date();break
+            except ValueError:continue
+        if date is None or not tstr:
+            errors["missing_kickoff:"+str(i)]="no parseable date / UK local clock time"
+            continue
+        try:
+            hh,mm=map(int,tstr[:5].split(":"))
+            ko=dt.datetime(date.year,date.month,date.day,hh,mm,
+                           tzinfo=ZoneInfo("Europe/London")).astimezone(dt.timezone.utc)
+        except (ValueError,TypeError):
+            errors["bad_kickoff:"+str(i)]=dstr+" "+tstr
+            continue
+        local_date=ko.astimezone(ZoneInfo("America/New_York")).date()
+        if not(today<=local_date<=today+dt.timedelta(days=days)):continue
+        home=(row.get("HomeTeam") or row.get("Home") or "").strip()
+        away=(row.get("AwayTeam") or row.get("Away") or "").strip()
+        if not home or not away:continue
+        identity="fixture-csv:"+div+":"+date.isoformat()+":"+slug(home)+":"+slug(away)
+        out.append({"match_id":identity,"competition":league,
+            "match":home+" vs "+away,"home_team":home,"away_team":away,
+            "home_score":None,"away_score":None,"kickoff_utc":ko.isoformat(),
+            "status":"scheduled","state":"pre","source":url,
+            "observed_at_utc":now.isoformat()})
+    return out,errors
+
 def discover_fixtures(now,days=2):
     found={};errors={}
     nyday=now.astimezone(ZoneInfo("America/New_York")).date()
@@ -146,6 +193,10 @@ def discover_fixtures(now,days=2):
             key=str(x.get("match_id"))
             # Record completed/live as contextual schedule but never backfill fair.
             found[key]={**x,"observed_at_utc":observed}
+    if not found:
+        fallback,more=fixtures_csv(now)
+        for x in fallback:found[str(x["match_id"])]=x
+        errors.update(more)
     return sorted(found.values(),key=lambda x:x.get("kickoff_utc") or ""),errors
 def main(now=None):
     now=now or dt.datetime.now(dt.timezone.utc)
