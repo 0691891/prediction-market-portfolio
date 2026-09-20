@@ -25,6 +25,21 @@ import backtest as historical
 
 LEAGUE_CODES={name:code for code,name in historical.LEAGUES.items()}
 ALIAS={
+ "acf fiorentina":"Fiorentina","fiorentina":"Fiorentina",
+ "leeds united fc":"Leeds","crystal palace fc":"Crystal Palace",
+ "manchester city fc":"Man City","sunderland afc":"Sunderland",
+ "parma calcio 1913":"Parma","genoa cfc":"Genoa",
+ "aj auxerre":"Auxerre","bayer 04 leverkusen":"Leverkusen",
+ "club atlético de madrid":"Ath Madrid","club atletico de madrid":"Ath Madrid",
+ "real madrid cf":"Real Madrid","ogc nice":"Nice",
+ "lille osc":"Lille","fulham fc":"Fulham",
+ "manchester united fc":"Man United","juventus fc":"Juventus",
+ "atalanta bc":"Atalanta","villarreal cf":"Villarreal",
+ "levante ud":"Levante","olympique de marseille":"Marseille",
+ "paris saint-germain fc":"Paris SG","valencia cf":"Valencia",
+ "real sociedad de fútbol":"Sociedad","real sociedad de futbol":"Sociedad",
+ "ac milan":"Milan","us lecce":"Lecce","liverpool fc":"Liverpool",
+ "afc bournemouth":"Bournemouth",
  "manchester city":"Man City","manchester united":"Man United",
  "nottingham forest":"Nott'm Forest","tottenham hotspur":"Tottenham",
  "newcastle united":"Newcastle","wolverhampton wanderers":"Wolves",
