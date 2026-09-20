@@ -59,8 +59,21 @@ def translate(team, names):
     if slug(raw) in lookup:return lookup[slug(raw)]
     target=ALIAS.get(raw.lower())
     if target and slug(target) in lookup:return lookup[slug(target)]
-    # Reject ambiguous partial/fuzzy mappings instead of inventing matchup strength.
-    return None
+    # Strip only conventional legal club prefixes/suffixes, and ONLY accept a
+    # unique match (never substring-matching a random similarly named team).
+    def bare(s):
+        t=str(s).lower().replace("&","and").replace("'","")
+        for token in ("football club","association football club"):
+            t=t.replace(token," ")
+        words=t.split()
+        while words and words[0] in ("fc","ac","as","rc","ssc","us","afc","cf","sv"):
+            words.pop(0)
+        while words and words[-1] in ("fc","cf","afc","sc","sv"):
+            words.pop()
+        return slug(" ".join(words))
+    mapped=bare(raw)
+    found=[n for n in names if bare(n)==mapped]
+    return found[0] if len(found)==1 else None
 def parse(s):
     try:
         v=dt.datetime.fromisoformat(str(s).replace("Z","+00:00"))
