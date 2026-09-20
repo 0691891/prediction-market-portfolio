@@ -19,6 +19,13 @@ def de_vig(prices):
     inv=[1/x for x in prices]; s=sum(inv); return [x/s for x in inv]
 def infer_pick(p,outcomes):
     m=p["market"].lower()
+    selection=str(p.get("selection") or "").upper()
+    if selection=="HOME_WIN":
+        return next((i for i,o in enumerate(outcomes) if norm(o.get("name",""))==norm(p.get("home_team",""))),None)
+    if selection=="AWAY_WIN":
+        return next((i for i,o in enumerate(outcomes) if norm(o.get("name",""))==norm(p.get("away_team",""))),None)
+    if selection=="DRAW":
+        return next((i for i,o in enumerate(outcomes) if o.get("name","").lower()=="draw"),None)
     for i,o in enumerate(outcomes):
         if o["name"].lower()!="draw" and norm(o["name"]) in norm(m): return i
     if "draw" in m:
@@ -27,6 +34,12 @@ def infer_pick(p,outcomes):
     return None
 def market_consensus(p,event):
     vals=[]; sources=[]
+    if p.get("market") in ("TOTALS_2_5","BTTS"):
+        # Legacy sportsbook parser expects "Over 2.5"/"Under 2.5";
+        # do not accidentally treat BTTS as h2h or label it as a price.
+        if p.get("market")=="BTTS":return None
+        p=dict(p)
+        p["market"]="Over 2.5" if p.get("selection")=="OVER_2_5" else "Under 2.5"
     want="spreads" if re.search(r"[+-]\d",p["market"]) else ("totals" if "over" in p["market"].lower() or "under" in p["market"].lower() else "h2h")
     for book in event.get("bookmakers",[]):
         for mk in book.get("markets",[]):
@@ -77,6 +90,7 @@ def main():
         meta={"sport_key":sk,"event_id":ev["id"],"commence_time":ev.get("commence_time"),"home_team":ev.get("home_team"),"away_team":ev.get("away_team")}
         c=market_consensus(p,ev)
         if not c:items.append({"pick_id":p.get("id"),**meta,"status":"MARKET_NOT_MATCHED"});continue
-        items.append({"pick_id":p.get("id"),**meta,"status":"OK",**c,"model_probability":p["fair_probability"],"model_vs_consensus_pp":round(p["fair_probability"]-c["consensus_probability"],4)})
+        fair=p.get("fair_probability")
+        items.append({"pick_id":p.get("id"),**meta,"status":"OK",**c,"model_probability":fair,"model_vs_consensus_pp":round(fair-c["consensus_probability"],4) if isinstance(fair,(int,float)) else None})
     write("sportsbook_consensus.json",{"updated_utc":now,"status":"OK","provider":"The Odds API v4","method":"median de-vig probability","items":items})
 if __name__=="__main__":main()
