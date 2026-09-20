@@ -3,1986 +3,12 @@
   "items": [
     {
       "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.395851,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.4529,
-      "lambda_home": 1.5327,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:afcbournemouth:liverpoolfc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:afcbournemouth:liverpoolfc:HOME_WIN",
-      "selection": "HOME_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.243461,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.4529,
-      "lambda_home": 1.5327,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:afcbournemouth:liverpoolfc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:afcbournemouth:liverpoolfc:DRAW",
-      "selection": "DRAW",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.360689,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.4529,
-      "lambda_home": 1.5327,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:afcbournemouth:liverpoolfc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:afcbournemouth:liverpoolfc:AWAY_WIN",
-      "selection": "AWAY_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.573563,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.4529,
-      "lambda_home": 1.5327,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:afcbournemouth:liverpoolfc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:afcbournemouth:liverpoolfc:OVER_2_5",
-      "selection": "OVER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.426437,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.4529,
-      "lambda_home": 1.5327,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:afcbournemouth:liverpoolfc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:afcbournemouth:liverpoolfc:UNDER_2_5",
-      "selection": "UNDER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.600656,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.4529,
-      "lambda_home": 1.5327,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:afcbournemouth:liverpoolfc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:afcbournemouth:liverpoolfc:BTTS_YES",
-      "selection": "BTTS_YES",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.399344,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.4529,
-      "lambda_home": 1.5327,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:afcbournemouth:liverpoolfc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:afcbournemouth:liverpoolfc:BTTS_NO",
-      "selection": "BTTS_NO",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.594746,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.0125,
-      "lambda_home": 1.9627,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:leedsunitedfc:crystalpalacefc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:leedsunitedfc:crystalpalacefc:HOME_WIN",
-      "selection": "HOME_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.215471,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.0125,
-      "lambda_home": 1.9627,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:leedsunitedfc:crystalpalacefc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:leedsunitedfc:crystalpalacefc:DRAW",
-      "selection": "DRAW",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.189783,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.0125,
-      "lambda_home": 1.9627,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:leedsunitedfc:crystalpalacefc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:leedsunitedfc:crystalpalacefc:AWAY_WIN",
-      "selection": "AWAY_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.571246,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.0125,
-      "lambda_home": 1.9627,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:leedsunitedfc:crystalpalacefc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:leedsunitedfc:crystalpalacefc:OVER_2_5",
-      "selection": "OVER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.428754,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.0125,
-      "lambda_home": 1.9627,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:leedsunitedfc:crystalpalacefc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:leedsunitedfc:crystalpalacefc:UNDER_2_5",
-      "selection": "UNDER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.547265,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.0125,
-      "lambda_home": 1.9627,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:leedsunitedfc:crystalpalacefc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:leedsunitedfc:crystalpalacefc:BTTS_YES",
-      "selection": "BTTS_YES",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.452735,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.0125,
-      "lambda_home": 1.9627,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:leedsunitedfc:crystalpalacefc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:leedsunitedfc:crystalpalacefc:BTTS_NO",
-      "selection": "BTTS_NO",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.668675,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 0.6995,
-      "lambda_home": 1.946,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:manchestercityfc:sunderlandafc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:manchestercityfc:sunderlandafc:HOME_WIN",
-      "selection": "HOME_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.205879,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 0.6995,
-      "lambda_home": 1.946,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:manchestercityfc:sunderlandafc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:manchestercityfc:sunderlandafc:DRAW",
-      "selection": "DRAW",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.125446,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 0.6995,
-      "lambda_home": 1.946,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:manchestercityfc:sunderlandafc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:manchestercityfc:sunderlandafc:AWAY_WIN",
-      "selection": "AWAY_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.492932,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 0.6995,
-      "lambda_home": 1.946,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:manchestercityfc:sunderlandafc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:manchestercityfc:sunderlandafc:OVER_2_5",
-      "selection": "OVER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.507068,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 0.6995,
-      "lambda_home": 1.946,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:manchestercityfc:sunderlandafc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:manchestercityfc:sunderlandafc:UNDER_2_5",
-      "selection": "UNDER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.43131,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 0.6995,
-      "lambda_home": 1.946,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:manchestercityfc:sunderlandafc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:manchestercityfc:sunderlandafc:BTTS_YES",
-      "selection": "BTTS_YES",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.56869,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 0.6995,
-      "lambda_home": 1.946,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:manchestercityfc:sunderlandafc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:manchestercityfc:sunderlandafc:BTTS_NO",
-      "selection": "BTTS_NO",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
       "fair_probability": null,
       "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:it.1:2026-09-20:frosinonecalcio:como1907",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:it.1:2026-09-20:frosinonecalcio:como1907:HOME_WIN",
-      "selection": "HOME_WIN",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:it.1:2026-09-20:frosinonecalcio:como1907",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:it.1:2026-09-20:frosinonecalcio:como1907:DRAW",
-      "selection": "DRAW",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:it.1:2026-09-20:frosinonecalcio:como1907",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:it.1:2026-09-20:frosinonecalcio:como1907:AWAY_WIN",
-      "selection": "AWAY_WIN",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:it.1:2026-09-20:frosinonecalcio:como1907",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:it.1:2026-09-20:frosinonecalcio:como1907:OVER_2_5",
-      "selection": "OVER_2_5",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:it.1:2026-09-20:frosinonecalcio:como1907",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:it.1:2026-09-20:frosinonecalcio:como1907:UNDER_2_5",
-      "selection": "UNDER_2_5",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:it.1:2026-09-20:frosinonecalcio:como1907",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:it.1:2026-09-20:frosinonecalcio:como1907:BTTS_YES",
-      "selection": "BTTS_YES",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:it.1:2026-09-20:frosinonecalcio:como1907",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:it.1:2026-09-20:frosinonecalcio:como1907:BTTS_NO",
-      "selection": "BTTS_NO",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.368346,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.2417
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 0.9269,
-      "lambda_home": 1.0208,
-      "market_executable_verified": false,
-      "match_id": "openfootball:it.1:2026-09-20:parmacalcio1913:genoacfc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:it.1:2026-09-20:parmacalcio1913:genoacfc:HOME_WIN",
-      "selection": "HOME_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.313001,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.2417
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 0.9269,
-      "lambda_home": 1.0208,
-      "market_executable_verified": false,
-      "match_id": "openfootball:it.1:2026-09-20:parmacalcio1913:genoacfc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:it.1:2026-09-20:parmacalcio1913:genoacfc:DRAW",
-      "selection": "DRAW",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.318652,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.2417
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 0.9269,
-      "lambda_home": 1.0208,
-      "market_executable_verified": false,
-      "match_id": "openfootball:it.1:2026-09-20:parmacalcio1913:genoacfc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:it.1:2026-09-20:parmacalcio1913:genoacfc:AWAY_WIN",
-      "selection": "AWAY_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.309184,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.2417
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 0.9269,
-      "lambda_home": 1.0208,
-      "market_executable_verified": false,
-      "match_id": "openfootball:it.1:2026-09-20:parmacalcio1913:genoacfc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:it.1:2026-09-20:parmacalcio1913:genoacfc:OVER_2_5",
-      "selection": "OVER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.690816,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.2417
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 0.9269,
-      "lambda_home": 1.0208,
-      "market_executable_verified": false,
-      "match_id": "openfootball:it.1:2026-09-20:parmacalcio1913:genoacfc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:it.1:2026-09-20:parmacalcio1913:genoacfc:UNDER_2_5",
-      "selection": "UNDER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.386528,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.2417
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 0.9269,
-      "lambda_home": 1.0208,
-      "market_executable_verified": false,
-      "match_id": "openfootball:it.1:2026-09-20:parmacalcio1913:genoacfc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:it.1:2026-09-20:parmacalcio1913:genoacfc:BTTS_YES",
-      "selection": "BTTS_YES",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.613472,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.2417
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 0.9269,
-      "lambda_home": 1.0208,
-      "market_executable_verified": false,
-      "match_id": "openfootball:it.1:2026-09-20:parmacalcio1913:genoacfc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:it.1:2026-09-20:parmacalcio1913:genoacfc:BTTS_NO",
-      "selection": "BTTS_NO",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:fr.1:2026-09-20:ajauxerre:stadebrestois29",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:fr.1:2026-09-20:ajauxerre:stadebrestois29:HOME_WIN",
-      "selection": "HOME_WIN",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:fr.1:2026-09-20:ajauxerre:stadebrestois29",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:fr.1:2026-09-20:ajauxerre:stadebrestois29:DRAW",
-      "selection": "DRAW",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:fr.1:2026-09-20:ajauxerre:stadebrestois29",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:fr.1:2026-09-20:ajauxerre:stadebrestois29:AWAY_WIN",
-      "selection": "AWAY_WIN",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:fr.1:2026-09-20:ajauxerre:stadebrestois29",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:fr.1:2026-09-20:ajauxerre:stadebrestois29:OVER_2_5",
-      "selection": "OVER_2_5",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:fr.1:2026-09-20:ajauxerre:stadebrestois29",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:fr.1:2026-09-20:ajauxerre:stadebrestois29:UNDER_2_5",
-      "selection": "UNDER_2_5",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:fr.1:2026-09-20:ajauxerre:stadebrestois29",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:fr.1:2026-09-20:ajauxerre:stadebrestois29:BTTS_YES",
-      "selection": "BTTS_YES",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:fr.1:2026-09-20:ajauxerre:stadebrestois29",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:fr.1:2026-09-20:ajauxerre:stadebrestois29:BTTS_NO",
-      "selection": "BTTS_NO",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.419514,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 37,
-        "history_matches": 333,
-        "home_prior_matches": 37,
-        "league_goals_per_team": 1.6426
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.7474,
-      "lambda_home": 1.8881,
-      "market_executable_verified": false,
-      "match_id": "openfootball:de.1:2026-09-20:bayer04leverkusen:rbleipzig",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:de.1:2026-09-20:bayer04leverkusen:rbleipzig:HOME_WIN",
-      "selection": "HOME_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.217655,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 37,
-        "history_matches": 333,
-        "home_prior_matches": 37,
-        "league_goals_per_team": 1.6426
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.7474,
-      "lambda_home": 1.8881,
-      "market_executable_verified": false,
-      "match_id": "openfootball:de.1:2026-09-20:bayer04leverkusen:rbleipzig",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:de.1:2026-09-20:bayer04leverkusen:rbleipzig:DRAW",
-      "selection": "DRAW",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.362831,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 37,
-        "history_matches": 333,
-        "home_prior_matches": 37,
-        "league_goals_per_team": 1.6426
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.7474,
-      "lambda_home": 1.8881,
-      "market_executable_verified": false,
-      "match_id": "openfootball:de.1:2026-09-20:bayer04leverkusen:rbleipzig",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:de.1:2026-09-20:bayer04leverkusen:rbleipzig:AWAY_WIN",
-      "selection": "AWAY_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.703491,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 37,
-        "history_matches": 333,
-        "home_prior_matches": 37,
-        "league_goals_per_team": 1.6426
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.7474,
-      "lambda_home": 1.8881,
-      "market_executable_verified": false,
-      "match_id": "openfootball:de.1:2026-09-20:bayer04leverkusen:rbleipzig",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:de.1:2026-09-20:bayer04leverkusen:rbleipzig:OVER_2_5",
-      "selection": "OVER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.296509,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 37,
-        "history_matches": 333,
-        "home_prior_matches": 37,
-        "league_goals_per_team": 1.6426
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.7474,
-      "lambda_home": 1.8881,
-      "market_executable_verified": false,
-      "match_id": "openfootball:de.1:2026-09-20:bayer04leverkusen:rbleipzig",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:de.1:2026-09-20:bayer04leverkusen:rbleipzig:UNDER_2_5",
-      "selection": "UNDER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.700787,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 37,
-        "history_matches": 333,
-        "home_prior_matches": 37,
-        "league_goals_per_team": 1.6426
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.7474,
-      "lambda_home": 1.8881,
-      "market_executable_verified": false,
-      "match_id": "openfootball:de.1:2026-09-20:bayer04leverkusen:rbleipzig",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:de.1:2026-09-20:bayer04leverkusen:rbleipzig:BTTS_YES",
-      "selection": "BTTS_YES",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.299213,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 37,
-        "history_matches": 333,
-        "home_prior_matches": 37,
-        "league_goals_per_team": 1.6426
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.7474,
-      "lambda_home": 1.8881,
-      "market_executable_verified": false,
-      "match_id": "openfootball:de.1:2026-09-20:bayer04leverkusen:rbleipzig",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:de.1:2026-09-20:bayer04leverkusen:rbleipzig:BTTS_NO",
-      "selection": "BTTS_NO",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.324488,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 44,
-        "history_matches": 439,
-        "home_prior_matches": 44,
-        "league_goals_per_team": 1.3713
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.739,
-      "lambda_home": 1.4596,
-      "market_executable_verified": false,
-      "match_id": "openfootball:es.1:2026-09-20:clubatleticodemadrid:realmadridcf",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:es.1:2026-09-20:clubatleticodemadrid:realmadridcf:HOME_WIN",
-      "selection": "HOME_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.231977,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 44,
-        "history_matches": 439,
-        "home_prior_matches": 44,
-        "league_goals_per_team": 1.3713
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.739,
-      "lambda_home": 1.4596,
-      "market_executable_verified": false,
-      "match_id": "openfootball:es.1:2026-09-20:clubatleticodemadrid:realmadridcf",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:es.1:2026-09-20:clubatleticodemadrid:realmadridcf:DRAW",
-      "selection": "DRAW",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.443535,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 44,
-        "history_matches": 439,
-        "home_prior_matches": 44,
-        "league_goals_per_team": 1.3713
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.739,
-      "lambda_home": 1.4596,
-      "market_executable_verified": false,
-      "match_id": "openfootball:es.1:2026-09-20:clubatleticodemadrid:realmadridcf",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:es.1:2026-09-20:clubatleticodemadrid:realmadridcf:AWAY_WIN",
-      "selection": "AWAY_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.619819,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 44,
-        "history_matches": 439,
-        "home_prior_matches": 44,
-        "league_goals_per_team": 1.3713
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.739,
-      "lambda_home": 1.4596,
-      "market_executable_verified": false,
-      "match_id": "openfootball:es.1:2026-09-20:clubatleticodemadrid:realmadridcf",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:es.1:2026-09-20:clubatleticodemadrid:realmadridcf:OVER_2_5",
-      "selection": "OVER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.380181,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 44,
-        "history_matches": 439,
-        "home_prior_matches": 44,
-        "league_goals_per_team": 1.3713
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.739,
-      "lambda_home": 1.4596,
-      "market_executable_verified": false,
-      "match_id": "openfootball:es.1:2026-09-20:clubatleticodemadrid:realmadridcf",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:es.1:2026-09-20:clubatleticodemadrid:realmadridcf:UNDER_2_5",
-      "selection": "UNDER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.632806,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 44,
-        "history_matches": 439,
-        "home_prior_matches": 44,
-        "league_goals_per_team": 1.3713
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.739,
-      "lambda_home": 1.4596,
-      "market_executable_verified": false,
-      "match_id": "openfootball:es.1:2026-09-20:clubatleticodemadrid:realmadridcf",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:es.1:2026-09-20:clubatleticodemadrid:realmadridcf:BTTS_YES",
-      "selection": "BTTS_YES",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.367194,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 44,
-        "history_matches": 439,
-        "home_prior_matches": 44,
-        "league_goals_per_team": 1.3713
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.739,
-      "lambda_home": 1.4596,
-      "market_executable_verified": false,
-      "match_id": "openfootball:es.1:2026-09-20:clubatleticodemadrid:realmadridcf",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:es.1:2026-09-20:clubatleticodemadrid:realmadridcf:BTTS_NO",
-      "selection": "BTTS_NO",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.17326,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 38,
-        "history_matches": 342,
-        "home_prior_matches": 38,
-        "league_goals_per_team": 1.4064
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.4636,
-      "lambda_home": 0.6805,
-      "market_executable_verified": false,
-      "match_id": "openfootball:fr.1:2026-09-20:ogcnice:lilleosc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:fr.1:2026-09-20:ogcnice:lilleosc:HOME_WIN",
-      "selection": "HOME_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.266362,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 38,
-        "history_matches": 342,
-        "home_prior_matches": 38,
-        "league_goals_per_team": 1.4064
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.4636,
-      "lambda_home": 0.6805,
-      "market_executable_verified": false,
-      "match_id": "openfootball:fr.1:2026-09-20:ogcnice:lilleosc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:fr.1:2026-09-20:ogcnice:lilleosc:DRAW",
-      "selection": "DRAW",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.560378,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 38,
-        "history_matches": 342,
-        "home_prior_matches": 38,
-        "league_goals_per_team": 1.4064
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.4636,
-      "lambda_home": 0.6805,
-      "market_executable_verified": false,
-      "match_id": "openfootball:fr.1:2026-09-20:ogcnice:lilleosc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:fr.1:2026-09-20:ogcnice:lilleosc:AWAY_WIN",
-      "selection": "AWAY_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.362253,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 38,
-        "history_matches": 342,
-        "home_prior_matches": 38,
-        "league_goals_per_team": 1.4064
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.4636,
-      "lambda_home": 0.6805,
-      "market_executable_verified": false,
-      "match_id": "openfootball:fr.1:2026-09-20:ogcnice:lilleosc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:fr.1:2026-09-20:ogcnice:lilleosc:OVER_2_5",
-      "selection": "OVER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.637747,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 38,
-        "history_matches": 342,
-        "home_prior_matches": 38,
-        "league_goals_per_team": 1.4064
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.4636,
-      "lambda_home": 0.6805,
-      "market_executable_verified": false,
-      "match_id": "openfootball:fr.1:2026-09-20:ogcnice:lilleosc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:fr.1:2026-09-20:ogcnice:lilleosc:UNDER_2_5",
-      "selection": "UNDER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.379403,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 38,
-        "history_matches": 342,
-        "home_prior_matches": 38,
-        "league_goals_per_team": 1.4064
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.4636,
-      "lambda_home": 0.6805,
-      "market_executable_verified": false,
-      "match_id": "openfootball:fr.1:2026-09-20:ogcnice:lilleosc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:fr.1:2026-09-20:ogcnice:lilleosc:BTTS_YES",
-      "selection": "BTTS_YES",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.620597,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 38,
-        "history_matches": 342,
-        "home_prior_matches": 38,
-        "league_goals_per_team": 1.4064
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.4636,
-      "lambda_home": 0.6805,
-      "market_executable_verified": false,
-      "match_id": "openfootball:fr.1:2026-09-20:ogcnice:lilleosc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:fr.1:2026-09-20:ogcnice:lilleosc:BTTS_NO",
-      "selection": "BTTS_NO",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.300562,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.5954,
-      "lambda_home": 1.2546,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:fulhamfc:manchesterunitedfc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:fulhamfc:manchesterunitedfc:HOME_WIN",
-      "selection": "HOME_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.246193,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.5954,
-      "lambda_home": 1.2546,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:fulhamfc:manchesterunitedfc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:fulhamfc:manchesterunitedfc:DRAW",
-      "selection": "DRAW",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.453244,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.5954,
-      "lambda_home": 1.2546,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:fulhamfc:manchesterunitedfc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:fulhamfc:manchesterunitedfc:AWAY_WIN",
-      "selection": "AWAY_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.542375,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.5954,
-      "lambda_home": 1.2546,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:fulhamfc:manchesterunitedfc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:fulhamfc:manchesterunitedfc:OVER_2_5",
-      "selection": "OVER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.457625,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.5954,
-      "lambda_home": 1.2546,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:fulhamfc:manchesterunitedfc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:fulhamfc:manchesterunitedfc:UNDER_2_5",
-      "selection": "UNDER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.569821,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.5954,
-      "lambda_home": 1.2546,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:fulhamfc:manchesterunitedfc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:fulhamfc:manchesterunitedfc:BTTS_YES",
-      "selection": "BTTS_YES",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.430179,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.3798
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.5954,
-      "lambda_home": 1.2546,
-      "market_executable_verified": false,
-      "match_id": "openfootball:en.1:2026-09-20:fulhamfc:manchesterunitedfc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:en.1:2026-09-20:fulhamfc:manchesterunitedfc:BTTS_NO",
-      "selection": "BTTS_NO",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:de.1:2026-09-20:fcschalke04:sv07elversberg",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:de.1:2026-09-20:fcschalke04:sv07elversberg:HOME_WIN",
-      "selection": "HOME_WIN",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:de.1:2026-09-20:fcschalke04:sv07elversberg",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:de.1:2026-09-20:fcschalke04:sv07elversberg:DRAW",
-      "selection": "DRAW",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:de.1:2026-09-20:fcschalke04:sv07elversberg",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:de.1:2026-09-20:fcschalke04:sv07elversberg:AWAY_WIN",
-      "selection": "AWAY_WIN",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:de.1:2026-09-20:fcschalke04:sv07elversberg",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:de.1:2026-09-20:fcschalke04:sv07elversberg:OVER_2_5",
-      "selection": "OVER_2_5",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:de.1:2026-09-20:fcschalke04:sv07elversberg",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:de.1:2026-09-20:fcschalke04:sv07elversberg:UNDER_2_5",
-      "selection": "UNDER_2_5",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:de.1:2026-09-20:fcschalke04:sv07elversberg",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:de.1:2026-09-20:fcschalke04:sv07elversberg:BTTS_YES",
-      "selection": "BTTS_YES",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:de.1:2026-09-20:fcschalke04:sv07elversberg",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:de.1:2026-09-20:fcschalke04:sv07elversberg:BTTS_NO",
-      "selection": "BTTS_NO",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.474465,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.2417
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 0.9658,
-      "lambda_home": 1.4176,
-      "market_executable_verified": false,
-      "match_id": "openfootball:it.1:2026-09-20:juventusfc:atalantabc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:it.1:2026-09-20:juventusfc:atalantabc:HOME_WIN",
-      "selection": "HOME_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.268914,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.2417
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 0.9658,
-      "lambda_home": 1.4176,
-      "market_executable_verified": false,
-      "match_id": "openfootball:it.1:2026-09-20:juventusfc:atalantabc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:it.1:2026-09-20:juventusfc:atalantabc:DRAW",
-      "selection": "DRAW",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.256621,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.2417
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 0.9658,
-      "lambda_home": 1.4176,
-      "market_executable_verified": false,
-      "match_id": "openfootball:it.1:2026-09-20:juventusfc:atalantabc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:it.1:2026-09-20:juventusfc:atalantabc:AWAY_WIN",
-      "selection": "AWAY_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.425939,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.2417
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 0.9658,
-      "lambda_home": 1.4176,
-      "market_executable_verified": false,
-      "match_id": "openfootball:it.1:2026-09-20:juventusfc:atalantabc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:it.1:2026-09-20:juventusfc:atalantabc:OVER_2_5",
-      "selection": "OVER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.574061,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.2417
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 0.9658,
-      "lambda_home": 1.4176,
-      "market_executable_verified": false,
-      "match_id": "openfootball:it.1:2026-09-20:juventusfc:atalantabc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:it.1:2026-09-20:juventusfc:atalantabc:UNDER_2_5",
-      "selection": "UNDER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.469253,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.2417
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 0.9658,
-      "lambda_home": 1.4176,
-      "market_executable_verified": false,
-      "match_id": "openfootball:it.1:2026-09-20:juventusfc:atalantabc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:it.1:2026-09-20:juventusfc:atalantabc:BTTS_YES",
-      "selection": "BTTS_YES",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.530747,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 42,
-        "history_matches": 420,
-        "home_prior_matches": 42,
-        "league_goals_per_team": 1.2417
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 0.9658,
-      "lambda_home": 1.4176,
-      "market_executable_verified": false,
-      "match_id": "openfootball:it.1:2026-09-20:juventusfc:atalantabc",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:it.1:2026-09-20:juventusfc:atalantabc:BTTS_NO",
-      "selection": "BTTS_NO",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:es.1:2026-09-20:rcdeportivolacoruna:realbetisbalompie",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:es.1:2026-09-20:rcdeportivolacoruna:realbetisbalompie:HOME_WIN",
-      "selection": "HOME_WIN",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:es.1:2026-09-20:rcdeportivolacoruna:realbetisbalompie",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:es.1:2026-09-20:rcdeportivolacoruna:realbetisbalompie:DRAW",
-      "selection": "DRAW",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:es.1:2026-09-20:rcdeportivolacoruna:realbetisbalompie",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:es.1:2026-09-20:rcdeportivolacoruna:realbetisbalompie:AWAY_WIN",
-      "selection": "AWAY_WIN",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:es.1:2026-09-20:rcdeportivolacoruna:realbetisbalompie",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:es.1:2026-09-20:rcdeportivolacoruna:realbetisbalompie:OVER_2_5",
-      "selection": "OVER_2_5",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:es.1:2026-09-20:rcdeportivolacoruna:realbetisbalompie",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:es.1:2026-09-20:rcdeportivolacoruna:realbetisbalompie:UNDER_2_5",
-      "selection": "UNDER_2_5",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:es.1:2026-09-20:rcdeportivolacoruna:realbetisbalompie",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:es.1:2026-09-20:rcdeportivolacoruna:realbetisbalompie:BTTS_YES",
-      "selection": "BTTS_YES",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
-      "market_executable_verified": false,
-      "match_id": "openfootball:es.1:2026-09-20:rcdeportivolacoruna:realbetisbalompie",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:es.1:2026-09-20:rcdeportivolacoruna:realbetisbalompie:BTTS_NO",
-      "selection": "BTTS_NO",
-      "status": "INSUFFICIENT_DATA"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.562722,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 43,
-        "history_matches": 439,
-        "home_prior_matches": 44,
-        "league_goals_per_team": 1.3713
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.3308,
-      "lambda_home": 2.1557,
-      "market_executable_verified": false,
-      "match_id": "openfootball:es.1:2026-09-20:villarrealcf:levanteud",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:es.1:2026-09-20:villarrealcf:levanteud:HOME_WIN",
-      "selection": "HOME_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.205514,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 43,
-        "history_matches": 439,
-        "home_prior_matches": 44,
-        "league_goals_per_team": 1.3713
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.3308,
-      "lambda_home": 2.1557,
-      "market_executable_verified": false,
-      "match_id": "openfootball:es.1:2026-09-20:villarrealcf:levanteud",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:es.1:2026-09-20:villarrealcf:levanteud:DRAW",
-      "selection": "DRAW",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.231764,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 43,
-        "history_matches": 439,
-        "home_prior_matches": 44,
-        "league_goals_per_team": 1.3713
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.3308,
-      "lambda_home": 2.1557,
-      "market_executable_verified": false,
-      "match_id": "openfootball:es.1:2026-09-20:villarrealcf:levanteud",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:es.1:2026-09-20:villarrealcf:levanteud:AWAY_WIN",
-      "selection": "AWAY_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.676647,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 43,
-        "history_matches": 439,
-        "home_prior_matches": 44,
-        "league_goals_per_team": 1.3713
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.3308,
-      "lambda_home": 2.1557,
-      "market_executable_verified": false,
-      "match_id": "openfootball:es.1:2026-09-20:villarrealcf:levanteud",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:es.1:2026-09-20:villarrealcf:levanteud:OVER_2_5",
-      "selection": "OVER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.323353,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 43,
-        "history_matches": 439,
-        "home_prior_matches": 44,
-        "league_goals_per_team": 1.3713
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.3308,
-      "lambda_home": 2.1557,
-      "market_executable_verified": false,
-      "match_id": "openfootball:es.1:2026-09-20:villarrealcf:levanteud",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:es.1:2026-09-20:villarrealcf:levanteud:UNDER_2_5",
-      "selection": "UNDER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.65052,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 43,
-        "history_matches": 439,
-        "home_prior_matches": 44,
-        "league_goals_per_team": 1.3713
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.3308,
-      "lambda_home": 2.1557,
-      "market_executable_verified": false,
-      "match_id": "openfootball:es.1:2026-09-20:villarrealcf:levanteud",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:es.1:2026-09-20:villarrealcf:levanteud:BTTS_YES",
-      "selection": "BTTS_YES",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.34948,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 43,
-        "history_matches": 439,
-        "home_prior_matches": 44,
-        "league_goals_per_team": 1.3713
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": 1.3308,
-      "lambda_home": 2.1557,
-      "market_executable_verified": false,
-      "match_id": "openfootball:es.1:2026-09-20:villarrealcf:levanteud",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:es.1:2026-09-20:villarrealcf:levanteud:BTTS_NO",
-      "selection": "BTTS_NO",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
-      },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": null,
       "lambda_home": null,
@@ -2000,7 +26,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": null,
       "lambda_home": null,
@@ -2018,7 +44,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": null,
       "lambda_home": null,
@@ -2036,7 +62,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": null,
       "lambda_home": null,
@@ -2054,7 +80,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": null,
       "lambda_home": null,
@@ -2072,7 +98,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": null,
       "lambda_home": null,
@@ -2090,7 +116,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": null,
       "lambda_home": null,
@@ -2111,7 +137,7 @@
         "home_prior_matches": 42,
         "league_goals_per_team": 1.2417
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": 0.8004,
       "lambda_home": 1.6425,
@@ -2132,7 +158,7 @@
         "home_prior_matches": 42,
         "league_goals_per_team": 1.2417
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": 0.8004,
       "lambda_home": 1.6425,
@@ -2153,7 +179,7 @@
         "home_prior_matches": 42,
         "league_goals_per_team": 1.2417
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": 0.8004,
       "lambda_home": 1.6425,
@@ -2174,7 +200,7 @@
         "home_prior_matches": 42,
         "league_goals_per_team": 1.2417
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": 0.8004,
       "lambda_home": 1.6425,
@@ -2195,7 +221,7 @@
         "home_prior_matches": 42,
         "league_goals_per_team": 1.2417
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": 0.8004,
       "lambda_home": 1.6425,
@@ -2216,7 +242,7 @@
         "home_prior_matches": 42,
         "league_goals_per_team": 1.2417
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": 0.8004,
       "lambda_home": 1.6425,
@@ -2237,7 +263,7 @@
         "home_prior_matches": 42,
         "league_goals_per_team": 1.2417
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": 0.8004,
       "lambda_home": 1.6425,
@@ -2258,7 +284,7 @@
         "home_prior_matches": 38,
         "league_goals_per_team": 1.4064
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": 1.7139,
       "lambda_home": 1.3463,
@@ -2279,7 +305,7 @@
         "home_prior_matches": 38,
         "league_goals_per_team": 1.4064
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": 1.7139,
       "lambda_home": 1.3463,
@@ -2300,7 +326,7 @@
         "home_prior_matches": 38,
         "league_goals_per_team": 1.4064
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": 1.7139,
       "lambda_home": 1.3463,
@@ -2321,7 +347,7 @@
         "home_prior_matches": 38,
         "league_goals_per_team": 1.4064
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": 1.7139,
       "lambda_home": 1.3463,
@@ -2342,7 +368,7 @@
         "home_prior_matches": 38,
         "league_goals_per_team": 1.4064
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": 1.7139,
       "lambda_home": 1.3463,
@@ -2363,7 +389,7 @@
         "home_prior_matches": 38,
         "league_goals_per_team": 1.4064
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": 1.7139,
       "lambda_home": 1.3463,
@@ -2384,7 +410,7 @@
         "home_prior_matches": 38,
         "league_goals_per_team": 1.4064
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": 1.7139,
       "lambda_home": 1.3463,
@@ -2405,7 +431,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.3713
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": 1.389,
       "lambda_home": 1.4058,
@@ -2426,7 +452,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.3713
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": 1.389,
       "lambda_home": 1.4058,
@@ -2447,7 +473,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.3713
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": 1.389,
       "lambda_home": 1.4058,
@@ -2468,7 +494,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.3713
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": 1.389,
       "lambda_home": 1.4058,
@@ -2489,7 +515,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.3713
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": 1.389,
       "lambda_home": 1.4058,
@@ -2510,7 +536,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.3713
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": 1.389,
       "lambda_home": 1.4058,
@@ -2531,7 +557,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.3713
       },
-      "feature_snapshot_utc": "2026-09-20T12:26:49.576578+00:00",
+      "feature_snapshot_utc": "2026-09-20T16:50:59.337901+00:00",
       "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
       "lambda_away": 1.389,
       "lambda_home": 1.4058,
@@ -2545,5 +571,5 @@
   ],
   "limitations": "Historical 1X2 tuned parameters do not validate O/U/BTTS or demonstrate edge; old holdout 1X2 paper proxy lost money.",
   "model": "v0.4-independent-goals-research",
-  "updated_utc": "2026-09-20T12:26:49.576578+00:00"
+  "updated_utc": "2026-09-20T16:50:59.337901+00:00"
 }
