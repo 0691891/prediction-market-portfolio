@@ -1,0 +1,48 @@
+{
+  "updated_utc": "2026-09-20T06:26:22.849664+00:00",
+  "status": "RESEARCH_ONLY_INCOMPLETE_INPUTS",
+  "fixture": {
+    "observed": 20,
+    "source_quality_counts": {
+      "COMMUNITY_SOURCE_NEEDS_CROSSCHECK": 20
+    },
+    "model_status_counts": {
+      "MISSING_HISTORY_OR_TEAM_ALIAS": 9,
+      "MODELLED": 11
+    },
+    "schedule_error_count": 28,
+    "history_error_count": 1,
+    "cross_verified_kickoffs": 0
+  },
+  "model": {
+    "prospective_market_rows": 140,
+    "modelled_rows": 77,
+    "independent_model": "v0.4-independent-goals-research",
+    "model_data_coverage": 0.55,
+    "not_proof_of_alpha": true
+  },
+  "kalshi": {
+    "market_rows": 33,
+    "recent_open_yes_asks": 0,
+    "stale_yes_asks": 33,
+    "unknown_age_yes_asks": 0,
+    "not_open": 0,
+    "invalid_yes_asks": 0,
+    "source_errors": {},
+    "freshness_max_seconds": 900
+  },
+  "mapping": {
+    "explicit_rows": 0,
+    "verified_market_side_rows": 0
+  },
+  "third_party": {
+    "sportsbook": "NO_ODDS_API_KEY",
+    "football_intelligence": "NO_FOOTBALL_DATA_KEY"
+  },
+  "activation": {
+    "research": true,
+    "automatic_a_grade_paper": false,
+    "reason": "Requires independently cross-checked schedule, verified contract semantics, current ASK and fee/capacity as well as out-of-sample calibrated positive-edge evidence."
+  },
+  "note": "Github Actions fetch is a periodic observation, not a Kalshi live executable quote or guarantee of true closing price."
+}
