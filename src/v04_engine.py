@@ -8,6 +8,8 @@ exclude all matches on the target calendar day to avoid look-ahead.
 import datetime as dt
 import csv
 import io
+import os
+import urllib.parse
 import urllib.request
 import json
 import math
@@ -164,6 +166,45 @@ def history_data(now):
             except Exception as exc:errors[f"{code}:{season}"]=type(exc).__name__
         output[code]=sorted(found,key=lambda r:r["date"])
     return output,errors
+def football_data_org_fixtures(now,days=3):
+    """Optional licensed fixture source via GitHub Actions FOOTBALL_DATA_API_KEY.
+
+    utcDate is supplied as UTC rather than derived from a community kickoff clock.
+    This is a fixture source; a fresh confirmed lineup is a separate data product.
+    """
+    key=os.getenv("FOOTBALL_DATA_API_KEY")
+    if not key:return [],{"football_data_org":"NO_FOOTBALL_DATA_API_KEY"}
+    codes={"PL":"Premier League","PD":"La Liga","SA":"Serie A",
+           "BL1":"Bundesliga","FL1":"Ligue 1","CL":"UEFA Champions League"}
+    day=now.astimezone(ZoneInfo("America/New_York")).date()
+    start=day.isoformat();end=(day+dt.timedelta(days=days)).isoformat()
+    out=[];errors={}
+    for code,league in codes.items():
+        url="https://api.football-data.org/v4/competitions/"+code+"/matches?"+urllib.parse.urlencode(
+            {"dateFrom":start,"dateTo":end})
+        try:
+            req=urllib.request.Request(url,headers={"X-Auth-Token":key,
+                                        "User-Agent":"FootballAlphaResearch/0.4"})
+            with urllib.request.urlopen(req,timeout=15) as res:d=json.load(res)
+        except Exception as exc:
+            errors[code]=type(exc).__name__+":"+str(exc)[:70]
+            continue
+        for m in d.get("matches",[]):
+            ko=parse(m.get("utcDate"))
+            if not ko:continue
+            home=m.get("homeTeam",{}).get("name")
+            away=m.get("awayTeam",{}).get("name")
+            if not home or not away:continue
+            mid="football-data-org:"+str(m.get("id") or slug(home+away+str(ko)))
+            out.append({"match_id":mid,"competition":league,
+                "match":home+" vs "+away,"home_team":home,"away_team":away,
+                "kickoff_utc":ko.isoformat(),"source":url,
+                "state":"post" if m.get("status")=="FINISHED" else
+                    "in" if m.get("status") in ("IN_PLAY","PAUSED") else "pre",
+                "status":m.get("status"),"observed_at_utc":now.isoformat(),
+                "schedule_quality":"PROVIDER_UTC_KICKOFF_SINGLE_SOURCE_NOT_CROSS_VERIFIED"})
+    return out,errors
+
 def fixtures_csv(now,days=3):
     """Fallback if ESPN returns 403. Football-data.co.uk free fixtures, UK local Time."""
     url="https://www.football-data.co.uk/matches/resources/fixtures.csv"
@@ -270,6 +311,10 @@ def discover_fixtures(now,days=2):
             key=str(x.get("match_id"))
             # Record completed/live as contextual schedule but never backfill fair.
             found[key]={**x,"observed_at_utc":observed}
+    if not found:
+        fallback,more=football_data_org_fixtures(now)
+        for x in fallback:found[str(x["match_id"])]=x
+        errors.update({"football-data.org:"+k:v for k,v in more.items()})
     if not found:
         fallback,more=fixtures_csv(now)
         for x in fallback:found[str(x["match_id"])]=x
