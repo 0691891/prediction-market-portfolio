@@ -180,6 +180,55 @@ def fixtures_csv(now,days=3):
             "observed_at_utc":now.isoformat()})
     return out,errors
 
+def openfootball_fixtures(now,days=3):
+    """Secondary independent fixture source, no key, with league-local times.
+
+    Openfootball is community-maintained, so these kickoff times are tentative.
+    Never use them to assert a verified executable quote/fill.
+    """
+    sources={"Premier League":("en.1","Europe/London"),
+             "La Liga":("es.1","Europe/Madrid"),
+             "Serie A":("it.1","Europe/Rome"),
+             "Bundesliga":("de.1","Europe/Berlin"),
+             "Ligue 1":("fr.1","Europe/Paris")}
+    base="https://raw.githubusercontent.com/openfootball/football.json/master/"
+    season_year=now.year if now.month>=7 else now.year-1
+    season=f"{season_year}-{(season_year+1)%100:02d}"
+    today=now.astimezone(ZoneInfo("America/New_York")).date()
+    out=[];errors={}
+    for league,(code,zone) in sources.items():
+        url=base+season+"/"+code+".json"
+        try:
+            req=urllib.request.Request(url,headers={"User-Agent":"FootballAlpha/0.4"})
+            with urllib.request.urlopen(req,timeout=15) as res:
+                doc=json.load(res)
+        except Exception as exc:
+            errors[league]=type(exc).__name__+":"+str(exc)[:65]
+            continue
+        for row in doc.get("matches",[]):
+            dstr=str(row.get("date") or "")
+            tstr=str(row.get("time") or "")
+            if not dstr or not tstr:continue
+            try:
+                d=dt.date.fromisoformat(dstr)
+                hh,mm=map(int,tstr[:5].split(":"))
+                ko=dt.datetime(d.year,d.month,d.day,hh,mm,
+                    tzinfo=ZoneInfo(zone)).astimezone(dt.timezone.utc)
+            except (TypeError,ValueError):continue
+            local_date=ko.astimezone(ZoneInfo("America/New_York")).date()
+            if not(today<=local_date<=today+dt.timedelta(days=days)):continue
+            home=str(row.get("team1") or "").strip()
+            away=str(row.get("team2") or "").strip()
+            if not home or not away:continue
+            mid="openfootball:"+code+":"+d.isoformat()+":"+slug(home)+":"+slug(away)
+            out.append({"match_id":mid,"competition":league,
+                "match":home+" vs "+away,"home_team":home,"away_team":away,
+                "kickoff_utc":ko.isoformat(),"score":None,
+                "status":"SCHEDULED_UNVERIFIED_TIME","state":"pre",
+                "source":url,"schedule_quality":"COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+                "observed_at_utc":now.isoformat()})
+    return out,errors
+
 def discover_fixtures(now,days=2):
     found={};errors={}
     nyday=now.astimezone(ZoneInfo("America/New_York")).date()
@@ -197,6 +246,10 @@ def discover_fixtures(now,days=2):
         fallback,more=fixtures_csv(now)
         for x in fallback:found[str(x["match_id"])]=x
         errors.update(more)
+    if not found:
+        fallback,more=openfootball_fixtures(now)
+        for x in fallback:found[str(x["match_id"])]=x
+        errors.update({"openfootball:"+k:v for k,v in more.items()})
     return sorted(found.values(),key=lambda x:x.get("kickoff_utc") or ""),errors
 def main(now=None):
     now=now or dt.datetime.now(dt.timezone.utc)
@@ -232,6 +285,7 @@ def main(now=None):
               "home_team":f.get("home_team"),"away_team":f.get("away_team"),
               "kickoff_utc":f.get("kickoff_utc"),"fixture_source":f.get("source"),
               "observed_at_utc":f.get("observed_at_utc"),"state":f.get("state"),
+              "schedule_quality":f.get("schedule_quality","PROVIDER_SCHEDULE_UNCROSSCHECKED"),
               "model_fair_status":note}
         allfixture.append(base)
         if status!="PREMATCH":continue
