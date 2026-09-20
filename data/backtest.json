@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-19T22:53:47.932026+00:00",
+  "updated_utc": "2026-09-20T11:44:56.502048+00:00",
   "status": "VALIDATED_500",
   "method": "2024/25 train-only grid search; 2025/26 chronological holdout; max 100 matches per league; same-day scores excluded",
   "data_source": "Football-Data.co.uk historical results + closing 1X2 odds",
