@@ -55,5 +55,29 @@ def main():
                 "provider":"ESPN public scoreboard; may be delayed",
                 "provider_errors":errors,"observations":history})
     write("observations.json",old)
-    print("fixture_score_observations_added",added,"total",len(history),"feed_errors",len(errors))
+    # Separate immutable full-time outcome reference for 90-minute league contracts.
+    # Cup finals after extra time / penalty shootouts require manual market-rule audit.
+    league_comp={"Premier League","La Liga","Serie A","Bundesliga","Ligue 1"}
+    result_book=read("verified_match_results.json",{"matches":[]})
+    result_by={str(x.get("match_id")):x for x in result_book.get("matches",[]) if x.get("match_id")}
+    results_added=0
+    for row in current:
+        if row.get("state")!="post" or row.get("competition") not in league_comp:continue
+        if row.get("home_score") is None or row.get("away_score") is None:continue
+        try:h=int(row["home_score"]);a=int(row["away_score"])
+        except (ValueError,TypeError):continue
+        if h<0 or a<0:continue
+        mid=str(row["match_id"])
+        if mid in result_by:continue  # provider corrections require explicit reconciliation
+        record={"match_id":mid,"competition":row["competition"],
+                "match":row.get("match"),"kickoff_utc":row.get("kickoff_utc"),
+                "score":{"home":h,"away":a},"status":"FT",
+                "settlement_scope":"90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+                "verified_source":row.get("url"),"observed_utc":fetched}
+        result_book.setdefault("matches",[]).append(record)
+        result_by[mid]=record;results_added+=1
+    result_book["updated_utc"]=fetched
+    write("verified_match_results.json",result_book)
+    print("fixture_score_observations_added",added,"total",len(history),
+          "result_rows_added",results_added,"feed_errors",len(errors))
 if __name__=="__main__":main()
