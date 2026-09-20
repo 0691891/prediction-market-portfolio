@@ -311,7 +311,9 @@ def main(now=None):
              "MISSING_HISTORY_OR_TEAM_ALIAS")
         base={"match_id":mid,"competition":league,"match":f.get("match"),
               "home_team":f.get("home_team"),"away_team":f.get("away_team"),
-              "kickoff_utc":f.get("kickoff_utc"),"fixture_source":f.get("source"),
+              "resolved_history_home_team":hm,"resolved_history_away_team":aw,
+              "history_records":len(rr),"kickoff_utc":f.get("kickoff_utc"),
+              "fixture_source":f.get("source"),
               "observed_at_utc":f.get("observed_at_utc"),"state":f.get("state"),
               "schedule_quality":f.get("schedule_quality","PROVIDER_SCHEDULE_UNCROSSCHECKED"),
               "model_fair_status":note}
@@ -340,7 +342,9 @@ def main(now=None):
               "feature_snapshot_utc":now.isoformat(),
               "feature_cutoff_note":"Strictly before fixture calendar day; no current-day results",
               "feature_details":lp[2] if lp else {"reason":note},
-              "calibrated_for":"Historical core 1X2 params only; TOTALS/BTTS not validated"})
+              "calibrated_for":"Historical core 1X2 params only; TOTALS/BTTS not validated",
+              "fixture_source_quality":base["schedule_quality"],
+              "market_executable_verified":False})
     old.update({"updated":now.isoformat(),"picks":picks,
                 "v04_status":"INDEPENDENT_RESEARCH_ONLY",
                 "v04_note":"Model never sees Kalshi odds. Grades UNRATED until independent quote/mapping and additional validation."})
