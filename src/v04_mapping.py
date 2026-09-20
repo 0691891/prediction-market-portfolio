@@ -46,7 +46,7 @@ def main():
             if not any(q and len(q)>=4 and q in text for q in aws):continue
             # Kalshi event date YYYY MMM DD (e.g. -26SEP20...) is a
             # candidate filter, not a verified settlement or kickoff time.
-            stamp=re.search(r"-(\\d{2})([A-Z]{3})(\\d{2})",event.upper())
+            stamp=re.search(r"-(\d{2})([A-Z]{3})(\d{2})",event.upper())
             if stamp:
                 try:
                     ed=dt.datetime.strptime("20"+stamp.group(1)+stamp.group(2)+stamp.group(3),
