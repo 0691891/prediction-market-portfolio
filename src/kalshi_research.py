@@ -114,7 +114,14 @@ def main():
         contract_ok=x.get("contract_verified") is True
         prematch=bool(kickoff_dt and snapshot_dt and snapshot_dt<kickoff_dt)
         status=str((m or {}).get("status","")).lower()
-        quote_ok=bool(price is not None and 0<price<1 and status in ("open","active") and prematch)
+        exchange_time=timeparse((m or {}).get("market_updated_utc"))
+        seconds_old=(snapshot_dt-exchange_time).total_seconds() if snapshot_dt and exchange_time else None
+        # A freshly fetched JSON is not proof of a recently refreshed exchange quote.
+        # Keep stale/un-timestamped bids visible for research but never assign
+        # trade-candidate EV or imply they are current executable ask prices.
+        recently_updated=seconds_old is not None and 0<=seconds_old<=900
+        quote_ok=bool(price is not None and 0<price<1 and status in ("open","active")
+                      and prematch and recently_updated)
         edge=(fair-price) if fair is not None and quote_ok and contract_ok else None
         gross_ev=(fair/price-1) if edge is not None else None
         # Fee cannot be treated as zero. Provide net EV only with explicit verified fee input.
@@ -124,7 +131,7 @@ def main():
           "competition":p.get("competition") or x.get("competition"),
           "market":p.get("market") or x.get("market"),"kickoff_utc":kickoff,
           "fetched_utc":now,"market_updated_utc":(m or {}).get("market_updated_utc"),
-          "kalshi_status":status or None,"yes_bid_usd":(m or {}).get("yes_bid_usd"),
+          "kalshi_status":status or None,"market_age_seconds":round(seconds_old,2) if seconds_old is not None else None,"recently_updated":recently_updated,"yes_bid_usd":(m or {}).get("yes_bid_usd"),
           "yes_ask_usd":(m or {}).get("yes_ask_usd"),"no_bid_usd":(m or {}).get("no_bid_usd"),
           "no_ask_usd":(m or {}).get("no_ask_usd"),"entry_ask_usd":price,
           "opposite_ask_usd":opposite,"break_even_probability_gross":price,
@@ -137,7 +144,7 @@ def main():
           "prematch":prematch,"quote_available":quote_ok,
           "quote_quality":"INDICATIVE_NO_FILL" if quote_ok else "NOT_ACTIONABLE",
           "result":(m or {}).get("result"),"settlement_value_dollars":(m or {}).get("settlement_value_dollars"),
-          "settlement_outcome":settlement(m or {}),"note":"No automatic recommendation/fill. Fee and model-side mapping required for net EV."}
+          "settlement_outcome":settlement(m or {}),"note":"No automatic recommendation/fill. Model-side mapping, fresh market update and fee required for net EV."}
         rows.append(row)
     save("data/kalshi_research.json",{"updated_utc":now,"items":rows,
            "status":"OK" if rows else "NO_VERIFIED_MAPPINGS",
