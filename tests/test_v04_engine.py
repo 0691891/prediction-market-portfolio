@@ -17,6 +17,24 @@ class V04Tests(unittest.TestCase):
         names={"Man City","Man United","Chelsea"}
         self.assertEqual(translate("Manchester City",names),"Man City")
         self.assertIsNone(translate("Unknown FC",names))
+    def test_real_world_football_source_aliases(self):
+        names={"Fiorentina","Napoli","Leeds","Crystal Palace","Leverkusen",
+               "RB Leipzig","Paris SG","Marseille","Ath Madrid","Real Madrid"}
+        expected={
+            "ACF Fiorentina":"Fiorentina",
+            "SSC Napoli":"Napoli",
+            "Leeds United FC":"Leeds",
+            "Crystal Palace FC":"Crystal Palace",
+            "Bayer 04 Leverkusen":"Leverkusen",
+            "RB Leipzig":"RB Leipzig",
+            "Olympique de Marseille":"Marseille",
+            "Paris Saint-Germain FC":"Paris SG",
+            "Club Atlético de Madrid":"Ath Madrid",
+            "Real Madrid CF":"Real Madrid"}
+        for name,target in expected.items():
+            with self.subTest(name=name):
+                self.assertEqual(translate(name,names),target)
+
     def test_history_does_not_see_current_day(self):
         date=dt.datetime(2026,9,19,tzinfo=dt.timezone.utc)
         rows=[]
