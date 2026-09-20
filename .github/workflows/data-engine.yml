@@ -29,6 +29,7 @@ jobs:
           FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
         run: |
           python -m unittest discover -s tests -p 'test_v04_engine.py'
+          python -m unittest discover -s tests -p 'test_validate_sources.py'
           python src/v04_engine.py
           python src/football_intelligence.py
           python src/sportsbook_consensus.py
