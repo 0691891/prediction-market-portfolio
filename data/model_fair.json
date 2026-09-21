@@ -3,5 +3,5 @@
   "items": [],
   "limitations": "Historical 1X2 tuned parameters do not validate O/U/BTTS or demonstrate edge; old holdout 1X2 paper proxy lost money.",
   "model": "v0.4-independent-goals-research",
-  "updated_utc": "2026-09-20T22:30:23.002191+00:00"
+  "updated_utc": "2026-09-21T01:10:41.620628+00:00"
 }
