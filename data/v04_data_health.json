@@ -1,14 +1,10 @@
 {
-  "updated_utc": "2026-09-21T01:10:59.696193+00:00",
+  "updated_utc": "2026-09-21T06:27:27.564408+00:00",
   "status": "RESEARCH_ONLY_INCOMPLETE_INPUTS",
   "fixture": {
-    "observed": 20,
-    "source_quality_counts": {
-      "COMMUNITY_SOURCE_NEEDS_CROSSCHECK": 20
-    },
-    "model_status_counts": {
-      "MATCH_ALREADY_STARTED_NO_RETRO_PREDICTION": 20
-    },
+    "observed": 0,
+    "source_quality_counts": {},
+    "model_status_counts": {},
     "schedule_error_count": 28,
     "history_error_count": 0,
     "cross_verified_kickoffs": 0
@@ -21,9 +17,9 @@
     "not_proof_of_alpha": true
   },
   "kalshi": {
-    "market_rows": 9,
+    "market_rows": 33,
     "recent_open_yes_asks": 0,
-    "stale_yes_asks": 9,
+    "stale_yes_asks": 33,
     "unknown_age_yes_asks": 0,
     "not_open": 0,
     "invalid_yes_asks": 0,
