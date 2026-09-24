@@ -1,6 +1,10 @@
 {
   "errors": {
-    "history": {},
+    "history": {
+      "E0:2526": "TimeoutError",
+      "E0:2627": "TimeoutError",
+      "F1:2627": "TimeoutError"
+    },
     "schedule": {
       "2026-09-24:Bundesliga": "HTTP Error 403: Forbidden",
       "2026-09-24:EFL/Carabao Cup": "HTTP Error 403: Forbidden",
@@ -29,11 +33,12 @@
       "2026-09-26:Serie A": "HTTP Error 403: Forbidden",
       "2026-09-26:UEFA Champions League": "HTTP Error 403: Forbidden",
       "2026-09-26:UEFA Europa League": "HTTP Error 403: Forbidden",
+      "csv_fixture_feed": "TimeoutError:The read operation timed out",
       "football-data.org:football_data_org": "NO_FOOTBALL_DATA_API_KEY"
     }
   },
   "fixtures": [],
   "note": "Refuse to erase prior model/board data on a transient zero-fixture response.",
   "status": "FIXTURE_FEED_UNAVAILABLE_PREVIOUS_BOARD_RETAINED",
-  "updated_utc": "2026-09-24T10:06:57.036743+00:00"
+  "updated_utc": "2026-09-24T15:12:00.891588+00:00"
 }
