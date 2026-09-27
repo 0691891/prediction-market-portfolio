@@ -2,15 +2,6 @@
   "errors": {
     "history": {},
     "schedule": {
-      "2026-09-26:Bundesliga": "HTTP Error 403: Forbidden",
-      "2026-09-26:EFL/Carabao Cup": "HTTP Error 403: Forbidden",
-      "2026-09-26:FA Cup": "HTTP Error 403: Forbidden",
-      "2026-09-26:La Liga": "HTTP Error 403: Forbidden",
-      "2026-09-26:Ligue 1": "HTTP Error 403: Forbidden",
-      "2026-09-26:Premier League": "HTTP Error 403: Forbidden",
-      "2026-09-26:Serie A": "HTTP Error 403: Forbidden",
-      "2026-09-26:UEFA Champions League": "HTTP Error 403: Forbidden",
-      "2026-09-26:UEFA Europa League": "HTTP Error 403: Forbidden",
       "2026-09-27:Bundesliga": "HTTP Error 403: Forbidden",
       "2026-09-27:EFL/Carabao Cup": "HTTP Error 403: Forbidden",
       "2026-09-27:FA Cup": "HTTP Error 403: Forbidden",
@@ -29,11 +20,20 @@
       "2026-09-28:Serie A": "HTTP Error 403: Forbidden",
       "2026-09-28:UEFA Champions League": "HTTP Error 403: Forbidden",
       "2026-09-28:UEFA Europa League": "HTTP Error 403: Forbidden",
+      "2026-09-29:Bundesliga": "HTTP Error 403: Forbidden",
+      "2026-09-29:EFL/Carabao Cup": "HTTP Error 403: Forbidden",
+      "2026-09-29:FA Cup": "HTTP Error 403: Forbidden",
+      "2026-09-29:La Liga": "HTTP Error 403: Forbidden",
+      "2026-09-29:Ligue 1": "HTTP Error 403: Forbidden",
+      "2026-09-29:Premier League": "HTTP Error 403: Forbidden",
+      "2026-09-29:Serie A": "HTTP Error 403: Forbidden",
+      "2026-09-29:UEFA Champions League": "HTTP Error 403: Forbidden",
+      "2026-09-29:UEFA Europa League": "HTTP Error 403: Forbidden",
       "football-data.org:football_data_org": "NO_FOOTBALL_DATA_API_KEY"
     }
   },
   "fixtures": [],
   "note": "Refuse to erase prior model/board data on a transient zero-fixture response.",
   "status": "FIXTURE_FEED_UNAVAILABLE_PREVIOUS_BOARD_RETAINED",
-  "updated_utc": "2026-09-27T01:31:44.776736+00:00"
+  "updated_utc": "2026-09-27T08:17:28.318911+00:00"
 }
