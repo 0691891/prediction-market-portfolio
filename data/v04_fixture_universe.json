@@ -2,38 +2,11 @@
   "errors": {
     "history": {},
     "schedule": {
-      "2026-10-01:Bundesliga": "HTTP Error 403: Forbidden",
-      "2026-10-01:EFL/Carabao Cup": "HTTP Error 403: Forbidden",
-      "2026-10-01:FA Cup": "HTTP Error 403: Forbidden",
-      "2026-10-01:La Liga": "HTTP Error 403: Forbidden",
-      "2026-10-01:Ligue 1": "HTTP Error 403: Forbidden",
-      "2026-10-01:Premier League": "HTTP Error 403: Forbidden",
-      "2026-10-01:Serie A": "HTTP Error 403: Forbidden",
-      "2026-10-01:UEFA Champions League": "HTTP Error 403: Forbidden",
-      "2026-10-01:UEFA Europa League": "HTTP Error 403: Forbidden",
-      "2026-10-02:Bundesliga": "HTTP Error 403: Forbidden",
-      "2026-10-02:EFL/Carabao Cup": "HTTP Error 403: Forbidden",
-      "2026-10-02:FA Cup": "HTTP Error 403: Forbidden",
-      "2026-10-02:La Liga": "HTTP Error 403: Forbidden",
-      "2026-10-02:Ligue 1": "HTTP Error 403: Forbidden",
-      "2026-10-02:Premier League": "HTTP Error 403: Forbidden",
-      "2026-10-02:Serie A": "HTTP Error 403: Forbidden",
-      "2026-10-02:UEFA Champions League": "HTTP Error 403: Forbidden",
-      "2026-10-02:UEFA Europa League": "HTTP Error 403: Forbidden",
-      "2026-10-03:Bundesliga": "HTTP Error 403: Forbidden",
-      "2026-10-03:EFL/Carabao Cup": "HTTP Error 403: Forbidden",
-      "2026-10-03:FA Cup": "HTTP Error 403: Forbidden",
-      "2026-10-03:La Liga": "HTTP Error 403: Forbidden",
-      "2026-10-03:Ligue 1": "HTTP Error 403: Forbidden",
-      "2026-10-03:Premier League": "HTTP Error 403: Forbidden",
-      "2026-10-03:Serie A": "HTTP Error 403: Forbidden",
-      "2026-10-03:UEFA Champions League": "HTTP Error 403: Forbidden",
-      "2026-10-03:UEFA Europa League": "HTTP Error 403: Forbidden",
       "football-data.org:football_data_org": "NO_FOOTBALL_DATA_API_KEY"
     }
   },
   "fixtures": [],
   "note": "Refuse to erase prior model/board data on a transient zero-fixture response.",
   "status": "FIXTURE_FEED_UNAVAILABLE_PREVIOUS_BOARD_RETAINED",
-  "updated_utc": "2026-10-01T13:27:20.691691+00:00"
+  "updated_utc": "2026-10-01T19:35:44.297390+00:00"
 }

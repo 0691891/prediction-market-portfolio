@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-10-01T13:27:44.793727+00:00",
+  "updated_utc": "2026-10-01T19:36:01.921817+00:00",
   "status": "RESEARCH_ONLY_INCOMPLETE_INPUTS",
   "fixture": {
     "observed": 0,
     "source_quality_counts": {},
     "model_status_counts": {},
-    "schedule_error_count": 28,
+    "schedule_error_count": 1,
     "history_error_count": 0,
     "cross_verified_kickoffs": 0
   },
@@ -17,9 +17,9 @@
     "not_proof_of_alpha": true
   },
   "kalshi": {
-    "market_rows": 111,
+    "market_rows": 148,
     "recent_open_yes_asks": 0,
-    "stale_yes_asks": 111,
+    "stale_yes_asks": 148,
     "unknown_age_yes_asks": 0,
     "not_open": 0,
     "invalid_yes_asks": 0,
