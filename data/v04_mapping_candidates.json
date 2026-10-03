@@ -1,8 +1,8 @@
 {
-  "updated_utc": "2026-10-03T08:13:59.109676+00:00",
+  "updated_utc": "2026-10-03T13:29:39.503668+00:00",
   "candidates": [],
   "fixtures_scanned": 0,
-  "event_groups_scanned": 78,
+  "event_groups_scanned": 49,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }
