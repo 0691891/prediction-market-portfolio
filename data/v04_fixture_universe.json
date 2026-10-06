@@ -16,7 +16,7 @@
       "match": "Borussia Dortmund vs SV Werder Bremen",
       "match_id": "openfootball:de.1:2026-10-09:borussiadortmund:svwerderbremen",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-06T17:15:16.574464+00:00",
+      "observed_at_utc": "2026-10-06T21:43:23.122401+00:00",
       "resolved_history_away_team": "Werder Bremen",
       "resolved_history_home_team": "Dortmund",
       "schedule_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
@@ -32,7 +32,7 @@
       "match": "Racing Club de Lens vs Olympique Lyonnais",
       "match_id": "openfootball:fr.1:2026-10-09:racingclubdelens:olympiquelyonnais",
       "model_fair_status": "MISSING_HISTORY_OR_TEAM_ALIAS",
-      "observed_at_utc": "2026-10-06T17:15:16.574464+00:00",
+      "observed_at_utc": "2026-10-06T21:43:23.122401+00:00",
       "resolved_history_away_team": "Lyon",
       "resolved_history_home_team": null,
       "schedule_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
@@ -48,7 +48,7 @@
       "match": "Málaga CF vs RCD Espanyol de Barcelona",
       "match_id": "openfootball:es.1:2026-10-09:malagacf:rcdespanyoldebarcelona",
       "model_fair_status": "MISSING_HISTORY_OR_TEAM_ALIAS",
-      "observed_at_utc": "2026-10-06T17:15:16.574464+00:00",
+      "observed_at_utc": "2026-10-06T21:43:23.122401+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": "Malaga",
       "schedule_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
@@ -61,5 +61,5 @@
     "prospective_picks": 21,
     "unmapped_or_unsupported": 14
   },
-  "updated_utc": "2026-10-06T17:15:16.574464+00:00"
+  "updated_utc": "2026-10-06T21:43:23.122401+00:00"
 }
