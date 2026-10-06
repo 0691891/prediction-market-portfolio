@@ -1,6 +1,217 @@
 {
-  "updated": "2026-10-06T03:04:20.030251+00:00",
-  "items": [],
+  "updated": "2026-10-06T10:27:21.556637+00:00",
+  "items": [
+    {
+      "signal": "Borussia Dortmund vs SV Werder Bremen — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Borussia Dortmund vs SV Werder Bremen — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Borussia Dortmund vs SV Werder Bremen — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Borussia Dortmund vs SV Werder Bremen — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Borussia Dortmund vs SV Werder Bremen — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Borussia Dortmund vs SV Werder Bremen — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Borussia Dortmund vs SV Werder Bremen — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Racing Club de Lens vs Olympique Lyonnais — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Racing Club de Lens vs Olympique Lyonnais — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Racing Club de Lens vs Olympique Lyonnais — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Racing Club de Lens vs Olympique Lyonnais — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Racing Club de Lens vs Olympique Lyonnais — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Racing Club de Lens vs Olympique Lyonnais — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Racing Club de Lens vs Olympique Lyonnais — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Málaga CF vs RCD Espanyol de Barcelona — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Málaga CF vs RCD Espanyol de Barcelona — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Málaga CF vs RCD Espanyol de Barcelona — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Málaga CF vs RCD Espanyol de Barcelona — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Málaga CF vs RCD Espanyol de Barcelona — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Málaga CF vs RCD Espanyol de Barcelona — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Málaga CF vs RCD Espanyol de Barcelona — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    }
+  ],
   "mode": "PAPER / AUTO-ENTRY ON VERIFIED POSITIVE RISK-REWARD",
   "real_money_execution": false
 }

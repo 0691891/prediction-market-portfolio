@@ -1,7 +1,407 @@
 {
   "calibrated_params_active": true,
-  "items": [],
+  "items": [
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": 0.700446,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "away_prior_matches": 38,
+        "history_matches": 342,
+        "home_prior_matches": 38,
+        "league_goals_per_team": 1.6477
+      },
+      "feature_snapshot_utc": "2026-10-06T10:27:06.111835+00:00",
+      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "lambda_away": 0.8474,
+      "lambda_home": 2.3011,
+      "market_executable_verified": false,
+      "match_id": "openfootball:de.1:2026-10-09:borussiadortmund:svwerderbremen",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "openfootball:de.1:2026-10-09:borussiadortmund:svwerderbremen:HOME_WIN",
+      "selection": "HOME_WIN",
+      "status": "MODELLED"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": 0.1774,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "away_prior_matches": 38,
+        "history_matches": 342,
+        "home_prior_matches": 38,
+        "league_goals_per_team": 1.6477
+      },
+      "feature_snapshot_utc": "2026-10-06T10:27:06.111835+00:00",
+      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "lambda_away": 0.8474,
+      "lambda_home": 2.3011,
+      "market_executable_verified": false,
+      "match_id": "openfootball:de.1:2026-10-09:borussiadortmund:svwerderbremen",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "openfootball:de.1:2026-10-09:borussiadortmund:svwerderbremen:DRAW",
+      "selection": "DRAW",
+      "status": "MODELLED"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": 0.122155,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "away_prior_matches": 38,
+        "history_matches": 342,
+        "home_prior_matches": 38,
+        "league_goals_per_team": 1.6477
+      },
+      "feature_snapshot_utc": "2026-10-06T10:27:06.111835+00:00",
+      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "lambda_away": 0.8474,
+      "lambda_home": 2.3011,
+      "market_executable_verified": false,
+      "match_id": "openfootball:de.1:2026-10-09:borussiadortmund:svwerderbremen",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "openfootball:de.1:2026-10-09:borussiadortmund:svwerderbremen:AWAY_WIN",
+      "selection": "AWAY_WIN",
+      "status": "MODELLED"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": 0.609254,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "away_prior_matches": 38,
+        "history_matches": 342,
+        "home_prior_matches": 38,
+        "league_goals_per_team": 1.6477
+      },
+      "feature_snapshot_utc": "2026-10-06T10:27:06.111835+00:00",
+      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "lambda_away": 0.8474,
+      "lambda_home": 2.3011,
+      "market_executable_verified": false,
+      "match_id": "openfootball:de.1:2026-10-09:borussiadortmund:svwerderbremen",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "openfootball:de.1:2026-10-09:borussiadortmund:svwerderbremen:OVER_2_5",
+      "selection": "OVER_2_5",
+      "status": "MODELLED"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": 0.390746,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "away_prior_matches": 38,
+        "history_matches": 342,
+        "home_prior_matches": 38,
+        "league_goals_per_team": 1.6477
+      },
+      "feature_snapshot_utc": "2026-10-06T10:27:06.111835+00:00",
+      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "lambda_away": 0.8474,
+      "lambda_home": 2.3011,
+      "market_executable_verified": false,
+      "match_id": "openfootball:de.1:2026-10-09:borussiadortmund:svwerderbremen",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "openfootball:de.1:2026-10-09:borussiadortmund:svwerderbremen:UNDER_2_5",
+      "selection": "UNDER_2_5",
+      "status": "MODELLED"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": 0.514247,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "away_prior_matches": 38,
+        "history_matches": 342,
+        "home_prior_matches": 38,
+        "league_goals_per_team": 1.6477
+      },
+      "feature_snapshot_utc": "2026-10-06T10:27:06.111835+00:00",
+      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "lambda_away": 0.8474,
+      "lambda_home": 2.3011,
+      "market_executable_verified": false,
+      "match_id": "openfootball:de.1:2026-10-09:borussiadortmund:svwerderbremen",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "openfootball:de.1:2026-10-09:borussiadortmund:svwerderbremen:BTTS_YES",
+      "selection": "BTTS_YES",
+      "status": "MODELLED"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": 0.485753,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "away_prior_matches": 38,
+        "history_matches": 342,
+        "home_prior_matches": 38,
+        "league_goals_per_team": 1.6477
+      },
+      "feature_snapshot_utc": "2026-10-06T10:27:06.111835+00:00",
+      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "lambda_away": 0.8474,
+      "lambda_home": 2.3011,
+      "market_executable_verified": false,
+      "match_id": "openfootball:de.1:2026-10-09:borussiadortmund:svwerderbremen",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "openfootball:de.1:2026-10-09:borussiadortmund:svwerderbremen:BTTS_NO",
+      "selection": "BTTS_NO",
+      "status": "MODELLED"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": null,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+      },
+      "feature_snapshot_utc": "2026-10-06T10:27:06.111835+00:00",
+      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "lambda_away": null,
+      "lambda_home": null,
+      "market_executable_verified": false,
+      "match_id": "openfootball:fr.1:2026-10-09:racingclubdelens:olympiquelyonnais",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "openfootball:fr.1:2026-10-09:racingclubdelens:olympiquelyonnais:HOME_WIN",
+      "selection": "HOME_WIN",
+      "status": "INSUFFICIENT_DATA"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": null,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+      },
+      "feature_snapshot_utc": "2026-10-06T10:27:06.111835+00:00",
+      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "lambda_away": null,
+      "lambda_home": null,
+      "market_executable_verified": false,
+      "match_id": "openfootball:fr.1:2026-10-09:racingclubdelens:olympiquelyonnais",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "openfootball:fr.1:2026-10-09:racingclubdelens:olympiquelyonnais:DRAW",
+      "selection": "DRAW",
+      "status": "INSUFFICIENT_DATA"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": null,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+      },
+      "feature_snapshot_utc": "2026-10-06T10:27:06.111835+00:00",
+      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "lambda_away": null,
+      "lambda_home": null,
+      "market_executable_verified": false,
+      "match_id": "openfootball:fr.1:2026-10-09:racingclubdelens:olympiquelyonnais",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "openfootball:fr.1:2026-10-09:racingclubdelens:olympiquelyonnais:AWAY_WIN",
+      "selection": "AWAY_WIN",
+      "status": "INSUFFICIENT_DATA"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": null,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+      },
+      "feature_snapshot_utc": "2026-10-06T10:27:06.111835+00:00",
+      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "lambda_away": null,
+      "lambda_home": null,
+      "market_executable_verified": false,
+      "match_id": "openfootball:fr.1:2026-10-09:racingclubdelens:olympiquelyonnais",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "openfootball:fr.1:2026-10-09:racingclubdelens:olympiquelyonnais:OVER_2_5",
+      "selection": "OVER_2_5",
+      "status": "INSUFFICIENT_DATA"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": null,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+      },
+      "feature_snapshot_utc": "2026-10-06T10:27:06.111835+00:00",
+      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "lambda_away": null,
+      "lambda_home": null,
+      "market_executable_verified": false,
+      "match_id": "openfootball:fr.1:2026-10-09:racingclubdelens:olympiquelyonnais",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "openfootball:fr.1:2026-10-09:racingclubdelens:olympiquelyonnais:UNDER_2_5",
+      "selection": "UNDER_2_5",
+      "status": "INSUFFICIENT_DATA"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": null,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+      },
+      "feature_snapshot_utc": "2026-10-06T10:27:06.111835+00:00",
+      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "lambda_away": null,
+      "lambda_home": null,
+      "market_executable_verified": false,
+      "match_id": "openfootball:fr.1:2026-10-09:racingclubdelens:olympiquelyonnais",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "openfootball:fr.1:2026-10-09:racingclubdelens:olympiquelyonnais:BTTS_YES",
+      "selection": "BTTS_YES",
+      "status": "INSUFFICIENT_DATA"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": null,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+      },
+      "feature_snapshot_utc": "2026-10-06T10:27:06.111835+00:00",
+      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "lambda_away": null,
+      "lambda_home": null,
+      "market_executable_verified": false,
+      "match_id": "openfootball:fr.1:2026-10-09:racingclubdelens:olympiquelyonnais",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "openfootball:fr.1:2026-10-09:racingclubdelens:olympiquelyonnais:BTTS_NO",
+      "selection": "BTTS_NO",
+      "status": "INSUFFICIENT_DATA"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": null,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+      },
+      "feature_snapshot_utc": "2026-10-06T10:27:06.111835+00:00",
+      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "lambda_away": null,
+      "lambda_home": null,
+      "market_executable_verified": false,
+      "match_id": "openfootball:es.1:2026-10-09:malagacf:rcdespanyoldebarcelona",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "openfootball:es.1:2026-10-09:malagacf:rcdespanyoldebarcelona:HOME_WIN",
+      "selection": "HOME_WIN",
+      "status": "INSUFFICIENT_DATA"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": null,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+      },
+      "feature_snapshot_utc": "2026-10-06T10:27:06.111835+00:00",
+      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "lambda_away": null,
+      "lambda_home": null,
+      "market_executable_verified": false,
+      "match_id": "openfootball:es.1:2026-10-09:malagacf:rcdespanyoldebarcelona",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "openfootball:es.1:2026-10-09:malagacf:rcdespanyoldebarcelona:DRAW",
+      "selection": "DRAW",
+      "status": "INSUFFICIENT_DATA"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": null,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+      },
+      "feature_snapshot_utc": "2026-10-06T10:27:06.111835+00:00",
+      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "lambda_away": null,
+      "lambda_home": null,
+      "market_executable_verified": false,
+      "match_id": "openfootball:es.1:2026-10-09:malagacf:rcdespanyoldebarcelona",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "openfootball:es.1:2026-10-09:malagacf:rcdespanyoldebarcelona:AWAY_WIN",
+      "selection": "AWAY_WIN",
+      "status": "INSUFFICIENT_DATA"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": null,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+      },
+      "feature_snapshot_utc": "2026-10-06T10:27:06.111835+00:00",
+      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "lambda_away": null,
+      "lambda_home": null,
+      "market_executable_verified": false,
+      "match_id": "openfootball:es.1:2026-10-09:malagacf:rcdespanyoldebarcelona",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "openfootball:es.1:2026-10-09:malagacf:rcdespanyoldebarcelona:OVER_2_5",
+      "selection": "OVER_2_5",
+      "status": "INSUFFICIENT_DATA"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": null,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+      },
+      "feature_snapshot_utc": "2026-10-06T10:27:06.111835+00:00",
+      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "lambda_away": null,
+      "lambda_home": null,
+      "market_executable_verified": false,
+      "match_id": "openfootball:es.1:2026-10-09:malagacf:rcdespanyoldebarcelona",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "openfootball:es.1:2026-10-09:malagacf:rcdespanyoldebarcelona:UNDER_2_5",
+      "selection": "UNDER_2_5",
+      "status": "INSUFFICIENT_DATA"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": null,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+      },
+      "feature_snapshot_utc": "2026-10-06T10:27:06.111835+00:00",
+      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "lambda_away": null,
+      "lambda_home": null,
+      "market_executable_verified": false,
+      "match_id": "openfootball:es.1:2026-10-09:malagacf:rcdespanyoldebarcelona",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "openfootball:es.1:2026-10-09:malagacf:rcdespanyoldebarcelona:BTTS_YES",
+      "selection": "BTTS_YES",
+      "status": "INSUFFICIENT_DATA"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": null,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+      },
+      "feature_snapshot_utc": "2026-10-06T10:27:06.111835+00:00",
+      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "lambda_away": null,
+      "lambda_home": null,
+      "market_executable_verified": false,
+      "match_id": "openfootball:es.1:2026-10-09:malagacf:rcdespanyoldebarcelona",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "openfootball:es.1:2026-10-09:malagacf:rcdespanyoldebarcelona:BTTS_NO",
+      "selection": "BTTS_NO",
+      "status": "INSUFFICIENT_DATA"
+    }
+  ],
   "limitations": "Historical 1X2 tuned parameters do not validate O/U/BTTS or demonstrate edge; old holdout 1X2 paper proxy lost money.",
   "model": "v0.4-independent-goals-research",
-  "updated_utc": "2026-09-21T01:10:41.620628+00:00"
+  "updated_utc": "2026-10-06T10:27:06.111835+00:00"
 }
