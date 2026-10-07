@@ -1,65 +1,63 @@
 {
   "errors": {
     "history": {},
-    "schedule": {
-      "football-data.org:football_data_org": "NO_FOOTBALL_DATA_API_KEY"
-    }
+    "schedule": {}
   },
   "fixtures": [
     {
-      "away_team": "SV Werder Bremen",
+      "away_team": "Werder Bremen",
       "competition": "Bundesliga",
-      "fixture_source": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/de.1.json",
+      "fixture_source": "ESPN scoreboard",
       "history_records": 342,
       "home_team": "Borussia Dortmund",
-      "kickoff_utc": "2026-10-09T18:30:00+00:00",
-      "match": "Borussia Dortmund vs SV Werder Bremen",
-      "match_id": "openfootball:de.1:2026-10-09:borussiadortmund:svwerderbremen",
+      "kickoff_utc": "2026-10-09T18:30Z",
+      "match": "Werder Bremen at Borussia Dortmund",
+      "match_id": "espn:ger.1:401884781",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-07T01:36:54.461799+00:00",
+      "observed_at_utc": "2026-10-07T08:46:45.865758+00:00",
       "resolved_history_away_team": "Werder Bremen",
       "resolved_history_home_team": "Dortmund",
-      "schedule_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "state": "pre"
     },
     {
-      "away_team": "Olympique Lyonnais",
+      "away_team": "Lyon",
       "competition": "Ligue 1",
-      "fixture_source": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json",
+      "fixture_source": "ESPN scoreboard",
       "history_records": 351,
-      "home_team": "Racing Club de Lens",
-      "kickoff_utc": "2026-10-09T18:45:00+00:00",
-      "match": "Racing Club de Lens vs Olympique Lyonnais",
-      "match_id": "openfootball:fr.1:2026-10-09:racingclubdelens:olympiquelyonnais",
-      "model_fair_status": "MISSING_HISTORY_OR_TEAM_ALIAS",
-      "observed_at_utc": "2026-10-07T01:36:54.461799+00:00",
+      "home_team": "Lens",
+      "kickoff_utc": "2026-10-09T18:45Z",
+      "match": "Lyon at Lens",
+      "match_id": "espn:fra.1:401876447",
+      "model_fair_status": "MODELLED",
+      "observed_at_utc": "2026-10-07T08:46:45.865758+00:00",
       "resolved_history_away_team": "Lyon",
-      "resolved_history_home_team": null,
-      "schedule_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "resolved_history_home_team": "Lens",
+      "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "state": "pre"
     },
     {
-      "away_team": "RCD Espanyol de Barcelona",
+      "away_team": "Espanyol",
       "competition": "La Liga",
-      "fixture_source": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json",
+      "fixture_source": "ESPN scoreboard",
       "history_records": 449,
-      "home_team": "Málaga CF",
-      "kickoff_utc": "2026-10-09T19:00:00+00:00",
-      "match": "Málaga CF vs RCD Espanyol de Barcelona",
-      "match_id": "openfootball:es.1:2026-10-09:malagacf:rcdespanyoldebarcelona",
-      "model_fair_status": "MISSING_HISTORY_OR_TEAM_ALIAS",
-      "observed_at_utc": "2026-10-07T01:36:54.461799+00:00",
-      "resolved_history_away_team": null,
+      "home_team": "Málaga",
+      "kickoff_utc": "2026-10-09T19:00Z",
+      "match": "Espanyol at Málaga",
+      "match_id": "espn:esp.1:401882851",
+      "model_fair_status": "MODELLED",
+      "observed_at_utc": "2026-10-07T08:46:45.865758+00:00",
+      "resolved_history_away_team": "Espanol",
       "resolved_history_home_team": "Malaga",
-      "schedule_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "state": "pre"
     }
   ],
   "stats": {
     "fixtures": 3,
-    "modelled": 7,
+    "modelled": 21,
     "prospective_picks": 21,
-    "unmapped_or_unsupported": 14
+    "unmapped_or_unsupported": 0
   },
-  "updated_utc": "2026-10-07T01:36:54.461799+00:00"
+  "updated_utc": "2026-10-07T08:46:44.321996+00:00"
 }
