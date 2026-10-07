@@ -14,7 +14,7 @@
       "match": "Werder Bremen at Borussia Dortmund",
       "match_id": "espn:ger.1:401884781",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-07T16:35:57.251438+00:00",
+      "observed_at_utc": "2026-10-07T22:02:42.885472+00:00",
       "resolved_history_away_team": "Werder Bremen",
       "resolved_history_home_team": "Dortmund",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -30,7 +30,7 @@
       "match": "Lyon at Lens",
       "match_id": "espn:fra.1:401876447",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-07T16:35:57.251438+00:00",
+      "observed_at_utc": "2026-10-07T22:02:42.885472+00:00",
       "resolved_history_away_team": "Lyon",
       "resolved_history_home_team": "Lens",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -46,7 +46,7 @@
       "match": "Espanyol at Málaga",
       "match_id": "espn:esp.1:401882851",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-07T16:35:57.251438+00:00",
+      "observed_at_utc": "2026-10-07T22:02:42.885472+00:00",
       "resolved_history_away_team": "Espanol",
       "resolved_history_home_team": "Malaga",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -59,5 +59,5 @@
     "prospective_picks": 21,
     "unmapped_or_unsupported": 0
   },
-  "updated_utc": "2026-10-07T16:35:54.494773+00:00"
+  "updated_utc": "2026-10-07T22:02:35.164012+00:00"
 }
