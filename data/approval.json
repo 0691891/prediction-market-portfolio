@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T02:01:08.212567+00:00",
+  "updated": "2026-10-08T09:05:18.751523+00:00",
   "items": [
     {
       "signal": "Werder Bremen at Borussia Dortmund — 1X2",
@@ -203,6 +203,1686 @@
     },
     {
       "signal": "Espanyol at Málaga — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Leeds United at Arsenal — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Leeds United at Arsenal — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Leeds United at Arsenal — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Leeds United at Arsenal — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Leeds United at Arsenal — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Leeds United at Arsenal — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Leeds United at Arsenal — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Athletic Club at Rayo Vallecano — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Athletic Club at Rayo Vallecano — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Athletic Club at Rayo Vallecano — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Athletic Club at Rayo Vallecano — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Athletic Club at Rayo Vallecano — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Athletic Club at Rayo Vallecano — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Athletic Club at Rayo Vallecano — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Fiorentina at Genoa — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Fiorentina at Genoa — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Fiorentina at Genoa — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Fiorentina at Genoa — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Fiorentina at Genoa — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Fiorentina at Genoa — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Fiorentina at Genoa — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "SV Elversberg at 1. FC Union Berlin — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "SV Elversberg at 1. FC Union Berlin — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "SV Elversberg at 1. FC Union Berlin — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "SV Elversberg at 1. FC Union Berlin — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "SV Elversberg at 1. FC Union Berlin — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "SV Elversberg at 1. FC Union Berlin — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "SV Elversberg at 1. FC Union Berlin — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Bayern Munich at FC Augsburg — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Bayern Munich at FC Augsburg — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Bayern Munich at FC Augsburg — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Bayern Munich at FC Augsburg — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Bayern Munich at FC Augsburg — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Bayern Munich at FC Augsburg — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Bayern Munich at FC Augsburg — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Bayer Leverkusen at Mainz — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Bayer Leverkusen at Mainz — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Bayer Leverkusen at Mainz — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Bayer Leverkusen at Mainz — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Bayer Leverkusen at Mainz — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Bayer Leverkusen at Mainz — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Bayer Leverkusen at Mainz — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "VfB Stuttgart at SC Paderborn 07 — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "VfB Stuttgart at SC Paderborn 07 — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "VfB Stuttgart at SC Paderborn 07 — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "VfB Stuttgart at SC Paderborn 07 — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "VfB Stuttgart at SC Paderborn 07 — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "VfB Stuttgart at SC Paderborn 07 — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "VfB Stuttgart at SC Paderborn 07 — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Hamburg SV at TSG Hoffenheim — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Hamburg SV at TSG Hoffenheim — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Hamburg SV at TSG Hoffenheim — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Hamburg SV at TSG Hoffenheim — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Hamburg SV at TSG Hoffenheim — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Hamburg SV at TSG Hoffenheim — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Hamburg SV at TSG Hoffenheim — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Brentford at Aston Villa — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Brentford at Aston Villa — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Brentford at Aston Villa — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Brentford at Aston Villa — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Brentford at Aston Villa — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Brentford at Aston Villa — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Brentford at Aston Villa — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "AFC Bournemouth at Chelsea — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "AFC Bournemouth at Chelsea — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "AFC Bournemouth at Chelsea — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "AFC Bournemouth at Chelsea — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "AFC Bournemouth at Chelsea — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "AFC Bournemouth at Chelsea — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "AFC Bournemouth at Chelsea — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Fulham at Ipswich Town — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Fulham at Ipswich Town — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Fulham at Ipswich Town — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Fulham at Ipswich Town — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Fulham at Ipswich Town — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Fulham at Ipswich Town — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Fulham at Ipswich Town — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Brighton & Hove Albion at Sunderland — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Brighton & Hove Albion at Sunderland — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Brighton & Hove Albion at Sunderland — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Brighton & Hove Albion at Sunderland — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Brighton & Hove Albion at Sunderland — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Brighton & Hove Albion at Sunderland — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Brighton & Hove Albion at Sunderland — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Atlético Madrid at Alavés — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Atlético Madrid at Alavés — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Atlético Madrid at Alavés — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Atlético Madrid at Alavés — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Atlético Madrid at Alavés — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Atlético Madrid at Alavés — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Atlético Madrid at Alavés — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Le Havre AC at Lille — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Le Havre AC at Lille — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Le Havre AC at Lille — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Le Havre AC at Lille — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Le Havre AC at Lille — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Le Havre AC at Lille — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Le Havre AC at Lille — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Parma at Internazionale — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Parma at Internazionale — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Parma at Internazionale — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Parma at Internazionale — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Parma at Internazionale — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Parma at Internazionale — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Parma at Internazionale — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Tottenham Hotspur at Manchester United — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Tottenham Hotspur at Manchester United — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Tottenham Hotspur at Manchester United — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Tottenham Hotspur at Manchester United — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Tottenham Hotspur at Manchester United — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Tottenham Hotspur at Manchester United — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Tottenham Hotspur at Manchester United — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Getafe at Barcelona — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Getafe at Barcelona — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Getafe at Barcelona — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Getafe at Barcelona — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Getafe at Barcelona — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Getafe at Barcelona — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Getafe at Barcelona — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Eintracht Frankfurt at RB Leipzig — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Eintracht Frankfurt at RB Leipzig — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Eintracht Frankfurt at RB Leipzig — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Eintracht Frankfurt at RB Leipzig — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Eintracht Frankfurt at RB Leipzig — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Eintracht Frankfurt at RB Leipzig — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Eintracht Frankfurt at RB Leipzig — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Frosinone at Napoli — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Frosinone at Napoli — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Frosinone at Napoli — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Frosinone at Napoli — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Frosinone at Napoli — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Frosinone at Napoli — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Frosinone at Napoli — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Toulouse at AS Monaco — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Toulouse at AS Monaco — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Toulouse at AS Monaco — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Toulouse at AS Monaco — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Toulouse at AS Monaco — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Toulouse at AS Monaco — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Toulouse at AS Monaco — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Angers at Brest — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Angers at Brest — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Angers at Brest — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Angers at Brest — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Angers at Brest — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Angers at Brest — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Angers at Brest — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Paris FC at Lorient — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Paris FC at Lorient — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Paris FC at Lorient — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Paris FC at Lorient — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Paris FC at Lorient — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Paris FC at Lorient — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Paris FC at Lorient — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Le Mans at Paris Saint-Germain — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Le Mans at Paris Saint-Germain — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Le Mans at Paris Saint-Germain — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Le Mans at Paris Saint-Germain — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Le Mans at Paris Saint-Germain — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Le Mans at Paris Saint-Germain — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Le Mans at Paris Saint-Germain — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Villarreal at Real Madrid — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Villarreal at Real Madrid — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Villarreal at Real Madrid — 1X2",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Villarreal at Real Madrid — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Villarreal at Real Madrid — TOTALS_2_5",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Villarreal at Real Madrid — BTTS",
+      "grade": "UNRATED",
+      "suggested_units": 0,
+      "max_entry": "Edge≥4%, EV≥5%",
+      "kalshi_ticker": null,
+      "sportsbook_consensus": null,
+      "model_vs_consensus_pp": null,
+      "status": "NEEDS TICKER MAP"
+    },
+    {
+      "signal": "Villarreal at Real Madrid — BTTS",
       "grade": "UNRATED",
       "suggested_units": 0,
       "max_entry": "Edge≥4%, EV≥5%",

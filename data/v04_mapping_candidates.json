@@ -1,8 +1,111 @@
 {
-  "updated_utc": "2026-10-08T02:01:15.222392+00:00",
-  "candidates": [],
-  "fixtures_scanned": 3,
-  "event_groups_scanned": 105,
+  "updated_utc": "2026-10-08T09:05:23.353450+00:00",
+  "candidates": [
+    {
+      "match_id": "espn:fra.1:401876444",
+      "match": "Toulouse at AS Monaco",
+      "kickoff_utc": "2026-10-10T18:45Z",
+      "event_ticker": "KXLIGUE1GAME-26OCT10ASMTFC",
+      "candidate_markets": [
+        {
+          "ticker": "KXLIGUE1GAME-26OCT10ASMTFC-ASM",
+          "title": "Monaco wins",
+          "yes_ask_usd": 0.62,
+          "no_ask_usd": 0.39,
+          "status": "active",
+          "fetched_utc": "2026-10-08T09:05:19.468168+00:00"
+        },
+        {
+          "ticker": "KXLIGUE1GAME-26OCT10ASMTFC-TFC",
+          "title": "Toulouse wins",
+          "yes_ask_usd": 0.18,
+          "no_ask_usd": 0.83,
+          "status": "active",
+          "fetched_utc": "2026-10-08T09:05:19.468168+00:00"
+        },
+        {
+          "ticker": "KXLIGUE1GAME-26OCT10ASMTFC-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.22,
+          "no_ask_usd": 0.8,
+          "status": "active",
+          "fetched_utc": "2026-10-08T09:05:19.468168+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:fra.1:401876448",
+      "match": "Angers at Brest",
+      "kickoff_utc": "2026-10-10T18:45Z",
+      "event_ticker": "KXLIGUE1GAME-26OCT10STBANG",
+      "candidate_markets": [
+        {
+          "ticker": "KXLIGUE1GAME-26OCT10STBANG-ANG",
+          "title": "Angers wins",
+          "yes_ask_usd": 0.27,
+          "no_ask_usd": 0.75,
+          "status": "active",
+          "fetched_utc": "2026-10-08T09:05:19.468168+00:00"
+        },
+        {
+          "ticker": "KXLIGUE1GAME-26OCT10STBANG-STB",
+          "title": "Stade Brest 29 wins",
+          "yes_ask_usd": 0.49,
+          "no_ask_usd": 0.53,
+          "status": "active",
+          "fetched_utc": "2026-10-08T09:05:19.468168+00:00"
+        },
+        {
+          "ticker": "KXLIGUE1GAME-26OCT10STBANG-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.26,
+          "no_ask_usd": 0.75,
+          "status": "active",
+          "fetched_utc": "2026-10-08T09:05:19.468168+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:fra.1:401876445",
+      "match": "Paris FC at Lorient",
+      "kickoff_utc": "2026-10-10T18:45Z",
+      "event_ticker": "KXLIGUE1GAME-26OCT10FCLPAR",
+      "candidate_markets": [
+        {
+          "ticker": "KXLIGUE1GAME-26OCT10FCLPAR-FCL",
+          "title": "Lorient wins",
+          "yes_ask_usd": 0.29,
+          "no_ask_usd": 0.72,
+          "status": "active",
+          "fetched_utc": "2026-10-08T09:05:19.468168+00:00"
+        },
+        {
+          "ticker": "KXLIGUE1GAME-26OCT10FCLPAR-PAR",
+          "title": "Paris FC wins",
+          "yes_ask_usd": 0.44,
+          "no_ask_usd": 0.58,
+          "status": "active",
+          "fetched_utc": "2026-10-08T09:05:19.468168+00:00"
+        },
+        {
+          "ticker": "KXLIGUE1GAME-26OCT10FCLPAR-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.29,
+          "no_ask_usd": 0.73,
+          "status": "active",
+          "fetched_utc": "2026-10-08T09:05:19.468168+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    }
+  ],
+  "fixtures_scanned": 27,
+  "event_groups_scanned": 50,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }
