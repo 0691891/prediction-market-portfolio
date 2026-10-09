@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-08T22:09:27.473313+00:00",
+  "updated_utc": "2026-10-09T02:15:01.770235+00:00",
   "candidates": [
     {
       "match_id": "espn:esp.1:401882851",
@@ -13,15 +13,15 @@
           "yes_ask_usd": 0.36,
           "no_ask_usd": 0.65,
           "status": "active",
-          "fetched_utc": "2026-10-08T22:09:21.033091+00:00"
+          "fetched_utc": "2026-10-09T02:14:57.729543+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26OCT09MCFESP-MCF",
           "title": "Malaga wins",
-          "yes_ask_usd": 0.35,
-          "no_ask_usd": 0.66,
+          "yes_ask_usd": 0.34,
+          "no_ask_usd": 0.67,
           "status": "active",
-          "fetched_utc": "2026-10-08T22:09:21.033091+00:00"
+          "fetched_utc": "2026-10-09T02:14:57.729543+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26OCT09MCFESP-TIE",
@@ -29,7 +29,75 @@
           "yes_ask_usd": 0.3,
           "no_ask_usd": 0.71,
           "status": "active",
-          "fetched_utc": "2026-10-08T22:09:21.033091+00:00"
+          "fetched_utc": "2026-10-09T02:14:57.729543+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:ger.1:401884777",
+      "match": "Bayern Munich at FC Augsburg",
+      "kickoff_utc": "2026-10-10T13:30Z",
+      "event_ticker": "KXBUNDESLIGAGAME-26OCT10FCABMU",
+      "candidate_markets": [
+        {
+          "ticker": "KXBUNDESLIGAGAME-26OCT10FCABMU-BMU",
+          "title": "Bayern Munich wins",
+          "yes_ask_usd": 0.83,
+          "no_ask_usd": 0.18,
+          "status": "active",
+          "fetched_utc": "2026-10-09T02:14:57.729543+00:00"
+        },
+        {
+          "ticker": "KXBUNDESLIGAGAME-26OCT10FCABMU-FCA",
+          "title": "Augsburg wins",
+          "yes_ask_usd": 0.08,
+          "no_ask_usd": 0.93,
+          "status": "active",
+          "fetched_utc": "2026-10-09T02:14:57.729543+00:00"
+        },
+        {
+          "ticker": "KXBUNDESLIGAGAME-26OCT10FCABMU-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.1,
+          "no_ask_usd": 0.91,
+          "status": "active",
+          "fetched_utc": "2026-10-09T02:14:57.729543+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:ger.1:401884776",
+      "match": "Bayer Leverkusen at Mainz",
+      "kickoff_utc": "2026-10-10T13:30Z",
+      "event_ticker": "KXBUNDESLIGAGAME-26OCT10M05LEV",
+      "candidate_markets": [
+        {
+          "ticker": "KXBUNDESLIGAGAME-26OCT10M05LEV-LEV",
+          "title": "Leverkusen wins",
+          "yes_ask_usd": 0.45,
+          "no_ask_usd": 0.56,
+          "status": "active",
+          "fetched_utc": "2026-10-09T02:14:57.729543+00:00"
+        },
+        {
+          "ticker": "KXBUNDESLIGAGAME-26OCT10M05LEV-M05",
+          "title": "Mainz wins",
+          "yes_ask_usd": 0.32,
+          "no_ask_usd": 0.69,
+          "status": "active",
+          "fetched_utc": "2026-10-09T02:14:57.729543+00:00"
+        },
+        {
+          "ticker": "KXBUNDESLIGAGAME-26OCT10M05LEV-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.24,
+          "no_ask_usd": 0.77,
+          "status": "active",
+          "fetched_utc": "2026-10-09T02:14:57.729543+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -47,7 +115,7 @@
           "yes_ask_usd": 0.92,
           "no_ask_usd": 0.09,
           "status": "active",
-          "fetched_utc": "2026-10-08T22:09:21.033091+00:00"
+          "fetched_utc": "2026-10-09T02:14:57.729543+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26OCT10BARGET-GET",
@@ -55,7 +123,7 @@
           "yes_ask_usd": 0.04,
           "no_ask_usd": 0.97,
           "status": "active",
-          "fetched_utc": "2026-10-08T22:09:21.033091+00:00"
+          "fetched_utc": "2026-10-09T02:14:57.729543+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26OCT10BARGET-TIE",
@@ -63,7 +131,7 @@
           "yes_ask_usd": 0.06,
           "no_ask_usd": 0.95,
           "status": "active",
-          "fetched_utc": "2026-10-08T22:09:21.033091+00:00"
+          "fetched_utc": "2026-10-09T02:14:57.729543+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -81,7 +149,7 @@
           "yes_ask_usd": 0.73,
           "no_ask_usd": 0.28,
           "status": "active",
-          "fetched_utc": "2026-10-08T22:09:21.033091+00:00"
+          "fetched_utc": "2026-10-09T02:14:57.729543+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26OCT10RMAVIL-TIE",
@@ -89,7 +157,7 @@
           "yes_ask_usd": 0.16,
           "no_ask_usd": 0.85,
           "status": "active",
-          "fetched_utc": "2026-10-08T22:09:21.033091+00:00"
+          "fetched_utc": "2026-10-09T02:14:57.729543+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26OCT10RMAVIL-VIL",
@@ -97,7 +165,7 @@
           "yes_ask_usd": 0.13,
           "no_ask_usd": 0.88,
           "status": "active",
-          "fetched_utc": "2026-10-08T22:09:21.033091+00:00"
+          "fetched_utc": "2026-10-09T02:14:57.729543+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -105,7 +173,7 @@
     }
   ],
   "fixtures_scanned": 27,
-  "event_groups_scanned": 73,
+  "event_groups_scanned": 115,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }
