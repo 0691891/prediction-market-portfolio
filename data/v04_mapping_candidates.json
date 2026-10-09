@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-09T16:21:04.198279+00:00",
+  "updated_utc": "2026-10-09T21:44:33.455508+00:00",
   "candidates": [
     {
       "match_id": "espn:fra.1:401876444",
@@ -13,7 +13,7 @@
           "yes_ask_usd": 0.62,
           "no_ask_usd": 0.39,
           "status": "active",
-          "fetched_utc": "2026-10-09T16:20:59.603715+00:00"
+          "fetched_utc": "2026-10-09T21:44:28.963797+00:00"
         },
         {
           "ticker": "KXLIGUE1GAME-26OCT10ASMTFC-TFC",
@@ -21,7 +21,7 @@
           "yes_ask_usd": 0.18,
           "no_ask_usd": 0.83,
           "status": "active",
-          "fetched_utc": "2026-10-09T16:20:59.603715+00:00"
+          "fetched_utc": "2026-10-09T21:44:28.963797+00:00"
         },
         {
           "ticker": "KXLIGUE1GAME-26OCT10ASMTFC-TIE",
@@ -29,7 +29,7 @@
           "yes_ask_usd": 0.22,
           "no_ask_usd": 0.79,
           "status": "active",
-          "fetched_utc": "2026-10-09T16:20:59.603715+00:00"
+          "fetched_utc": "2026-10-09T21:44:28.963797+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -44,18 +44,18 @@
         {
           "ticker": "KXLIGUE1GAME-26OCT10STBANG-ANG",
           "title": "Angers wins",
-          "yes_ask_usd": 0.27,
+          "yes_ask_usd": 0.26,
           "no_ask_usd": 0.75,
           "status": "active",
-          "fetched_utc": "2026-10-09T16:20:59.603715+00:00"
+          "fetched_utc": "2026-10-09T21:44:28.963797+00:00"
         },
         {
           "ticker": "KXLIGUE1GAME-26OCT10STBANG-STB",
           "title": "Stade Brest 29 wins",
-          "yes_ask_usd": 0.49,
+          "yes_ask_usd": 0.48,
           "no_ask_usd": 0.53,
           "status": "active",
-          "fetched_utc": "2026-10-09T16:20:59.603715+00:00"
+          "fetched_utc": "2026-10-09T21:44:28.963797+00:00"
         },
         {
           "ticker": "KXLIGUE1GAME-26OCT10STBANG-TIE",
@@ -63,7 +63,7 @@
           "yes_ask_usd": 0.26,
           "no_ask_usd": 0.75,
           "status": "active",
-          "fetched_utc": "2026-10-09T16:20:59.603715+00:00"
+          "fetched_utc": "2026-10-09T21:44:28.963797+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -81,15 +81,15 @@
           "yes_ask_usd": 0.28,
           "no_ask_usd": 0.73,
           "status": "active",
-          "fetched_utc": "2026-10-09T16:20:59.603715+00:00"
+          "fetched_utc": "2026-10-09T21:44:28.963797+00:00"
         },
         {
           "ticker": "KXLIGUE1GAME-26OCT10FCLPAR-PAR",
           "title": "Paris FC wins",
-          "yes_ask_usd": 0.43,
-          "no_ask_usd": 0.58,
+          "yes_ask_usd": 0.44,
+          "no_ask_usd": 0.57,
           "status": "active",
-          "fetched_utc": "2026-10-09T16:20:59.603715+00:00"
+          "fetched_utc": "2026-10-09T21:44:28.963797+00:00"
         },
         {
           "ticker": "KXLIGUE1GAME-26OCT10FCLPAR-TIE",
@@ -97,7 +97,7 @@
           "yes_ask_usd": 0.29,
           "no_ask_usd": 0.72,
           "status": "active",
-          "fetched_utc": "2026-10-09T16:20:59.603715+00:00"
+          "fetched_utc": "2026-10-09T21:44:28.963797+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -115,7 +115,7 @@
           "yes_ask_usd": 0.14,
           "no_ask_usd": 0.87,
           "status": "active",
-          "fetched_utc": "2026-10-09T16:20:59.603715+00:00"
+          "fetched_utc": "2026-10-09T21:44:28.963797+00:00"
         },
         {
           "ticker": "KXLIGUE1GAME-26OCT11RENAUX-REN",
@@ -123,7 +123,7 @@
           "yes_ask_usd": 0.68,
           "no_ask_usd": 0.33,
           "status": "active",
-          "fetched_utc": "2026-10-09T16:20:59.603715+00:00"
+          "fetched_utc": "2026-10-09T21:44:28.963797+00:00"
         },
         {
           "ticker": "KXLIGUE1GAME-26OCT11RENAUX-TIE",
@@ -131,7 +131,7 @@
           "yes_ask_usd": 0.19,
           "no_ask_usd": 0.82,
           "status": "active",
-          "fetched_utc": "2026-10-09T16:20:59.603715+00:00"
+          "fetched_utc": "2026-10-09T21:44:28.963797+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -149,7 +149,7 @@
           "yes_ask_usd": 0.26,
           "no_ask_usd": 0.75,
           "status": "active",
-          "fetched_utc": "2026-10-09T16:20:59.603715+00:00"
+          "fetched_utc": "2026-10-09T21:44:28.963797+00:00"
         },
         {
           "ticker": "KXLIGUE1GAME-26OCT11ESTOLM-OLM",
@@ -157,7 +157,7 @@
           "yes_ask_usd": 0.5,
           "no_ask_usd": 0.51,
           "status": "active",
-          "fetched_utc": "2026-10-09T16:20:59.603715+00:00"
+          "fetched_utc": "2026-10-09T21:44:28.963797+00:00"
         },
         {
           "ticker": "KXLIGUE1GAME-26OCT11ESTOLM-TIE",
@@ -165,7 +165,7 @@
           "yes_ask_usd": 0.25,
           "no_ask_usd": 0.76,
           "status": "active",
-          "fetched_utc": "2026-10-09T16:20:59.603715+00:00"
+          "fetched_utc": "2026-10-09T21:44:28.963797+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -173,7 +173,7 @@
     }
   ],
   "fixtures_scanned": 44,
-  "event_groups_scanned": 91,
+  "event_groups_scanned": 59,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }
