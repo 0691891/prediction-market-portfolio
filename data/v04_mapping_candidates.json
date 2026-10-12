@@ -1,8 +1,111 @@
 {
-  "updated_utc": "2026-10-11T22:04:31.499900+00:00",
-  "candidates": [],
+  "updated_utc": "2026-10-12T01:23:23.464065+00:00",
+  "candidates": [
+    {
+      "match_id": "espn:ita.1:401875005",
+      "match": "Venezia at Atalanta",
+      "kickoff_utc": "2026-10-12T16:30Z",
+      "event_ticker": "KXSERIEAGAME-26OCT12ATAVEN",
+      "candidate_markets": [
+        {
+          "ticker": "KXSERIEAGAME-26OCT12ATAVEN-ATA",
+          "title": "Atalanta wins",
+          "yes_ask_usd": 0.63,
+          "no_ask_usd": 0.38,
+          "status": "active",
+          "fetched_utc": "2026-10-12T01:23:19.240763+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26OCT12ATAVEN-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.22,
+          "no_ask_usd": 0.79,
+          "status": "active",
+          "fetched_utc": "2026-10-12T01:23:19.240763+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26OCT12ATAVEN-VEN",
+          "title": "Venezia wins",
+          "yes_ask_usd": 0.15,
+          "no_ask_usd": 0.86,
+          "status": "active",
+          "fetched_utc": "2026-10-12T01:23:19.240763+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:ita.1:401874763",
+      "match": "Udinese at Torino",
+      "kickoff_utc": "2026-10-12T18:45Z",
+      "event_ticker": "KXSERIEAGAME-26OCT12TORUDI",
+      "candidate_markets": [
+        {
+          "ticker": "KXSERIEAGAME-26OCT12TORUDI-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.31,
+          "no_ask_usd": 0.7,
+          "status": "active",
+          "fetched_utc": "2026-10-12T01:23:19.240763+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26OCT12TORUDI-TOR",
+          "title": "Torino wins",
+          "yes_ask_usd": 0.41,
+          "no_ask_usd": 0.6,
+          "status": "active",
+          "fetched_utc": "2026-10-12T01:23:19.240763+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26OCT12TORUDI-UDI",
+          "title": "Udinese wins",
+          "yes_ask_usd": 0.29,
+          "no_ask_usd": 0.72,
+          "status": "active",
+          "fetched_utc": "2026-10-12T01:23:19.240763+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:esp.1:401882852",
+      "match": "Sevilla at Levante",
+      "kickoff_utc": "2026-10-12T19:00Z",
+      "event_ticker": "KXLALIGAGAME-26OCT12LEVSEV",
+      "candidate_markets": [
+        {
+          "ticker": "KXLALIGAGAME-26OCT12LEVSEV-LEV",
+          "title": "Levante wins",
+          "yes_ask_usd": 0.36,
+          "no_ask_usd": 0.65,
+          "status": "active",
+          "fetched_utc": "2026-10-12T01:23:19.240763+00:00"
+        },
+        {
+          "ticker": "KXLALIGAGAME-26OCT12LEVSEV-SEV",
+          "title": "Sevilla wins",
+          "yes_ask_usd": 0.35,
+          "no_ask_usd": 0.66,
+          "status": "active",
+          "fetched_utc": "2026-10-12T01:23:19.240763+00:00"
+        },
+        {
+          "ticker": "KXLALIGAGAME-26OCT12LEVSEV-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.3,
+          "no_ask_usd": 0.71,
+          "status": "active",
+          "fetched_utc": "2026-10-12T01:23:19.240763+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    }
+  ],
   "fixtures_scanned": 30,
-  "event_groups_scanned": 64,
+  "event_groups_scanned": 126,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }
