@@ -1,40 +1,6 @@
 {
-  "updated_utc": "2026-10-14T18:41:38.838591+00:00",
+  "updated_utc": "2026-10-14T22:20:40.979445+00:00",
   "candidates": [
-    {
-      "match_id": "espn:ita.1:401874959",
-      "match": "Sassuolo at Frosinone",
-      "kickoff_utc": "2026-10-16T18:45Z",
-      "event_ticker": "KXSERIEAGAME-26OCT16FROSAS",
-      "candidate_markets": [
-        {
-          "ticker": "KXSERIEAGAME-26OCT16FROSAS-FRO",
-          "title": "Frosinone wins",
-          "yes_ask_usd": 0.38,
-          "no_ask_usd": 0.63,
-          "status": "active",
-          "fetched_utc": "2026-10-14T18:41:34.931217+00:00"
-        },
-        {
-          "ticker": "KXSERIEAGAME-26OCT16FROSAS-SAS",
-          "title": "Sassuolo wins",
-          "yes_ask_usd": 0.37,
-          "no_ask_usd": 0.64,
-          "status": "active",
-          "fetched_utc": "2026-10-14T18:41:34.931217+00:00"
-        },
-        {
-          "ticker": "KXSERIEAGAME-26OCT16FROSAS-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.27,
-          "no_ask_usd": 0.74,
-          "status": "active",
-          "fetched_utc": "2026-10-14T18:41:34.931217+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    },
     {
       "match_id": "espn:fra.1:401876437",
       "match": "Toulouse at Le Mans",
@@ -47,7 +13,7 @@
           "yes_ask_usd": 0.32,
           "no_ask_usd": 0.69,
           "status": "active",
-          "fetched_utc": "2026-10-14T18:41:34.931217+00:00"
+          "fetched_utc": "2026-10-14T22:20:36.071016+00:00"
         },
         {
           "ticker": "KXLIGUE1GAME-26OCT16MANTFC-TFC",
@@ -55,7 +21,7 @@
           "yes_ask_usd": 0.42,
           "no_ask_usd": 0.59,
           "status": "active",
-          "fetched_utc": "2026-10-14T18:41:34.931217+00:00"
+          "fetched_utc": "2026-10-14T22:20:36.071016+00:00"
         },
         {
           "ticker": "KXLIGUE1GAME-26OCT16MANTFC-TIE",
@@ -63,7 +29,7 @@
           "yes_ask_usd": 0.28,
           "no_ask_usd": 0.74,
           "status": "active",
-          "fetched_utc": "2026-10-14T18:41:34.931217+00:00"
+          "fetched_utc": "2026-10-14T22:20:36.071016+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -71,7 +37,7 @@
     }
   ],
   "fixtures_scanned": 31,
-  "event_groups_scanned": 103,
+  "event_groups_scanned": 58,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }
