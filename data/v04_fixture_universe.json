@@ -14,11 +14,11 @@
       "match": "Hapoel Be'er at AZ Alkmaar",
       "match_id": "espn:uefa.europa:401915573",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-10-15T18:21:10.596770+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.235882+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "in"
+      "state": "post"
     },
     {
       "away_team": "Bayer Leverkusen",
@@ -30,11 +30,11 @@
       "match": "Bayer Leverkusen at Lech Poznan",
       "match_id": "espn:uefa.europa:401915576",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-10-15T18:21:10.596770+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.235882+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "in"
+      "state": "post"
     },
     {
       "away_team": "Crystal Palace",
@@ -46,11 +46,11 @@
       "match": "Crystal Palace at Lyon",
       "match_id": "espn:uefa.europa:401915566",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-10-15T18:21:10.596770+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.235882+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "in"
+      "state": "post"
     },
     {
       "away_team": "Omonia Nicosia",
@@ -62,11 +62,11 @@
       "match": "Omonia Nicosia at NK Celje",
       "match_id": "espn:uefa.europa:401915577",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-10-15T18:21:10.596770+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.235882+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "in"
+      "state": "post"
     },
     {
       "away_team": "AC Milan",
@@ -78,11 +78,11 @@
       "match": "AC Milan at RB Salzburg",
       "match_id": "espn:uefa.europa:401915568",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-10-15T18:21:10.596770+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.235882+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "in"
+      "state": "post"
     },
     {
       "away_team": "Lillestrom",
@@ -94,11 +94,11 @@
       "match": "Lillestrom at Sparta Prague",
       "match_id": "espn:uefa.europa:401915567",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-10-15T18:21:10.596770+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.235882+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "in"
+      "state": "post"
     },
     {
       "away_team": "Sunderland",
@@ -110,11 +110,11 @@
       "match": "Sunderland at Torreense",
       "match_id": "espn:uefa.europa:401915575",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-10-15T18:21:10.596770+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.235882+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "in"
+      "state": "post"
     },
     {
       "away_team": "Real Sociedad",
@@ -126,11 +126,11 @@
       "match": "Real Sociedad at Union St.-Gilloise",
       "match_id": "espn:uefa.europa:401915574",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-10-15T18:21:10.596770+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.235882+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "in"
+      "state": "post"
     },
     {
       "away_team": "SK Sturm Graz",
@@ -142,11 +142,11 @@
       "match": "SK Sturm Graz at AFC Bournemouth",
       "match_id": "espn:uefa.europa:401915571",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-10-15T18:21:10.596770+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.235882+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "pre"
+      "state": "post"
     },
     {
       "away_team": "Celtic",
@@ -158,11 +158,11 @@
       "match": "Celtic at Benfica",
       "match_id": "espn:uefa.europa:401915562",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-10-15T18:21:10.596770+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.235882+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "pre"
+      "state": "post"
     },
     {
       "away_team": "Juventus",
@@ -174,11 +174,11 @@
       "match": "Juventus at Celta Vigo",
       "match_id": "espn:uefa.europa:401915560",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-10-15T18:21:10.596770+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.235882+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "pre"
+      "state": "post"
     },
     {
       "away_team": "Anderlecht",
@@ -190,11 +190,11 @@
       "match": "Anderlecht at Dinamo Zagreb",
       "match_id": "espn:uefa.europa:401915549",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-10-15T18:21:10.596770+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.235882+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "pre"
+      "state": "post"
     },
     {
       "away_team": "Viktoria Plzen",
@@ -206,11 +206,11 @@
       "match": "Viktoria Plzen at Ferencvaros",
       "match_id": "espn:uefa.europa:401915564",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-10-15T18:21:10.596770+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.235882+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "pre"
+      "state": "post"
     },
     {
       "away_team": "Ararat-Armenia",
@@ -222,11 +222,11 @@
       "match": "Ararat-Armenia at Jagiellonia Bialystok",
       "match_id": "espn:uefa.europa:401915561",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-10-15T18:21:10.596770+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.235882+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "pre"
+      "state": "post"
     },
     {
       "away_team": "Olympiacos",
@@ -238,11 +238,11 @@
       "match": "Olympiacos at Marseille",
       "match_id": "espn:uefa.europa:401915550",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-10-15T18:21:10.596770+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.235882+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "pre"
+      "state": "post"
     },
     {
       "away_team": "Levski Sofia",
@@ -254,11 +254,11 @@
       "match": "Levski Sofia at NEC Nijmegen",
       "match_id": "espn:uefa.europa:401915565",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-10-15T18:21:10.596770+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.235882+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "pre"
+      "state": "post"
     },
     {
       "away_team": "OFI Crete",
@@ -270,11 +270,11 @@
       "match": "OFI Crete at Stade Rennais",
       "match_id": "espn:uefa.europa:401915572",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-10-15T18:21:10.596770+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.235882+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "pre"
+      "state": "post"
     },
     {
       "away_team": "Besiktas",
@@ -286,11 +286,11 @@
       "match": "Besiktas at TSG Hoffenheim",
       "match_id": "espn:uefa.europa:401915563",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-10-15T18:21:10.596770+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.235882+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "pre"
+      "state": "post"
     },
     {
       "away_team": "FC Cologne",
@@ -302,7 +302,7 @@
       "match": "FC Cologne at Eintracht Frankfurt",
       "match_id": "espn:ger.1:401884770",
       "model_fair_status": "MISSING_HISTORY_OR_TEAM_ALIAS",
-      "observed_at_utc": "2026-10-15T18:21:11.376891+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.945803+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": "Ein Frankfurt",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -318,7 +318,7 @@
       "match": "Sassuolo at Frosinone",
       "match_id": "espn:ita.1:401874959",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-15T18:21:11.376891+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.945803+00:00",
       "resolved_history_away_team": "Sassuolo",
       "resolved_history_home_team": "Frosinone",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -334,7 +334,7 @@
       "match": "Toulouse at Le Mans",
       "match_id": "espn:fra.1:401876437",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-15T18:21:11.376891+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.945803+00:00",
       "resolved_history_away_team": "Toulouse",
       "resolved_history_home_team": "Le Mans",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -350,7 +350,7 @@
       "match": "Levante at Deportivo",
       "match_id": "espn:esp.1:401882844",
       "model_fair_status": "MISSING_HISTORY_OR_TEAM_ALIAS",
-      "observed_at_utc": "2026-10-15T18:21:11.376891+00:00",
+      "observed_at_utc": "2026-10-15T22:24:43.945803+00:00",
       "resolved_history_away_team": "Levante",
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -366,7 +366,7 @@
       "match": "Chelsea at Everton",
       "match_id": "espn:eng.1:401878771",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-15T18:21:12.402140+00:00",
+      "observed_at_utc": "2026-10-15T22:24:44.621914+00:00",
       "resolved_history_away_team": "Chelsea",
       "resolved_history_home_team": "Everton",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -382,7 +382,7 @@
       "match": "Atlético Madrid at Espanyol",
       "match_id": "espn:esp.1:401882843",
       "model_fair_status": "MISSING_HISTORY_OR_TEAM_ALIAS",
-      "observed_at_utc": "2026-10-15T18:21:12.402140+00:00",
+      "observed_at_utc": "2026-10-15T22:24:44.621914+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": "Espanol",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -398,7 +398,7 @@
       "match": "Napoli at Venezia",
       "match_id": "espn:ita.1:401874760",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-15T18:21:12.402140+00:00",
+      "observed_at_utc": "2026-10-15T22:24:44.621914+00:00",
       "resolved_history_away_team": "Napoli",
       "resolved_history_home_team": "Venezia",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -414,7 +414,7 @@
       "match": "Borussia Dortmund at 1. FC Union Berlin",
       "match_id": "espn:ger.1:401884769",
       "model_fair_status": "MISSING_HISTORY_OR_TEAM_ALIAS",
-      "observed_at_utc": "2026-10-15T18:21:12.402140+00:00",
+      "observed_at_utc": "2026-10-15T22:24:44.621914+00:00",
       "resolved_history_away_team": "Dortmund",
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -430,7 +430,7 @@
       "match": "VfB Stuttgart at Hamburg SV",
       "match_id": "espn:ger.1:401884767",
       "model_fair_status": "MISSING_HISTORY_OR_TEAM_ALIAS",
-      "observed_at_utc": "2026-10-15T18:21:12.402140+00:00",
+      "observed_at_utc": "2026-10-15T22:24:44.621914+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": "Hamburg",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -446,7 +446,7 @@
       "match": "Mainz at Schalke 04",
       "match_id": "espn:ger.1:401884765",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-15T18:21:12.402140+00:00",
+      "observed_at_utc": "2026-10-15T22:24:44.621914+00:00",
       "resolved_history_away_team": "Mainz",
       "resolved_history_home_team": "Schalke 04",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -462,7 +462,7 @@
       "match": "FC Augsburg at SV Elversberg",
       "match_id": "espn:ger.1:401884764",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-15T18:21:12.402140+00:00",
+      "observed_at_utc": "2026-10-15T22:24:44.621914+00:00",
       "resolved_history_away_team": "Augsburg",
       "resolved_history_home_team": "Elversberg",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -478,7 +478,7 @@
       "match": "SC Paderborn 07 at Werder Bremen",
       "match_id": "espn:ger.1:401884766",
       "model_fair_status": "MISSING_HISTORY_OR_TEAM_ALIAS",
-      "observed_at_utc": "2026-10-15T18:21:12.402140+00:00",
+      "observed_at_utc": "2026-10-15T22:24:44.621914+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": "Werder Bremen",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -494,7 +494,7 @@
       "match": "Liverpool at Brentford",
       "match_id": "espn:eng.1:401879262",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-15T18:21:12.402140+00:00",
+      "observed_at_utc": "2026-10-15T22:24:44.621914+00:00",
       "resolved_history_away_team": "Liverpool",
       "resolved_history_home_team": "Brentford",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -510,7 +510,7 @@
       "match": "Hull City at Fulham",
       "match_id": "espn:eng.1:401878770",
       "model_fair_status": "MISSING_HISTORY_OR_TEAM_ALIAS",
-      "observed_at_utc": "2026-10-15T18:21:12.402140+00:00",
+      "observed_at_utc": "2026-10-15T22:24:44.621914+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": "Fulham",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -526,7 +526,7 @@
       "match": "Ipswich Town at Manchester City",
       "match_id": "espn:eng.1:401879259",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-15T18:21:12.402140+00:00",
+      "observed_at_utc": "2026-10-15T22:24:44.621914+00:00",
       "resolved_history_away_team": "Ipswich",
       "resolved_history_home_team": "Man City",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -542,7 +542,7 @@
       "match": "Elche at Villarreal",
       "match_id": "espn:esp.1:401882837",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-15T18:21:12.402140+00:00",
+      "observed_at_utc": "2026-10-15T22:24:44.621914+00:00",
       "resolved_history_away_team": "Elche",
       "resolved_history_home_team": "Villarreal",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -558,7 +558,7 @@
       "match": "Paris Saint-Germain at Strasbourg",
       "match_id": "espn:fra.1:401876432",
       "model_fair_status": "MISSING_HISTORY_OR_TEAM_ALIAS",
-      "observed_at_utc": "2026-10-15T18:21:12.402140+00:00",
+      "observed_at_utc": "2026-10-15T22:24:44.621914+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": "Strasbourg",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -574,7 +574,7 @@
       "match": "Barcelona at Real Betis",
       "match_id": "espn:esp.1:401882846",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-15T18:21:12.402140+00:00",
+      "observed_at_utc": "2026-10-15T22:24:44.621914+00:00",
       "resolved_history_away_team": "Barcelona",
       "resolved_history_home_team": "Betis",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -590,7 +590,7 @@
       "match": "Internazionale at Bologna",
       "match_id": "espn:ita.1:401874953",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-15T18:21:12.402140+00:00",
+      "observed_at_utc": "2026-10-15T22:24:44.621914+00:00",
       "resolved_history_away_team": "Inter",
       "resolved_history_home_team": "Bologna",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -606,7 +606,7 @@
       "match": "Aston Villa at Newcastle United",
       "match_id": "espn:eng.1:401879258",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-15T18:21:12.402140+00:00",
+      "observed_at_utc": "2026-10-15T22:24:44.621914+00:00",
       "resolved_history_away_team": "Aston Villa",
       "resolved_history_home_team": "Newcastle",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -622,7 +622,7 @@
       "match": "RB Leipzig at Bayern Munich",
       "match_id": "espn:ger.1:401884772",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-15T18:21:12.402140+00:00",
+      "observed_at_utc": "2026-10-15T22:24:44.621914+00:00",
       "resolved_history_away_team": "RB Leipzig",
       "resolved_history_home_team": "Bayern Munich",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -638,7 +638,7 @@
       "match": "Genoa at AS Roma",
       "match_id": "espn:ita.1:401874935",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-15T18:21:12.402140+00:00",
+      "observed_at_utc": "2026-10-15T22:24:44.621914+00:00",
       "resolved_history_away_team": "Genoa",
       "resolved_history_home_team": "Roma",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -654,7 +654,7 @@
       "match": "Brest at Lille",
       "match_id": "espn:fra.1:401876436",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-15T18:21:12.402140+00:00",
+      "observed_at_utc": "2026-10-15T22:24:44.621914+00:00",
       "resolved_history_away_team": "Brest",
       "resolved_history_home_team": "Lille",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -670,7 +670,7 @@
       "match": "Lens at Troyes",
       "match_id": "espn:fra.1:401876431",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-15T18:21:12.402140+00:00",
+      "observed_at_utc": "2026-10-15T22:24:44.621914+00:00",
       "resolved_history_away_team": "Lens",
       "resolved_history_home_team": "Troyes",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -686,7 +686,7 @@
       "match": "Athletic Club at Valencia",
       "match_id": "espn:esp.1:401882838",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-10-15T18:21:12.402140+00:00",
+      "observed_at_utc": "2026-10-15T22:24:44.621914+00:00",
       "resolved_history_away_team": "Ath Bilbao",
       "resolved_history_home_team": "Valencia",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -696,8 +696,8 @@
   "stats": {
     "fixtures": 43,
     "modelled": 119,
-    "prospective_picks": 245,
-    "unmapped_or_unsupported": 126
+    "prospective_picks": 175,
+    "unmapped_or_unsupported": 56
   },
-  "updated_utc": "2026-10-15T18:21:09.835133+00:00"
+  "updated_utc": "2026-10-15T22:24:42.539497+00:00"
 }
