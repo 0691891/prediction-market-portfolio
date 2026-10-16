@@ -63,7 +63,13 @@ ALIAS={
  "1 fc koln":"FC Koln","fc koln":"FC Koln","hamburger sv":"Hamburg",
  "paris saint germain":"Paris SG","olympique lyonnais":"Lyon",
  "olympique de marseille":"Marseille","stade rennais":"Rennes",
- "losc lille":"Lille","as monaco":"Monaco","ogc nice":"Nice"
+ "losc lille":"Lille","as monaco":"Monaco","ogc nice":"Nice",
+ # Exact ESPN -> football-data.co.uk historical labels; unresolved new clubs remain blocked.
+ "fc cologne":"FC Koln","1. fc union berlin":"Union Berlin",
+ "vfb stuttgart":"Stuttgart","sc freiburg":"Freiburg",
+ "tsg hoffenheim":"Hoffenheim","paris saint-germain":"Paris SG",
+ "brighton & hove albion":"Brighton","le havre ac":"Le Havre",
+ "atlético madrid":"Ath Madrid"
 }
 def slug(s):
     s=unicodedata.normalize("NFKD",str(s or "").lower())
