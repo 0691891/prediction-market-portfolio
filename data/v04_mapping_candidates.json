@@ -1,74 +1,6 @@
 {
-  "updated_utc": "2026-10-17T14:14:50.695541+00:00",
+  "updated_utc": "2026-10-17T17:17:58.368002+00:00",
   "candidates": [
-    {
-      "match_id": "espn:esp.1:401882837",
-      "match": "Elche at Villarreal",
-      "kickoff_utc": "2026-10-17T14:15Z",
-      "event_ticker": "KXLALIGAGAME-26OCT17VILELC",
-      "candidate_markets": [
-        {
-          "ticker": "KXLALIGAGAME-26OCT17VILELC-ELC",
-          "title": "Elche wins",
-          "yes_ask_usd": 0.14,
-          "no_ask_usd": 0.87,
-          "status": "active",
-          "fetched_utc": "2026-10-17T14:14:44.235786+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26OCT17VILELC-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.19,
-          "no_ask_usd": 0.82,
-          "status": "active",
-          "fetched_utc": "2026-10-17T14:14:44.235786+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26OCT17VILELC-VIL",
-          "title": "Villarreal wins",
-          "yes_ask_usd": 0.69,
-          "no_ask_usd": 0.32,
-          "status": "active",
-          "fetched_utc": "2026-10-17T14:14:44.235786+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    },
-    {
-      "match_id": "espn:esp.1:401882846",
-      "match": "Barcelona at Real Betis",
-      "kickoff_utc": "2026-10-17T16:00Z",
-      "event_ticker": "KXLALIGAGAME-26OCT17RBBBAR",
-      "candidate_markets": [
-        {
-          "ticker": "KXLALIGAGAME-26OCT17RBBBAR-BAR",
-          "title": "Barcelona wins",
-          "yes_ask_usd": 0.68,
-          "no_ask_usd": 0.33,
-          "status": "active",
-          "fetched_utc": "2026-10-17T14:14:44.235786+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26OCT17RBBBAR-RBB",
-          "title": "Real Betis wins",
-          "yes_ask_usd": 0.17,
-          "no_ask_usd": 0.84,
-          "status": "active",
-          "fetched_utc": "2026-10-17T14:14:44.235786+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26OCT17RBBBAR-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.18,
-          "no_ask_usd": 0.83,
-          "status": "active",
-          "fetched_utc": "2026-10-17T14:14:44.235786+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    },
     {
       "match_id": "espn:ger.1:401884771",
       "match": "SC Freiburg at Bayer Leverkusen",
@@ -78,10 +10,10 @@
         {
           "ticker": "KXBUNDESLIGAGAME-26OCT18LEVSCF-LEV",
           "title": "Leverkusen wins",
-          "yes_ask_usd": 0.59,
+          "yes_ask_usd": 0.58,
           "no_ask_usd": 0.43,
           "status": "active",
-          "fetched_utc": "2026-10-17T14:14:44.235786+00:00"
+          "fetched_utc": "2026-10-17T17:17:54.117962+00:00"
         },
         {
           "ticker": "KXBUNDESLIGAGAME-26OCT18LEVSCF-SCF",
@@ -89,7 +21,7 @@
           "yes_ask_usd": 0.21,
           "no_ask_usd": 0.8,
           "status": "active",
-          "fetched_utc": "2026-10-17T14:14:44.235786+00:00"
+          "fetched_utc": "2026-10-17T17:17:54.117962+00:00"
         },
         {
           "ticker": "KXBUNDESLIGAGAME-26OCT18LEVSCF-TIE",
@@ -97,7 +29,7 @@
           "yes_ask_usd": 0.22,
           "no_ask_usd": 0.79,
           "status": "active",
-          "fetched_utc": "2026-10-17T14:14:44.235786+00:00"
+          "fetched_utc": "2026-10-17T17:17:54.117962+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -115,7 +47,7 @@
           "yes_ask_usd": 0.28,
           "no_ask_usd": 0.74,
           "status": "active",
-          "fetched_utc": "2026-10-17T14:14:44.235786+00:00"
+          "fetched_utc": "2026-10-17T17:17:54.117962+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26OCT18RCCALA-RCC",
@@ -123,7 +55,7 @@
           "yes_ask_usd": 0.44,
           "no_ask_usd": 0.57,
           "status": "active",
-          "fetched_utc": "2026-10-17T14:14:44.235786+00:00"
+          "fetched_utc": "2026-10-17T17:17:54.117962+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26OCT18RCCALA-TIE",
@@ -131,7 +63,7 @@
           "yes_ask_usd": 0.31,
           "no_ask_usd": 0.7,
           "status": "active",
-          "fetched_utc": "2026-10-17T14:14:44.235786+00:00"
+          "fetched_utc": "2026-10-17T17:17:54.117962+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -146,10 +78,10 @@
         {
           "ticker": "KXBUNDESLIGAGAME-26OCT18BMGTSG-BMG",
           "title": "M´gladbach wins",
-          "yes_ask_usd": 0.32,
+          "yes_ask_usd": 0.31,
           "no_ask_usd": 0.7,
           "status": "active",
-          "fetched_utc": "2026-10-17T14:14:44.235786+00:00"
+          "fetched_utc": "2026-10-17T17:17:54.117962+00:00"
         },
         {
           "ticker": "KXBUNDESLIGAGAME-26OCT18BMGTSG-TIE",
@@ -157,7 +89,7 @@
           "yes_ask_usd": 0.24,
           "no_ask_usd": 0.77,
           "status": "active",
-          "fetched_utc": "2026-10-17T14:14:44.235786+00:00"
+          "fetched_utc": "2026-10-17T17:17:54.117962+00:00"
         },
         {
           "ticker": "KXBUNDESLIGAGAME-26OCT18BMGTSG-TSG",
@@ -165,7 +97,7 @@
           "yes_ask_usd": 0.46,
           "no_ask_usd": 0.55,
           "status": "active",
-          "fetched_utc": "2026-10-17T14:14:44.235786+00:00"
+          "fetched_utc": "2026-10-17T17:17:54.117962+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -180,10 +112,10 @@
         {
           "ticker": "KXLALIGAGAME-26OCT18MCFRSO-MCF",
           "title": "Malaga wins",
-          "yes_ask_usd": 0.28,
+          "yes_ask_usd": 0.29,
           "no_ask_usd": 0.73,
           "status": "active",
-          "fetched_utc": "2026-10-17T14:14:44.235786+00:00"
+          "fetched_utc": "2026-10-17T17:17:54.117962+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26OCT18MCFRSO-RSO",
@@ -191,7 +123,7 @@
           "yes_ask_usd": 0.45,
           "no_ask_usd": 0.56,
           "status": "active",
-          "fetched_utc": "2026-10-17T14:14:44.235786+00:00"
+          "fetched_utc": "2026-10-17T17:17:54.117962+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26OCT18MCFRSO-TIE",
@@ -199,7 +131,7 @@
           "yes_ask_usd": 0.28,
           "no_ask_usd": 0.74,
           "status": "active",
-          "fetched_utc": "2026-10-17T14:14:44.235786+00:00"
+          "fetched_utc": "2026-10-17T17:17:54.117962+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -217,7 +149,7 @@
           "yes_ask_usd": 0.8,
           "no_ask_usd": 0.21,
           "status": "active",
-          "fetched_utc": "2026-10-17T14:14:44.235786+00:00"
+          "fetched_utc": "2026-10-17T17:17:54.117962+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26OCT18RMASEV-SEV",
@@ -225,7 +157,7 @@
           "yes_ask_usd": 0.08,
           "no_ask_usd": 0.93,
           "status": "active",
-          "fetched_utc": "2026-10-17T14:14:44.235786+00:00"
+          "fetched_utc": "2026-10-17T17:17:54.117962+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26OCT18RMASEV-TIE",
@@ -233,7 +165,7 @@
           "yes_ask_usd": 0.14,
           "no_ask_usd": 0.87,
           "status": "active",
-          "fetched_utc": "2026-10-17T14:14:44.235786+00:00"
+          "fetched_utc": "2026-10-17T17:17:54.117962+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -241,7 +173,7 @@
     }
   ],
   "fixtures_scanned": 44,
-  "event_groups_scanned": 100,
+  "event_groups_scanned": 52,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }
