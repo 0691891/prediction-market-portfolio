@@ -1,74 +1,6 @@
 {
-  "updated_utc": "2026-10-18T18:11:26.390480+00:00",
+  "updated_utc": "2026-10-18T20:52:15.770528+00:00",
   "candidates": [
-    {
-      "match_id": "espn:ita.1:401874765",
-      "match": "Lazio at Juventus",
-      "kickoff_utc": "2026-10-18T18:45Z",
-      "event_ticker": "KXSERIEAGAME-26OCT18JUVLAZ",
-      "candidate_markets": [
-        {
-          "ticker": "KXSERIEAGAME-26OCT18JUVLAZ-JUV",
-          "title": "Juventus wins",
-          "yes_ask_usd": 0.6,
-          "no_ask_usd": 0.41,
-          "status": "active",
-          "fetched_utc": "2026-10-18T18:11:19.833108+00:00"
-        },
-        {
-          "ticker": "KXSERIEAGAME-26OCT18JUVLAZ-LAZ",
-          "title": "Lazio wins",
-          "yes_ask_usd": 0.18,
-          "no_ask_usd": 0.83,
-          "status": "active",
-          "fetched_utc": "2026-10-18T18:11:19.833108+00:00"
-        },
-        {
-          "ticker": "KXSERIEAGAME-26OCT18JUVLAZ-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.24,
-          "no_ask_usd": 0.77,
-          "status": "active",
-          "fetched_utc": "2026-10-18T18:11:19.833108+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    },
-    {
-      "match_id": "espn:esp.1:401882839",
-      "match": "Sevilla at Real Madrid",
-      "kickoff_utc": "2026-10-18T19:00Z",
-      "event_ticker": "KXLALIGAGAME-26OCT18RMASEV",
-      "candidate_markets": [
-        {
-          "ticker": "KXLALIGAGAME-26OCT18RMASEV-RMA",
-          "title": "Real Madrid wins",
-          "yes_ask_usd": 0.79,
-          "no_ask_usd": 0.22,
-          "status": "active",
-          "fetched_utc": "2026-10-18T18:11:19.833108+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26OCT18RMASEV-SEV",
-          "title": "Sevilla wins",
-          "yes_ask_usd": 0.09,
-          "no_ask_usd": 0.92,
-          "status": "active",
-          "fetched_utc": "2026-10-18T18:11:19.833108+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26OCT18RMASEV-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.14,
-          "no_ask_usd": 0.87,
-          "status": "active",
-          "fetched_utc": "2026-10-18T18:11:19.833108+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    },
     {
       "match_id": "espn:ita.1:401874762",
       "match": "Cagliari at Monza",
@@ -81,15 +13,15 @@
           "yes_ask_usd": 0.31,
           "no_ask_usd": 0.7,
           "status": "active",
-          "fetched_utc": "2026-10-18T18:11:19.833108+00:00"
+          "fetched_utc": "2026-10-18T20:52:12.263746+00:00"
         },
         {
           "ticker": "KXSERIEAGAME-26OCT19MONCAG-MON",
           "title": "Monza wins",
-          "yes_ask_usd": 0.4,
-          "no_ask_usd": 0.61,
+          "yes_ask_usd": 0.39,
+          "no_ask_usd": 0.62,
           "status": "active",
-          "fetched_utc": "2026-10-18T18:11:19.833108+00:00"
+          "fetched_utc": "2026-10-18T20:52:12.263746+00:00"
         },
         {
           "ticker": "KXSERIEAGAME-26OCT19MONCAG-TIE",
@@ -97,7 +29,7 @@
           "yes_ask_usd": 0.31,
           "no_ask_usd": 0.7,
           "status": "active",
-          "fetched_utc": "2026-10-18T18:11:19.833108+00:00"
+          "fetched_utc": "2026-10-18T20:52:12.263746+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -115,7 +47,7 @@
           "yes_ask_usd": 0.29,
           "no_ask_usd": 0.72,
           "status": "active",
-          "fetched_utc": "2026-10-18T18:11:19.833108+00:00"
+          "fetched_utc": "2026-10-18T20:52:12.263746+00:00"
         },
         {
           "ticker": "KXSERIEAGAME-26OCT19PARTOR-TIE",
@@ -123,7 +55,7 @@
           "yes_ask_usd": 0.32,
           "no_ask_usd": 0.69,
           "status": "active",
-          "fetched_utc": "2026-10-18T18:11:19.833108+00:00"
+          "fetched_utc": "2026-10-18T20:52:12.263746+00:00"
         },
         {
           "ticker": "KXSERIEAGAME-26OCT19PARTOR-TOR",
@@ -131,7 +63,7 @@
           "yes_ask_usd": 0.4,
           "no_ask_usd": 0.61,
           "status": "active",
-          "fetched_utc": "2026-10-18T18:11:19.833108+00:00"
+          "fetched_utc": "2026-10-18T20:52:12.263746+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -139,7 +71,7 @@
     }
   ],
   "fixtures_scanned": 32,
-  "event_groups_scanned": 113,
+  "event_groups_scanned": 82,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }
