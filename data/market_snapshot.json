@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-10-19T04:51:00.854392+00:00",
+  "updated_utc": "2026-10-19T10:53:39.088790+00:00",
   "markets": [
     {
       "away_team": "Cagliari",
       "competition": "Serie A",
-      "fair_probability": 0.251876,
-      "fair_source": "v0.4 independent goal model",
+      "fair_probability": null,
+      "fair_source": null,
       "grade": "UNRATED",
       "home_team": "Monza",
       "id": "espn:ita.1:401874762:HOME_WIN",
@@ -20,8 +20,8 @@
     {
       "away_team": "Cagliari",
       "competition": "Serie A",
-      "fair_probability": 0.254091,
-      "fair_source": "v0.4 independent goal model",
+      "fair_probability": null,
+      "fair_source": null,
       "grade": "UNRATED",
       "home_team": "Monza",
       "id": "espn:ita.1:401874762:DRAW",
@@ -36,8 +36,8 @@
     {
       "away_team": "Cagliari",
       "competition": "Serie A",
-      "fair_probability": 0.494033,
-      "fair_source": "v0.4 independent goal model",
+      "fair_probability": null,
+      "fair_source": null,
       "grade": "UNRATED",
       "home_team": "Monza",
       "id": "espn:ita.1:401874762:AWAY_WIN",
@@ -52,8 +52,8 @@
     {
       "away_team": "Cagliari",
       "competition": "Serie A",
-      "fair_probability": 0.478149,
-      "fair_source": "v0.4 independent goal model",
+      "fair_probability": null,
+      "fair_source": null,
       "grade": "UNRATED",
       "home_team": "Monza",
       "id": "espn:ita.1:401874762:OVER_2_5",
@@ -68,8 +68,8 @@
     {
       "away_team": "Cagliari",
       "competition": "Serie A",
-      "fair_probability": 0.521851,
-      "fair_source": "v0.4 independent goal model",
+      "fair_probability": null,
+      "fair_source": null,
       "grade": "UNRATED",
       "home_team": "Monza",
       "id": "espn:ita.1:401874762:UNDER_2_5",
@@ -84,8 +84,8 @@
     {
       "away_team": "Cagliari",
       "competition": "Serie A",
-      "fair_probability": 0.507735,
-      "fair_source": "v0.4 independent goal model",
+      "fair_probability": null,
+      "fair_source": null,
       "grade": "UNRATED",
       "home_team": "Monza",
       "id": "espn:ita.1:401874762:BTTS_YES",
@@ -100,8 +100,8 @@
     {
       "away_team": "Cagliari",
       "competition": "Serie A",
-      "fair_probability": 0.492265,
-      "fair_source": "v0.4 independent goal model",
+      "fair_probability": null,
+      "fair_source": null,
       "grade": "UNRATED",
       "home_team": "Monza",
       "id": "espn:ita.1:401874762:BTTS_NO",
@@ -116,7 +116,7 @@
     {
       "away_team": "Torino",
       "competition": "Serie A",
-      "fair_probability": 0.314131,
+      "fair_probability": 0.379003,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Parma",
@@ -132,7 +132,7 @@
     {
       "away_team": "Torino",
       "competition": "Serie A",
-      "fair_probability": 0.271618,
+      "fair_probability": 0.280159,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Parma",
@@ -148,7 +148,7 @@
     {
       "away_team": "Torino",
       "competition": "Serie A",
-      "fair_probability": 0.414252,
+      "fair_probability": 0.340838,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Parma",
@@ -164,7 +164,7 @@
     {
       "away_team": "Torino",
       "competition": "Serie A",
-      "fair_probability": 0.442583,
+      "fair_probability": 0.41592,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Parma",
@@ -180,7 +180,7 @@
     {
       "away_team": "Torino",
       "competition": "Serie A",
-      "fair_probability": 0.557417,
+      "fair_probability": 0.58408,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Parma",
@@ -196,7 +196,7 @@
     {
       "away_team": "Torino",
       "competition": "Serie A",
-      "fair_probability": 0.495004,
+      "fair_probability": 0.476243,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Parma",
@@ -212,7 +212,7 @@
     {
       "away_team": "Torino",
       "competition": "Serie A",
-      "fair_probability": 0.504996,
+      "fair_probability": 0.523757,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Parma",
@@ -1684,7 +1684,7 @@
     {
       "away_team": "Athletic Club",
       "competition": "La Liga",
-      "fair_probability": 0.465205,
+      "fair_probability": 0.413512,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Levante",
@@ -1700,7 +1700,7 @@
     {
       "away_team": "Athletic Club",
       "competition": "La Liga",
-      "fair_probability": 0.242515,
+      "fair_probability": 0.244028,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Levante",
@@ -1716,7 +1716,7 @@
     {
       "away_team": "Athletic Club",
       "competition": "La Liga",
-      "fair_probability": 0.29228,
+      "fair_probability": 0.34246,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Levante",
@@ -1732,7 +1732,7 @@
     {
       "away_team": "Athletic Club",
       "competition": "La Liga",
-      "fair_probability": 0.554402,
+      "fair_probability": 0.567691,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Levante",
@@ -1748,7 +1748,7 @@
     {
       "away_team": "Athletic Club",
       "competition": "La Liga",
-      "fair_probability": 0.445598,
+      "fair_probability": 0.432309,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Levante",
@@ -1764,7 +1764,7 @@
     {
       "away_team": "Athletic Club",
       "competition": "La Liga",
-      "fair_probability": 0.577239,
+      "fair_probability": 0.594997,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Levante",
@@ -1780,7 +1780,7 @@
     {
       "away_team": "Athletic Club",
       "competition": "La Liga",
-      "fair_probability": 0.422761,
+      "fair_probability": 0.405003,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Levante",
