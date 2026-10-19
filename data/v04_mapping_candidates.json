@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-18T23:19:35.071259+00:00",
+  "updated_utc": "2026-10-19T04:51:05.346701+00:00",
   "candidates": [
     {
       "match_id": "espn:ita.1:401874762",
@@ -11,9 +11,9 @@
           "ticker": "KXSERIEAGAME-26OCT19MONCAG-CAG",
           "title": "Cagliari wins",
           "yes_ask_usd": 0.32,
-          "no_ask_usd": 0.7,
+          "no_ask_usd": 0.69,
           "status": "active",
-          "fetched_utc": "2026-10-18T23:19:31.224971+00:00"
+          "fetched_utc": "2026-10-19T04:51:01.854926+00:00"
         },
         {
           "ticker": "KXSERIEAGAME-26OCT19MONCAG-MON",
@@ -21,7 +21,7 @@
           "yes_ask_usd": 0.39,
           "no_ask_usd": 0.62,
           "status": "active",
-          "fetched_utc": "2026-10-18T23:19:31.224971+00:00"
+          "fetched_utc": "2026-10-19T04:51:01.854926+00:00"
         },
         {
           "ticker": "KXSERIEAGAME-26OCT19MONCAG-TIE",
@@ -29,7 +29,7 @@
           "yes_ask_usd": 0.31,
           "no_ask_usd": 0.7,
           "status": "active",
-          "fetched_utc": "2026-10-18T23:19:31.224971+00:00"
+          "fetched_utc": "2026-10-19T04:51:01.854926+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -44,10 +44,10 @@
         {
           "ticker": "KXSERIEAGAME-26OCT19PARTOR-PAR",
           "title": "Parma Calcio wins",
-          "yes_ask_usd": 0.29,
-          "no_ask_usd": 0.72,
+          "yes_ask_usd": 0.3,
+          "no_ask_usd": 0.71,
           "status": "active",
-          "fetched_utc": "2026-10-18T23:19:31.224971+00:00"
+          "fetched_utc": "2026-10-19T04:51:01.854926+00:00"
         },
         {
           "ticker": "KXSERIEAGAME-26OCT19PARTOR-TIE",
@@ -55,7 +55,7 @@
           "yes_ask_usd": 0.32,
           "no_ask_usd": 0.69,
           "status": "active",
-          "fetched_utc": "2026-10-18T23:19:31.224971+00:00"
+          "fetched_utc": "2026-10-19T04:51:01.854926+00:00"
         },
         {
           "ticker": "KXSERIEAGAME-26OCT19PARTOR-TOR",
@@ -63,7 +63,7 @@
           "yes_ask_usd": 0.4,
           "no_ask_usd": 0.61,
           "status": "active",
-          "fetched_utc": "2026-10-18T23:19:31.224971+00:00"
+          "fetched_utc": "2026-10-19T04:51:01.854926+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -81,7 +81,7 @@
           "yes_ask_usd": 0.58,
           "no_ask_usd": 0.43,
           "status": "active",
-          "fetched_utc": "2026-10-18T23:19:31.224971+00:00"
+          "fetched_utc": "2026-10-19T04:51:01.854926+00:00"
         },
         {
           "ticker": "KXUCLGAME-26OCT20FENSLA-SLA",
@@ -89,7 +89,7 @@
           "yes_ask_usd": 0.2,
           "no_ask_usd": 0.81,
           "status": "active",
-          "fetched_utc": "2026-10-18T23:19:31.224971+00:00"
+          "fetched_utc": "2026-10-19T04:51:01.854926+00:00"
         },
         {
           "ticker": "KXUCLGAME-26OCT20FENSLA-TIE",
@@ -97,7 +97,7 @@
           "yes_ask_usd": 0.23,
           "no_ask_usd": 0.78,
           "status": "active",
-          "fetched_utc": "2026-10-18T23:19:31.224971+00:00"
+          "fetched_utc": "2026-10-19T04:51:01.854926+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -112,10 +112,10 @@
         {
           "ticker": "KXUCLGAME-26OCT20LFCVIL-LFC",
           "title": "Liverpool wins",
-          "yes_ask_usd": 0.65,
-          "no_ask_usd": 0.36,
+          "yes_ask_usd": 0.66,
+          "no_ask_usd": 0.35,
           "status": "active",
-          "fetched_utc": "2026-10-18T23:19:31.224971+00:00"
+          "fetched_utc": "2026-10-19T04:51:01.854926+00:00"
         },
         {
           "ticker": "KXUCLGAME-26OCT20LFCVIL-TIE",
@@ -123,7 +123,7 @@
           "yes_ask_usd": 0.2,
           "no_ask_usd": 0.81,
           "status": "active",
-          "fetched_utc": "2026-10-18T23:19:31.224971+00:00"
+          "fetched_utc": "2026-10-19T04:51:01.854926+00:00"
         },
         {
           "ticker": "KXUCLGAME-26OCT20LFCVIL-VIL",
@@ -131,7 +131,7 @@
           "yes_ask_usd": 0.15,
           "no_ask_usd": 0.86,
           "status": "active",
-          "fetched_utc": "2026-10-18T23:19:31.224971+00:00"
+          "fetched_utc": "2026-10-19T04:51:01.854926+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -149,7 +149,7 @@
           "yes_ask_usd": 0.04,
           "no_ask_usd": 0.97,
           "status": "active",
-          "fetched_utc": "2026-10-18T23:19:31.224971+00:00"
+          "fetched_utc": "2026-10-19T04:51:01.854926+00:00"
         },
         {
           "ticker": "KXUCLGAME-26OCT20MCIAEK-MCI",
@@ -157,7 +157,7 @@
           "yes_ask_usd": 0.89,
           "no_ask_usd": 0.12,
           "status": "active",
-          "fetched_utc": "2026-10-18T23:19:31.224971+00:00"
+          "fetched_utc": "2026-10-19T04:51:01.854926+00:00"
         },
         {
           "ticker": "KXUCLGAME-26OCT20MCIAEK-TIE",
@@ -165,15 +165,83 @@
           "yes_ask_usd": 0.08,
           "no_ask_usd": 0.93,
           "status": "active",
-          "fetched_utc": "2026-10-18T23:19:31.224971+00:00"
+          "fetched_utc": "2026-10-19T04:51:01.854926+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:uefa.champions:401915396",
+      "match": "Galatasaray at Lille",
+      "kickoff_utc": "2026-10-21T16:45Z",
+      "event_ticker": "KXUCLGAME-26OCT21LILGAL",
+      "candidate_markets": [
+        {
+          "ticker": "KXUCLGAME-26OCT21LILGAL-GAL",
+          "title": "Galatasaray wins",
+          "yes_ask_usd": 0.3,
+          "no_ask_usd": 0.71,
+          "status": "active",
+          "fetched_utc": "2026-10-19T04:51:01.854926+00:00"
+        },
+        {
+          "ticker": "KXUCLGAME-26OCT21LILGAL-LIL",
+          "title": "Lille wins",
+          "yes_ask_usd": 0.45,
+          "no_ask_usd": 0.57,
+          "status": "active",
+          "fetched_utc": "2026-10-19T04:51:01.854926+00:00"
+        },
+        {
+          "ticker": "KXUCLGAME-26OCT21LILGAL-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.26,
+          "no_ask_usd": 0.75,
+          "status": "active",
+          "fetched_utc": "2026-10-19T04:51:01.854926+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:uefa.champions:401915312",
+      "match": "Arsenal at Bayern Munich",
+      "kickoff_utc": "2026-10-21T19:00Z",
+      "event_ticker": "KXUCLGAME-26OCT21BMUARS",
+      "candidate_markets": [
+        {
+          "ticker": "KXUCLGAME-26OCT21BMUARS-ARS",
+          "title": "Arsenal wins",
+          "yes_ask_usd": 0.29,
+          "no_ask_usd": 0.72,
+          "status": "active",
+          "fetched_utc": "2026-10-19T04:51:01.854926+00:00"
+        },
+        {
+          "ticker": "KXUCLGAME-26OCT21BMUARS-BMU",
+          "title": "Bayern Munich wins",
+          "yes_ask_usd": 0.47,
+          "no_ask_usd": 0.54,
+          "status": "active",
+          "fetched_utc": "2026-10-19T04:51:01.854926+00:00"
+        },
+        {
+          "ticker": "KXUCLGAME-26OCT21BMUARS-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.25,
+          "no_ask_usd": 0.76,
+          "status": "active",
+          "fetched_utc": "2026-10-19T04:51:01.854926+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
       "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
     }
   ],
-  "fixtures_scanned": 32,
-  "event_groups_scanned": 100,
+  "fixtures_scanned": 23,
+  "event_groups_scanned": 107,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }
