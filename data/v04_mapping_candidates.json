@@ -1,8 +1,77 @@
 {
-  "updated_utc": "2026-10-20T18:30:44.199881+00:00",
-  "candidates": [],
+  "updated_utc": "2026-10-20T22:21:45.599841+00:00",
+  "candidates": [
+    {
+      "match_id": "espn:uefa.champions:401915396",
+      "match": "Galatasaray at Lille",
+      "kickoff_utc": "2026-10-21T16:45Z",
+      "event_ticker": "KXUCLGAME-26OCT21LILGAL",
+      "candidate_markets": [
+        {
+          "ticker": "KXUCLGAME-26OCT21LILGAL-GAL",
+          "title": "Galatasaray wins",
+          "yes_ask_usd": 0.31,
+          "no_ask_usd": 0.7,
+          "status": "active",
+          "fetched_utc": "2026-10-20T22:21:39.730037+00:00"
+        },
+        {
+          "ticker": "KXUCLGAME-26OCT21LILGAL-LIL",
+          "title": "Lille wins",
+          "yes_ask_usd": 0.44,
+          "no_ask_usd": 0.57,
+          "status": "active",
+          "fetched_utc": "2026-10-20T22:21:39.730037+00:00"
+        },
+        {
+          "ticker": "KXUCLGAME-26OCT21LILGAL-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.26,
+          "no_ask_usd": 0.75,
+          "status": "active",
+          "fetched_utc": "2026-10-20T22:21:39.730037+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:uefa.champions:401915312",
+      "match": "Arsenal at Bayern Munich",
+      "kickoff_utc": "2026-10-21T19:00Z",
+      "event_ticker": "KXUCLGAME-26OCT21BMUARS",
+      "candidate_markets": [
+        {
+          "ticker": "KXUCLGAME-26OCT21BMUARS-ARS",
+          "title": "Arsenal wins",
+          "yes_ask_usd": 0.29,
+          "no_ask_usd": 0.72,
+          "status": "active",
+          "fetched_utc": "2026-10-20T22:21:39.730037+00:00"
+        },
+        {
+          "ticker": "KXUCLGAME-26OCT21BMUARS-BMU",
+          "title": "Bayern Munich wins",
+          "yes_ask_usd": 0.47,
+          "no_ask_usd": 0.54,
+          "status": "active",
+          "fetched_utc": "2026-10-20T22:21:39.730037+00:00"
+        },
+        {
+          "ticker": "KXUCLGAME-26OCT21BMUARS-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.25,
+          "no_ask_usd": 0.76,
+          "status": "active",
+          "fetched_utc": "2026-10-20T22:21:39.730037+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    }
+  ],
   "fixtures_scanned": 37,
-  "event_groups_scanned": 78,
+  "event_groups_scanned": 93,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }
