@@ -1253,7 +1253,7 @@
     {
       "away_team": "Athletic Club",
       "competition": "La Liga",
-      "fair_probability": 0.413512,
+      "fair_probability": 0.408547,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Levante",
@@ -1269,7 +1269,7 @@
     {
       "away_team": "Athletic Club",
       "competition": "La Liga",
-      "fair_probability": 0.244028,
+      "fair_probability": 0.254872,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Levante",
@@ -1285,7 +1285,7 @@
     {
       "away_team": "Athletic Club",
       "competition": "La Liga",
-      "fair_probability": 0.34246,
+      "fair_probability": 0.33658,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Levante",
@@ -1301,7 +1301,7 @@
     {
       "away_team": "Athletic Club",
       "competition": "La Liga",
-      "fair_probability": 0.567691,
+      "fair_probability": 0.517049,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Levante",
@@ -1317,7 +1317,7 @@
     {
       "away_team": "Athletic Club",
       "competition": "La Liga",
-      "fair_probability": 0.432309,
+      "fair_probability": 0.482951,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Levante",
@@ -1333,7 +1333,7 @@
     {
       "away_team": "Athletic Club",
       "competition": "La Liga",
-      "fair_probability": 0.594997,
+      "fair_probability": 0.555509,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Levante",
@@ -1349,7 +1349,7 @@
     {
       "away_team": "Athletic Club",
       "competition": "La Liga",
-      "fair_probability": 0.405003,
+      "fair_probability": 0.444491,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Levante",
@@ -4163,7 +4163,7 @@
       "status": "RESEARCH_ONLY_NO_VERIFIED_KALSHI_QUOTE"
     }
   ],
-  "updated": "2026-10-20T07:41:01.549823+00:00",
+  "updated": "2026-10-20T13:37:05.492071+00:00",
   "v04_note": "Model never sees Kalshi odds. Grades UNRATED until independent quote/mapping and additional validation.",
   "v04_status": "INDEPENDENT_RESEARCH_ONLY",
   "watchlist": [

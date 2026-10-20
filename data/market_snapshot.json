@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-20T07:41:16.112075+00:00",
+  "updated_utc": "2026-10-20T13:37:23.341386+00:00",
   "markets": [
     {
       "away_team": "Slavia Prague",
@@ -1236,7 +1236,7 @@
     {
       "away_team": "Athletic Club",
       "competition": "La Liga",
-      "fair_probability": 0.413512,
+      "fair_probability": 0.408547,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Levante",
@@ -1252,7 +1252,7 @@
     {
       "away_team": "Athletic Club",
       "competition": "La Liga",
-      "fair_probability": 0.244028,
+      "fair_probability": 0.254872,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Levante",
@@ -1268,7 +1268,7 @@
     {
       "away_team": "Athletic Club",
       "competition": "La Liga",
-      "fair_probability": 0.34246,
+      "fair_probability": 0.33658,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Levante",
@@ -1284,7 +1284,7 @@
     {
       "away_team": "Athletic Club",
       "competition": "La Liga",
-      "fair_probability": 0.567691,
+      "fair_probability": 0.517049,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Levante",
@@ -1300,7 +1300,7 @@
     {
       "away_team": "Athletic Club",
       "competition": "La Liga",
-      "fair_probability": 0.432309,
+      "fair_probability": 0.482951,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Levante",
@@ -1316,7 +1316,7 @@
     {
       "away_team": "Athletic Club",
       "competition": "La Liga",
-      "fair_probability": 0.594997,
+      "fair_probability": 0.555509,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Levante",
@@ -1332,7 +1332,7 @@
     {
       "away_team": "Athletic Club",
       "competition": "La Liga",
-      "fair_probability": 0.405003,
+      "fair_probability": 0.444491,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Levante",
