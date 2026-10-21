@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-21T18:43:02.631245+00:00",
+  "updated_utc": "2026-10-21T22:25:13.524258+00:00",
   "candidates": [
     {
       "match_id": "espn:uefa.europa:401915558",
@@ -13,7 +13,7 @@
           "yes_ask_usd": 0.74,
           "no_ask_usd": 0.28,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         },
         {
           "ticker": "KXUELGAME-26OCT22FTCTOR-TIE",
@@ -21,7 +21,7 @@
           "yes_ask_usd": 0.18,
           "no_ask_usd": 0.84,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         },
         {
           "ticker": "KXUELGAME-26OCT22FTCTOR-TOR",
@@ -29,7 +29,7 @@
           "yes_ask_usd": 0.1,
           "no_ask_usd": 0.91,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -44,18 +44,18 @@
         {
           "ticker": "KXUELGAME-26OCT22JUVREN-JUV",
           "title": "Juventus wins",
-          "yes_ask_usd": 0.63,
-          "no_ask_usd": 0.38,
+          "yes_ask_usd": 0.64,
+          "no_ask_usd": 0.37,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         },
         {
           "ticker": "KXUELGAME-26OCT22JUVREN-REN",
           "title": "Stade Rennais wins",
-          "yes_ask_usd": 0.17,
-          "no_ask_usd": 0.84,
+          "yes_ask_usd": 0.16,
+          "no_ask_usd": 0.85,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         },
         {
           "ticker": "KXUELGAME-26OCT22JUVREN-TIE",
@@ -63,7 +63,7 @@
           "yes_ask_usd": 0.22,
           "no_ask_usd": 0.79,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -78,10 +78,10 @@
         {
           "ticker": "KXUELGAME-26OCT22LPOSUN-LPO",
           "title": "Lech Poznan wins",
-          "yes_ask_usd": 0.2,
-          "no_ask_usd": 0.81,
+          "yes_ask_usd": 0.21,
+          "no_ask_usd": 0.8,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         },
         {
           "ticker": "KXUELGAME-26OCT22LPOSUN-SUN",
@@ -89,7 +89,7 @@
           "yes_ask_usd": 0.57,
           "no_ask_usd": 0.44,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         },
         {
           "ticker": "KXUELGAME-26OCT22LPOSUN-TIE",
@@ -97,7 +97,7 @@
           "yes_ask_usd": 0.24,
           "no_ask_usd": 0.77,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -112,10 +112,10 @@
         {
           "ticker": "KXUELGAME-26OCT22OFILEV-LEV",
           "title": "Leverkusen wins",
-          "yes_ask_usd": 0.8,
-          "no_ask_usd": 0.21,
+          "yes_ask_usd": 0.81,
+          "no_ask_usd": 0.2,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         },
         {
           "ticker": "KXUELGAME-26OCT22OFILEV-OFI",
@@ -123,7 +123,7 @@
           "yes_ask_usd": 0.08,
           "no_ask_usd": 0.93,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         },
         {
           "ticker": "KXUELGAME-26OCT22OFILEV-TIE",
@@ -131,7 +131,7 @@
           "yes_ask_usd": 0.13,
           "no_ask_usd": 0.88,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -149,15 +149,15 @@
           "yes_ask_usd": 0.27,
           "no_ask_usd": 0.74,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         },
         {
           "ticker": "KXUELGAME-26OCT22BOUACM-BOU",
           "title": "Bournemouth wins",
-          "yes_ask_usd": 0.49,
-          "no_ask_usd": 0.52,
+          "yes_ask_usd": 0.48,
+          "no_ask_usd": 0.53,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         },
         {
           "ticker": "KXUELGAME-26OCT22BOUACM-TIE",
@@ -165,7 +165,7 @@
           "yes_ask_usd": 0.26,
           "no_ask_usd": 0.75,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -180,18 +180,18 @@
         {
           "ticker": "KXUELGAME-26OCT22BESCRY-BES",
           "title": "Besiktas wins",
-          "yes_ask_usd": 0.47,
-          "no_ask_usd": 0.54,
+          "yes_ask_usd": 0.45,
+          "no_ask_usd": 0.56,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         },
         {
           "ticker": "KXUELGAME-26OCT22BESCRY-CRY",
           "title": "Crystal Palace wins",
-          "yes_ask_usd": 0.3,
-          "no_ask_usd": 0.71,
+          "yes_ask_usd": 0.32,
+          "no_ask_usd": 0.69,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         },
         {
           "ticker": "KXUELGAME-26OCT22BESCRY-TIE",
@@ -199,7 +199,7 @@
           "yes_ask_usd": 0.25,
           "no_ask_usd": 0.76,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -214,18 +214,18 @@
         {
           "ticker": "KXUELGAME-26OCT22CELRCC-CEL",
           "title": "Celtic wins",
-          "yes_ask_usd": 0.37,
+          "yes_ask_usd": 0.36,
           "no_ask_usd": 0.65,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         },
         {
           "ticker": "KXUELGAME-26OCT22CELRCC-RCC",
           "title": "Celta Vigo wins",
-          "yes_ask_usd": 0.37,
-          "no_ask_usd": 0.64,
+          "yes_ask_usd": 0.38,
+          "no_ask_usd": 0.63,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         },
         {
           "ticker": "KXUELGAME-26OCT22CELRCC-TIE",
@@ -233,7 +233,7 @@
           "yes_ask_usd": 0.28,
           "no_ask_usd": 0.73,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -251,7 +251,7 @@
           "yes_ask_usd": 0.65,
           "no_ask_usd": 0.36,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         },
         {
           "ticker": "KXUELGAME-26OCT22OLYSPA-SPA",
@@ -259,15 +259,15 @@
           "yes_ask_usd": 0.15,
           "no_ask_usd": 0.86,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         },
         {
           "ticker": "KXUELGAME-26OCT22OLYSPA-TIE",
           "title": "Tie is the result",
-          "yes_ask_usd": 0.22,
-          "no_ask_usd": 0.79,
+          "yes_ask_usd": 0.21,
+          "no_ask_usd": 0.8,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -285,7 +285,7 @@
           "yes_ask_usd": 0.72,
           "no_ask_usd": 0.29,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         },
         {
           "ticker": "KXUELGAME-26OCT22OMOBEN-OMO",
@@ -293,7 +293,7 @@
           "yes_ask_usd": 0.11,
           "no_ask_usd": 0.9,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         },
         {
           "ticker": "KXUELGAME-26OCT22OMOBEN-TIE",
@@ -301,7 +301,7 @@
           "yes_ask_usd": 0.18,
           "no_ask_usd": 0.83,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -319,7 +319,7 @@
           "yes_ask_usd": 0.56,
           "no_ask_usd": 0.45,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26OCT23ALAMCF-MCF",
@@ -327,7 +327,7 @@
           "yes_ask_usd": 0.19,
           "no_ask_usd": 0.82,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26OCT23ALAMCF-TIE",
@@ -335,7 +335,7 @@
           "yes_ask_usd": 0.26,
           "no_ask_usd": 0.75,
           "status": "active",
-          "fetched_utc": "2026-10-21T18:42:56.575700+00:00"
+          "fetched_utc": "2026-10-21T22:25:09.348183+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -343,7 +343,7 @@
     }
   ],
   "fixtures_scanned": 33,
-  "event_groups_scanned": 116,
+  "event_groups_scanned": 88,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }

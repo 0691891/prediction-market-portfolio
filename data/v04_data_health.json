@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-21T18:43:02.687021+00:00",
+  "updated_utc": "2026-10-21T22:25:13.579489+00:00",
   "status": "RESEARCH_ONLY_INCOMPLETE_INPUTS",
   "fixture": {
     "observed": 33,
@@ -16,16 +16,16 @@
     "cross_verified_kickoffs": 0
   },
   "model": {
-    "prospective_market_rows": 210,
+    "prospective_market_rows": 161,
     "modelled_rows": 35,
     "independent_model": "v0.4-independent-goals-research",
-    "model_data_coverage": 0.1667,
+    "model_data_coverage": 0.2174,
     "not_proof_of_alpha": true
   },
   "kalshi": {
-    "market_rows": 344,
+    "market_rows": 259,
     "recent_open_yes_asks": 0,
-    "stale_yes_asks": 344,
+    "stale_yes_asks": 259,
     "unknown_age_yes_asks": 0,
     "not_open": 0,
     "invalid_yes_asks": 0,
