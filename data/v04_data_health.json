@@ -1,35 +1,46 @@
 {
-  "updated_utc": "2026-10-22T01:34:57.821668+00:00",
+  "updated_utc": "2026-10-22T07:41:05.972642+00:00",
   "status": "RESEARCH_ONLY_INCOMPLETE_INPUTS",
   "fixture": {
-    "observed": 33,
+    "observed": 42,
     "source_quality_counts": {
-      "PROVIDER_SCHEDULE_UNCROSSCHECKED": 33
+      "PROVIDER_SCHEDULE_UNCROSSCHECKED": 42
     },
     "model_status_counts": {
-      "NON_TOP_FIVE_LEAGUE_UNSUPPORTED": 27,
-      "MATCH_ALREADY_STARTED_NO_RETRO_PREDICTION": 1,
-      "MODELLED": 5
+      "NON_TOP_FIVE_LEAGUE_UNSUPPORTED": 18,
+      "MODELLED": 19,
+      "MISSING_HISTORY_OR_TEAM_ALIAS": 5
     },
     "schedule_error_count": 0,
     "history_error_count": 0,
     "cross_verified_kickoffs": 0
   },
   "model": {
-    "prospective_market_rows": 161,
-    "modelled_rows": 35,
+    "prospective_market_rows": 294,
+    "modelled_rows": 133,
     "independent_model": "v0.4-independent-goals-research",
-    "model_data_coverage": 0.2174,
+    "model_data_coverage": 0.4524,
     "not_proof_of_alpha": true
   },
   "kalshi": {
-    "market_rows": 315,
+    "market_rows": 0,
     "recent_open_yes_asks": 0,
-    "stale_yes_asks": 315,
+    "stale_yes_asks": 0,
     "unknown_age_yes_asks": 0,
     "not_open": 0,
     "invalid_yes_asks": 0,
-    "source_errors": {},
+    "source_errors": {
+      "KXAFCCLGAME": "Kalshi HTTP 503 on /trade-api/v2/markets",
+      "KXAUTBUNDESGAME": "Kalshi HTTP 503 on /trade-api/v2/markets",
+      "KXBUNDESLIGAWGAME": "Kalshi HTTP 503 on /trade-api/v2/markets",
+      "KXEGYPLGAME": "Kalshi HTTP 503 on /trade-api/v2/markets",
+      "KXFIBACHAMPLEAGUEGAME": "Kalshi HTTP 503 on /trade-api/v2/markets",
+      "KXIBPLGAME": "Kalshi HTTP 503 on /trade-api/v2/markets",
+      "KXIPLGAME": "Kalshi HTTP 503 on /trade-api/v2/markets",
+      "KXISRPLGAME": "Kalshi HTTP 503 on /trade-api/v2/markets",
+      "KXUCLGAME": "Kalshi HTTP 503 on /trade-api/v2/markets",
+      "KXUELGAME": "Kalshi HTTP 503 on /trade-api/v2/markets"
+    },
     "freshness_max_seconds": 900
   },
   "mapping": {
@@ -41,7 +52,7 @@
     "football_intelligence": "NO_FOOTBALL_DATA_KEY"
   },
   "activation": {
-    "research": true,
+    "research": false,
     "automatic_a_grade_paper": false,
     "reason": "Requires independently cross-checked schedule, verified contract semantics, current ASK and fee/capacity as well as out-of-sample calibrated positive-edge evidence."
   },

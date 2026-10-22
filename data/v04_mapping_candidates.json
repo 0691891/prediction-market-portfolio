@@ -1,43 +1,8 @@
 {
-  "updated_utc": "2026-10-22T01:34:57.761087+00:00",
-  "candidates": [
-    {
-      "match_id": "espn:esp.1:401882836",
-      "match": "Málaga at Alavés",
-      "kickoff_utc": "2026-10-23T19:00Z",
-      "event_ticker": "KXLALIGAGAME-26OCT23ALAMCF",
-      "candidate_markets": [
-        {
-          "ticker": "KXLALIGAGAME-26OCT23ALAMCF-ALA",
-          "title": "Alaves wins",
-          "yes_ask_usd": 0.56,
-          "no_ask_usd": 0.45,
-          "status": "active",
-          "fetched_utc": "2026-10-22T01:34:53.830028+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26OCT23ALAMCF-MCF",
-          "title": "Malaga wins",
-          "yes_ask_usd": 0.19,
-          "no_ask_usd": 0.82,
-          "status": "active",
-          "fetched_utc": "2026-10-22T01:34:53.830028+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26OCT23ALAMCF-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.26,
-          "no_ask_usd": 0.75,
-          "status": "active",
-          "fetched_utc": "2026-10-22T01:34:53.830028+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    }
-  ],
-  "fixtures_scanned": 33,
-  "event_groups_scanned": 105,
+  "updated_utc": "2026-10-22T07:41:05.951057+00:00",
+  "candidates": [],
+  "fixtures_scanned": 42,
+  "event_groups_scanned": 0,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }
