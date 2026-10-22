@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-22T07:41:05.972642+00:00",
+  "updated_utc": "2026-10-22T13:51:54.582392+00:00",
   "status": "RESEARCH_ONLY_INCOMPLETE_INPUTS",
   "fixture": {
     "observed": 42,
@@ -23,24 +23,13 @@
     "not_proof_of_alpha": true
   },
   "kalshi": {
-    "market_rows": 0,
+    "market_rows": 266,
     "recent_open_yes_asks": 0,
-    "stale_yes_asks": 0,
+    "stale_yes_asks": 266,
     "unknown_age_yes_asks": 0,
     "not_open": 0,
     "invalid_yes_asks": 0,
-    "source_errors": {
-      "KXAFCCLGAME": "Kalshi HTTP 503 on /trade-api/v2/markets",
-      "KXAUTBUNDESGAME": "Kalshi HTTP 503 on /trade-api/v2/markets",
-      "KXBUNDESLIGAWGAME": "Kalshi HTTP 503 on /trade-api/v2/markets",
-      "KXEGYPLGAME": "Kalshi HTTP 503 on /trade-api/v2/markets",
-      "KXFIBACHAMPLEAGUEGAME": "Kalshi HTTP 503 on /trade-api/v2/markets",
-      "KXIBPLGAME": "Kalshi HTTP 503 on /trade-api/v2/markets",
-      "KXIPLGAME": "Kalshi HTTP 503 on /trade-api/v2/markets",
-      "KXISRPLGAME": "Kalshi HTTP 503 on /trade-api/v2/markets",
-      "KXUCLGAME": "Kalshi HTTP 503 on /trade-api/v2/markets",
-      "KXUELGAME": "Kalshi HTTP 503 on /trade-api/v2/markets"
-    },
+    "source_errors": {},
     "freshness_max_seconds": 900
   },
   "mapping": {
@@ -52,7 +41,7 @@
     "football_intelligence": "NO_FOOTBALL_DATA_KEY"
   },
   "activation": {
-    "research": false,
+    "research": true,
     "automatic_a_grade_paper": false,
     "reason": "Requires independently cross-checked schedule, verified contract semantics, current ASK and fee/capacity as well as out-of-sample calibrated positive-edge evidence."
   },
