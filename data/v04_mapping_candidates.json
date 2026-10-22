@@ -1,8 +1,247 @@
 {
-  "updated_utc": "2026-10-22T18:35:58.241306+00:00",
-  "candidates": [],
-  "fixtures_scanned": 24,
-  "event_groups_scanned": 78,
+  "updated_utc": "2026-10-22T22:24:42.816160+00:00",
+  "candidates": [
+    {
+      "match_id": "espn:ger.1:401884761",
+      "match": "Borussia Mönchengladbach at VfB Stuttgart",
+      "kickoff_utc": "2026-10-23T18:30Z",
+      "event_ticker": "KXBUNDESLIGAGAME-26OCT23VFBBMG",
+      "candidate_markets": [
+        {
+          "ticker": "KXBUNDESLIGAGAME-26OCT23VFBBMG-BMG",
+          "title": "M´gladbach wins",
+          "yes_ask_usd": 0.13,
+          "no_ask_usd": 0.88,
+          "status": "active",
+          "fetched_utc": "2026-10-22T22:24:38.046488+00:00"
+        },
+        {
+          "ticker": "KXBUNDESLIGAGAME-26OCT23VFBBMG-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.17,
+          "no_ask_usd": 0.84,
+          "status": "active",
+          "fetched_utc": "2026-10-22T22:24:38.046488+00:00"
+        },
+        {
+          "ticker": "KXBUNDESLIGAGAME-26OCT23VFBBMG-VFB",
+          "title": "Stuttgart wins",
+          "yes_ask_usd": 0.71,
+          "no_ask_usd": 0.3,
+          "status": "active",
+          "fetched_utc": "2026-10-22T22:24:38.046488+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:ita.1:401874957",
+      "match": "Monza at Torino",
+      "kickoff_utc": "2026-10-23T18:45Z",
+      "event_ticker": "KXSERIEAGAME-26OCT23TORMON",
+      "candidate_markets": [
+        {
+          "ticker": "KXSERIEAGAME-26OCT23TORMON-MON",
+          "title": "Monza wins",
+          "yes_ask_usd": 0.28,
+          "no_ask_usd": 0.74,
+          "status": "active",
+          "fetched_utc": "2026-10-22T22:24:38.046488+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26OCT23TORMON-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.29,
+          "no_ask_usd": 0.72,
+          "status": "active",
+          "fetched_utc": "2026-10-22T22:24:38.046488+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26OCT23TORMON-TOR",
+          "title": "Torino wins",
+          "yes_ask_usd": 0.46,
+          "no_ask_usd": 0.56,
+          "status": "active",
+          "fetched_utc": "2026-10-22T22:24:38.046488+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:esp.1:401882836",
+      "match": "Málaga at Alavés",
+      "kickoff_utc": "2026-10-23T19:00Z",
+      "event_ticker": "KXLALIGAGAME-26OCT23ALAMCF",
+      "candidate_markets": [
+        {
+          "ticker": "KXLALIGAGAME-26OCT23ALAMCF-ALA",
+          "title": "Alaves wins",
+          "yes_ask_usd": 0.59,
+          "no_ask_usd": 0.42,
+          "status": "active",
+          "fetched_utc": "2026-10-22T22:24:38.046488+00:00"
+        },
+        {
+          "ticker": "KXLALIGAGAME-26OCT23ALAMCF-MCF",
+          "title": "Malaga wins",
+          "yes_ask_usd": 0.17,
+          "no_ask_usd": 0.84,
+          "status": "active",
+          "fetched_utc": "2026-10-22T22:24:38.046488+00:00"
+        },
+        {
+          "ticker": "KXLALIGAGAME-26OCT23ALAMCF-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.26,
+          "no_ask_usd": 0.75,
+          "status": "active",
+          "fetched_utc": "2026-10-22T22:24:38.046488+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:ita.1:401874958",
+      "match": "Bologna at Cagliari",
+      "kickoff_utc": "2026-10-24T13:00Z",
+      "event_ticker": "KXSERIEAGAME-26OCT24CAGBFC",
+      "candidate_markets": [
+        {
+          "ticker": "KXSERIEAGAME-26OCT24CAGBFC-BFC",
+          "title": "Bologna wins",
+          "yes_ask_usd": 0.38,
+          "no_ask_usd": 0.63,
+          "status": "active",
+          "fetched_utc": "2026-10-22T22:24:38.046488+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26OCT24CAGBFC-CAG",
+          "title": "Cagliari wins",
+          "yes_ask_usd": 0.31,
+          "no_ask_usd": 0.71,
+          "status": "active",
+          "fetched_utc": "2026-10-22T22:24:38.046488+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26OCT24CAGBFC-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.32,
+          "no_ask_usd": 0.69,
+          "status": "active",
+          "fetched_utc": "2026-10-22T22:24:38.046488+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:ger.1:401884758",
+      "match": "1. FC Union Berlin at FC Augsburg",
+      "kickoff_utc": "2026-10-24T13:30Z",
+      "event_ticker": "KXBUNDESLIGAGAME-26OCT24FCAUNI",
+      "candidate_markets": [
+        {
+          "ticker": "KXBUNDESLIGAGAME-26OCT24FCAUNI-FCA",
+          "title": "Augsburg wins",
+          "yes_ask_usd": 0.54,
+          "no_ask_usd": 0.48,
+          "status": "active",
+          "fetched_utc": "2026-10-22T22:24:38.046488+00:00"
+        },
+        {
+          "ticker": "KXBUNDESLIGAGAME-26OCT24FCAUNI-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.24,
+          "no_ask_usd": 0.77,
+          "status": "active",
+          "fetched_utc": "2026-10-22T22:24:38.046488+00:00"
+        },
+        {
+          "ticker": "KXBUNDESLIGAGAME-26OCT24FCAUNI-UNI",
+          "title": "Union Berlin wins",
+          "yes_ask_usd": 0.25,
+          "no_ask_usd": 0.77,
+          "status": "active",
+          "fetched_utc": "2026-10-22T22:24:38.046488+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:esp.1:401882827",
+      "match": "Villarreal at Valencia",
+      "kickoff_utc": "2026-10-24T16:30Z",
+      "event_ticker": "KXLALIGAGAME-26OCT24VCFVIL",
+      "candidate_markets": [
+        {
+          "ticker": "KXLALIGAGAME-26OCT24VCFVIL-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.27,
+          "no_ask_usd": 0.75,
+          "status": "active",
+          "fetched_utc": "2026-10-22T22:24:38.046488+00:00"
+        },
+        {
+          "ticker": "KXLALIGAGAME-26OCT24VCFVIL-VCF",
+          "title": "Valencia wins",
+          "yes_ask_usd": 0.3,
+          "no_ask_usd": 0.71,
+          "status": "active",
+          "fetched_utc": "2026-10-22T22:24:38.046488+00:00"
+        },
+        {
+          "ticker": "KXLALIGAGAME-26OCT24VCFVIL-VIL",
+          "title": "Villarreal wins",
+          "yes_ask_usd": 0.46,
+          "no_ask_usd": 0.56,
+          "status": "active",
+          "fetched_utc": "2026-10-22T22:24:38.046488+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:ita.1:401874955",
+      "match": "Parma at Lazio",
+      "kickoff_utc": "2026-10-24T18:45Z",
+      "event_ticker": "KXSERIEAGAME-26OCT24LAZPAR",
+      "candidate_markets": [
+        {
+          "ticker": "KXSERIEAGAME-26OCT24LAZPAR-LAZ",
+          "title": "Lazio wins",
+          "yes_ask_usd": 0.7,
+          "no_ask_usd": 0.31,
+          "status": "active",
+          "fetched_utc": "2026-10-22T22:24:38.046488+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26OCT24LAZPAR-PAR",
+          "title": "Parma Calcio wins",
+          "yes_ask_usd": 0.11,
+          "no_ask_usd": 0.9,
+          "status": "active",
+          "fetched_utc": "2026-10-22T22:24:38.046488+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26OCT24LAZPAR-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.21,
+          "no_ask_usd": 0.81,
+          "status": "active",
+          "fetched_utc": "2026-10-22T22:24:38.046488+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    }
+  ],
+  "fixtures_scanned": 42,
+  "event_groups_scanned": 81,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }
