@@ -1,13 +1,13 @@
 {
-  "updated_utc": "2026-10-23T13:32:09.593439+00:00",
+  "updated_utc": "2026-10-23T18:26:00.081472+00:00",
   "status": "RESEARCH_ONLY_INCOMPLETE_INPUTS",
   "fixture": {
-    "observed": 47,
+    "observed": 46,
     "source_quality_counts": {
-      "PROVIDER_SCHEDULE_UNCROSSCHECKED": 47
+      "PROVIDER_SCHEDULE_UNCROSSCHECKED": 46
     },
     "model_status_counts": {
-      "MODELLED": 41,
+      "MODELLED": 40,
       "MISSING_HISTORY_OR_TEAM_ALIAS": 6
     },
     "schedule_error_count": 0,
@@ -15,16 +15,16 @@
     "cross_verified_kickoffs": 0
   },
   "model": {
-    "prospective_market_rows": 329,
-    "modelled_rows": 287,
+    "prospective_market_rows": 322,
+    "modelled_rows": 280,
     "independent_model": "v0.4-independent-goals-research",
-    "model_data_coverage": 0.8723,
+    "model_data_coverage": 0.8696,
     "not_proof_of_alpha": true
   },
   "kalshi": {
-    "market_rows": 139,
+    "market_rows": 271,
     "recent_open_yes_asks": 0,
-    "stale_yes_asks": 139,
+    "stale_yes_asks": 271,
     "unknown_age_yes_asks": 0,
     "not_open": 0,
     "invalid_yes_asks": 0,
