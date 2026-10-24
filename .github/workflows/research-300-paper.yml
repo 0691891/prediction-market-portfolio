@@ -32,7 +32,7 @@ jobs:
         run: |
           git config user.name "prediction-market-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add paper/observations.json paper/signals.json paper/results.json paper/state.json paper/research_300_status.json
+          git add paper/observations.json paper/verified_match_results.json paper/signals.json paper/results.json paper/state.json paper/research_300_status.json
           git diff --cached --quiet || git commit -m "paper: update prospective 300-match research cohort"
           git pull --rebase
           git push
