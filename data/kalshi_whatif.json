@@ -4,5 +4,5 @@
   "net_pnl_usd": null,
   "note": "Gross excludes fees; net is null if any fee missing. Do not count unpriced leans or PASS.",
   "trades": [],
-  "updated_utc": "2026-10-24T05:58:27.649381+00:00"
+  "updated_utc": "2026-10-24T11:11:31.850303+00:00"
 }
