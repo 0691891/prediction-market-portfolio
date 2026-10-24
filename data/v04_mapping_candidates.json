@@ -1,145 +1,383 @@
 {
-  "updated_utc": "2026-10-24T00:49:57.148557+00:00",
+  "updated_utc": "2026-10-24T05:58:31.724164+00:00",
   "candidates": [
     {
-      "match_id": "espn:esp.1:401882827",
-      "match": "Villarreal at Valencia",
-      "kickoff_utc": "2026-10-24T16:30Z",
-      "event_ticker": "KXLALIGAGAME-26OCT24VCFVIL",
+      "match_id": "espn:eng.1:401879256",
+      "match": "Manchester City at Aston Villa",
+      "kickoff_utc": "2026-10-24T11:30Z",
+      "event_ticker": "KXEPLGAME-26OCT24AVLMCI",
       "candidate_markets": [
         {
-          "ticker": "KXLALIGAGAME-26OCT24VCFVIL-TIE",
+          "ticker": "KXEPLGAME-26OCT24AVLMCI-AVL",
+          "title": "Aston Villa wins",
+          "yes_ask_usd": 0.19,
+          "no_ask_usd": 0.82,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        },
+        {
+          "ticker": "KXEPLGAME-26OCT24AVLMCI-MCI",
+          "title": "Manchester City wins",
+          "yes_ask_usd": 0.61,
+          "no_ask_usd": 0.4,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        },
+        {
+          "ticker": "KXEPLGAME-26OCT24AVLMCI-TIE",
           "title": "Tie is the result",
-          "yes_ask_usd": 0.27,
-          "no_ask_usd": 0.74,
+          "yes_ask_usd": 0.22,
+          "no_ask_usd": 0.79,
           "status": "active",
-          "fetched_utc": "2026-10-24T00:49:52.960942+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26OCT24VCFVIL-VCF",
-          "title": "Valencia wins",
-          "yes_ask_usd": 0.3,
-          "no_ask_usd": 0.71,
-          "status": "active",
-          "fetched_utc": "2026-10-24T00:49:52.960942+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26OCT24VCFVIL-VIL",
-          "title": "Villarreal wins",
-          "yes_ask_usd": 0.45,
-          "no_ask_usd": 0.56,
-          "status": "active",
-          "fetched_utc": "2026-10-24T00:49:52.960942+00:00"
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
       "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
     },
     {
-      "match_id": "espn:esp.1:401882833",
-      "match": "Real Betis at Celta Vigo",
-      "kickoff_utc": "2026-10-25T15:15Z",
-      "event_ticker": "KXLALIGAGAME-26OCT25RCCRBB",
+      "match_id": "espn:ger.1:401884758",
+      "match": "1. FC Union Berlin at FC Augsburg",
+      "kickoff_utc": "2026-10-24T13:30Z",
+      "event_ticker": "KXBUNDESLIGAGAME-26OCT24FCAUNI",
       "candidate_markets": [
         {
-          "ticker": "KXLALIGAGAME-26OCT25RCCRBB-RBB",
-          "title": "Real Betis wins",
-          "yes_ask_usd": 0.43,
-          "no_ask_usd": 0.58,
+          "ticker": "KXBUNDESLIGAGAME-26OCT24FCAUNI-FCA",
+          "title": "Augsburg wins",
+          "yes_ask_usd": 0.54,
+          "no_ask_usd": 0.47,
           "status": "active",
-          "fetched_utc": "2026-10-24T00:49:52.960942+00:00"
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
         },
         {
-          "ticker": "KXLALIGAGAME-26OCT25RCCRBB-RCC",
-          "title": "Celta Vigo wins",
+          "ticker": "KXBUNDESLIGAGAME-26OCT24FCAUNI-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.24,
+          "no_ask_usd": 0.77,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        },
+        {
+          "ticker": "KXBUNDESLIGAGAME-26OCT24FCAUNI-UNI",
+          "title": "Union Berlin wins",
+          "yes_ask_usd": 0.24,
+          "no_ask_usd": 0.77,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:eng.1:401878768",
+      "match": "Everton at Arsenal",
+      "kickoff_utc": "2026-10-24T14:00Z",
+      "event_ticker": "KXEPLGAME-26OCT24ARSEVE",
+      "candidate_markets": [
+        {
+          "ticker": "KXEPLGAME-26OCT24ARSEVE-ARS",
+          "title": "Arsenal wins",
+          "yes_ask_usd": 0.67,
+          "no_ask_usd": 0.34,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        },
+        {
+          "ticker": "KXEPLGAME-26OCT24ARSEVE-EVE",
+          "title": "Everton wins",
+          "yes_ask_usd": 0.12,
+          "no_ask_usd": 0.89,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        },
+        {
+          "ticker": "KXEPLGAME-26OCT24ARSEVE-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.22,
+          "no_ask_usd": 0.79,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:eng.1:401878767",
+      "match": "Tottenham Hotspur at Chelsea",
+      "kickoff_utc": "2026-10-24T16:30Z",
+      "event_ticker": "KXEPLGAME-26OCT24CFCTOT",
+      "candidate_markets": [
+        {
+          "ticker": "KXEPLGAME-26OCT24CFCTOT-CFC",
+          "title": "Chelsea wins",
+          "yes_ask_usd": 0.53,
+          "no_ask_usd": 0.48,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        },
+        {
+          "ticker": "KXEPLGAME-26OCT24CFCTOT-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.25,
+          "no_ask_usd": 0.77,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        },
+        {
+          "ticker": "KXEPLGAME-26OCT24CFCTOT-TOT",
+          "title": "Tottenham wins",
+          "yes_ask_usd": 0.24,
+          "no_ask_usd": 0.77,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:eng.1:401879254",
+      "match": "Newcastle United at Crystal Palace",
+      "kickoff_utc": "2026-10-25T14:00Z",
+      "event_ticker": "KXEPLGAME-26OCT25CRYNEW",
+      "candidate_markets": [
+        {
+          "ticker": "KXEPLGAME-26OCT25CRYNEW-CRY",
+          "title": "Crystal Palace wins",
+          "yes_ask_usd": 0.33,
+          "no_ask_usd": 0.68,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        },
+        {
+          "ticker": "KXEPLGAME-26OCT25CRYNEW-NEW",
+          "title": "Newcastle wins",
+          "yes_ask_usd": 0.41,
+          "no_ask_usd": 0.6,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        },
+        {
+          "ticker": "KXEPLGAME-26OCT25CRYNEW-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.27,
+          "no_ask_usd": 0.74,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:eng.1:401878766",
+      "match": "Brentford at Hull City",
+      "kickoff_utc": "2026-10-25T14:00Z",
+      "event_ticker": "KXEPLGAME-26OCT25HULBRE",
+      "candidate_markets": [
+        {
+          "ticker": "KXEPLGAME-26OCT25HULBRE-BRE",
+          "title": "Brentford wins",
+          "yes_ask_usd": 0.58,
+          "no_ask_usd": 0.43,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        },
+        {
+          "ticker": "KXEPLGAME-26OCT25HULBRE-HUL",
+          "title": "Hull City wins",
+          "yes_ask_usd": 0.2,
+          "no_ask_usd": 0.81,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        },
+        {
+          "ticker": "KXEPLGAME-26OCT25HULBRE-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.24,
+          "no_ask_usd": 0.77,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:eng.1:401878765",
+      "match": "Brighton & Hove Albion at Liverpool",
+      "kickoff_utc": "2026-10-25T14:00Z",
+      "event_ticker": "KXEPLGAME-26OCT25LFCBRI",
+      "candidate_markets": [
+        {
+          "ticker": "KXEPLGAME-26OCT25LFCBRI-BRI",
+          "title": "Brighton wins",
           "yes_ask_usd": 0.31,
           "no_ask_usd": 0.7,
           "status": "active",
-          "fetched_utc": "2026-10-24T00:49:52.960942+00:00"
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
         },
         {
-          "ticker": "KXLALIGAGAME-26OCT25RCCRBB-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.28,
-          "no_ask_usd": 0.73,
+          "ticker": "KXEPLGAME-26OCT25LFCBRI-LFC",
+          "title": "Liverpool wins",
+          "yes_ask_usd": 0.46,
+          "no_ask_usd": 0.55,
           "status": "active",
-          "fetched_utc": "2026-10-24T00:49:52.960942+00:00"
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        },
+        {
+          "ticker": "KXEPLGAME-26OCT25LFCBRI-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.25,
+          "no_ask_usd": 0.76,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
       "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
     },
     {
-      "match_id": "espn:esp.1:401882829",
-      "match": "Levante at Real Sociedad",
-      "kickoff_utc": "2026-10-25T17:30Z",
-      "event_ticker": "KXLALIGAGAME-26OCT25RSOLEV",
+      "match_id": "espn:eng.1:401879252",
+      "match": "AFC Bournemouth at Manchester United",
+      "kickoff_utc": "2026-10-25T14:00Z",
+      "event_ticker": "KXEPLGAME-26OCT25MUNBOU",
       "candidate_markets": [
         {
-          "ticker": "KXLALIGAGAME-26OCT25RSOLEV-LEV",
-          "title": "Levante wins",
-          "yes_ask_usd": 0.18,
-          "no_ask_usd": 0.83,
+          "ticker": "KXEPLGAME-26OCT25MUNBOU-BOU",
+          "title": "Bournemouth wins",
+          "yes_ask_usd": 0.31,
+          "no_ask_usd": 0.7,
           "status": "active",
-          "fetched_utc": "2026-10-24T00:49:52.960942+00:00"
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
         },
         {
-          "ticker": "KXLALIGAGAME-26OCT25RSOLEV-RSO",
-          "title": "Real Sociedad wins",
-          "yes_ask_usd": 0.62,
-          "no_ask_usd": 0.4,
+          "ticker": "KXEPLGAME-26OCT25MUNBOU-MUN",
+          "title": "Manchester United wins",
+          "yes_ask_usd": 0.43,
+          "no_ask_usd": 0.58,
           "status": "active",
-          "fetched_utc": "2026-10-24T00:49:52.960942+00:00"
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
         },
         {
-          "ticker": "KXLALIGAGAME-26OCT25RSOLEV-TIE",
+          "ticker": "KXEPLGAME-26OCT25MUNBOU-TIE",
           "title": "Tie is the result",
-          "yes_ask_usd": 0.21,
-          "no_ask_usd": 0.8,
-          "status": "active",
-          "fetched_utc": "2026-10-24T00:49:52.960942+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    },
-    {
-      "match_id": "espn:esp.1:401882832",
-      "match": "Real Madrid at Barcelona",
-      "kickoff_utc": "2026-10-25T20:00Z",
-      "event_ticker": "KXLALIGAGAME-26OCT25BARRMA",
-      "candidate_markets": [
-        {
-          "ticker": "KXLALIGAGAME-26OCT25BARRMA-BAR",
-          "title": "Barcelona wins",
-          "yes_ask_usd": 0.6,
-          "no_ask_usd": 0.41,
-          "status": "active",
-          "fetched_utc": "2026-10-24T00:49:52.960942+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26OCT25BARRMA-RMA",
-          "title": "Real Madrid wins",
           "yes_ask_usd": 0.27,
           "no_ask_usd": 0.74,
           "status": "active",
-          "fetched_utc": "2026-10-24T00:49:52.960942+00:00"
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:ger.1:401884760",
+      "match": "Bayer Leverkusen at TSG Hoffenheim",
+      "kickoff_utc": "2026-10-25T14:30Z",
+      "event_ticker": "KXBUNDESLIGAGAME-26OCT25TSGLEV",
+      "candidate_markets": [
+        {
+          "ticker": "KXBUNDESLIGAGAME-26OCT25TSGLEV-LEV",
+          "title": "Leverkusen wins",
+          "yes_ask_usd": 0.42,
+          "no_ask_usd": 0.59,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
         },
         {
-          "ticker": "KXLALIGAGAME-26OCT25BARRMA-TIE",
+          "ticker": "KXBUNDESLIGAGAME-26OCT25TSGLEV-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.24,
+          "no_ask_usd": 0.77,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        },
+        {
+          "ticker": "KXBUNDESLIGAGAME-26OCT25TSGLEV-TSG",
+          "title": "Hoffenheim wins",
+          "yes_ask_usd": 0.35,
+          "no_ask_usd": 0.67,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:eng.1:401878764",
+      "match": "Leeds United at Sunderland",
+      "kickoff_utc": "2026-10-25T16:30Z",
+      "event_ticker": "KXEPLGAME-26OCT25SUNLEE",
+      "candidate_markets": [
+        {
+          "ticker": "KXEPLGAME-26OCT25SUNLEE-LEE",
+          "title": "Leeds United wins",
+          "yes_ask_usd": 0.39,
+          "no_ask_usd": 0.62,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        },
+        {
+          "ticker": "KXEPLGAME-26OCT25SUNLEE-SUN",
+          "title": "Sunderland wins",
+          "yes_ask_usd": 0.32,
+          "no_ask_usd": 0.69,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        },
+        {
+          "ticker": "KXEPLGAME-26OCT25SUNLEE-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.3,
+          "no_ask_usd": 0.71,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:ger.1:401884759",
+      "match": "Bayern Munich at SC Freiburg",
+      "kickoff_utc": "2026-10-25T16:30Z",
+      "event_ticker": "KXBUNDESLIGAGAME-26OCT25SCFBMU",
+      "candidate_markets": [
+        {
+          "ticker": "KXBUNDESLIGAGAME-26OCT25SCFBMU-BMU",
+          "title": "Bayern Munich wins",
+          "yes_ask_usd": 0.72,
+          "no_ask_usd": 0.29,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        },
+        {
+          "ticker": "KXBUNDESLIGAGAME-26OCT25SCFBMU-SCF",
+          "title": "Freiburg wins",
+          "yes_ask_usd": 0.14,
+          "no_ask_usd": 0.87,
+          "status": "active",
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
+        },
+        {
+          "ticker": "KXBUNDESLIGAGAME-26OCT25SCFBMU-TIE",
           "title": "Tie is the result",
           "yes_ask_usd": 0.16,
           "no_ask_usd": 0.85,
           "status": "active",
-          "fetched_utc": "2026-10-24T00:49:52.960942+00:00"
+          "fetched_utc": "2026-10-24T05:58:27.649381+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
       "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
     }
   ],
-  "fixtures_scanned": 46,
-  "event_groups_scanned": 81,
+  "fixtures_scanned": 43,
+  "event_groups_scanned": 113,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }
