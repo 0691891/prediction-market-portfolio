@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-25T09:53:05.547543+00:00",
+  "updated_utc": "2026-10-25T14:26:16.200202+00:00",
   "status": "RESEARCH_ONLY_INCOMPLETE_INPUTS",
   "fixture": {
     "observed": 29,
@@ -7,8 +7,8 @@
       "PROVIDER_SCHEDULE_UNCROSSCHECKED": 29
     },
     "model_status_counts": {
-      "MODELLED": 26,
-      "MISSING_HISTORY_OR_TEAM_ALIAS": 1,
+      "MATCH_ALREADY_STARTED_NO_RETRO_PREDICTION": 9,
+      "MODELLED": 18,
       "NON_TOP_FIVE_LEAGUE_UNSUPPORTED": 2
     },
     "schedule_error_count": 0,
@@ -16,16 +16,16 @@
     "cross_verified_kickoffs": 0
   },
   "model": {
-    "prospective_market_rows": 203,
-    "modelled_rows": 182,
+    "prospective_market_rows": 140,
+    "modelled_rows": 126,
     "independent_model": "v0.4-independent-goals-research",
-    "model_data_coverage": 0.8966,
+    "model_data_coverage": 0.9,
     "not_proof_of_alpha": true
   },
   "kalshi": {
-    "market_rows": 314,
+    "market_rows": 248,
     "recent_open_yes_asks": 0,
-    "stale_yes_asks": 314,
+    "stale_yes_asks": 248,
     "unknown_age_yes_asks": 0,
     "not_open": 0,
     "invalid_yes_asks": 0,
