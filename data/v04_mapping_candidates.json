@@ -1,108 +1,6 @@
 {
-  "updated_utc": "2026-10-25T18:26:58.812575+00:00",
+  "updated_utc": "2026-10-25T21:52:06.604269+00:00",
   "candidates": [
-    {
-      "match_id": "espn:ita.1:401874779",
-      "match": "AC Milan at Udinese",
-      "kickoff_utc": "2026-10-25T19:45Z",
-      "event_ticker": "KXSERIEAGAME-26OCT25UDIACM",
-      "candidate_markets": [
-        {
-          "ticker": "KXSERIEAGAME-26OCT25UDIACM-ACM",
-          "title": "Milan wins",
-          "yes_ask_usd": 0.54,
-          "no_ask_usd": 0.47,
-          "status": "active",
-          "fetched_utc": "2026-10-25T18:26:54.483386+00:00"
-        },
-        {
-          "ticker": "KXSERIEAGAME-26OCT25UDIACM-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.27,
-          "no_ask_usd": 0.74,
-          "status": "active",
-          "fetched_utc": "2026-10-25T18:26:54.483386+00:00"
-        },
-        {
-          "ticker": "KXSERIEAGAME-26OCT25UDIACM-UDI",
-          "title": "Udinese wins",
-          "yes_ask_usd": 0.21,
-          "no_ask_usd": 0.8,
-          "status": "active",
-          "fetched_utc": "2026-10-25T18:26:54.483386+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    },
-    {
-      "match_id": "espn:esp.1:401882832",
-      "match": "Real Madrid at Barcelona",
-      "kickoff_utc": "2026-10-25T20:00Z",
-      "event_ticker": "KXLALIGAGAME-26OCT25BARRMA",
-      "candidate_markets": [
-        {
-          "ticker": "KXLALIGAGAME-26OCT25BARRMA-BAR",
-          "title": "Barcelona wins",
-          "yes_ask_usd": 0.62,
-          "no_ask_usd": 0.39,
-          "status": "active",
-          "fetched_utc": "2026-10-25T18:26:54.483386+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26OCT25BARRMA-RMA",
-          "title": "Real Madrid wins",
-          "yes_ask_usd": 0.25,
-          "no_ask_usd": 0.76,
-          "status": "active",
-          "fetched_utc": "2026-10-25T18:26:54.483386+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26OCT25BARRMA-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.15,
-          "no_ask_usd": 0.86,
-          "status": "active",
-          "fetched_utc": "2026-10-25T18:26:54.483386+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    },
-    {
-      "match_id": "espn:esp.1:401882828",
-      "match": "Osasuna at Sevilla",
-      "kickoff_utc": "2026-10-26T20:00Z",
-      "event_ticker": "KXLALIGAGAME-26OCT26SEVOSA",
-      "candidate_markets": [
-        {
-          "ticker": "KXLALIGAGAME-26OCT26SEVOSA-OSA",
-          "title": "Osasuna wins",
-          "yes_ask_usd": 0.22,
-          "no_ask_usd": 0.79,
-          "status": "active",
-          "fetched_utc": "2026-10-25T18:26:54.483386+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26OCT26SEVOSA-SEV",
-          "title": "Sevilla wins",
-          "yes_ask_usd": 0.51,
-          "no_ask_usd": 0.5,
-          "status": "active",
-          "fetched_utc": "2026-10-25T18:26:54.483386+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26OCT26SEVOSA-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.28,
-          "no_ask_usd": 0.73,
-          "status": "active",
-          "fetched_utc": "2026-10-25T18:26:54.483386+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    },
     {
       "match_id": "espn:ita.1:401874980",
       "match": "Lazio at Sassuolo",
@@ -115,15 +13,15 @@
           "yes_ask_usd": 0.45,
           "no_ask_usd": 0.57,
           "status": "active",
-          "fetched_utc": "2026-10-25T18:26:54.483386+00:00"
+          "fetched_utc": "2026-10-25T21:52:03.128181+00:00"
         },
         {
           "ticker": "KXSERIEAGAME-26OCT27SASLAZ-SAS",
           "title": "Sassuolo wins",
-          "yes_ask_usd": 0.3,
-          "no_ask_usd": 0.71,
+          "yes_ask_usd": 0.29,
+          "no_ask_usd": 0.72,
           "status": "active",
-          "fetched_utc": "2026-10-25T18:26:54.483386+00:00"
+          "fetched_utc": "2026-10-25T21:52:03.128181+00:00"
         },
         {
           "ticker": "KXSERIEAGAME-26OCT27SASLAZ-TIE",
@@ -131,7 +29,7 @@
           "yes_ask_usd": 0.27,
           "no_ask_usd": 0.74,
           "status": "active",
-          "fetched_utc": "2026-10-25T18:26:54.483386+00:00"
+          "fetched_utc": "2026-10-25T21:52:03.128181+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -139,7 +37,7 @@
     }
   ],
   "fixtures_scanned": 29,
-  "event_groups_scanned": 113,
+  "event_groups_scanned": 78,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }
