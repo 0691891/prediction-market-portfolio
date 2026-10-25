@@ -546,8 +546,36 @@
       "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
       "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261025&limit=100",
       "observed_utc": "2026-10-25T21:14:37.364377+00:00"
+    },
+    {
+      "match_id": "espn:esp.1:401882832",
+      "competition": "La Liga",
+      "match": "Real Madrid at Barcelona",
+      "kickoff_utc": "2026-10-25T20:00Z",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261025&limit=100",
+      "observed_utc": "2026-10-25T23:33:32.690576+00:00"
+    },
+    {
+      "match_id": "espn:ita.1:401874779",
+      "competition": "Serie A",
+      "match": "AC Milan at Udinese",
+      "kickoff_utc": "2026-10-25T19:45Z",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261025&limit=100",
+      "observed_utc": "2026-10-25T23:33:32.690576+00:00"
     }
   ],
   "note": "Only independently verified FT, correct 90min and settlement semantics; never inferred from prior recommendations.",
-  "updated_utc": "2026-10-25T21:14:37.364377+00:00"
+  "updated_utc": "2026-10-25T23:33:32.690576+00:00"
 }
