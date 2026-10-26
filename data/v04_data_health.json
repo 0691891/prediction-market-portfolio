@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-26T06:21:18.720217+00:00",
+  "updated_utc": "2026-10-26T14:21:29.650686+00:00",
   "status": "RESEARCH_ONLY_INCOMPLETE_INPUTS",
   "fixture": {
     "observed": 17,
@@ -22,9 +22,9 @@
     "not_proof_of_alpha": true
   },
   "kalshi": {
-    "market_rows": 116,
+    "market_rows": 168,
     "recent_open_yes_asks": 0,
-    "stale_yes_asks": 116,
+    "stale_yes_asks": 168,
     "unknown_age_yes_asks": 0,
     "not_open": 0,
     "invalid_yes_asks": 0,
