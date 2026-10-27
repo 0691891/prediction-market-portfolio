@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-26T20:33:47.194484+00:00",
+  "updated_utc": "2026-10-27T00:31:41.436661+00:00",
   "markets": [
     {
       "away_team": "Lazio",
       "competition": "Serie A",
-      "fair_probability": 0.275749,
+      "fair_probability": 0.251166,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Sassuolo",
@@ -20,7 +20,7 @@
     {
       "away_team": "Lazio",
       "competition": "Serie A",
-      "fair_probability": 0.244542,
+      "fair_probability": 0.241019,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Sassuolo",
@@ -36,7 +36,7 @@
     {
       "away_team": "Lazio",
       "competition": "Serie A",
-      "fair_probability": 0.479709,
+      "fair_probability": 0.507815,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Sassuolo",
@@ -52,7 +52,7 @@
     {
       "away_team": "Lazio",
       "competition": "Serie A",
-      "fair_probability": 0.535069,
+      "fair_probability": 0.531417,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Sassuolo",
@@ -68,7 +68,7 @@
     {
       "away_team": "Lazio",
       "competition": "Serie A",
-      "fair_probability": 0.464931,
+      "fair_probability": 0.468583,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Sassuolo",
@@ -84,7 +84,7 @@
     {
       "away_team": "Lazio",
       "competition": "Serie A",
-      "fair_probability": 0.558451,
+      "fair_probability": 0.547893,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Sassuolo",
@@ -100,7 +100,7 @@
     {
       "away_team": "Lazio",
       "competition": "Serie A",
-      "fair_probability": 0.441549,
+      "fair_probability": 0.452107,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Sassuolo",
@@ -116,7 +116,7 @@
     {
       "away_team": "Cagliari",
       "competition": "Serie A",
-      "fair_probability": 0.68973,
+      "fair_probability": 0.701488,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "AS Roma",
@@ -132,7 +132,7 @@
     {
       "away_team": "Cagliari",
       "competition": "Serie A",
-      "fair_probability": 0.200711,
+      "fair_probability": 0.18965,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "AS Roma",
@@ -148,7 +148,7 @@
     {
       "away_team": "Cagliari",
       "competition": "Serie A",
-      "fair_probability": 0.10956,
+      "fair_probability": 0.108861,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "AS Roma",
@@ -164,7 +164,7 @@
     {
       "away_team": "Cagliari",
       "competition": "Serie A",
-      "fair_probability": 0.477001,
+      "fair_probability": 0.519201,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "AS Roma",
@@ -180,7 +180,7 @@
     {
       "away_team": "Cagliari",
       "competition": "Serie A",
-      "fair_probability": 0.522999,
+      "fair_probability": 0.480799,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "AS Roma",
@@ -196,7 +196,7 @@
     {
       "away_team": "Cagliari",
       "competition": "Serie A",
-      "fair_probability": 0.399375,
+      "fair_probability": 0.428917,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "AS Roma",
@@ -212,7 +212,7 @@
     {
       "away_team": "Cagliari",
       "competition": "Serie A",
-      "fair_probability": 0.600625,
+      "fair_probability": 0.571083,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "AS Roma",
@@ -228,7 +228,7 @@
     {
       "away_team": "Como",
       "competition": "Serie A",
-      "fair_probability": 0.243266,
+      "fair_probability": 0.237433,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Torino",
@@ -244,7 +244,7 @@
     {
       "away_team": "Como",
       "competition": "Serie A",
-      "fair_probability": 0.240286,
+      "fair_probability": 0.235892,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Torino",
@@ -260,7 +260,7 @@
     {
       "away_team": "Como",
       "competition": "Serie A",
-      "fair_probability": 0.516447,
+      "fair_probability": 0.526675,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Torino",
@@ -276,7 +276,7 @@
     {
       "away_team": "Como",
       "competition": "Serie A",
-      "fair_probability": 0.527494,
+      "fair_probability": 0.540793,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Torino",
@@ -292,7 +292,7 @@
     {
       "away_team": "Como",
       "competition": "Serie A",
-      "fair_probability": 0.472506,
+      "fair_probability": 0.459207,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Torino",
@@ -308,7 +308,7 @@
     {
       "away_team": "Como",
       "competition": "Serie A",
-      "fair_probability": 0.541947,
+      "fair_probability": 0.549624,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Torino",
@@ -324,7 +324,7 @@
     {
       "away_team": "Como",
       "competition": "Serie A",
-      "fair_probability": 0.458053,
+      "fair_probability": 0.450376,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Torino",
@@ -564,7 +564,7 @@
     {
       "away_team": "Bologna",
       "competition": "Serie A",
-      "fair_probability": 0.567309,
+      "fair_probability": 0.55468,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "AC Milan",
@@ -580,7 +580,7 @@
     {
       "away_team": "Bologna",
       "competition": "Serie A",
-      "fair_probability": 0.235821,
+      "fair_probability": 0.243205,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "AC Milan",
@@ -596,7 +596,7 @@
     {
       "away_team": "Bologna",
       "competition": "Serie A",
-      "fair_probability": 0.19687,
+      "fair_probability": 0.202115,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "AC Milan",
@@ -612,7 +612,7 @@
     {
       "away_team": "Bologna",
       "competition": "Serie A",
-      "fair_probability": 0.494922,
+      "fair_probability": 0.472504,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "AC Milan",
@@ -628,7 +628,7 @@
     {
       "away_team": "Bologna",
       "competition": "Serie A",
-      "fair_probability": 0.505078,
+      "fair_probability": 0.527496,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "AC Milan",
@@ -644,7 +644,7 @@
     {
       "away_team": "Bologna",
       "competition": "Serie A",
-      "fair_probability": 0.494448,
+      "fair_probability": 0.480735,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "AC Milan",
@@ -660,7 +660,7 @@
     {
       "away_team": "Bologna",
       "competition": "Serie A",
-      "fair_probability": 0.505552,
+      "fair_probability": 0.519265,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "AC Milan",
@@ -676,7 +676,7 @@
     {
       "away_team": "Udinese",
       "competition": "Serie A",
-      "fair_probability": 0.308048,
+      "fair_probability": 0.325057,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Parma",
@@ -692,7 +692,7 @@
     {
       "away_team": "Udinese",
       "competition": "Serie A",
-      "fair_probability": 0.275453,
+      "fair_probability": 0.278336,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Parma",
@@ -708,7 +708,7 @@
     {
       "away_team": "Udinese",
       "competition": "Serie A",
-      "fair_probability": 0.416499,
+      "fair_probability": 0.396607,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Parma",
@@ -724,7 +724,7 @@
     {
       "away_team": "Udinese",
       "competition": "Serie A",
-      "fair_probability": 0.426434,
+      "fair_probability": 0.420184,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Parma",
@@ -740,7 +740,7 @@
     {
       "away_team": "Udinese",
       "competition": "Serie A",
-      "fair_probability": 0.573566,
+      "fair_probability": 0.579816,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Parma",
@@ -756,7 +756,7 @@
     {
       "away_team": "Udinese",
       "competition": "Serie A",
-      "fair_probability": 0.481427,
+      "fair_probability": 0.478518,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Parma",
@@ -772,7 +772,7 @@
     {
       "away_team": "Udinese",
       "competition": "Serie A",
-      "fair_probability": 0.518573,
+      "fair_probability": 0.521482,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Parma",
@@ -788,7 +788,7 @@
     {
       "away_team": "Internazionale",
       "competition": "Serie A",
-      "fair_probability": 0.088553,
+      "fair_probability": 0.085588,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Venezia",
@@ -804,7 +804,7 @@
     {
       "away_team": "Internazionale",
       "competition": "Serie A",
-      "fair_probability": 0.124734,
+      "fair_probability": 0.129674,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Venezia",
@@ -820,7 +820,7 @@
     {
       "away_team": "Internazionale",
       "competition": "Serie A",
-      "fair_probability": 0.786713,
+      "fair_probability": 0.784738,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Venezia",
@@ -836,7 +836,7 @@
     {
       "away_team": "Internazionale",
       "competition": "Serie A",
-      "fair_probability": 0.778071,
+      "fair_probability": 0.738411,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Venezia",
@@ -852,7 +852,7 @@
     {
       "away_team": "Internazionale",
       "competition": "Serie A",
-      "fair_probability": 0.221929,
+      "fair_probability": 0.261589,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Venezia",
@@ -868,7 +868,7 @@
     {
       "away_team": "Internazionale",
       "competition": "Serie A",
-      "fair_probability": 0.606913,
+      "fair_probability": 0.564848,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Venezia",
@@ -884,7 +884,7 @@
     {
       "away_team": "Internazionale",
       "competition": "Serie A",
-      "fair_probability": 0.393087,
+      "fair_probability": 0.435152,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Venezia",
@@ -1012,7 +1012,7 @@
     {
       "away_team": "Juventus",
       "competition": "Serie A",
-      "fair_probability": 0.235579,
+      "fair_probability": 0.229936,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Genoa",
@@ -1028,7 +1028,7 @@
     {
       "away_team": "Juventus",
       "competition": "Serie A",
-      "fair_probability": 0.262534,
+      "fair_probability": 0.269296,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Genoa",
@@ -1044,7 +1044,7 @@
     {
       "away_team": "Juventus",
       "competition": "Serie A",
-      "fair_probability": 0.501886,
+      "fair_probability": 0.500768,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Genoa",
@@ -1060,7 +1060,7 @@
     {
       "away_team": "Juventus",
       "competition": "Serie A",
-      "fair_probability": 0.433641,
+      "fair_probability": 0.405782,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Genoa",
@@ -1076,7 +1076,7 @@
     {
       "away_team": "Juventus",
       "competition": "Serie A",
-      "fair_probability": 0.566359,
+      "fair_probability": 0.594218,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Genoa",
@@ -1092,7 +1092,7 @@
     {
       "away_team": "Juventus",
       "competition": "Serie A",
-      "fair_probability": 0.467589,
+      "fair_probability": 0.443862,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Genoa",
@@ -1108,7 +1108,7 @@
     {
       "away_team": "Juventus",
       "competition": "Serie A",
-      "fair_probability": 0.532411,
+      "fair_probability": 0.556138,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Genoa",
@@ -1124,7 +1124,7 @@
     {
       "away_team": "Napoli",
       "competition": "Serie A",
-      "fair_probability": 0.30948,
+      "fair_probability": 0.310495,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Monza",
@@ -1140,7 +1140,7 @@
     {
       "away_team": "Napoli",
       "competition": "Serie A",
-      "fair_probability": 0.228076,
+      "fair_probability": 0.212969,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Monza",
@@ -1156,7 +1156,7 @@
     {
       "away_team": "Napoli",
       "competition": "Serie A",
-      "fair_probability": 0.462444,
+      "fair_probability": 0.476536,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Monza",
@@ -1172,7 +1172,7 @@
     {
       "away_team": "Napoli",
       "competition": "Serie A",
-      "fair_probability": 0.631987,
+      "fair_probability": 0.708051,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Monza",
@@ -1188,7 +1188,7 @@
     {
       "away_team": "Napoli",
       "competition": "Serie A",
-      "fair_probability": 0.368013,
+      "fair_probability": 0.291949,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Monza",
@@ -1204,7 +1204,7 @@
     {
       "away_team": "Napoli",
       "competition": "Serie A",
-      "fair_probability": 0.639682,
+      "fair_probability": 0.698204,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Monza",
@@ -1220,7 +1220,7 @@
     {
       "away_team": "Napoli",
       "competition": "Serie A",
-      "fair_probability": 0.360318,
+      "fair_probability": 0.301796,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Monza",
