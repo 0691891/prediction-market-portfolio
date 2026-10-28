@@ -1,8 +1,179 @@
 {
-  "updated_utc": "2026-10-28T13:06:16.523997+00:00",
-  "candidates": [],
+  "updated_utc": "2026-10-28T18:54:05.874004+00:00",
+  "candidates": [
+    {
+      "match_id": "espn:ita.1:401874988",
+      "match": "Juventus at Genoa",
+      "kickoff_utc": "2026-10-28T19:45Z",
+      "event_ticker": "KXSERIEAGAME-26OCT28GENJUV",
+      "candidate_markets": [
+        {
+          "ticker": "KXSERIEAGAME-26OCT28GENJUV-GEN",
+          "title": "Genoa wins",
+          "yes_ask_usd": 0.18,
+          "no_ask_usd": 0.83,
+          "status": "active",
+          "fetched_utc": "2026-10-28T18:54:01.955867+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26OCT28GENJUV-JUV",
+          "title": "Juventus wins",
+          "yes_ask_usd": 0.55,
+          "no_ask_usd": 0.46,
+          "status": "active",
+          "fetched_utc": "2026-10-28T18:54:01.955867+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26OCT28GENJUV-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.29,
+          "no_ask_usd": 0.72,
+          "status": "active",
+          "fetched_utc": "2026-10-28T18:54:01.955867+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:ita.1:401874799",
+      "match": "Napoli at Monza",
+      "kickoff_utc": "2026-10-28T19:45Z",
+      "event_ticker": "KXSERIEAGAME-26OCT28MONNAP",
+      "candidate_markets": [
+        {
+          "ticker": "KXSERIEAGAME-26OCT28MONNAP-MON",
+          "title": "Monza wins",
+          "yes_ask_usd": 0.19,
+          "no_ask_usd": 0.82,
+          "status": "active",
+          "fetched_utc": "2026-10-28T18:54:01.955867+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26OCT28MONNAP-NAP",
+          "title": "Napoli wins",
+          "yes_ask_usd": 0.58,
+          "no_ask_usd": 0.43,
+          "status": "active",
+          "fetched_utc": "2026-10-28T18:54:01.955867+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26OCT28MONNAP-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.24,
+          "no_ask_usd": 0.77,
+          "status": "active",
+          "fetched_utc": "2026-10-28T18:54:01.955867+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:ita.1:401874976",
+      "match": "Lecce at Frosinone",
+      "kickoff_utc": "2026-10-29T17:30Z",
+      "event_ticker": "KXSERIEAGAME-26OCT29FROLEC",
+      "candidate_markets": [
+        {
+          "ticker": "KXSERIEAGAME-26OCT29FROLEC-FRO",
+          "title": "Frosinone wins",
+          "yes_ask_usd": 0.59,
+          "no_ask_usd": 0.42,
+          "status": "active",
+          "fetched_utc": "2026-10-28T18:54:01.955867+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26OCT29FROLEC-LEC",
+          "title": "Lecce wins",
+          "yes_ask_usd": 0.2,
+          "no_ask_usd": 0.81,
+          "status": "active",
+          "fetched_utc": "2026-10-28T18:54:01.955867+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26OCT29FROLEC-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.23,
+          "no_ask_usd": 0.78,
+          "status": "active",
+          "fetched_utc": "2026-10-28T18:54:01.955867+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:ita.1:401874969",
+      "match": "Atalanta at Fiorentina",
+      "kickoff_utc": "2026-10-29T19:45Z",
+      "event_ticker": "KXSERIEAGAME-26OCT29FIOATA",
+      "candidate_markets": [
+        {
+          "ticker": "KXSERIEAGAME-26OCT29FIOATA-ATA",
+          "title": "Atalanta wins",
+          "yes_ask_usd": 0.32,
+          "no_ask_usd": 0.69,
+          "status": "active",
+          "fetched_utc": "2026-10-28T18:54:01.955867+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26OCT29FIOATA-FIO",
+          "title": "Fiorentina wins",
+          "yes_ask_usd": 0.42,
+          "no_ask_usd": 0.59,
+          "status": "active",
+          "fetched_utc": "2026-10-28T18:54:01.955867+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26OCT29FIOATA-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.27,
+          "no_ask_usd": 0.74,
+          "status": "active",
+          "fetched_utc": "2026-10-28T18:54:01.955867+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:esp.1:401882817",
+      "match": "Espanyol at Villarreal",
+      "kickoff_utc": "2026-10-30T20:00Z",
+      "event_ticker": "KXLALIGAGAME-26OCT30VILESP",
+      "candidate_markets": [
+        {
+          "ticker": "KXLALIGAGAME-26OCT30VILESP-ESP",
+          "title": "Espanyol wins",
+          "yes_ask_usd": 0.14,
+          "no_ask_usd": 0.87,
+          "status": "active",
+          "fetched_utc": "2026-10-28T18:54:01.955867+00:00"
+        },
+        {
+          "ticker": "KXLALIGAGAME-26OCT30VILESP-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.19,
+          "no_ask_usd": 0.82,
+          "status": "active",
+          "fetched_utc": "2026-10-28T18:54:01.955867+00:00"
+        },
+        {
+          "ticker": "KXLALIGAGAME-26OCT30VILESP-VIL",
+          "title": "Villarreal wins",
+          "yes_ask_usd": 0.69,
+          "no_ask_usd": 0.32,
+          "status": "active",
+          "fetched_utc": "2026-10-28T18:54:01.955867+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    }
+  ],
   "fixtures_scanned": 18,
-  "event_groups_scanned": 56,
+  "event_groups_scanned": 105,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }
