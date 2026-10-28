@@ -1,8 +1,43 @@
 {
-  "updated_utc": "2026-10-27T23:49:03.726138+00:00",
-  "candidates": [],
+  "updated_utc": "2026-10-28T05:51:44.020347+00:00",
+  "candidates": [
+    {
+      "match_id": "espn:esp.1:401882817",
+      "match": "Espanyol at Villarreal",
+      "kickoff_utc": "2026-10-30T20:00Z",
+      "event_ticker": "KXLALIGAGAME-26OCT30VILESP",
+      "candidate_markets": [
+        {
+          "ticker": "KXLALIGAGAME-26OCT30VILESP-ESP",
+          "title": "Espanyol wins",
+          "yes_ask_usd": 0.14,
+          "no_ask_usd": 0.87,
+          "status": "active",
+          "fetched_utc": "2026-10-28T05:51:38.758283+00:00"
+        },
+        {
+          "ticker": "KXLALIGAGAME-26OCT30VILESP-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.19,
+          "no_ask_usd": 0.82,
+          "status": "active",
+          "fetched_utc": "2026-10-28T05:51:38.758283+00:00"
+        },
+        {
+          "ticker": "KXLALIGAGAME-26OCT30VILESP-VIL",
+          "title": "Villarreal wins",
+          "yes_ask_usd": 0.69,
+          "no_ask_usd": 0.32,
+          "status": "active",
+          "fetched_utc": "2026-10-28T05:51:38.758283+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    }
+  ],
   "fixtures_scanned": 18,
-  "event_groups_scanned": 66,
+  "event_groups_scanned": 95,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }
