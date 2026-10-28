@@ -644,8 +644,50 @@
       "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
       "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261027&limit=100",
       "observed_utc": "2026-10-27T23:13:31.912537+00:00"
+    },
+    {
+      "match_id": "espn:ita.1:401874993",
+      "competition": "Serie A",
+      "match": "Bologna at AC Milan",
+      "kickoff_utc": "2026-10-28T17:30Z",
+      "score": {
+        "home": 2,
+        "away": 4
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261028&limit=100",
+      "observed_utc": "2026-10-28T21:20:11.995259+00:00"
+    },
+    {
+      "match_id": "espn:ita.1:401874965",
+      "competition": "Serie A",
+      "match": "Udinese at Parma",
+      "kickoff_utc": "2026-10-28T17:30Z",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261028&limit=100",
+      "observed_utc": "2026-10-28T21:20:11.995259+00:00"
+    },
+    {
+      "match_id": "espn:ita.1:401874773",
+      "competition": "Serie A",
+      "match": "Internazionale at Venezia",
+      "kickoff_utc": "2026-10-28T17:30Z",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261028&limit=100",
+      "observed_utc": "2026-10-28T21:20:11.995259+00:00"
     }
   ],
   "note": "Only independently verified FT, correct 90min and settlement semantics; never inferred from prior recommendations.",
-  "updated_utc": "2026-10-28T16:16:41.045323+00:00"
+  "updated_utc": "2026-10-28T21:20:11.995259+00:00"
 }
