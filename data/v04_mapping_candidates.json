@@ -1,43 +1,8 @@
 {
-  "updated_utc": "2026-10-30T02:00:07.196170+00:00",
-  "candidates": [
-    {
-      "match_id": "espn:ita.1:401874795",
-      "match": "Internazionale at AC Milan",
-      "kickoff_utc": "2026-10-31T19:45Z",
-      "event_ticker": "KXSERIEAWGAME-26NOV01INTLAZ",
-      "candidate_markets": [
-        {
-          "ticker": "KXSERIEAWGAME-26NOV01INTLAZ-INT",
-          "title": "Inter Milano wins",
-          "yes_ask_usd": 0.81,
-          "no_ask_usd": 0.83,
-          "status": "active",
-          "fetched_utc": "2026-10-30T02:00:03.494188+00:00"
-        },
-        {
-          "ticker": "KXSERIEAWGAME-26NOV01INTLAZ-LAZ",
-          "title": "Lazio wins",
-          "yes_ask_usd": 0.6,
-          "no_ask_usd": 0.95,
-          "status": "active",
-          "fetched_utc": "2026-10-30T02:00:03.494188+00:00"
-        },
-        {
-          "ticker": "KXSERIEAWGAME-26NOV01INTLAZ-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.71,
-          "no_ask_usd": 0.95,
-          "status": "active",
-          "fetched_utc": "2026-10-30T02:00:03.494188+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    }
-  ],
-  "fixtures_scanned": 30,
-  "event_groups_scanned": 59,
+  "updated_utc": "2026-10-30T08:43:59.783064+00:00",
+  "candidates": [],
+  "fixtures_scanned": 43,
+  "event_groups_scanned": 37,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }
