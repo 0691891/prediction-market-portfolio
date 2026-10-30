@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T21:51:31.388881+00:00",
+  "updated_utc": "2026-10-30T02:00:07.196170+00:00",
   "candidates": [
     {
       "match_id": "espn:ita.1:401874795",
@@ -13,7 +13,7 @@
           "yes_ask_usd": 0.81,
           "no_ask_usd": 0.83,
           "status": "active",
-          "fetched_utc": "2026-10-29T21:51:25.788269+00:00"
+          "fetched_utc": "2026-10-30T02:00:03.494188+00:00"
         },
         {
           "ticker": "KXSERIEAWGAME-26NOV01INTLAZ-LAZ",
@@ -21,7 +21,7 @@
           "yes_ask_usd": 0.6,
           "no_ask_usd": 0.95,
           "status": "active",
-          "fetched_utc": "2026-10-29T21:51:25.788269+00:00"
+          "fetched_utc": "2026-10-30T02:00:03.494188+00:00"
         },
         {
           "ticker": "KXSERIEAWGAME-26NOV01INTLAZ-TIE",
@@ -29,7 +29,7 @@
           "yes_ask_usd": 0.71,
           "no_ask_usd": 0.95,
           "status": "active",
-          "fetched_utc": "2026-10-29T21:51:25.788269+00:00"
+          "fetched_utc": "2026-10-30T02:00:03.494188+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -37,7 +37,7 @@
     }
   ],
   "fixtures_scanned": 30,
-  "event_groups_scanned": 53,
+  "event_groups_scanned": 59,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }

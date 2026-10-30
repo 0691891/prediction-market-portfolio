@@ -805,7 +805,7 @@
     {
       "away_team": "Monza",
       "competition": "Serie A",
-      "fair_probability": 0.550401,
+      "fair_probability": 0.549996,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Bologna",
@@ -821,7 +821,7 @@
     {
       "away_team": "Monza",
       "competition": "Serie A",
-      "fair_probability": 0.198042,
+      "fair_probability": 0.198339,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Bologna",
@@ -837,7 +837,7 @@
     {
       "away_team": "Monza",
       "competition": "Serie A",
-      "fair_probability": 0.251557,
+      "fair_probability": 0.251665,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Bologna",
@@ -853,7 +853,7 @@
     {
       "away_team": "Monza",
       "competition": "Serie A",
-      "fair_probability": 0.736338,
+      "fair_probability": 0.734964,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Bologna",
@@ -869,7 +869,7 @@
     {
       "away_team": "Monza",
       "competition": "Serie A",
-      "fair_probability": 0.263662,
+      "fair_probability": 0.265036,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Bologna",
@@ -885,7 +885,7 @@
     {
       "away_team": "Monza",
       "competition": "Serie A",
-      "fair_probability": 0.705006,
+      "fair_probability": 0.703954,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Bologna",
@@ -901,7 +901,7 @@
     {
       "away_team": "Monza",
       "competition": "Serie A",
-      "fair_probability": 0.294994,
+      "fair_probability": 0.296046,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Bologna",
@@ -2149,7 +2149,7 @@
     {
       "away_team": "AS Roma",
       "competition": "Serie A",
-      "fair_probability": 0.158211,
+      "fair_probability": 0.158456,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Udinese",
@@ -2165,7 +2165,7 @@
     {
       "away_team": "AS Roma",
       "competition": "Serie A",
-      "fair_probability": 0.200521,
+      "fair_probability": 0.200999,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Udinese",
@@ -2181,7 +2181,7 @@
     {
       "away_team": "AS Roma",
       "competition": "Serie A",
-      "fair_probability": 0.641268,
+      "fair_probability": 0.640546,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Udinese",
@@ -2197,7 +2197,7 @@
     {
       "away_team": "AS Roma",
       "competition": "Serie A",
-      "fair_probability": 0.58396,
+      "fair_probability": 0.58226,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Udinese",
@@ -2213,7 +2213,7 @@
     {
       "away_team": "AS Roma",
       "competition": "Serie A",
-      "fair_probability": 0.41604,
+      "fair_probability": 0.41774,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Udinese",
@@ -2229,7 +2229,7 @@
     {
       "away_team": "AS Roma",
       "competition": "Serie A",
-      "fair_probability": 0.532793,
+      "fair_probability": 0.53172,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Udinese",
@@ -2245,7 +2245,7 @@
     {
       "away_team": "AS Roma",
       "competition": "Serie A",
-      "fair_probability": 0.467207,
+      "fair_probability": 0.46828,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "Udinese",
@@ -2597,7 +2597,7 @@
     {
       "away_team": "Internazionale",
       "competition": "Serie A",
-      "fair_probability": 0.278622,
+      "fair_probability": 0.278703,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "AC Milan",
@@ -2613,7 +2613,7 @@
     {
       "away_team": "Internazionale",
       "competition": "Serie A",
-      "fair_probability": 0.219097,
+      "fair_probability": 0.219449,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "AC Milan",
@@ -2629,7 +2629,7 @@
     {
       "away_team": "Internazionale",
       "competition": "Serie A",
-      "fair_probability": 0.502281,
+      "fair_probability": 0.501848,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "AC Milan",
@@ -2645,7 +2645,7 @@
     {
       "away_team": "Internazionale",
       "competition": "Serie A",
-      "fair_probability": 0.656068,
+      "fair_probability": 0.6544,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "AC Milan",
@@ -2661,7 +2661,7 @@
     {
       "away_team": "Internazionale",
       "competition": "Serie A",
-      "fair_probability": 0.343932,
+      "fair_probability": 0.3456,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "AC Milan",
@@ -2677,7 +2677,7 @@
     {
       "away_team": "Internazionale",
       "competition": "Serie A",
-      "fair_probability": 0.651105,
+      "fair_probability": 0.649853,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "AC Milan",
@@ -2693,7 +2693,7 @@
     {
       "away_team": "Internazionale",
       "competition": "Serie A",
-      "fair_probability": 0.348895,
+      "fair_probability": 0.350147,
       "fair_source": "v0.4 independent goal model",
       "grade": "UNRATED",
       "home_team": "AC Milan",
@@ -3043,7 +3043,7 @@
       "status": "RESEARCH_ONLY_NO_VERIFIED_KALSHI_QUOTE"
     }
   ],
-  "updated": "2026-10-29T21:51:08.377546+00:00",
+  "updated": "2026-10-30T01:59:49.875304+00:00",
   "v04_note": "Model never sees Kalshi odds. Grades UNRATED until independent quote/mapping and additional validation.",
   "v04_status": "INDEPENDENT_RESEARCH_ONLY",
   "watchlist": [
