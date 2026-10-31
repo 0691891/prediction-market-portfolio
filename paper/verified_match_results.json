@@ -812,8 +812,36 @@
       "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
       "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261030&limit=100",
       "observed_utc": "2026-10-30T23:14:39.469591+00:00"
+    },
+    {
+      "match_id": "espn:eng.1:401879248",
+      "competition": "Premier League",
+      "match": "Manchester United at Chelsea",
+      "kickoff_utc": "2026-10-31T12:30Z",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261031&limit=100",
+      "observed_utc": "2026-10-31T15:52:52.170179+00:00"
+    },
+    {
+      "match_id": "espn:esp.1:401882820",
+      "competition": "La Liga",
+      "match": "Atlético Madrid at Levante",
+      "kickoff_utc": "2026-10-31T13:00Z",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261031&limit=100",
+      "observed_utc": "2026-10-31T15:52:52.170179+00:00"
     }
   ],
   "note": "Only independently verified FT, correct 90min and settlement semantics; never inferred from prior recommendations.",
-  "updated_utc": "2026-10-31T09:57:43.387935+00:00"
+  "updated_utc": "2026-10-31T15:52:52.170179+00:00"
 }
