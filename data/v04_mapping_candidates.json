@@ -1,40 +1,6 @@
 {
-  "updated_utc": "2026-10-31T22:33:27.269725+00:00",
+  "updated_utc": "2026-11-01T02:18:30.063919+00:00",
   "candidates": [
-    {
-      "match_id": "espn:esp.1:401882821",
-      "match": "Sevilla at Getafe",
-      "kickoff_utc": "2026-11-01T13:00Z",
-      "event_ticker": "KXLALIGAGAME-26NOV01GETSEV",
-      "candidate_markets": [
-        {
-          "ticker": "KXLALIGAGAME-26NOV01GETSEV-GET",
-          "title": "Getafe wins",
-          "yes_ask_usd": 0.3,
-          "no_ask_usd": 0.72,
-          "status": "active",
-          "fetched_utc": "2026-10-31T22:33:21.495548+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26NOV01GETSEV-SEV",
-          "title": "Sevilla wins",
-          "yes_ask_usd": 0.39,
-          "no_ask_usd": 0.62,
-          "status": "active",
-          "fetched_utc": "2026-10-31T22:33:21.495548+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26NOV01GETSEV-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.33,
-          "no_ask_usd": 0.68,
-          "status": "active",
-          "fetched_utc": "2026-10-31T22:33:21.495548+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    },
     {
       "match_id": "espn:ger.1:401884750",
       "match": "FC Cologne at 1. FC Union Berlin",
@@ -47,7 +13,7 @@
           "yes_ask_usd": 0.37,
           "no_ask_usd": 0.64,
           "status": "active",
-          "fetched_utc": "2026-10-31T22:33:21.495548+00:00"
+          "fetched_utc": "2026-11-01T02:18:24.311618+00:00"
         },
         {
           "ticker": "KXBUNDESLIGAGAME-26NOV01UNIKOE-TIE",
@@ -55,83 +21,15 @@
           "yes_ask_usd": 0.28,
           "no_ask_usd": 0.73,
           "status": "active",
-          "fetched_utc": "2026-10-31T22:33:21.495548+00:00"
+          "fetched_utc": "2026-11-01T02:18:24.311618+00:00"
         },
         {
           "ticker": "KXBUNDESLIGAGAME-26NOV01UNIKOE-UNI",
           "title": "Union Berlin wins",
-          "yes_ask_usd": 0.36,
+          "yes_ask_usd": 0.35,
           "no_ask_usd": 0.66,
           "status": "active",
-          "fetched_utc": "2026-10-31T22:33:21.495548+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    },
-    {
-      "match_id": "espn:esp.1:401882823",
-      "match": "Valencia at Elche",
-      "kickoff_utc": "2026-11-01T17:30Z",
-      "event_ticker": "KXLALIGAGAME-26NOV01ELCVCF",
-      "candidate_markets": [
-        {
-          "ticker": "KXLALIGAGAME-26NOV01ELCVCF-ELC",
-          "title": "Elche wins",
-          "yes_ask_usd": 0.42,
-          "no_ask_usd": 0.59,
-          "status": "active",
-          "fetched_utc": "2026-10-31T22:33:21.495548+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26NOV01ELCVCF-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.29,
-          "no_ask_usd": 0.72,
-          "status": "active",
-          "fetched_utc": "2026-10-31T22:33:21.495548+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26NOV01ELCVCF-VCF",
-          "title": "Valencia wins",
-          "yes_ask_usd": 0.31,
-          "no_ask_usd": 0.7,
-          "status": "active",
-          "fetched_utc": "2026-10-31T22:33:21.495548+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    },
-    {
-      "match_id": "espn:esp.1:401882824",
-      "match": "Osasuna at Deportivo",
-      "kickoff_utc": "2026-11-02T20:00Z",
-      "event_ticker": "KXLALIGAGAME-26NOV02DEPOSA",
-      "candidate_markets": [
-        {
-          "ticker": "KXLALIGAGAME-26NOV02DEPOSA-DEP",
-          "title": "Deportivo De La Coruna wins",
-          "yes_ask_usd": 0.44,
-          "no_ask_usd": 0.57,
-          "status": "active",
-          "fetched_utc": "2026-10-31T22:33:21.495548+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26NOV02DEPOSA-OSA",
-          "title": "Osasuna wins",
-          "yes_ask_usd": 0.27,
-          "no_ask_usd": 0.74,
-          "status": "active",
-          "fetched_utc": "2026-10-31T22:33:21.495548+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26NOV02DEPOSA-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.29,
-          "no_ask_usd": 0.72,
-          "status": "active",
-          "fetched_utc": "2026-10-31T22:33:21.495548+00:00"
+          "fetched_utc": "2026-11-01T02:18:24.311618+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -139,7 +37,7 @@
     }
   ],
   "fixtures_scanned": 43,
-  "event_groups_scanned": 67,
+  "event_groups_scanned": 41,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }
