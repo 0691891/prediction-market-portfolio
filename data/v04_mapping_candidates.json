@@ -1,43 +1,43 @@
 {
-  "updated_utc": "2026-11-02T00:51:55.432172+00:00",
+  "updated_utc": "2026-11-02T07:44:20.615565+00:00",
   "candidates": [
     {
-      "match_id": "espn:esp.1:401882824",
-      "match": "Osasuna at Deportivo",
-      "kickoff_utc": "2026-11-02T20:00Z",
-      "event_ticker": "KXLALIGAGAME-26NOV02DEPOSA",
+      "match_id": "espn:uefa.europa:401915551",
+      "match": "Olympiacos at Stade Rennais",
+      "kickoff_utc": "2026-11-04T15:30Z",
+      "event_ticker": "KXUELGAME-26NOV05RENOLY",
       "candidate_markets": [
         {
-          "ticker": "KXLALIGAGAME-26NOV02DEPOSA-DEP",
-          "title": "Deportivo De La Coruna wins",
-          "yes_ask_usd": 0.44,
-          "no_ask_usd": 0.57,
+          "ticker": "KXUELGAME-26NOV05RENOLY-OLY",
+          "title": "Olympiacos wins",
+          "yes_ask_usd": 0.29,
+          "no_ask_usd": 0.72,
           "status": "active",
-          "fetched_utc": "2026-11-02T00:51:50.168092+00:00"
+          "fetched_utc": "2026-11-02T07:44:16.686692+00:00"
         },
         {
-          "ticker": "KXLALIGAGAME-26NOV02DEPOSA-OSA",
-          "title": "Osasuna wins",
-          "yes_ask_usd": 0.26,
-          "no_ask_usd": 0.75,
+          "ticker": "KXUELGAME-26NOV05RENOLY-REN",
+          "title": "Stade Rennais wins",
+          "yes_ask_usd": 0.46,
+          "no_ask_usd": 0.56,
           "status": "active",
-          "fetched_utc": "2026-11-02T00:51:50.168092+00:00"
+          "fetched_utc": "2026-11-02T07:44:16.686692+00:00"
         },
         {
-          "ticker": "KXLALIGAGAME-26NOV02DEPOSA-TIE",
+          "ticker": "KXUELGAME-26NOV05RENOLY-TIE",
           "title": "Tie is the result",
-          "yes_ask_usd": 0.3,
-          "no_ask_usd": 0.71,
+          "yes_ask_usd": 0.27,
+          "no_ask_usd": 0.74,
           "status": "active",
-          "fetched_utc": "2026-11-02T00:51:50.168092+00:00"
+          "fetched_utc": "2026-11-02T07:44:16.686692+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
       "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
     }
   ],
-  "fixtures_scanned": 30,
-  "event_groups_scanned": 29,
+  "fixtures_scanned": 24,
+  "event_groups_scanned": 46,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }
