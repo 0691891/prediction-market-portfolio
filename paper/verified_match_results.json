@@ -1344,8 +1344,22 @@
       "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
       "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261101&limit=100",
       "observed_utc": "2026-11-01T23:05:18.093688+00:00"
+    },
+    {
+      "match_id": "espn:ita.1:401874963",
+      "competition": "Serie A",
+      "match": "Fiorentina at Sassuolo",
+      "kickoff_utc": "2026-11-02T17:30Z",
+      "score": {
+        "home": 2,
+        "away": 4
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261102&limit=100",
+      "observed_utc": "2026-11-02T20:53:20.675152+00:00"
     }
   ],
   "note": "Only independently verified FT, correct 90min and settlement semantics; never inferred from prior recommendations.",
-  "updated_utc": "2026-11-02T11:41:41.381189+00:00"
+  "updated_utc": "2026-11-02T20:53:20.675152+00:00"
 }
