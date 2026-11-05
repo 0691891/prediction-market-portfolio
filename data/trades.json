@@ -66,11 +66,24 @@
     {
       "date": "2026-09-17",
       "position": "Celtic win × Real Sociedad-Bournemouth Under 3.5 goals",
-      "stake_usd": 10.0,
+      "stake_usd": 10,
       "payout_display": "$0.00",
-      "pnl_usd": -10.0,
+      "pnl_usd": -10,
       "status": "LOSS",
       "execution": "User confirmed the combo lost. Entry was Celtic win 58c × Real Sociedad-Bournemouth U3.5 64c; $10 max payout $25.54."
+    },
+    {
+      "date": "2026-11-04",
+      "position": "Leipzig–Manchester City BTTS Yes × Arsenal win vs Slavia Prague × Dortmund–Real Betis Over 2.5 goals",
+      "stake_usd": 29.39,
+      "payout_display": "$83.59",
+      "payout_usd": 83.59,
+      "pnl_usd": 54.2,
+      "roi_pct": 184.4,
+      "status": "WIN_CLOSED",
+      "execution": "Kalshi closed-position screenshot supplied by user on 2026-11-05; three legs shown with green checks. Exact entry timestamp, contract IDs, fees and settlement-versus-close method not independently verified.",
+      "source": "user-provided Kalshi closed-position screenshot",
+      "model_provenance": "REAL_MONEY_USER_REPORTED; not v0.4 paper trade or independently validated model alpha"
     }
   ]
 }
