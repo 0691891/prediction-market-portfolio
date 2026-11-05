@@ -1,22 +1,22 @@
 {
-  "updated_utc": "2026-11-05T11:05:32.065125+00:00",
+  "updated_utc": "2026-11-05T18:48:47.913995+00:00",
   "version": "v0.3.5",
   "status": "TRACKING",
   "summary": {
-    "rows": 8,
-    "closed_rows": 6,
+    "rows": 9,
+    "closed_rows": 7,
     "tracked_clv_rows": 0,
-    "realized_roi": -0.5503,
+    "realized_roi": -0.0419,
     "mean_clv_pp": null
   },
   "by_league": [
     {
       "group": "UNKNOWN",
-      "n": 8,
-      "closed_n": 6,
-      "stake_usd": 109.04,
-      "pnl_usd": -60.0,
-      "roi": -0.5503,
+      "n": 9,
+      "closed_n": 7,
+      "stake_usd": 138.43,
+      "pnl_usd": -5.8,
+      "roi": -0.0419,
       "clv_n": 0,
       "mean_clv_pp": null
     }
@@ -24,11 +24,11 @@
   "by_market_type": [
     {
       "group": "COMBO",
-      "n": 8,
-      "closed_n": 6,
-      "stake_usd": 109.04,
-      "pnl_usd": -60.0,
-      "roi": -0.5503,
+      "n": 9,
+      "closed_n": 7,
+      "stake_usd": 138.43,
+      "pnl_usd": -5.8,
+      "roi": -0.0419,
       "clv_n": 0,
       "mean_clv_pp": null
     }
@@ -36,11 +36,11 @@
   "by_grade": [
     {
       "group": "UNKNOWN",
-      "n": 8,
-      "closed_n": 6,
-      "stake_usd": 109.04,
-      "pnl_usd": -60.0,
-      "roi": -0.5503,
+      "n": 9,
+      "closed_n": 7,
+      "stake_usd": 138.43,
+      "pnl_usd": -5.8,
+      "roi": -0.0419,
       "clv_n": 0,
       "mean_clv_pp": null
     }
@@ -48,11 +48,11 @@
   "by_entry_horizon": [
     {
       "group": "UNKNOWN",
-      "n": 8,
-      "closed_n": 6,
-      "stake_usd": 109.04,
-      "pnl_usd": -60.0,
-      "roi": -0.5503,
+      "n": 9,
+      "closed_n": 7,
+      "stake_usd": 138.43,
+      "pnl_usd": -5.8,
+      "roi": -0.0419,
       "clv_n": 0,
       "mean_clv_pp": null
     }
@@ -60,11 +60,11 @@
   "by_edge_bucket": [
     {
       "group": "UNKNOWN",
-      "n": 8,
-      "closed_n": 6,
-      "stake_usd": 109.04,
-      "pnl_usd": -60.0,
-      "roi": -0.5503,
+      "n": 9,
+      "closed_n": 7,
+      "stake_usd": 138.43,
+      "pnl_usd": -5.8,
+      "roi": -0.0419,
       "clv_n": 0,
       "mean_clv_pp": null
     }
