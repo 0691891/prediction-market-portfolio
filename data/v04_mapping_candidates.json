@@ -1,137 +1,171 @@
 {
-  "updated_utc": "2026-11-07T15:43:32.290831+00:00",
+  "updated_utc": "2026-11-07T20:17:12.201337+00:00",
   "candidates": [
     {
-      "match_id": "espn:esp.1:401882808",
-      "match": "Real Madrid at Valencia",
-      "kickoff_utc": "2026-11-07T20:00Z",
-      "event_ticker": "KXLALIGAGAME-26NOV07VCFRMA",
+      "match_id": "espn:ita.1:401874810",
+      "match": "Lazio at Napoli",
+      "kickoff_utc": "2026-11-08T11:30Z",
+      "event_ticker": "KXSERIEAGAME-26NOV08NAPLAZ",
       "candidate_markets": [
         {
-          "ticker": "KXLALIGAGAME-26NOV07VCFRMA-RMA",
-          "title": "Real Madrid wins",
-          "yes_ask_usd": 0.79,
-          "no_ask_usd": 0.22,
+          "ticker": "KXSERIEAGAME-26NOV08NAPLAZ-LAZ",
+          "title": "Lazio wins",
+          "yes_ask_usd": 0.33,
+          "no_ask_usd": 0.68,
           "status": "active",
-          "fetched_utc": "2026-11-07T15:43:28.731794+00:00"
+          "fetched_utc": "2026-11-07T20:17:09.099695+00:00"
         },
         {
-          "ticker": "KXLALIGAGAME-26NOV07VCFRMA-TIE",
+          "ticker": "KXSERIEAGAME-26NOV08NAPLAZ-NAP",
+          "title": "Napoli wins",
+          "yes_ask_usd": 0.41,
+          "no_ask_usd": 0.6,
+          "status": "active",
+          "fetched_utc": "2026-11-07T20:17:09.099695+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26NOV08NAPLAZ-TIE",
           "title": "Tie is the result",
-          "yes_ask_usd": 0.15,
-          "no_ask_usd": 0.86,
+          "yes_ask_usd": 0.27,
+          "no_ask_usd": 0.74,
           "status": "active",
-          "fetched_utc": "2026-11-07T15:43:28.731794+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26NOV07VCFRMA-VCF",
-          "title": "Valencia wins",
-          "yes_ask_usd": 0.08,
-          "no_ask_usd": 0.93,
-          "status": "active",
-          "fetched_utc": "2026-11-07T15:43:28.731794+00:00"
+          "fetched_utc": "2026-11-07T20:17:09.099695+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
       "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
     },
     {
-      "match_id": "espn:esp.1:401882814",
-      "match": "Real Betis at Elche",
-      "kickoff_utc": "2026-11-08T13:00Z",
-      "event_ticker": "KXLALIGAGAME-26NOV08ELCRBB",
+      "match_id": "espn:ita.1:401874810",
+      "match": "Lazio at Napoli",
+      "kickoff_utc": "2026-11-08T11:30Z",
+      "event_ticker": "KXSERIEAWGAME-26NOV08LAZNAP",
       "candidate_markets": [
         {
-          "ticker": "KXLALIGAGAME-26NOV08ELCRBB-ELC",
-          "title": "Elche wins",
+          "ticker": "KXSERIEAWGAME-26NOV08LAZNAP-LAZ",
+          "title": "Lazio wins",
+          "yes_ask_usd": 0.4,
+          "no_ask_usd": 0.63,
+          "status": "active",
+          "fetched_utc": "2026-11-07T20:17:09.099695+00:00"
+        },
+        {
+          "ticker": "KXSERIEAWGAME-26NOV08LAZNAP-NAP",
+          "title": "Napoli wins",
+          "yes_ask_usd": 0.35,
+          "no_ask_usd": 0.69,
+          "status": "active",
+          "fetched_utc": "2026-11-07T20:17:09.099695+00:00"
+        },
+        {
+          "ticker": "KXSERIEAWGAME-26NOV08LAZNAP-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.27,
+          "no_ask_usd": 0.75,
+          "status": "active",
+          "fetched_utc": "2026-11-07T20:17:09.099695+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:ita.1:401875018",
+      "match": "AC Milan at Genoa",
+      "kickoff_utc": "2026-11-08T14:00Z",
+      "event_ticker": "KXSERIEAGAME-26NOV08GENACM",
+      "candidate_markets": [
+        {
+          "ticker": "KXSERIEAGAME-26NOV08GENACM-ACM",
+          "title": "Milan wins",
+          "yes_ask_usd": 0.54,
+          "no_ask_usd": 0.47,
+          "status": "active",
+          "fetched_utc": "2026-11-07T20:17:09.099695+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26NOV08GENACM-GEN",
+          "title": "Genoa wins",
+          "yes_ask_usd": 0.2,
+          "no_ask_usd": 0.81,
+          "status": "active",
+          "fetched_utc": "2026-11-07T20:17:09.099695+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26NOV08GENACM-TIE",
+          "title": "Tie is the result",
           "yes_ask_usd": 0.28,
           "no_ask_usd": 0.73,
           "status": "active",
-          "fetched_utc": "2026-11-07T15:43:28.731794+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26NOV08ELCRBB-RBB",
-          "title": "Real Betis wins",
-          "yes_ask_usd": 0.48,
-          "no_ask_usd": 0.53,
-          "status": "active",
-          "fetched_utc": "2026-11-07T15:43:28.731794+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26NOV08ELCRBB-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.25,
-          "no_ask_usd": 0.76,
-          "status": "active",
-          "fetched_utc": "2026-11-07T15:43:28.731794+00:00"
+          "fetched_utc": "2026-11-07T20:17:09.099695+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
       "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
     },
     {
-      "match_id": "espn:esp.1:401882815",
-      "match": "Levante at Celta Vigo",
-      "kickoff_utc": "2026-11-08T17:30Z",
-      "event_ticker": "KXLALIGAGAME-26NOV08RCCLEV",
+      "match_id": "espn:ita.1:401874800",
+      "match": "Atalanta at Monza",
+      "kickoff_utc": "2026-11-08T14:00Z",
+      "event_ticker": "KXSERIEAGAME-26NOV08MONATA",
       "candidate_markets": [
         {
-          "ticker": "KXLALIGAGAME-26NOV08RCCLEV-LEV",
-          "title": "Levante wins",
-          "yes_ask_usd": 0.24,
-          "no_ask_usd": 0.78,
+          "ticker": "KXSERIEAGAME-26NOV08MONATA-ATA",
+          "title": "Atalanta wins",
+          "yes_ask_usd": 0.47,
+          "no_ask_usd": 0.54,
           "status": "active",
-          "fetched_utc": "2026-11-07T15:43:28.731794+00:00"
+          "fetched_utc": "2026-11-07T20:17:09.099695+00:00"
         },
         {
-          "ticker": "KXLALIGAGAME-26NOV08RCCLEV-RCC",
-          "title": "Celta Vigo wins",
-          "yes_ask_usd": 0.52,
-          "no_ask_usd": 0.49,
+          "ticker": "KXSERIEAGAME-26NOV08MONATA-MON",
+          "title": "Monza wins",
+          "yes_ask_usd": 0.29,
+          "no_ask_usd": 0.72,
           "status": "active",
-          "fetched_utc": "2026-11-07T15:43:28.731794+00:00"
+          "fetched_utc": "2026-11-07T20:17:09.099695+00:00"
         },
         {
-          "ticker": "KXLALIGAGAME-26NOV08RCCLEV-TIE",
+          "ticker": "KXSERIEAGAME-26NOV08MONATA-TIE",
           "title": "Tie is the result",
           "yes_ask_usd": 0.26,
           "no_ask_usd": 0.75,
           "status": "active",
-          "fetched_utc": "2026-11-07T15:43:28.731794+00:00"
+          "fetched_utc": "2026-11-07T20:17:09.099695+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
       "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
     },
     {
-      "match_id": "espn:esp.1:401882807",
-      "match": "Getafe at Villarreal",
-      "kickoff_utc": "2026-11-08T17:30Z",
-      "event_ticker": "KXLALIGAGAME-26NOV08VILGET",
+      "match_id": "espn:ita.1:401875003",
+      "match": "Juventus at Fiorentina",
+      "kickoff_utc": "2026-11-08T19:45Z",
+      "event_ticker": "KXSERIEAGAME-26NOV08FIOJUV",
       "candidate_markets": [
         {
-          "ticker": "KXLALIGAGAME-26NOV08VILGET-GET",
-          "title": "Getafe wins",
-          "yes_ask_usd": 0.13,
-          "no_ask_usd": 0.89,
+          "ticker": "KXSERIEAGAME-26NOV08FIOJUV-FIO",
+          "title": "Fiorentina wins",
+          "yes_ask_usd": 0.28,
+          "no_ask_usd": 0.73,
           "status": "active",
-          "fetched_utc": "2026-11-07T15:43:28.731794+00:00"
+          "fetched_utc": "2026-11-07T20:17:09.099695+00:00"
         },
         {
-          "ticker": "KXLALIGAGAME-26NOV08VILGET-TIE",
+          "ticker": "KXSERIEAGAME-26NOV08FIOJUV-JUV",
+          "title": "Juventus wins",
+          "yes_ask_usd": 0.46,
+          "no_ask_usd": 0.55,
+          "status": "active",
+          "fetched_utc": "2026-11-07T20:17:09.099695+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26NOV08FIOJUV-TIE",
           "title": "Tie is the result",
-          "yes_ask_usd": 0.21,
-          "no_ask_usd": 0.81,
+          "yes_ask_usd": 0.27,
+          "no_ask_usd": 0.74,
           "status": "active",
-          "fetched_utc": "2026-11-07T15:43:28.731794+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26NOV08VILGET-VIL",
-          "title": "Villarreal wins",
-          "yes_ask_usd": 0.69,
-          "no_ask_usd": 0.33,
-          "status": "active",
-          "fetched_utc": "2026-11-07T15:43:28.731794+00:00"
+          "fetched_utc": "2026-11-07T20:17:09.099695+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
