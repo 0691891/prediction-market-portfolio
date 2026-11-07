@@ -1414,8 +1414,78 @@
       "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
       "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261102&limit=100",
       "observed_utc": "2026-11-03T03:04:29.851444+00:00"
+    },
+    {
+      "match_id": "espn:eng.1:401879242",
+      "competition": "Premier League",
+      "match": "Coventry City at Everton",
+      "kickoff_utc": "2026-11-06T20:00Z",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261106&limit=100",
+      "observed_utc": "2026-11-07T01:13:34.695285+00:00"
+    },
+    {
+      "match_id": "espn:esp.1:401882809",
+      "competition": "La Liga",
+      "match": "Alavés at Sevilla",
+      "kickoff_utc": "2026-11-06T20:00Z",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261106&limit=100",
+      "observed_utc": "2026-11-07T01:13:34.695285+00:00"
+    },
+    {
+      "match_id": "espn:ita.1:401874815",
+      "competition": "Serie A",
+      "match": "Udinese at Venezia",
+      "kickoff_utc": "2026-11-06T19:45Z",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261106&limit=100",
+      "observed_utc": "2026-11-07T01:13:34.695285+00:00"
+    },
+    {
+      "match_id": "espn:ger.1:401884739",
+      "competition": "Bundesliga",
+      "match": "Borussia Mönchengladbach at Hamburg SV",
+      "kickoff_utc": "2026-11-06T19:30Z",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261106&limit=100",
+      "observed_utc": "2026-11-07T01:13:34.695285+00:00"
+    },
+    {
+      "match_id": "espn:fra.1:401876405",
+      "competition": "Ligue 1",
+      "match": "Strasbourg at Toulouse",
+      "kickoff_utc": "2026-11-06T19:45Z",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261106&limit=100",
+      "observed_utc": "2026-11-07T01:13:34.695285+00:00"
     }
   ],
   "note": "Only independently verified FT, correct 90min and settlement semantics; never inferred from prior recommendations.",
-  "updated_utc": "2026-11-06T21:04:35.513673+00:00"
+  "updated_utc": "2026-11-07T01:13:34.695285+00:00"
 }
