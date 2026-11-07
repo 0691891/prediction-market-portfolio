@@ -1694,8 +1694,64 @@
       "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
       "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261107&limit=100",
       "observed_utc": "2026-11-07T19:37:33.531230+00:00"
+    },
+    {
+      "match_id": "espn:esp.1:401882808",
+      "competition": "La Liga",
+      "match": "Real Madrid at Valencia",
+      "kickoff_utc": "2026-11-07T20:00Z",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261107&limit=100",
+      "observed_utc": "2026-11-07T23:02:35.187099+00:00"
+    },
+    {
+      "match_id": "espn:ita.1:401874803",
+      "competition": "Serie A",
+      "match": "Sassuolo at AS Roma",
+      "kickoff_utc": "2026-11-07T19:45Z",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261107&limit=100",
+      "observed_utc": "2026-11-07T23:02:35.187099+00:00"
+    },
+    {
+      "match_id": "espn:fra.1:401876411",
+      "competition": "Ligue 1",
+      "match": "Paris FC at AJ Auxerre",
+      "kickoff_utc": "2026-11-07T18:00Z",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261107&limit=100",
+      "observed_utc": "2026-11-07T23:02:35.187099+00:00"
+    },
+    {
+      "match_id": "espn:fra.1:401876407",
+      "competition": "Ligue 1",
+      "match": "Troyes at Paris Saint-Germain",
+      "kickoff_utc": "2026-11-07T20:05Z",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261107&limit=100",
+      "observed_utc": "2026-11-07T23:02:35.187099+00:00"
     }
   ],
   "note": "Only independently verified FT, correct 90min and settlement semantics; never inferred from prior recommendations.",
-  "updated_utc": "2026-11-07T19:37:33.531230+00:00"
+  "updated_utc": "2026-11-07T23:02:35.187099+00:00"
 }
