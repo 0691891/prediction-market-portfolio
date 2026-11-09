@@ -8,7 +8,7 @@
       "feature_details": {
         "reason": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED"
       },
-      "feature_snapshot_utc": "2026-11-09T02:42:47.949011+00:00",
+      "feature_snapshot_utc": "2026-11-09T11:43:56.470049+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -26,7 +26,7 @@
       "feature_details": {
         "reason": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED"
       },
-      "feature_snapshot_utc": "2026-11-09T02:42:47.949011+00:00",
+      "feature_snapshot_utc": "2026-11-09T11:43:56.470049+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -44,7 +44,7 @@
       "feature_details": {
         "reason": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED"
       },
-      "feature_snapshot_utc": "2026-11-09T02:42:47.949011+00:00",
+      "feature_snapshot_utc": "2026-11-09T11:43:56.470049+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -62,7 +62,7 @@
       "feature_details": {
         "reason": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED"
       },
-      "feature_snapshot_utc": "2026-11-09T02:42:47.949011+00:00",
+      "feature_snapshot_utc": "2026-11-09T11:43:56.470049+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -80,7 +80,7 @@
       "feature_details": {
         "reason": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED"
       },
-      "feature_snapshot_utc": "2026-11-09T02:42:47.949011+00:00",
+      "feature_snapshot_utc": "2026-11-09T11:43:56.470049+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -98,7 +98,7 @@
       "feature_details": {
         "reason": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED"
       },
-      "feature_snapshot_utc": "2026-11-09T02:42:47.949011+00:00",
+      "feature_snapshot_utc": "2026-11-09T11:43:56.470049+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -116,7 +116,7 @@
       "feature_details": {
         "reason": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED"
       },
-      "feature_snapshot_utc": "2026-11-09T02:42:47.949011+00:00",
+      "feature_snapshot_utc": "2026-11-09T11:43:56.470049+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -130,5 +130,5 @@
   ],
   "limitations": "Historical 1X2 tuned parameters do not validate O/U/BTTS or demonstrate edge; old holdout 1X2 paper proxy lost money.",
   "model": "v0.4-independent-goals-research",
-  "updated_utc": "2026-11-09T02:42:47.949011+00:00"
+  "updated_utc": "2026-11-09T11:43:56.470049+00:00"
 }
