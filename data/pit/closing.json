@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-08T22:56:19.659990+00:00",
+  "updated_utc": "2026-11-09T02:43:04.757416+00:00",
   "items": [
     {
       "snapshot_utc": "2026-09-20T06:26:15.561242+00:00",
@@ -60062,14 +60062,14 @@
       "snapshot_id": "29b15398e2b12576"
     },
     {
-      "snapshot_utc": "2026-11-08T22:56:19.659990+00:00",
-      "snapshot_hour_utc": "2026-11-08T22:00:00+00:00",
+      "snapshot_utc": "2026-11-09T02:43:04.757416+00:00",
+      "snapshot_hour_utc": "2026-11-09T02:00:00+00:00",
       "pick_id": "espn:eng.fa:401931098:HOME_WIN",
       "competition": "FA Cup",
       "match": "Berkhamsted at Plymouth Parkway",
       "market": "1X2",
       "kickoff_utc": "2026-11-09T19:30Z",
-      "minutes_to_kickoff": 1233.7,
+      "minutes_to_kickoff": 1006.9,
       "bucket": "T-24H",
       "my_fair": null,
       "fair_source": null,
@@ -60079,17 +60079,17 @@
       "kalshi_liquidity_usd": null,
       "model_status": "INSUFFICIENT_DATA",
       "football_intelligence_status": null,
-      "snapshot_id": "88f09ef22d8b8962"
+      "snapshot_id": "22a0d0d4ad53bcd3"
     },
     {
-      "snapshot_utc": "2026-11-08T22:56:19.659990+00:00",
-      "snapshot_hour_utc": "2026-11-08T22:00:00+00:00",
+      "snapshot_utc": "2026-11-09T02:43:04.757416+00:00",
+      "snapshot_hour_utc": "2026-11-09T02:00:00+00:00",
       "pick_id": "espn:eng.fa:401931098:DRAW",
       "competition": "FA Cup",
       "match": "Berkhamsted at Plymouth Parkway",
       "market": "1X2",
       "kickoff_utc": "2026-11-09T19:30Z",
-      "minutes_to_kickoff": 1233.7,
+      "minutes_to_kickoff": 1006.9,
       "bucket": "T-24H",
       "my_fair": null,
       "fair_source": null,
@@ -60099,17 +60099,17 @@
       "kalshi_liquidity_usd": null,
       "model_status": "INSUFFICIENT_DATA",
       "football_intelligence_status": null,
-      "snapshot_id": "d975734fb29050b2"
+      "snapshot_id": "4976da89c4a0a915"
     },
     {
-      "snapshot_utc": "2026-11-08T22:56:19.659990+00:00",
-      "snapshot_hour_utc": "2026-11-08T22:00:00+00:00",
+      "snapshot_utc": "2026-11-09T02:43:04.757416+00:00",
+      "snapshot_hour_utc": "2026-11-09T02:00:00+00:00",
       "pick_id": "espn:eng.fa:401931098:AWAY_WIN",
       "competition": "FA Cup",
       "match": "Berkhamsted at Plymouth Parkway",
       "market": "1X2",
       "kickoff_utc": "2026-11-09T19:30Z",
-      "minutes_to_kickoff": 1233.7,
+      "minutes_to_kickoff": 1006.9,
       "bucket": "T-24H",
       "my_fair": null,
       "fair_source": null,
@@ -60119,17 +60119,17 @@
       "kalshi_liquidity_usd": null,
       "model_status": "INSUFFICIENT_DATA",
       "football_intelligence_status": null,
-      "snapshot_id": "ce1ac2327b75eb4f"
+      "snapshot_id": "4258f3945b744f86"
     },
     {
-      "snapshot_utc": "2026-11-08T22:56:19.659990+00:00",
-      "snapshot_hour_utc": "2026-11-08T22:00:00+00:00",
+      "snapshot_utc": "2026-11-09T02:43:04.757416+00:00",
+      "snapshot_hour_utc": "2026-11-09T02:00:00+00:00",
       "pick_id": "espn:eng.fa:401931098:OVER_2_5",
       "competition": "FA Cup",
       "match": "Berkhamsted at Plymouth Parkway",
       "market": "TOTALS_2_5",
       "kickoff_utc": "2026-11-09T19:30Z",
-      "minutes_to_kickoff": 1233.7,
+      "minutes_to_kickoff": 1006.9,
       "bucket": "T-24H",
       "my_fair": null,
       "fair_source": null,
@@ -60139,17 +60139,17 @@
       "kalshi_liquidity_usd": null,
       "model_status": "INSUFFICIENT_DATA",
       "football_intelligence_status": null,
-      "snapshot_id": "12c5d104c917286a"
+      "snapshot_id": "114034ba0abaaccc"
     },
     {
-      "snapshot_utc": "2026-11-08T22:56:19.659990+00:00",
-      "snapshot_hour_utc": "2026-11-08T22:00:00+00:00",
+      "snapshot_utc": "2026-11-09T02:43:04.757416+00:00",
+      "snapshot_hour_utc": "2026-11-09T02:00:00+00:00",
       "pick_id": "espn:eng.fa:401931098:UNDER_2_5",
       "competition": "FA Cup",
       "match": "Berkhamsted at Plymouth Parkway",
       "market": "TOTALS_2_5",
       "kickoff_utc": "2026-11-09T19:30Z",
-      "minutes_to_kickoff": 1233.7,
+      "minutes_to_kickoff": 1006.9,
       "bucket": "T-24H",
       "my_fair": null,
       "fair_source": null,
@@ -60159,17 +60159,17 @@
       "kalshi_liquidity_usd": null,
       "model_status": "INSUFFICIENT_DATA",
       "football_intelligence_status": null,
-      "snapshot_id": "350bc1bdf04d229e"
+      "snapshot_id": "1d86aae97acc6a87"
     },
     {
-      "snapshot_utc": "2026-11-08T22:56:19.659990+00:00",
-      "snapshot_hour_utc": "2026-11-08T22:00:00+00:00",
+      "snapshot_utc": "2026-11-09T02:43:04.757416+00:00",
+      "snapshot_hour_utc": "2026-11-09T02:00:00+00:00",
       "pick_id": "espn:eng.fa:401931098:BTTS_YES",
       "competition": "FA Cup",
       "match": "Berkhamsted at Plymouth Parkway",
       "market": "BTTS",
       "kickoff_utc": "2026-11-09T19:30Z",
-      "minutes_to_kickoff": 1233.7,
+      "minutes_to_kickoff": 1006.9,
       "bucket": "T-24H",
       "my_fair": null,
       "fair_source": null,
@@ -60179,17 +60179,17 @@
       "kalshi_liquidity_usd": null,
       "model_status": "INSUFFICIENT_DATA",
       "football_intelligence_status": null,
-      "snapshot_id": "a134b0e25018518c"
+      "snapshot_id": "d0cdaf48667f5450"
     },
     {
-      "snapshot_utc": "2026-11-08T22:56:19.659990+00:00",
-      "snapshot_hour_utc": "2026-11-08T22:00:00+00:00",
+      "snapshot_utc": "2026-11-09T02:43:04.757416+00:00",
+      "snapshot_hour_utc": "2026-11-09T02:00:00+00:00",
       "pick_id": "espn:eng.fa:401931098:BTTS_NO",
       "competition": "FA Cup",
       "match": "Berkhamsted at Plymouth Parkway",
       "market": "BTTS",
       "kickoff_utc": "2026-11-09T19:30Z",
-      "minutes_to_kickoff": 1233.7,
+      "minutes_to_kickoff": 1006.9,
       "bucket": "T-24H",
       "my_fair": null,
       "fair_source": null,
@@ -60199,7 +60199,7 @@
       "kalshi_liquidity_usd": null,
       "model_status": "INSUFFICIENT_DATA",
       "football_intelligence_status": null,
-      "snapshot_id": "521f48d427255a95"
+      "snapshot_id": "3585f467bb6b8629"
     }
   ]
 }
