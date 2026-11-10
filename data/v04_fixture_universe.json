@@ -14,7 +14,7 @@
       "match": "Berkhamsted at Plymouth Parkway",
       "match_id": "espn:eng.fa:401931098",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-11-09T22:27:54.664932+00:00",
+      "observed_at_utc": "2026-11-10T04:39:57.915157+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -27,5 +27,5 @@
     "prospective_picks": 0,
     "unmapped_or_unsupported": 0
   },
-  "updated_utc": "2026-11-09T22:27:52.822165+00:00"
+  "updated_utc": "2026-11-10T04:39:57.321223+00:00"
 }
