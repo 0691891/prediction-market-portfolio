@@ -1,31 +1,12 @@
 {
   "errors": {
     "history": {},
-    "schedule": {}
-  },
-  "fixtures": [
-    {
-      "away_team": "Berkhamsted",
-      "competition": "FA Cup",
-      "fixture_source": "ESPN scoreboard",
-      "history_records": 0,
-      "home_team": "Plymouth Parkway",
-      "kickoff_utc": "2026-11-09T19:30Z",
-      "match": "Berkhamsted at Plymouth Parkway",
-      "match_id": "espn:eng.fa:401931098",
-      "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-11-10T04:39:57.915157+00:00",
-      "resolved_history_away_team": null,
-      "resolved_history_home_team": null,
-      "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "post"
+    "schedule": {
+      "football-data.org:football_data_org": "NO_FOOTBALL_DATA_API_KEY"
     }
-  ],
-  "stats": {
-    "fixtures": 1,
-    "modelled": 0,
-    "prospective_picks": 0,
-    "unmapped_or_unsupported": 0
   },
-  "updated_utc": "2026-11-10T04:39:57.321223+00:00"
+  "fixtures": [],
+  "note": "Refuse to erase prior model/board data on a transient zero-fixture response.",
+  "status": "FIXTURE_FEED_UNAVAILABLE_PREVIOUS_BOARD_RETAINED",
+  "updated_utc": "2026-11-10T13:32:45.712877+00:00"
 }

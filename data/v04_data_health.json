@@ -1,15 +1,11 @@
 {
-  "updated_utc": "2026-11-10T04:40:21.333293+00:00",
+  "updated_utc": "2026-11-10T13:33:09.320731+00:00",
   "status": "RESEARCH_ONLY_INCOMPLETE_INPUTS",
   "fixture": {
-    "observed": 1,
-    "source_quality_counts": {
-      "PROVIDER_SCHEDULE_UNCROSSCHECKED": 1
-    },
-    "model_status_counts": {
-      "NON_TOP_FIVE_LEAGUE_UNSUPPORTED": 1
-    },
-    "schedule_error_count": 0,
+    "observed": 0,
+    "source_quality_counts": {},
+    "model_status_counts": {},
+    "schedule_error_count": 1,
     "history_error_count": 0,
     "cross_verified_kickoffs": 0
   },
@@ -21,9 +17,9 @@
     "not_proof_of_alpha": true
   },
   "kalshi": {
-    "market_rows": 68,
+    "market_rows": 38,
     "recent_open_yes_asks": 0,
-    "stale_yes_asks": 68,
+    "stale_yes_asks": 38,
     "unknown_age_yes_asks": 0,
     "not_open": 0,
     "invalid_yes_asks": 0,
