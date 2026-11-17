@@ -5,8 +5,45 @@
       "football-data.org:football_data_org": "NO_FOOTBALL_DATA_API_KEY"
     }
   },
-  "fixtures": [],
-  "note": "Refuse to erase prior model/board data on a transient zero-fixture response.",
-  "status": "FIXTURE_FEED_UNAVAILABLE_PREVIOUS_BOARD_RETAINED",
-  "updated_utc": "2026-11-17T04:35:35.983500+00:00"
+  "fixtures": [
+    {
+      "away_team": "1. FC Köln",
+      "competition": "Bundesliga",
+      "fixture_source": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/de.1.json",
+      "history_records": 387,
+      "home_team": "FC Bayern München",
+      "kickoff_utc": "2026-11-20T19:30:00+00:00",
+      "match": "FC Bayern München vs 1. FC Köln",
+      "match_id": "openfootball:de.1:2026-11-20:fcbayernmunchen:1fckoln",
+      "model_fair_status": "MISSING_HISTORY_OR_TEAM_ALIAS",
+      "observed_at_utc": "2026-11-17T14:33:45.902846+00:00",
+      "resolved_history_away_team": null,
+      "resolved_history_home_team": null,
+      "schedule_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "state": "pre"
+    },
+    {
+      "away_team": "Le Havre AC",
+      "competition": "Ligue 1",
+      "fixture_source": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/fr.1.json",
+      "history_records": 396,
+      "home_team": "ES Troyes AC",
+      "kickoff_utc": "2026-11-20T19:45:00+00:00",
+      "match": "ES Troyes AC vs Le Havre AC",
+      "match_id": "openfootball:fr.1:2026-11-20:estroyesac:lehavreac",
+      "model_fair_status": "MISSING_HISTORY_OR_TEAM_ALIAS",
+      "observed_at_utc": "2026-11-17T14:33:45.902846+00:00",
+      "resolved_history_away_team": "Le Havre",
+      "resolved_history_home_team": null,
+      "schedule_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
+      "state": "pre"
+    }
+  ],
+  "stats": {
+    "fixtures": 2,
+    "modelled": 0,
+    "prospective_picks": 14,
+    "unmapped_or_unsupported": 14
+  },
+  "updated_utc": "2026-11-17T14:33:45.902846+00:00"
 }
