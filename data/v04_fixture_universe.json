@@ -16,7 +16,7 @@
       "match": "FC Bayern München vs 1. FC Köln",
       "match_id": "openfootball:de.1:2026-11-20:fcbayernmunchen:1fckoln",
       "model_fair_status": "MISSING_HISTORY_OR_TEAM_ALIAS",
-      "observed_at_utc": "2026-11-17T14:33:45.902846+00:00",
+      "observed_at_utc": "2026-11-17T22:56:50.722294+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
@@ -32,7 +32,7 @@
       "match": "ES Troyes AC vs Le Havre AC",
       "match_id": "openfootball:fr.1:2026-11-20:estroyesac:lehavreac",
       "model_fair_status": "MISSING_HISTORY_OR_TEAM_ALIAS",
-      "observed_at_utc": "2026-11-17T14:33:45.902846+00:00",
+      "observed_at_utc": "2026-11-17T22:56:50.722294+00:00",
       "resolved_history_away_team": "Le Havre",
       "resolved_history_home_team": null,
       "schedule_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
@@ -45,5 +45,5 @@
     "prospective_picks": 14,
     "unmapped_or_unsupported": 14
   },
-  "updated_utc": "2026-11-17T14:33:45.902846+00:00"
+  "updated_utc": "2026-11-17T22:56:50.722294+00:00"
 }
