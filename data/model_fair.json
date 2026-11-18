@@ -3,258 +3,447 @@
   "items": [
     {
       "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
+      "fair_probability": 0.825782,
       "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
       "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+        "away_prior_matches": 43,
+        "history_matches": 387,
+        "home_prior_matches": 43,
+        "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-18T04:29:07.365751+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
+      "feature_snapshot_utc": "2026-11-18T14:10:08.264889+00:00",
+      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
+      "lambda_away": 0.919,
+      "lambda_home": 3.3045,
       "market_executable_verified": false,
-      "match_id": "openfootball:de.1:2026-11-20:fcbayernmunchen:1fckoln",
+      "match_id": "espn:ger.1:401884736",
       "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:de.1:2026-11-20:fcbayernmunchen:1fckoln:HOME_WIN",
+      "pick_id": "espn:ger.1:401884736:HOME_WIN",
       "selection": "HOME_WIN",
-      "status": "INSUFFICIENT_DATA"
+      "status": "MODELLED"
     },
     {
       "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
+      "fair_probability": 0.106752,
       "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
       "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+        "away_prior_matches": 43,
+        "history_matches": 387,
+        "home_prior_matches": 43,
+        "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-18T04:29:07.365751+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
+      "feature_snapshot_utc": "2026-11-18T14:10:08.264889+00:00",
+      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
+      "lambda_away": 0.919,
+      "lambda_home": 3.3045,
       "market_executable_verified": false,
-      "match_id": "openfootball:de.1:2026-11-20:fcbayernmunchen:1fckoln",
+      "match_id": "espn:ger.1:401884736",
       "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:de.1:2026-11-20:fcbayernmunchen:1fckoln:DRAW",
+      "pick_id": "espn:ger.1:401884736:DRAW",
       "selection": "DRAW",
-      "status": "INSUFFICIENT_DATA"
+      "status": "MODELLED"
     },
     {
       "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
+      "fair_probability": 0.067466,
       "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
       "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+        "away_prior_matches": 43,
+        "history_matches": 387,
+        "home_prior_matches": 43,
+        "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-18T04:29:07.365751+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
+      "feature_snapshot_utc": "2026-11-18T14:10:08.264889+00:00",
+      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
+      "lambda_away": 0.919,
+      "lambda_home": 3.3045,
       "market_executable_verified": false,
-      "match_id": "openfootball:de.1:2026-11-20:fcbayernmunchen:1fckoln",
+      "match_id": "espn:ger.1:401884736",
       "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:de.1:2026-11-20:fcbayernmunchen:1fckoln:AWAY_WIN",
+      "pick_id": "espn:ger.1:401884736:AWAY_WIN",
       "selection": "AWAY_WIN",
-      "status": "INSUFFICIENT_DATA"
+      "status": "MODELLED"
     },
     {
       "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
+      "fair_probability": 0.792846,
       "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
       "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+        "away_prior_matches": 43,
+        "history_matches": 387,
+        "home_prior_matches": 43,
+        "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-18T04:29:07.365751+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
+      "feature_snapshot_utc": "2026-11-18T14:10:08.264889+00:00",
+      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
+      "lambda_away": 0.919,
+      "lambda_home": 3.3045,
       "market_executable_verified": false,
-      "match_id": "openfootball:de.1:2026-11-20:fcbayernmunchen:1fckoln",
+      "match_id": "espn:ger.1:401884736",
       "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:de.1:2026-11-20:fcbayernmunchen:1fckoln:OVER_2_5",
+      "pick_id": "espn:ger.1:401884736:OVER_2_5",
       "selection": "OVER_2_5",
-      "status": "INSUFFICIENT_DATA"
+      "status": "MODELLED"
     },
     {
       "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
+      "fair_probability": 0.207154,
       "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
       "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+        "away_prior_matches": 43,
+        "history_matches": 387,
+        "home_prior_matches": 43,
+        "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-18T04:29:07.365751+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
+      "feature_snapshot_utc": "2026-11-18T14:10:08.264889+00:00",
+      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
+      "lambda_away": 0.919,
+      "lambda_home": 3.3045,
       "market_executable_verified": false,
-      "match_id": "openfootball:de.1:2026-11-20:fcbayernmunchen:1fckoln",
+      "match_id": "espn:ger.1:401884736",
       "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:de.1:2026-11-20:fcbayernmunchen:1fckoln:UNDER_2_5",
+      "pick_id": "espn:ger.1:401884736:UNDER_2_5",
       "selection": "UNDER_2_5",
-      "status": "INSUFFICIENT_DATA"
+      "status": "MODELLED"
     },
     {
       "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
+      "fair_probability": 0.57903,
       "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
       "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+        "away_prior_matches": 43,
+        "history_matches": 387,
+        "home_prior_matches": 43,
+        "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-18T04:29:07.365751+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
+      "feature_snapshot_utc": "2026-11-18T14:10:08.264889+00:00",
+      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
+      "lambda_away": 0.919,
+      "lambda_home": 3.3045,
       "market_executable_verified": false,
-      "match_id": "openfootball:de.1:2026-11-20:fcbayernmunchen:1fckoln",
+      "match_id": "espn:ger.1:401884736",
       "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:de.1:2026-11-20:fcbayernmunchen:1fckoln:BTTS_YES",
+      "pick_id": "espn:ger.1:401884736:BTTS_YES",
       "selection": "BTTS_YES",
-      "status": "INSUFFICIENT_DATA"
+      "status": "MODELLED"
     },
     {
       "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
+      "fair_probability": 0.42097,
       "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
       "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+        "away_prior_matches": 43,
+        "history_matches": 387,
+        "home_prior_matches": 43,
+        "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-18T04:29:07.365751+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
+      "feature_snapshot_utc": "2026-11-18T14:10:08.264889+00:00",
+      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
+      "lambda_away": 0.919,
+      "lambda_home": 3.3045,
       "market_executable_verified": false,
-      "match_id": "openfootball:de.1:2026-11-20:fcbayernmunchen:1fckoln",
+      "match_id": "espn:ger.1:401884736",
       "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:de.1:2026-11-20:fcbayernmunchen:1fckoln:BTTS_NO",
+      "pick_id": "espn:ger.1:401884736:BTTS_NO",
       "selection": "BTTS_NO",
-      "status": "INSUFFICIENT_DATA"
+      "status": "MODELLED"
     },
     {
       "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
+      "fair_probability": 0.406216,
       "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
       "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+        "away_prior_matches": 44,
+        "history_matches": 396,
+        "home_prior_matches": 10,
+        "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-18T04:29:07.365751+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
+      "feature_snapshot_utc": "2026-11-18T14:10:08.264889+00:00",
+      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
+      "lambda_away": 1.0729,
+      "lambda_home": 1.2608,
       "market_executable_verified": false,
-      "match_id": "openfootball:fr.1:2026-11-20:estroyesac:lehavreac",
+      "match_id": "espn:fra.1:401876395",
       "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:fr.1:2026-11-20:estroyesac:lehavreac:HOME_WIN",
+      "pick_id": "espn:fra.1:401876395:HOME_WIN",
       "selection": "HOME_WIN",
-      "status": "INSUFFICIENT_DATA"
+      "status": "MODELLED"
     },
     {
       "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
+      "fair_probability": 0.279668,
       "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
       "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+        "away_prior_matches": 44,
+        "history_matches": 396,
+        "home_prior_matches": 10,
+        "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-18T04:29:07.365751+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
+      "feature_snapshot_utc": "2026-11-18T14:10:08.264889+00:00",
+      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
+      "lambda_away": 1.0729,
+      "lambda_home": 1.2608,
       "market_executable_verified": false,
-      "match_id": "openfootball:fr.1:2026-11-20:estroyesac:lehavreac",
+      "match_id": "espn:fra.1:401876395",
       "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:fr.1:2026-11-20:estroyesac:lehavreac:DRAW",
+      "pick_id": "espn:fra.1:401876395:DRAW",
       "selection": "DRAW",
-      "status": "INSUFFICIENT_DATA"
+      "status": "MODELLED"
     },
     {
       "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
+      "fair_probability": 0.314115,
       "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
       "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+        "away_prior_matches": 44,
+        "history_matches": 396,
+        "home_prior_matches": 10,
+        "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-18T04:29:07.365751+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
+      "feature_snapshot_utc": "2026-11-18T14:10:08.264889+00:00",
+      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
+      "lambda_away": 1.0729,
+      "lambda_home": 1.2608,
       "market_executable_verified": false,
-      "match_id": "openfootball:fr.1:2026-11-20:estroyesac:lehavreac",
+      "match_id": "espn:fra.1:401876395",
       "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:fr.1:2026-11-20:estroyesac:lehavreac:AWAY_WIN",
+      "pick_id": "espn:fra.1:401876395:AWAY_WIN",
       "selection": "AWAY_WIN",
-      "status": "INSUFFICIENT_DATA"
+      "status": "MODELLED"
     },
     {
       "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
+      "fair_probability": 0.412876,
       "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
       "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+        "away_prior_matches": 44,
+        "history_matches": 396,
+        "home_prior_matches": 10,
+        "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-18T04:29:07.365751+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
+      "feature_snapshot_utc": "2026-11-18T14:10:08.264889+00:00",
+      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
+      "lambda_away": 1.0729,
+      "lambda_home": 1.2608,
       "market_executable_verified": false,
-      "match_id": "openfootball:fr.1:2026-11-20:estroyesac:lehavreac",
+      "match_id": "espn:fra.1:401876395",
       "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:fr.1:2026-11-20:estroyesac:lehavreac:OVER_2_5",
+      "pick_id": "espn:fra.1:401876395:OVER_2_5",
       "selection": "OVER_2_5",
-      "status": "INSUFFICIENT_DATA"
+      "status": "MODELLED"
     },
     {
       "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
+      "fair_probability": 0.587124,
       "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
       "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+        "away_prior_matches": 44,
+        "history_matches": 396,
+        "home_prior_matches": 10,
+        "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-18T04:29:07.365751+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
+      "feature_snapshot_utc": "2026-11-18T14:10:08.264889+00:00",
+      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
+      "lambda_away": 1.0729,
+      "lambda_home": 1.2608,
       "market_executable_verified": false,
-      "match_id": "openfootball:fr.1:2026-11-20:estroyesac:lehavreac",
+      "match_id": "espn:fra.1:401876395",
       "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:fr.1:2026-11-20:estroyesac:lehavreac:UNDER_2_5",
+      "pick_id": "espn:fra.1:401876395:UNDER_2_5",
       "selection": "UNDER_2_5",
-      "status": "INSUFFICIENT_DATA"
+      "status": "MODELLED"
     },
     {
       "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
+      "fair_probability": 0.471493,
       "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
       "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+        "away_prior_matches": 44,
+        "history_matches": 396,
+        "home_prior_matches": 10,
+        "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-18T04:29:07.365751+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
+      "feature_snapshot_utc": "2026-11-18T14:10:08.264889+00:00",
+      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
+      "lambda_away": 1.0729,
+      "lambda_home": 1.2608,
       "market_executable_verified": false,
-      "match_id": "openfootball:fr.1:2026-11-20:estroyesac:lehavreac",
+      "match_id": "espn:fra.1:401876395",
       "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:fr.1:2026-11-20:estroyesac:lehavreac:BTTS_YES",
+      "pick_id": "espn:fra.1:401876395:BTTS_YES",
       "selection": "BTTS_YES",
-      "status": "INSUFFICIENT_DATA"
+      "status": "MODELLED"
     },
     {
       "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": null,
+      "fair_probability": 0.528507,
       "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
       "feature_details": {
-        "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
+        "away_prior_matches": 44,
+        "history_matches": 396,
+        "home_prior_matches": 10,
+        "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-18T04:29:07.365751+00:00",
-      "fixture_source_quality": "COMMUNITY_SOURCE_NEEDS_CROSSCHECK",
-      "lambda_away": null,
-      "lambda_home": null,
+      "feature_snapshot_utc": "2026-11-18T14:10:08.264889+00:00",
+      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
+      "lambda_away": 1.0729,
+      "lambda_home": 1.2608,
       "market_executable_verified": false,
-      "match_id": "openfootball:fr.1:2026-11-20:estroyesac:lehavreac",
+      "match_id": "espn:fra.1:401876395",
       "model_version": "v0.4-independent-goals-research",
-      "pick_id": "openfootball:fr.1:2026-11-20:estroyesac:lehavreac:BTTS_NO",
+      "pick_id": "espn:fra.1:401876395:BTTS_NO",
       "selection": "BTTS_NO",
-      "status": "INSUFFICIENT_DATA"
+      "status": "MODELLED"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": 0.457306,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "away_prior_matches": 50,
+        "history_matches": 499,
+        "home_prior_matches": 49,
+        "league_goals_per_team": 1.3707
+      },
+      "feature_snapshot_utc": "2026-11-18T14:10:08.264889+00:00",
+      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
+      "lambda_away": 0.9669,
+      "lambda_home": 1.3555,
+      "market_executable_verified": false,
+      "match_id": "espn:esp.1:401882805",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "espn:esp.1:401882805:HOME_WIN",
+      "selection": "HOME_WIN",
+      "status": "MODELLED"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": 0.275292,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "away_prior_matches": 50,
+        "history_matches": 499,
+        "home_prior_matches": 49,
+        "league_goals_per_team": 1.3707
+      },
+      "feature_snapshot_utc": "2026-11-18T14:10:08.264889+00:00",
+      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
+      "lambda_away": 0.9669,
+      "lambda_home": 1.3555,
+      "market_executable_verified": false,
+      "match_id": "espn:esp.1:401882805",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "espn:esp.1:401882805:DRAW",
+      "selection": "DRAW",
+      "status": "MODELLED"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": 0.267401,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "away_prior_matches": 50,
+        "history_matches": 499,
+        "home_prior_matches": 49,
+        "league_goals_per_team": 1.3707
+      },
+      "feature_snapshot_utc": "2026-11-18T14:10:08.264889+00:00",
+      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
+      "lambda_away": 0.9669,
+      "lambda_home": 1.3555,
+      "market_executable_verified": false,
+      "match_id": "espn:esp.1:401882805",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "espn:esp.1:401882805:AWAY_WIN",
+      "selection": "AWAY_WIN",
+      "status": "MODELLED"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": 0.409884,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "away_prior_matches": 50,
+        "history_matches": 499,
+        "home_prior_matches": 49,
+        "league_goals_per_team": 1.3707
+      },
+      "feature_snapshot_utc": "2026-11-18T14:10:08.264889+00:00",
+      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
+      "lambda_away": 0.9669,
+      "lambda_home": 1.3555,
+      "market_executable_verified": false,
+      "match_id": "espn:esp.1:401882805",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "espn:esp.1:401882805:OVER_2_5",
+      "selection": "OVER_2_5",
+      "status": "MODELLED"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": 0.590116,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "away_prior_matches": 50,
+        "history_matches": 499,
+        "home_prior_matches": 49,
+        "league_goals_per_team": 1.3707
+      },
+      "feature_snapshot_utc": "2026-11-18T14:10:08.264889+00:00",
+      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
+      "lambda_away": 0.9669,
+      "lambda_home": 1.3555,
+      "market_executable_verified": false,
+      "match_id": "espn:esp.1:401882805",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "espn:esp.1:401882805:UNDER_2_5",
+      "selection": "UNDER_2_5",
+      "status": "MODELLED"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": 0.459949,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "away_prior_matches": 50,
+        "history_matches": 499,
+        "home_prior_matches": 49,
+        "league_goals_per_team": 1.3707
+      },
+      "feature_snapshot_utc": "2026-11-18T14:10:08.264889+00:00",
+      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
+      "lambda_away": 0.9669,
+      "lambda_home": 1.3555,
+      "market_executable_verified": false,
+      "match_id": "espn:esp.1:401882805",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "espn:esp.1:401882805:BTTS_YES",
+      "selection": "BTTS_YES",
+      "status": "MODELLED"
+    },
+    {
+      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
+      "fair_probability": 0.540051,
+      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
+      "feature_details": {
+        "away_prior_matches": 50,
+        "history_matches": 499,
+        "home_prior_matches": 49,
+        "league_goals_per_team": 1.3707
+      },
+      "feature_snapshot_utc": "2026-11-18T14:10:08.264889+00:00",
+      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
+      "lambda_away": 0.9669,
+      "lambda_home": 1.3555,
+      "market_executable_verified": false,
+      "match_id": "espn:esp.1:401882805",
+      "model_version": "v0.4-independent-goals-research",
+      "pick_id": "espn:esp.1:401882805:BTTS_NO",
+      "selection": "BTTS_NO",
+      "status": "MODELLED"
     }
   ],
   "limitations": "Historical 1X2 tuned parameters do not validate O/U/BTTS or demonstrate edge; old holdout 1X2 paper proxy lost money.",
   "model": "v0.4-independent-goals-research",
-  "updated_utc": "2026-11-18T04:29:07.365751+00:00"
+  "updated_utc": "2026-11-18T14:10:08.264889+00:00"
 }
