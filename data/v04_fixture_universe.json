@@ -14,7 +14,7 @@
       "match": "FC Cologne at Bayern Munich",
       "match_id": "espn:ger.1:401884736",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-11-18T22:03:17.820165+00:00",
+      "observed_at_utc": "2026-11-19T03:36:54.144270+00:00",
       "resolved_history_away_team": "FC Koln",
       "resolved_history_home_team": "Bayern Munich",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -30,7 +30,7 @@
       "match": "Le Havre AC at Troyes",
       "match_id": "espn:fra.1:401876395",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-11-18T22:03:17.820165+00:00",
+      "observed_at_utc": "2026-11-19T03:36:54.144270+00:00",
       "resolved_history_away_team": "Le Havre",
       "resolved_history_home_team": "Troyes",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -46,7 +46,7 @@
       "match": "Espanyol at Athletic Club",
       "match_id": "espn:esp.1:401882805",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-11-18T22:03:17.820165+00:00",
+      "observed_at_utc": "2026-11-19T03:36:54.144270+00:00",
       "resolved_history_away_team": "Espanol",
       "resolved_history_home_team": "Ath Bilbao",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -59,5 +59,5 @@
     "prospective_picks": 21,
     "unmapped_or_unsupported": 0
   },
-  "updated_utc": "2026-11-18T22:03:15.146171+00:00"
+  "updated_utc": "2026-11-19T03:36:51.141279+00:00"
 }
