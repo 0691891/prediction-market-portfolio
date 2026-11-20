@@ -1,74 +1,6 @@
 {
-  "updated_utc": "2026-11-20T13:03:26.231073+00:00",
+  "updated_utc": "2026-11-20T21:13:43.560761+00:00",
   "candidates": [
-    {
-      "match_id": "espn:ger.1:401884736",
-      "match": "FC Cologne at Bayern Munich",
-      "kickoff_utc": "2026-11-20T19:30Z",
-      "event_ticker": "KXBUNDESLIGAGAME-26NOV20BMUKOE",
-      "candidate_markets": [
-        {
-          "ticker": "KXBUNDESLIGAGAME-26NOV20BMUKOE-BMU",
-          "title": "Bayern Munich wins",
-          "yes_ask_usd": 0.91,
-          "no_ask_usd": 0.1,
-          "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
-        },
-        {
-          "ticker": "KXBUNDESLIGAGAME-26NOV20BMUKOE-KOE",
-          "title": "FC Köln wins",
-          "yes_ask_usd": 0.04,
-          "no_ask_usd": 0.97,
-          "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
-        },
-        {
-          "ticker": "KXBUNDESLIGAGAME-26NOV20BMUKOE-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.07,
-          "no_ask_usd": 0.94,
-          "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    },
-    {
-      "match_id": "espn:fra.1:401876395",
-      "match": "Le Havre AC at Troyes",
-      "kickoff_utc": "2026-11-20T19:45Z",
-      "event_ticker": "KXLIGUE1GAME-26NOV20ESTHAC",
-      "candidate_markets": [
-        {
-          "ticker": "KXLIGUE1GAME-26NOV20ESTHAC-EST",
-          "title": "Troyes wins",
-          "yes_ask_usd": 0.44,
-          "no_ask_usd": 0.57,
-          "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
-        },
-        {
-          "ticker": "KXLIGUE1GAME-26NOV20ESTHAC-HAC",
-          "title": "Le Havre wins",
-          "yes_ask_usd": 0.28,
-          "no_ask_usd": 0.73,
-          "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
-        },
-        {
-          "ticker": "KXLIGUE1GAME-26NOV20ESTHAC-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.29,
-          "no_ask_usd": 0.72,
-          "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    },
     {
       "match_id": "espn:esp.1:401882806",
       "match": "Deportivo at Alavés",
@@ -81,23 +13,23 @@
           "yes_ask_usd": 0.44,
           "no_ask_usd": 0.57,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26NOV21ALADEP-DEP",
           "title": "Deportivo De La Coruna wins",
-          "yes_ask_usd": 0.28,
-          "no_ask_usd": 0.73,
+          "yes_ask_usd": 0.27,
+          "no_ask_usd": 0.74,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26NOV21ALADEP-TIE",
           "title": "Tie is the result",
-          "yes_ask_usd": 0.29,
+          "yes_ask_usd": 0.3,
           "no_ask_usd": 0.72,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -115,23 +47,23 @@
           "yes_ask_usd": 0.18,
           "no_ask_usd": 0.83,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         },
         {
           "ticker": "KXBUNDESLIGAGAME-26NOV21BMGBVB-BVB",
           "title": "Dortmund wins",
-          "yes_ask_usd": 0.63,
-          "no_ask_usd": 0.39,
+          "yes_ask_usd": 0.61,
+          "no_ask_usd": 0.4,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         },
         {
           "ticker": "KXBUNDESLIGAGAME-26NOV21BMGBVB-TIE",
           "title": "Tie is the result",
-          "yes_ask_usd": 0.21,
-          "no_ask_usd": 0.8,
+          "yes_ask_usd": 0.22,
+          "no_ask_usd": 0.79,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -146,18 +78,18 @@
         {
           "ticker": "KXBUNDESLIGAGAME-26NOV21SVESCF-SCF",
           "title": "Freiburg wins",
-          "yes_ask_usd": 0.5,
+          "yes_ask_usd": 0.49,
           "no_ask_usd": 0.52,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         },
         {
           "ticker": "KXBUNDESLIGAGAME-26NOV21SVESCF-SVE",
           "title": "Elversberg wins",
-          "yes_ask_usd": 0.26,
-          "no_ask_usd": 0.75,
+          "yes_ask_usd": 0.27,
+          "no_ask_usd": 0.74,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         },
         {
           "ticker": "KXBUNDESLIGAGAME-26NOV21SVESCF-TIE",
@@ -165,7 +97,7 @@
           "yes_ask_usd": 0.26,
           "no_ask_usd": 0.76,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -183,7 +115,7 @@
           "yes_ask_usd": 0.41,
           "no_ask_usd": 0.6,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26NOV21SEVRBB-SEV",
@@ -191,83 +123,15 @@
           "yes_ask_usd": 0.32,
           "no_ask_usd": 0.69,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26NOV21SEVRBB-TIE",
           "title": "Tie is the result",
           "yes_ask_usd": 0.29,
-          "no_ask_usd": 0.73,
+          "no_ask_usd": 0.72,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    },
-    {
-      "match_id": "espn:fra.1:401876399",
-      "match": "AJ Auxerre at AS Monaco",
-      "kickoff_utc": "2026-11-21T19:45Z",
-      "event_ticker": "KXLIGUE1GAME-26NOV21ASMAUX",
-      "candidate_markets": [
-        {
-          "ticker": "KXLIGUE1GAME-26NOV21ASMAUX-ASM",
-          "title": "Monaco wins",
-          "yes_ask_usd": 0.7,
-          "no_ask_usd": 0.32,
-          "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
-        },
-        {
-          "ticker": "KXLIGUE1GAME-26NOV21ASMAUX-AUX",
-          "title": "Auxerre wins",
-          "yes_ask_usd": 0.13,
-          "no_ask_usd": 0.88,
-          "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
-        },
-        {
-          "ticker": "KXLIGUE1GAME-26NOV21ASMAUX-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.18,
-          "no_ask_usd": 0.83,
-          "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    },
-    {
-      "match_id": "espn:fra.1:401876396",
-      "match": "Brest at Strasbourg",
-      "kickoff_utc": "2026-11-21T19:45Z",
-      "event_ticker": "KXLIGUE1GAME-26NOV21RCSSTB",
-      "candidate_markets": [
-        {
-          "ticker": "KXLIGUE1GAME-26NOV21RCSSTB-RCS",
-          "title": "Strasbourg Alsace wins",
-          "yes_ask_usd": 0.43,
-          "no_ask_usd": 0.58,
-          "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
-        },
-        {
-          "ticker": "KXLIGUE1GAME-26NOV21RCSSTB-STB",
-          "title": "Stade Brest 29 wins",
-          "yes_ask_usd": 0.31,
-          "no_ask_usd": 0.7,
-          "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
-        },
-        {
-          "ticker": "KXLIGUE1GAME-26NOV21RCSSTB-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.26,
-          "no_ask_usd": 0.75,
-          "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -285,7 +149,7 @@
           "yes_ask_usd": 0.06,
           "no_ask_usd": 0.95,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26NOV21RMARCC-RMA",
@@ -293,7 +157,7 @@
           "yes_ask_usd": 0.86,
           "no_ask_usd": 0.15,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26NOV21RMARCC-TIE",
@@ -301,7 +165,7 @@
           "yes_ask_usd": 0.11,
           "no_ask_usd": 0.9,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -316,60 +180,26 @@
         {
           "ticker": "KXLALIGAGAME-26NOV22BARVIL-BAR",
           "title": "Barcelona wins",
-          "yes_ask_usd": 0.83,
-          "no_ask_usd": 0.18,
+          "yes_ask_usd": 0.82,
+          "no_ask_usd": 0.19,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26NOV22BARVIL-TIE",
           "title": "Tie is the result",
-          "yes_ask_usd": 0.11,
-          "no_ask_usd": 0.9,
+          "yes_ask_usd": 0.12,
+          "no_ask_usd": 0.89,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26NOV22BARVIL-VIL",
           "title": "Villarreal wins",
-          "yes_ask_usd": 0.07,
-          "no_ask_usd": 0.94,
+          "yes_ask_usd": 0.08,
+          "no_ask_usd": 0.93,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    },
-    {
-      "match_id": "espn:fra.1:401876397",
-      "match": "Angers at Paris FC",
-      "kickoff_utc": "2026-11-22T14:00Z",
-      "event_ticker": "KXLIGUE1GAME-26NOV22PARANG",
-      "candidate_markets": [
-        {
-          "ticker": "KXLIGUE1GAME-26NOV22PARANG-ANG",
-          "title": "Angers wins",
-          "yes_ask_usd": 0.1,
-          "no_ask_usd": 0.91,
-          "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
-        },
-        {
-          "ticker": "KXLIGUE1GAME-26NOV22PARANG-PAR",
-          "title": "Paris FC wins",
-          "yes_ask_usd": 0.75,
-          "no_ask_usd": 0.27,
-          "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
-        },
-        {
-          "ticker": "KXLIGUE1GAME-26NOV22PARANG-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.17,
-          "no_ask_usd": 0.84,
-          "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -384,10 +214,10 @@
         {
           "ticker": "KXBUNDESLIGAGAME-26NOV22FCAM05-FCA",
           "title": "Augsburg wins",
-          "yes_ask_usd": 0.37,
+          "yes_ask_usd": 0.36,
           "no_ask_usd": 0.65,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         },
         {
           "ticker": "KXBUNDESLIGAGAME-26NOV22FCAM05-M05",
@@ -395,7 +225,7 @@
           "yes_ask_usd": 0.4,
           "no_ask_usd": 0.61,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         },
         {
           "ticker": "KXBUNDESLIGAGAME-26NOV22FCAM05-TIE",
@@ -403,41 +233,7 @@
           "yes_ask_usd": 0.25,
           "no_ask_usd": 0.76,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    },
-    {
-      "match_id": "espn:fra.1:401876401",
-      "match": "Stade Rennais at Lorient",
-      "kickoff_utc": "2026-11-22T16:15Z",
-      "event_ticker": "KXLIGUE1GAME-26NOV22FCLREN",
-      "candidate_markets": [
-        {
-          "ticker": "KXLIGUE1GAME-26NOV22FCLREN-FCL",
-          "title": "Lorient wins",
-          "yes_ask_usd": 0.34,
-          "no_ask_usd": 0.68,
-          "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
-        },
-        {
-          "ticker": "KXLIGUE1GAME-26NOV22FCLREN-REN",
-          "title": "Stade Rennais wins",
-          "yes_ask_usd": 0.4,
-          "no_ask_usd": 0.62,
-          "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
-        },
-        {
-          "ticker": "KXLIGUE1GAME-26NOV22FCLREN-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.28,
-          "no_ask_usd": 0.73,
-          "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -452,18 +248,18 @@
         {
           "ticker": "KXLALIGAGAME-26NOV22OSAMCF-MCF",
           "title": "Malaga wins",
-          "yes_ask_usd": 0.21,
+          "yes_ask_usd": 0.22,
           "no_ask_usd": 0.8,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26NOV22OSAMCF-OSA",
           "title": "Osasuna wins",
-          "yes_ask_usd": 0.53,
-          "no_ask_usd": 0.49,
+          "yes_ask_usd": 0.54,
+          "no_ask_usd": 0.48,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         },
         {
           "ticker": "KXLALIGAGAME-26NOV22OSAMCF-TIE",
@@ -471,41 +267,7 @@
           "yes_ask_usd": 0.27,
           "no_ask_usd": 0.74,
           "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    },
-    {
-      "match_id": "espn:fra.1:401876400",
-      "match": "Le Mans at Marseille",
-      "kickoff_utc": "2026-11-22T19:45Z",
-      "event_ticker": "KXLIGUE1GAME-26NOV22OLMMAN",
-      "candidate_markets": [
-        {
-          "ticker": "KXLIGUE1GAME-26NOV22OLMMAN-MAN",
-          "title": "Le Mans wins",
-          "yes_ask_usd": 0.15,
-          "no_ask_usd": 0.86,
-          "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
-        },
-        {
-          "ticker": "KXLIGUE1GAME-26NOV22OLMMAN-OLM",
-          "title": "Marseille wins",
-          "yes_ask_usd": 0.67,
-          "no_ask_usd": 0.35,
-          "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
-        },
-        {
-          "ticker": "KXLIGUE1GAME-26NOV22OLMMAN-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.2,
-          "no_ask_usd": 0.82,
-          "status": "active",
-          "fetched_utc": "2026-11-20T13:03:21.205482+00:00"
+          "fetched_utc": "2026-11-20T21:13:39.552922+00:00"
         }
       ],
       "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
@@ -513,7 +275,7 @@
     }
   ],
   "fixtures_scanned": 45,
-  "event_groups_scanned": 106,
+  "event_groups_scanned": 83,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }

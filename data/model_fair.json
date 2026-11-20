@@ -3,447 +3,6 @@
   "items": [
     {
       "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.825782,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 43,
-        "history_matches": 387,
-        "home_prior_matches": 43,
-        "league_goals_per_team": 1.6434
-      },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
-      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "lambda_away": 0.919,
-      "lambda_home": 3.3045,
-      "market_executable_verified": false,
-      "match_id": "espn:ger.1:401884736",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "espn:ger.1:401884736:HOME_WIN",
-      "selection": "HOME_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.106752,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 43,
-        "history_matches": 387,
-        "home_prior_matches": 43,
-        "league_goals_per_team": 1.6434
-      },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
-      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "lambda_away": 0.919,
-      "lambda_home": 3.3045,
-      "market_executable_verified": false,
-      "match_id": "espn:ger.1:401884736",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "espn:ger.1:401884736:DRAW",
-      "selection": "DRAW",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.067466,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 43,
-        "history_matches": 387,
-        "home_prior_matches": 43,
-        "league_goals_per_team": 1.6434
-      },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
-      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "lambda_away": 0.919,
-      "lambda_home": 3.3045,
-      "market_executable_verified": false,
-      "match_id": "espn:ger.1:401884736",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "espn:ger.1:401884736:AWAY_WIN",
-      "selection": "AWAY_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.792846,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 43,
-        "history_matches": 387,
-        "home_prior_matches": 43,
-        "league_goals_per_team": 1.6434
-      },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
-      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "lambda_away": 0.919,
-      "lambda_home": 3.3045,
-      "market_executable_verified": false,
-      "match_id": "espn:ger.1:401884736",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "espn:ger.1:401884736:OVER_2_5",
-      "selection": "OVER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.207154,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 43,
-        "history_matches": 387,
-        "home_prior_matches": 43,
-        "league_goals_per_team": 1.6434
-      },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
-      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "lambda_away": 0.919,
-      "lambda_home": 3.3045,
-      "market_executable_verified": false,
-      "match_id": "espn:ger.1:401884736",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "espn:ger.1:401884736:UNDER_2_5",
-      "selection": "UNDER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.57903,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 43,
-        "history_matches": 387,
-        "home_prior_matches": 43,
-        "league_goals_per_team": 1.6434
-      },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
-      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "lambda_away": 0.919,
-      "lambda_home": 3.3045,
-      "market_executable_verified": false,
-      "match_id": "espn:ger.1:401884736",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "espn:ger.1:401884736:BTTS_YES",
-      "selection": "BTTS_YES",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.42097,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 43,
-        "history_matches": 387,
-        "home_prior_matches": 43,
-        "league_goals_per_team": 1.6434
-      },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
-      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "lambda_away": 0.919,
-      "lambda_home": 3.3045,
-      "market_executable_verified": false,
-      "match_id": "espn:ger.1:401884736",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "espn:ger.1:401884736:BTTS_NO",
-      "selection": "BTTS_NO",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.406216,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 44,
-        "history_matches": 396,
-        "home_prior_matches": 10,
-        "league_goals_per_team": 1.4255
-      },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
-      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "lambda_away": 1.0729,
-      "lambda_home": 1.2608,
-      "market_executable_verified": false,
-      "match_id": "espn:fra.1:401876395",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "espn:fra.1:401876395:HOME_WIN",
-      "selection": "HOME_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.279668,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 44,
-        "history_matches": 396,
-        "home_prior_matches": 10,
-        "league_goals_per_team": 1.4255
-      },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
-      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "lambda_away": 1.0729,
-      "lambda_home": 1.2608,
-      "market_executable_verified": false,
-      "match_id": "espn:fra.1:401876395",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "espn:fra.1:401876395:DRAW",
-      "selection": "DRAW",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.314115,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 44,
-        "history_matches": 396,
-        "home_prior_matches": 10,
-        "league_goals_per_team": 1.4255
-      },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
-      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "lambda_away": 1.0729,
-      "lambda_home": 1.2608,
-      "market_executable_verified": false,
-      "match_id": "espn:fra.1:401876395",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "espn:fra.1:401876395:AWAY_WIN",
-      "selection": "AWAY_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.412876,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 44,
-        "history_matches": 396,
-        "home_prior_matches": 10,
-        "league_goals_per_team": 1.4255
-      },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
-      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "lambda_away": 1.0729,
-      "lambda_home": 1.2608,
-      "market_executable_verified": false,
-      "match_id": "espn:fra.1:401876395",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "espn:fra.1:401876395:OVER_2_5",
-      "selection": "OVER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.587124,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 44,
-        "history_matches": 396,
-        "home_prior_matches": 10,
-        "league_goals_per_team": 1.4255
-      },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
-      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "lambda_away": 1.0729,
-      "lambda_home": 1.2608,
-      "market_executable_verified": false,
-      "match_id": "espn:fra.1:401876395",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "espn:fra.1:401876395:UNDER_2_5",
-      "selection": "UNDER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.471493,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 44,
-        "history_matches": 396,
-        "home_prior_matches": 10,
-        "league_goals_per_team": 1.4255
-      },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
-      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "lambda_away": 1.0729,
-      "lambda_home": 1.2608,
-      "market_executable_verified": false,
-      "match_id": "espn:fra.1:401876395",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "espn:fra.1:401876395:BTTS_YES",
-      "selection": "BTTS_YES",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.528507,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 44,
-        "history_matches": 396,
-        "home_prior_matches": 10,
-        "league_goals_per_team": 1.4255
-      },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
-      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "lambda_away": 1.0729,
-      "lambda_home": 1.2608,
-      "market_executable_verified": false,
-      "match_id": "espn:fra.1:401876395",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "espn:fra.1:401876395:BTTS_NO",
-      "selection": "BTTS_NO",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.457306,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 50,
-        "history_matches": 499,
-        "home_prior_matches": 49,
-        "league_goals_per_team": 1.3707
-      },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
-      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "lambda_away": 0.9669,
-      "lambda_home": 1.3555,
-      "market_executable_verified": false,
-      "match_id": "espn:esp.1:401882805",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "espn:esp.1:401882805:HOME_WIN",
-      "selection": "HOME_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.275292,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 50,
-        "history_matches": 499,
-        "home_prior_matches": 49,
-        "league_goals_per_team": 1.3707
-      },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
-      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "lambda_away": 0.9669,
-      "lambda_home": 1.3555,
-      "market_executable_verified": false,
-      "match_id": "espn:esp.1:401882805",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "espn:esp.1:401882805:DRAW",
-      "selection": "DRAW",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.267401,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 50,
-        "history_matches": 499,
-        "home_prior_matches": 49,
-        "league_goals_per_team": 1.3707
-      },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
-      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "lambda_away": 0.9669,
-      "lambda_home": 1.3555,
-      "market_executable_verified": false,
-      "match_id": "espn:esp.1:401882805",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "espn:esp.1:401882805:AWAY_WIN",
-      "selection": "AWAY_WIN",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.409884,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 50,
-        "history_matches": 499,
-        "home_prior_matches": 49,
-        "league_goals_per_team": 1.3707
-      },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
-      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "lambda_away": 0.9669,
-      "lambda_home": 1.3555,
-      "market_executable_verified": false,
-      "match_id": "espn:esp.1:401882805",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "espn:esp.1:401882805:OVER_2_5",
-      "selection": "OVER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.590116,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 50,
-        "history_matches": 499,
-        "home_prior_matches": 49,
-        "league_goals_per_team": 1.3707
-      },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
-      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "lambda_away": 0.9669,
-      "lambda_home": 1.3555,
-      "market_executable_verified": false,
-      "match_id": "espn:esp.1:401882805",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "espn:esp.1:401882805:UNDER_2_5",
-      "selection": "UNDER_2_5",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.459949,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 50,
-        "history_matches": 499,
-        "home_prior_matches": 49,
-        "league_goals_per_team": 1.3707
-      },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
-      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "lambda_away": 0.9669,
-      "lambda_home": 1.3555,
-      "market_executable_verified": false,
-      "match_id": "espn:esp.1:401882805",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "espn:esp.1:401882805:BTTS_YES",
-      "selection": "BTTS_YES",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
-      "fair_probability": 0.540051,
-      "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
-      "feature_details": {
-        "away_prior_matches": 50,
-        "history_matches": 499,
-        "home_prior_matches": 49,
-        "league_goals_per_team": 1.3707
-      },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
-      "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "lambda_away": 0.9669,
-      "lambda_home": 1.3555,
-      "market_executable_verified": false,
-      "match_id": "espn:esp.1:401882805",
-      "model_version": "v0.4-independent-goals-research",
-      "pick_id": "espn:esp.1:401882805:BTTS_NO",
-      "selection": "BTTS_NO",
-      "status": "MODELLED"
-    },
-    {
-      "calibrated_for": "Historical core 1X2 params only; TOTALS/BTTS not validated",
       "fair_probability": 0.580557,
       "feature_cutoff_note": "Strictly before fixture calendar day; no current-day results",
       "feature_details": {
@@ -452,7 +11,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.9239,
       "lambda_home": 1.8018,
@@ -473,7 +32,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.9239,
       "lambda_home": 1.8018,
@@ -494,7 +53,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.9239,
       "lambda_home": 1.8018,
@@ -515,7 +74,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.9239,
       "lambda_home": 1.8018,
@@ -536,7 +95,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.9239,
       "lambda_home": 1.8018,
@@ -557,7 +116,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.9239,
       "lambda_home": 1.8018,
@@ -578,7 +137,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.9239,
       "lambda_home": 1.8018,
@@ -596,7 +155,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -614,7 +173,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -632,7 +191,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -650,7 +209,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -668,7 +227,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -686,7 +245,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -704,7 +263,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -725,7 +284,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.6953,
       "lambda_home": 1.9007,
@@ -746,7 +305,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.6953,
       "lambda_home": 1.9007,
@@ -767,7 +326,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.6953,
       "lambda_home": 1.9007,
@@ -788,7 +347,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.6953,
       "lambda_home": 1.9007,
@@ -809,7 +368,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.6953,
       "lambda_home": 1.9007,
@@ -830,7 +389,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.6953,
       "lambda_home": 1.9007,
@@ -851,7 +410,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.6953,
       "lambda_home": 1.9007,
@@ -872,7 +431,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.7747,
       "lambda_home": 2.2723,
@@ -893,7 +452,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.7747,
       "lambda_home": 2.2723,
@@ -914,7 +473,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.7747,
       "lambda_home": 2.2723,
@@ -935,7 +494,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.7747,
       "lambda_home": 2.2723,
@@ -956,7 +515,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.7747,
       "lambda_home": 2.2723,
@@ -977,7 +536,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.7747,
       "lambda_home": 2.2723,
@@ -998,7 +557,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.7747,
       "lambda_home": 2.2723,
@@ -1019,7 +578,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.4591,
       "lambda_home": 1.1628,
@@ -1040,7 +599,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.4591,
       "lambda_home": 1.1628,
@@ -1061,7 +620,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.4591,
       "lambda_home": 1.1628,
@@ -1082,7 +641,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.4591,
       "lambda_home": 1.1628,
@@ -1103,7 +662,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.4591,
       "lambda_home": 1.1628,
@@ -1124,7 +683,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.4591,
       "lambda_home": 1.1628,
@@ -1145,7 +704,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.4591,
       "lambda_home": 1.1628,
@@ -1163,7 +722,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -1181,7 +740,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -1199,7 +758,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -1217,7 +776,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -1235,7 +794,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -1253,7 +812,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -1271,7 +830,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -1292,7 +851,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.0471,
       "lambda_home": 0.9875,
@@ -1313,7 +872,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.0471,
       "lambda_home": 0.9875,
@@ -1334,7 +893,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.0471,
       "lambda_home": 0.9875,
@@ -1355,7 +914,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.0471,
       "lambda_home": 0.9875,
@@ -1376,7 +935,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.0471,
       "lambda_home": 0.9875,
@@ -1397,7 +956,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.0471,
       "lambda_home": 0.9875,
@@ -1418,7 +977,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.0471,
       "lambda_home": 0.9875,
@@ -1439,7 +998,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8973,
       "lambda_home": 1.8407,
@@ -1460,7 +1019,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8973,
       "lambda_home": 1.8407,
@@ -1481,7 +1040,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8973,
       "lambda_home": 1.8407,
@@ -1502,7 +1061,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8973,
       "lambda_home": 1.8407,
@@ -1523,7 +1082,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8973,
       "lambda_home": 1.8407,
@@ -1544,7 +1103,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8973,
       "lambda_home": 1.8407,
@@ -1565,7 +1124,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8973,
       "lambda_home": 1.8407,
@@ -1586,7 +1145,7 @@
         "home_prior_matches": 9,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8985,
       "lambda_home": 1.7101,
@@ -1607,7 +1166,7 @@
         "home_prior_matches": 9,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8985,
       "lambda_home": 1.7101,
@@ -1628,7 +1187,7 @@
         "home_prior_matches": 9,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8985,
       "lambda_home": 1.7101,
@@ -1649,7 +1208,7 @@
         "home_prior_matches": 9,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8985,
       "lambda_home": 1.7101,
@@ -1670,7 +1229,7 @@
         "home_prior_matches": 9,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8985,
       "lambda_home": 1.7101,
@@ -1691,7 +1250,7 @@
         "home_prior_matches": 9,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8985,
       "lambda_home": 1.7101,
@@ -1712,7 +1271,7 @@
         "home_prior_matches": 9,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8985,
       "lambda_home": 1.7101,
@@ -1733,7 +1292,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0835,
       "lambda_home": 1.588,
@@ -1754,7 +1313,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0835,
       "lambda_home": 1.588,
@@ -1775,7 +1334,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0835,
       "lambda_home": 1.588,
@@ -1796,7 +1355,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0835,
       "lambda_home": 1.588,
@@ -1817,7 +1376,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0835,
       "lambda_home": 1.588,
@@ -1838,7 +1397,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0835,
       "lambda_home": 1.588,
@@ -1859,7 +1418,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0835,
       "lambda_home": 1.588,
@@ -1880,7 +1439,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0659,
       "lambda_home": 1.7768,
@@ -1901,7 +1460,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0659,
       "lambda_home": 1.7768,
@@ -1922,7 +1481,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0659,
       "lambda_home": 1.7768,
@@ -1943,7 +1502,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0659,
       "lambda_home": 1.7768,
@@ -1964,7 +1523,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0659,
       "lambda_home": 1.7768,
@@ -1985,7 +1544,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0659,
       "lambda_home": 1.7768,
@@ -2006,7 +1565,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0659,
       "lambda_home": 1.7768,
@@ -2027,7 +1586,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1654,
       "lambda_home": 1.3889,
@@ -2048,7 +1607,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1654,
       "lambda_home": 1.3889,
@@ -2069,7 +1628,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1654,
       "lambda_home": 1.3889,
@@ -2090,7 +1649,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1654,
       "lambda_home": 1.3889,
@@ -2111,7 +1670,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1654,
       "lambda_home": 1.3889,
@@ -2132,7 +1691,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1654,
       "lambda_home": 1.3889,
@@ -2153,7 +1712,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1654,
       "lambda_home": 1.3889,
@@ -2171,7 +1730,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -2189,7 +1748,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -2207,7 +1766,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -2225,7 +1784,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -2243,7 +1802,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -2261,7 +1820,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -2279,7 +1838,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -2300,7 +1859,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2569,
       "lambda_home": 1.6345,
@@ -2321,7 +1880,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2569,
       "lambda_home": 1.6345,
@@ -2342,7 +1901,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2569,
       "lambda_home": 1.6345,
@@ -2363,7 +1922,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2569,
       "lambda_home": 1.6345,
@@ -2384,7 +1943,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2569,
       "lambda_home": 1.6345,
@@ -2405,7 +1964,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2569,
       "lambda_home": 1.6345,
@@ -2426,7 +1985,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2569,
       "lambda_home": 1.6345,
@@ -2444,7 +2003,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -2462,7 +2021,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -2480,7 +2039,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -2498,7 +2057,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -2516,7 +2075,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -2534,7 +2093,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -2552,7 +2111,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -2573,7 +2132,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8655,
       "lambda_home": 1.0572,
@@ -2594,7 +2153,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8655,
       "lambda_home": 1.0572,
@@ -2615,7 +2174,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8655,
       "lambda_home": 1.0572,
@@ -2636,7 +2195,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8655,
       "lambda_home": 1.0572,
@@ -2657,7 +2216,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8655,
       "lambda_home": 1.0572,
@@ -2678,7 +2237,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8655,
       "lambda_home": 1.0572,
@@ -2699,7 +2258,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8655,
       "lambda_home": 1.0572,
@@ -2720,7 +2279,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.0874,
       "lambda_home": 0.7739,
@@ -2741,7 +2300,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.0874,
       "lambda_home": 0.7739,
@@ -2762,7 +2321,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.0874,
       "lambda_home": 0.7739,
@@ -2783,7 +2342,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.0874,
       "lambda_home": 0.7739,
@@ -2804,7 +2363,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.0874,
       "lambda_home": 0.7739,
@@ -2825,7 +2384,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.0874,
       "lambda_home": 0.7739,
@@ -2846,7 +2405,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.0874,
       "lambda_home": 0.7739,
@@ -2867,7 +2426,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.5768,
       "lambda_home": 0.7975,
@@ -2888,7 +2447,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.5768,
       "lambda_home": 0.7975,
@@ -2909,7 +2468,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.5768,
       "lambda_home": 0.7975,
@@ -2930,7 +2489,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.5768,
       "lambda_home": 0.7975,
@@ -2951,7 +2510,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.5768,
       "lambda_home": 0.7975,
@@ -2972,7 +2531,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.5768,
       "lambda_home": 0.7975,
@@ -2993,7 +2552,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.5768,
       "lambda_home": 0.7975,
@@ -3014,7 +2573,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.641,
       "lambda_home": 1.3149,
@@ -3035,7 +2594,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.641,
       "lambda_home": 1.3149,
@@ -3056,7 +2615,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.641,
       "lambda_home": 1.3149,
@@ -3077,7 +2636,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.641,
       "lambda_home": 1.3149,
@@ -3098,7 +2657,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.641,
       "lambda_home": 1.3149,
@@ -3119,7 +2678,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.641,
       "lambda_home": 1.3149,
@@ -3140,7 +2699,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.641,
       "lambda_home": 1.3149,
@@ -3161,7 +2720,7 @@
         "home_prior_matches": 9,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.4537,
       "lambda_home": 0.976,
@@ -3182,7 +2741,7 @@
         "home_prior_matches": 9,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.4537,
       "lambda_home": 0.976,
@@ -3203,7 +2762,7 @@
         "home_prior_matches": 9,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.4537,
       "lambda_home": 0.976,
@@ -3224,7 +2783,7 @@
         "home_prior_matches": 9,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.4537,
       "lambda_home": 0.976,
@@ -3245,7 +2804,7 @@
         "home_prior_matches": 9,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.4537,
       "lambda_home": 0.976,
@@ -3266,7 +2825,7 @@
         "home_prior_matches": 9,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.4537,
       "lambda_home": 0.976,
@@ -3287,7 +2846,7 @@
         "home_prior_matches": 9,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.4537,
       "lambda_home": 0.976,
@@ -3308,7 +2867,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0968,
       "lambda_home": 1.9495,
@@ -3329,7 +2888,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0968,
       "lambda_home": 1.9495,
@@ -3350,7 +2909,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0968,
       "lambda_home": 1.9495,
@@ -3371,7 +2930,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0968,
       "lambda_home": 1.9495,
@@ -3392,7 +2951,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0968,
       "lambda_home": 1.9495,
@@ -3413,7 +2972,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0968,
       "lambda_home": 1.9495,
@@ -3434,7 +2993,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0968,
       "lambda_home": 1.9495,
@@ -3455,7 +3014,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1479,
       "lambda_home": 1.9677,
@@ -3476,7 +3035,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1479,
       "lambda_home": 1.9677,
@@ -3497,7 +3056,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1479,
       "lambda_home": 1.9677,
@@ -3518,7 +3077,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1479,
       "lambda_home": 1.9677,
@@ -3539,7 +3098,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1479,
       "lambda_home": 1.9677,
@@ -3560,7 +3119,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1479,
       "lambda_home": 1.9677,
@@ -3581,7 +3140,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1479,
       "lambda_home": 1.9677,
@@ -3602,7 +3161,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2523,
       "lambda_home": 1.8059,
@@ -3623,7 +3182,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2523,
       "lambda_home": 1.8059,
@@ -3644,7 +3203,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2523,
       "lambda_home": 1.8059,
@@ -3665,7 +3224,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2523,
       "lambda_home": 1.8059,
@@ -3686,7 +3245,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2523,
       "lambda_home": 1.8059,
@@ -3707,7 +3266,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2523,
       "lambda_home": 1.8059,
@@ -3728,7 +3287,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2523,
       "lambda_home": 1.8059,
@@ -3749,7 +3308,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.9099,
       "lambda_home": 1.2524,
@@ -3770,7 +3329,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.9099,
       "lambda_home": 1.2524,
@@ -3791,7 +3350,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.9099,
       "lambda_home": 1.2524,
@@ -3812,7 +3371,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.9099,
       "lambda_home": 1.2524,
@@ -3833,7 +3392,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.9099,
       "lambda_home": 1.2524,
@@ -3854,7 +3413,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.9099,
       "lambda_home": 1.2524,
@@ -3875,7 +3434,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.9099,
       "lambda_home": 1.2524,
@@ -3896,7 +3455,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.7601,
       "lambda_home": 1.7825,
@@ -3917,7 +3476,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.7601,
       "lambda_home": 1.7825,
@@ -3938,7 +3497,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.7601,
       "lambda_home": 1.7825,
@@ -3959,7 +3518,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.7601,
       "lambda_home": 1.7825,
@@ -3980,7 +3539,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.7601,
       "lambda_home": 1.7825,
@@ -4001,7 +3560,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.7601,
       "lambda_home": 1.7825,
@@ -4022,7 +3581,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.7601,
       "lambda_home": 1.7825,
@@ -4043,7 +3602,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.7418,
       "lambda_home": 1.8569,
@@ -4064,7 +3623,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.7418,
       "lambda_home": 1.8569,
@@ -4085,7 +3644,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.7418,
       "lambda_home": 1.8569,
@@ -4106,7 +3665,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.7418,
       "lambda_home": 1.8569,
@@ -4127,7 +3686,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.7418,
       "lambda_home": 1.8569,
@@ -4148,7 +3707,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.7418,
       "lambda_home": 1.8569,
@@ -4169,7 +3728,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.7418,
       "lambda_home": 1.8569,
@@ -4190,7 +3749,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.7033,
       "lambda_home": 1.9608,
@@ -4211,7 +3770,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.7033,
       "lambda_home": 1.9608,
@@ -4232,7 +3791,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.7033,
       "lambda_home": 1.9608,
@@ -4253,7 +3812,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.7033,
       "lambda_home": 1.9608,
@@ -4274,7 +3833,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.7033,
       "lambda_home": 1.9608,
@@ -4295,7 +3854,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.7033,
       "lambda_home": 1.9608,
@@ -4316,7 +3875,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.7033,
       "lambda_home": 1.9608,
@@ -4337,7 +3896,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1547,
       "lambda_home": 2.8197,
@@ -4358,7 +3917,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1547,
       "lambda_home": 2.8197,
@@ -4379,7 +3938,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1547,
       "lambda_home": 2.8197,
@@ -4400,7 +3959,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1547,
       "lambda_home": 2.8197,
@@ -4421,7 +3980,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1547,
       "lambda_home": 2.8197,
@@ -4442,7 +4001,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1547,
       "lambda_home": 2.8197,
@@ -4463,7 +4022,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1547,
       "lambda_home": 2.8197,
@@ -4481,7 +4040,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -4499,7 +4058,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -4517,7 +4076,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -4535,7 +4094,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -4553,7 +4112,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -4571,7 +4130,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -4589,7 +4148,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -4610,7 +4169,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0489,
       "lambda_home": 1.9652,
@@ -4631,7 +4190,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0489,
       "lambda_home": 1.9652,
@@ -4652,7 +4211,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0489,
       "lambda_home": 1.9652,
@@ -4673,7 +4232,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0489,
       "lambda_home": 1.9652,
@@ -4694,7 +4253,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0489,
       "lambda_home": 1.9652,
@@ -4715,7 +4274,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0489,
       "lambda_home": 1.9652,
@@ -4736,7 +4295,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0489,
       "lambda_home": 1.9652,
@@ -4757,7 +4316,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.5308,
       "lambda_home": 1.459,
@@ -4778,7 +4337,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.5308,
       "lambda_home": 1.459,
@@ -4799,7 +4358,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.5308,
       "lambda_home": 1.459,
@@ -4820,7 +4379,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.5308,
       "lambda_home": 1.459,
@@ -4841,7 +4400,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.5308,
       "lambda_home": 1.459,
@@ -4862,7 +4421,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.5308,
       "lambda_home": 1.459,
@@ -4883,7 +4442,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.5308,
       "lambda_home": 1.459,
@@ -4904,7 +4463,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.764,
       "lambda_home": 2.0139,
@@ -4925,7 +4484,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.764,
       "lambda_home": 2.0139,
@@ -4946,7 +4505,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.764,
       "lambda_home": 2.0139,
@@ -4967,7 +4526,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.764,
       "lambda_home": 2.0139,
@@ -4988,7 +4547,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.764,
       "lambda_home": 2.0139,
@@ -5009,7 +4568,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.764,
       "lambda_home": 2.0139,
@@ -5030,7 +4589,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 0.764,
       "lambda_home": 2.0139,
@@ -5051,7 +4610,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8591,
       "lambda_home": 2.1074,
@@ -5072,7 +4631,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8591,
       "lambda_home": 2.1074,
@@ -5093,7 +4652,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8591,
       "lambda_home": 2.1074,
@@ -5114,7 +4673,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8591,
       "lambda_home": 2.1074,
@@ -5135,7 +4694,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8591,
       "lambda_home": 2.1074,
@@ -5156,7 +4715,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8591,
       "lambda_home": 2.1074,
@@ -5177,7 +4736,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.8591,
       "lambda_home": 2.1074,
@@ -5195,7 +4754,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -5213,7 +4772,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -5231,7 +4790,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -5249,7 +4808,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -5267,7 +4826,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -5285,7 +4844,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -5303,7 +4862,7 @@
       "feature_details": {
         "reason": "MISSING_HISTORY_OR_TEAM_ALIAS"
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": null,
       "lambda_home": null,
@@ -5324,7 +4883,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.3601,
       "lambda_home": 1.6366,
@@ -5345,7 +4904,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.3601,
       "lambda_home": 1.6366,
@@ -5366,7 +4925,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.3601,
       "lambda_home": 1.6366,
@@ -5387,7 +4946,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.3601,
       "lambda_home": 1.6366,
@@ -5408,7 +4967,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.3601,
       "lambda_home": 1.6366,
@@ -5429,7 +4988,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.3601,
       "lambda_home": 1.6366,
@@ -5450,7 +5009,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.3601,
       "lambda_home": 1.6366,
@@ -5471,7 +5030,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2968,
       "lambda_home": 1.8423,
@@ -5492,7 +5051,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2968,
       "lambda_home": 1.8423,
@@ -5513,7 +5072,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2968,
       "lambda_home": 1.8423,
@@ -5534,7 +5093,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2968,
       "lambda_home": 1.8423,
@@ -5555,7 +5114,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2968,
       "lambda_home": 1.8423,
@@ -5576,7 +5135,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2968,
       "lambda_home": 1.8423,
@@ -5597,7 +5156,7 @@
         "home_prior_matches": 48,
         "league_goals_per_team": 1.3729
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2968,
       "lambda_home": 1.8423,
@@ -5618,7 +5177,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2233,
       "lambda_home": 1.8211,
@@ -5639,7 +5198,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2233,
       "lambda_home": 1.8211,
@@ -5660,7 +5219,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2233,
       "lambda_home": 1.8211,
@@ -5681,7 +5240,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2233,
       "lambda_home": 1.8211,
@@ -5702,7 +5261,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2233,
       "lambda_home": 1.8211,
@@ -5723,7 +5282,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2233,
       "lambda_home": 1.8211,
@@ -5744,7 +5303,7 @@
         "home_prior_matches": 43,
         "league_goals_per_team": 1.6434
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.2233,
       "lambda_home": 1.8211,
@@ -5765,7 +5324,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.6214,
       "lambda_home": 1.8914,
@@ -5786,7 +5345,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.6214,
       "lambda_home": 1.8914,
@@ -5807,7 +5366,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.6214,
       "lambda_home": 1.8914,
@@ -5828,7 +5387,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.6214,
       "lambda_home": 1.8914,
@@ -5849,7 +5408,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.6214,
       "lambda_home": 1.8914,
@@ -5870,7 +5429,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.6214,
       "lambda_home": 1.8914,
@@ -5891,7 +5450,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.6214,
       "lambda_home": 1.8914,
@@ -5912,7 +5471,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0805,
       "lambda_home": 1.5942,
@@ -5933,7 +5492,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0805,
       "lambda_home": 1.5942,
@@ -5954,7 +5513,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0805,
       "lambda_home": 1.5942,
@@ -5975,7 +5534,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0805,
       "lambda_home": 1.5942,
@@ -5996,7 +5555,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0805,
       "lambda_home": 1.5942,
@@ -6017,7 +5576,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0805,
       "lambda_home": 1.5942,
@@ -6038,7 +5597,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.0805,
       "lambda_home": 1.5942,
@@ -6059,7 +5618,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.2402,
       "lambda_home": 1.339,
@@ -6080,7 +5639,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.2402,
       "lambda_home": 1.339,
@@ -6101,7 +5660,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.2402,
       "lambda_home": 1.339,
@@ -6122,7 +5681,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.2402,
       "lambda_home": 1.339,
@@ -6143,7 +5702,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.2402,
       "lambda_home": 1.339,
@@ -6164,7 +5723,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.2402,
       "lambda_home": 1.339,
@@ -6185,7 +5744,7 @@
         "home_prior_matches": 49,
         "league_goals_per_team": 1.2898
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 2.2402,
       "lambda_home": 1.339,
@@ -6206,7 +5765,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1123,
       "lambda_home": 2.4468,
@@ -6227,7 +5786,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1123,
       "lambda_home": 2.4468,
@@ -6248,7 +5807,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1123,
       "lambda_home": 2.4468,
@@ -6269,7 +5828,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1123,
       "lambda_home": 2.4468,
@@ -6290,7 +5849,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1123,
       "lambda_home": 2.4468,
@@ -6311,7 +5870,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1123,
       "lambda_home": 2.4468,
@@ -6332,7 +5891,7 @@
         "home_prior_matches": 44,
         "league_goals_per_team": 1.4255
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.1123,
       "lambda_home": 2.4468,
@@ -6353,7 +5912,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.4396,
       "lambda_home": 0.77,
@@ -6374,7 +5933,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.4396,
       "lambda_home": 0.77,
@@ -6395,7 +5954,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.4396,
       "lambda_home": 0.77,
@@ -6416,7 +5975,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.4396,
       "lambda_home": 0.77,
@@ -6437,7 +5996,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.4396,
       "lambda_home": 0.77,
@@ -6458,7 +6017,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.4396,
       "lambda_home": 0.77,
@@ -6479,7 +6038,7 @@
         "home_prior_matches": 50,
         "league_goals_per_team": 1.3707
       },
-      "feature_snapshot_utc": "2026-11-20T13:03:04.280662+00:00",
+      "feature_snapshot_utc": "2026-11-20T21:13:20.783694+00:00",
       "fixture_source_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
       "lambda_away": 1.4396,
       "lambda_home": 0.77,
@@ -6493,5 +6052,5 @@
   ],
   "limitations": "Historical 1X2 tuned parameters do not validate O/U/BTTS or demonstrate edge; old holdout 1X2 paper proxy lost money.",
   "model": "v0.4-independent-goals-research",
-  "updated_utc": "2026-11-20T13:03:04.280662+00:00"
+  "updated_utc": "2026-11-20T21:13:20.783694+00:00"
 }
