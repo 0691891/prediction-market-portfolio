@@ -2226,8 +2226,260 @@
       "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
       "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=100",
       "observed_utc": "2026-11-21T16:23:13.764886+00:00"
+    },
+    {
+      "match_id": "espn:eng.1:401879238",
+      "competition": "Premier League",
+      "match": "Nottingham Forest at AFC Bournemouth",
+      "kickoff_utc": "2026-11-21T15:00Z",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T21:53:47.983867+00:00"
+    },
+    {
+      "match_id": "espn:eng.1:401878756",
+      "competition": "Premier League",
+      "match": "Sunderland at Aston Villa",
+      "kickoff_utc": "2026-11-21T15:00Z",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T21:53:47.983867+00:00"
+    },
+    {
+      "match_id": "espn:eng.1:401879236",
+      "competition": "Premier League",
+      "match": "Leeds United at Chelsea",
+      "kickoff_utc": "2026-11-21T15:00Z",
+      "score": {
+        "home": 1,
+        "away": 4
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T21:53:47.983867+00:00"
+    },
+    {
+      "match_id": "espn:eng.1:401879235",
+      "competition": "Premier League",
+      "match": "Crystal Palace at Coventry City",
+      "kickoff_utc": "2026-11-21T15:00Z",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T21:53:47.983867+00:00"
+    },
+    {
+      "match_id": "espn:eng.1:401878754",
+      "competition": "Premier League",
+      "match": "Ipswich Town at Tottenham Hotspur",
+      "kickoff_utc": "2026-11-21T15:00Z",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T21:53:47.983867+00:00"
+    },
+    {
+      "match_id": "espn:eng.1:401879232",
+      "competition": "Premier League",
+      "match": "Arsenal at Newcastle United",
+      "kickoff_utc": "2026-11-21T17:30Z",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T21:53:47.983867+00:00"
+    },
+    {
+      "match_id": "espn:esp.1:401882799",
+      "competition": "La Liga",
+      "match": "Valencia at Rayo Vallecano",
+      "kickoff_utc": "2026-11-21T15:15Z",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T21:53:47.983867+00:00"
+    },
+    {
+      "match_id": "espn:esp.1:401882797",
+      "competition": "La Liga",
+      "match": "Real Betis at Sevilla",
+      "kickoff_utc": "2026-11-21T17:30Z",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T21:53:47.983867+00:00"
+    },
+    {
+      "match_id": "espn:ita.1:401874967",
+      "competition": "Serie A",
+      "match": "AS Roma at Parma",
+      "kickoff_utc": "2026-11-21T17:00Z",
+      "score": {
+        "home": 1,
+        "away": 5
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T21:53:47.983867+00:00"
+    },
+    {
+      "match_id": "espn:ita.1:401875067",
+      "competition": "Serie A",
+      "match": "Torino at Napoli",
+      "kickoff_utc": "2026-11-21T19:45Z",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T21:53:47.983867+00:00"
+    },
+    {
+      "match_id": "espn:ger.1:401884732",
+      "competition": "Bundesliga",
+      "match": "RB Leipzig at 1. FC Union Berlin",
+      "kickoff_utc": "2026-11-21T14:30Z",
+      "score": {
+        "home": 1,
+        "away": 5
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T21:53:47.983867+00:00"
+    },
+    {
+      "match_id": "espn:ger.1:401884734",
+      "competition": "Bundesliga",
+      "match": "TSG Hoffenheim at Eintracht Frankfurt",
+      "kickoff_utc": "2026-11-21T14:30Z",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T21:53:47.983867+00:00"
+    },
+    {
+      "match_id": "espn:ger.1:401884729",
+      "competition": "Bundesliga",
+      "match": "VfB Stuttgart at Schalke 04",
+      "kickoff_utc": "2026-11-21T17:30Z",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T21:53:47.983867+00:00"
+    },
+    {
+      "match_id": "espn:fra.1:401876398",
+      "competition": "Ligue 1",
+      "match": "Paris Saint-Germain at Nice",
+      "kickoff_utc": "2026-11-21T16:15Z",
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T21:53:47.983867+00:00"
+    },
+    {
+      "match_id": "espn:fra.1:401876399",
+      "competition": "Ligue 1",
+      "match": "AJ Auxerre at AS Monaco",
+      "kickoff_utc": "2026-11-21T19:45Z",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T21:53:47.983867+00:00"
+    },
+    {
+      "match_id": "espn:fra.1:401876403",
+      "competition": "Ligue 1",
+      "match": "Toulouse at Lens",
+      "kickoff_utc": "2026-11-21T19:45Z",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T21:53:47.983867+00:00"
+    },
+    {
+      "match_id": "espn:fra.1:401876402",
+      "competition": "Ligue 1",
+      "match": "Lyon at Lille",
+      "kickoff_utc": "2026-11-21T19:45Z",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T21:53:47.983867+00:00"
+    },
+    {
+      "match_id": "espn:fra.1:401876396",
+      "competition": "Ligue 1",
+      "match": "Brest at Strasbourg",
+      "kickoff_utc": "2026-11-21T19:45Z",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T21:53:47.983867+00:00"
     }
   ],
   "note": "Only independently verified FT, correct 90min and settlement semantics; never inferred from prior recommendations.",
-  "updated_utc": "2026-11-21T16:23:13.764886+00:00"
+  "updated_utc": "2026-11-21T21:53:47.983867+00:00"
 }
