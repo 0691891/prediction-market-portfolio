@@ -2128,8 +2128,106 @@
       "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
       "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261120&limit=100",
       "observed_utc": "2026-11-21T00:15:25.672160+00:00"
+    },
+    {
+      "match_id": "espn:eng.1:401879233",
+      "competition": "Premier League",
+      "match": "Fulham at Manchester City",
+      "kickoff_utc": "2026-11-21T12:30Z",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T16:23:13.764886+00:00"
+    },
+    {
+      "match_id": "espn:esp.1:401882806",
+      "competition": "La Liga",
+      "match": "Deportivo at Alavés",
+      "kickoff_utc": "2026-11-21T13:00Z",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T16:23:13.764886+00:00"
+    },
+    {
+      "match_id": "espn:ita.1:401875056",
+      "competition": "Serie A",
+      "match": "Cagliari at Como",
+      "kickoff_utc": "2026-11-21T14:00Z",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T16:23:13.764886+00:00"
+    },
+    {
+      "match_id": "espn:ita.1:401874981",
+      "competition": "Serie A",
+      "match": "Lecce at Lazio",
+      "kickoff_utc": "2026-11-21T14:00Z",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T16:23:13.764886+00:00"
+    },
+    {
+      "match_id": "espn:ger.1:401884735",
+      "competition": "Bundesliga",
+      "match": "SC Paderborn 07 at Bayer Leverkusen",
+      "kickoff_utc": "2026-11-21T14:30Z",
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T16:23:13.764886+00:00"
+    },
+    {
+      "match_id": "espn:ger.1:401884731",
+      "competition": "Bundesliga",
+      "match": "Borussia Dortmund at Borussia Mönchengladbach",
+      "kickoff_utc": "2026-11-21T14:30Z",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T16:23:13.764886+00:00"
+    },
+    {
+      "match_id": "espn:ger.1:401884728",
+      "competition": "Bundesliga",
+      "match": "SC Freiburg at SV Elversberg",
+      "kickoff_utc": "2026-11-21T14:30Z",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261121&limit=100",
+      "observed_utc": "2026-11-21T16:23:13.764886+00:00"
     }
   ],
   "note": "Only independently verified FT, correct 90min and settlement semantics; never inferred from prior recommendations.",
-  "updated_utc": "2026-11-21T07:42:49.868706+00:00"
+  "updated_utc": "2026-11-21T16:23:13.764886+00:00"
 }
