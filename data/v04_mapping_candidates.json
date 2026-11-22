@@ -1,77 +1,8 @@
 {
-  "updated_utc": "2026-11-22T15:26:28.866767+00:00",
-  "candidates": [
-    {
-      "match_id": "espn:esp.1:401882801",
-      "match": "Málaga at Osasuna",
-      "kickoff_utc": "2026-11-22T17:30Z",
-      "event_ticker": "KXLALIGAGAME-26NOV22OSAMCF",
-      "candidate_markets": [
-        {
-          "ticker": "KXLALIGAGAME-26NOV22OSAMCF-MCF",
-          "title": "Malaga wins",
-          "yes_ask_usd": 0.21,
-          "no_ask_usd": 0.8,
-          "status": "active",
-          "fetched_utc": "2026-11-22T15:26:23.236758+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26NOV22OSAMCF-OSA",
-          "title": "Osasuna wins",
-          "yes_ask_usd": 0.54,
-          "no_ask_usd": 0.47,
-          "status": "active",
-          "fetched_utc": "2026-11-22T15:26:23.236758+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26NOV22OSAMCF-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.27,
-          "no_ask_usd": 0.74,
-          "status": "active",
-          "fetched_utc": "2026-11-22T15:26:23.236758+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    },
-    {
-      "match_id": "espn:esp.1:401882802",
-      "match": "Elche at Levante",
-      "kickoff_utc": "2026-11-23T20:00Z",
-      "event_ticker": "KXLALIGAGAME-26NOV23LEVELC",
-      "candidate_markets": [
-        {
-          "ticker": "KXLALIGAGAME-26NOV23LEVELC-ELC",
-          "title": "Elche wins",
-          "yes_ask_usd": 0.3,
-          "no_ask_usd": 0.72,
-          "status": "active",
-          "fetched_utc": "2026-11-22T15:26:23.236758+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26NOV23LEVELC-LEV",
-          "title": "Levante wins",
-          "yes_ask_usd": 0.45,
-          "no_ask_usd": 0.57,
-          "status": "active",
-          "fetched_utc": "2026-11-22T15:26:23.236758+00:00"
-        },
-        {
-          "ticker": "KXLALIGAGAME-26NOV23LEVELC-TIE",
-          "title": "Tie is the result",
-          "yes_ask_usd": 0.27,
-          "no_ask_usd": 0.74,
-          "status": "active",
-          "fetched_utc": "2026-11-22T15:26:23.236758+00:00"
-        }
-      ],
-      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
-      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
-    }
-  ],
+  "updated_utc": "2026-11-22T21:52:40.387611+00:00",
+  "candidates": [],
   "fixtures_scanned": 28,
-  "event_groups_scanned": 56,
+  "event_groups_scanned": 39,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }

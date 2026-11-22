@@ -14,7 +14,7 @@
       "match": "Venezia at Juventus",
       "match_id": "espn:ita.1:401875008",
       "model_fair_status": "MATCH_ALREADY_STARTED_NO_RETRO_PREDICTION",
-      "observed_at_utc": "2026-11-22T15:26:07.626155+00:00",
+      "observed_at_utc": "2026-11-22T21:52:18.264975+00:00",
       "resolved_history_away_team": "Venezia",
       "resolved_history_home_team": "Juventus",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -30,7 +30,7 @@
       "match": "Villarreal at Barcelona",
       "match_id": "espn:esp.1:401882804",
       "model_fair_status": "MATCH_ALREADY_STARTED_NO_RETRO_PREDICTION",
-      "observed_at_utc": "2026-11-22T15:26:07.626155+00:00",
+      "observed_at_utc": "2026-11-22T21:52:18.264975+00:00",
       "resolved_history_away_team": "Villarreal",
       "resolved_history_home_team": "Barcelona",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -46,11 +46,11 @@
       "match": "Brighton & Hove Albion at Hull City",
       "match_id": "espn:eng.1:401879234",
       "model_fair_status": "MATCH_ALREADY_STARTED_NO_RETRO_PREDICTION",
-      "observed_at_utc": "2026-11-22T15:26:07.626155+00:00",
+      "observed_at_utc": "2026-11-22T21:52:18.264975+00:00",
       "resolved_history_away_team": "Brighton",
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "in"
+      "state": "post"
     },
     {
       "away_team": "Udinese",
@@ -62,11 +62,11 @@
       "match": "Udinese at Bologna",
       "match_id": "espn:ita.1:401875047",
       "model_fair_status": "MATCH_ALREADY_STARTED_NO_RETRO_PREDICTION",
-      "observed_at_utc": "2026-11-22T15:26:07.626155+00:00",
+      "observed_at_utc": "2026-11-22T21:52:18.264975+00:00",
       "resolved_history_away_team": "Udinese",
       "resolved_history_home_team": "Bologna",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "in"
+      "state": "post"
     },
     {
       "away_team": "Genoa",
@@ -78,11 +78,11 @@
       "match": "Genoa at Sassuolo",
       "match_id": "espn:ita.1:401874960",
       "model_fair_status": "MATCH_ALREADY_STARTED_NO_RETRO_PREDICTION",
-      "observed_at_utc": "2026-11-22T15:26:07.626155+00:00",
+      "observed_at_utc": "2026-11-22T21:52:18.264975+00:00",
       "resolved_history_away_team": "Genoa",
       "resolved_history_home_team": "Sassuolo",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "in"
+      "state": "post"
     },
     {
       "away_team": "Angers",
@@ -94,11 +94,11 @@
       "match": "Angers at Paris FC",
       "match_id": "espn:fra.1:401876397",
       "model_fair_status": "MATCH_ALREADY_STARTED_NO_RETRO_PREDICTION",
-      "observed_at_utc": "2026-11-22T15:26:07.626155+00:00",
+      "observed_at_utc": "2026-11-22T21:52:18.264975+00:00",
       "resolved_history_away_team": "Angers",
       "resolved_history_home_team": "Paris FC",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "in"
+      "state": "post"
     },
     {
       "away_team": "Mainz",
@@ -110,11 +110,11 @@
       "match": "Mainz at FC Augsburg",
       "match_id": "espn:ger.1:401884733",
       "model_fair_status": "MATCH_ALREADY_STARTED_NO_RETRO_PREDICTION",
-      "observed_at_utc": "2026-11-22T15:26:07.626155+00:00",
+      "observed_at_utc": "2026-11-22T21:52:18.264975+00:00",
       "resolved_history_away_team": "Mainz",
       "resolved_history_home_team": "Augsburg",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "in"
+      "state": "post"
     },
     {
       "away_team": "Real Sociedad",
@@ -126,11 +126,11 @@
       "match": "Real Sociedad at Racing Santander",
       "match_id": "espn:esp.1:401882800",
       "model_fair_status": "MATCH_ALREADY_STARTED_NO_RETRO_PREDICTION",
-      "observed_at_utc": "2026-11-22T15:26:07.626155+00:00",
+      "observed_at_utc": "2026-11-22T21:52:18.264975+00:00",
       "resolved_history_away_team": "Sociedad",
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "in"
+      "state": "post"
     },
     {
       "away_team": "Stade Rennais",
@@ -141,12 +141,12 @@
       "kickoff_utc": "2026-11-22T16:15Z",
       "match": "Stade Rennais at Lorient",
       "match_id": "espn:fra.1:401876401",
-      "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-11-22T15:26:07.626155+00:00",
+      "model_fair_status": "MATCH_ALREADY_STARTED_NO_RETRO_PREDICTION",
+      "observed_at_utc": "2026-11-22T21:52:18.264975+00:00",
       "resolved_history_away_team": "Rennes",
       "resolved_history_home_team": "Lorient",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "pre"
+      "state": "post"
     },
     {
       "away_team": "Manchester United",
@@ -157,12 +157,12 @@
       "kickoff_utc": "2026-11-22T16:30Z",
       "match": "Manchester United at Liverpool",
       "match_id": "espn:eng.1:401878755",
-      "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-11-22T15:26:07.626155+00:00",
+      "model_fair_status": "MATCH_ALREADY_STARTED_NO_RETRO_PREDICTION",
+      "observed_at_utc": "2026-11-22T21:52:18.264975+00:00",
       "resolved_history_away_team": "Man United",
       "resolved_history_home_team": "Liverpool",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "pre"
+      "state": "post"
     },
     {
       "away_team": "Hamburg SV",
@@ -173,12 +173,12 @@
       "kickoff_utc": "2026-11-22T16:30Z",
       "match": "Hamburg SV at Werder Bremen",
       "match_id": "espn:ger.1:401884730",
-      "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-11-22T15:26:07.626155+00:00",
+      "model_fair_status": "MATCH_ALREADY_STARTED_NO_RETRO_PREDICTION",
+      "observed_at_utc": "2026-11-22T21:52:18.264975+00:00",
       "resolved_history_away_team": "Hamburg",
       "resolved_history_home_team": "Werder Bremen",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "pre"
+      "state": "post"
     },
     {
       "away_team": "Frosinone",
@@ -189,12 +189,12 @@
       "kickoff_utc": "2026-11-22T17:00Z",
       "match": "Frosinone at AC Milan",
       "match_id": "espn:ita.1:401874989",
-      "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-11-22T15:26:07.626155+00:00",
+      "model_fair_status": "MATCH_ALREADY_STARTED_NO_RETRO_PREDICTION",
+      "observed_at_utc": "2026-11-22T21:52:18.264975+00:00",
       "resolved_history_away_team": "Frosinone",
       "resolved_history_home_team": "Milan",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "pre"
+      "state": "post"
     },
     {
       "away_team": "Málaga",
@@ -205,12 +205,12 @@
       "kickoff_utc": "2026-11-22T17:30Z",
       "match": "Málaga at Osasuna",
       "match_id": "espn:esp.1:401882801",
-      "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-11-22T15:26:07.626155+00:00",
+      "model_fair_status": "MATCH_ALREADY_STARTED_NO_RETRO_PREDICTION",
+      "observed_at_utc": "2026-11-22T21:52:18.264975+00:00",
       "resolved_history_away_team": "Malaga",
       "resolved_history_home_team": "Osasuna",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "pre"
+      "state": "post"
     },
     {
       "away_team": "Internazionale",
@@ -221,12 +221,12 @@
       "kickoff_utc": "2026-11-22T19:45Z",
       "match": "Internazionale at Atalanta",
       "match_id": "espn:ita.1:401875001",
-      "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-11-22T15:26:07.626155+00:00",
+      "model_fair_status": "MATCH_ALREADY_STARTED_NO_RETRO_PREDICTION",
+      "observed_at_utc": "2026-11-22T21:52:18.264975+00:00",
       "resolved_history_away_team": "Inter",
       "resolved_history_home_team": "Atalanta",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "pre"
+      "state": "post"
     },
     {
       "away_team": "Le Mans",
@@ -237,12 +237,12 @@
       "kickoff_utc": "2026-11-22T19:45Z",
       "match": "Le Mans at Marseille",
       "match_id": "espn:fra.1:401876400",
-      "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-11-22T15:26:07.626155+00:00",
+      "model_fair_status": "MATCH_ALREADY_STARTED_NO_RETRO_PREDICTION",
+      "observed_at_utc": "2026-11-22T21:52:18.264975+00:00",
       "resolved_history_away_team": "Le Mans",
       "resolved_history_home_team": "Marseille",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "pre"
+      "state": "post"
     },
     {
       "away_team": "Atlético Madrid",
@@ -253,12 +253,12 @@
       "kickoff_utc": "2026-11-22T20:00Z",
       "match": "Atlético Madrid at Getafe",
       "match_id": "espn:esp.1:401882803",
-      "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-11-22T15:26:07.626155+00:00",
+      "model_fair_status": "MATCH_ALREADY_STARTED_NO_RETRO_PREDICTION",
+      "observed_at_utc": "2026-11-22T21:52:18.264975+00:00",
       "resolved_history_away_team": "Ath Madrid",
       "resolved_history_home_team": "Getafe",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
-      "state": "pre"
+      "state": "in"
     },
     {
       "away_team": "Fiorentina",
@@ -270,7 +270,7 @@
       "match": "Fiorentina at Monza",
       "match_id": "espn:ita.1:401875009",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-11-22T15:26:08.298270+00:00",
+      "observed_at_utc": "2026-11-22T21:52:18.944125+00:00",
       "resolved_history_away_team": "Fiorentina",
       "resolved_history_home_team": "Monza",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -286,7 +286,7 @@
       "match": "Everton at Brentford",
       "match_id": "espn:eng.1:401879237",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-11-22T15:26:08.298270+00:00",
+      "observed_at_utc": "2026-11-22T21:52:18.944125+00:00",
       "resolved_history_away_team": "Everton",
       "resolved_history_home_team": "Brentford",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -302,7 +302,7 @@
       "match": "Elche at Levante",
       "match_id": "espn:esp.1:401882802",
       "model_fair_status": "MODELLED",
-      "observed_at_utc": "2026-11-22T15:26:08.298270+00:00",
+      "observed_at_utc": "2026-11-22T21:52:18.944125+00:00",
       "resolved_history_away_team": "Elche",
       "resolved_history_home_team": "Levante",
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -318,7 +318,7 @@
       "match": "LASK Linz at Bodo/Glimt",
       "match_id": "espn:uefa.champions:401915380",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-11-22T15:26:09.036496+00:00",
+      "observed_at_utc": "2026-11-22T21:52:19.734845+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -334,7 +334,7 @@
       "match": "Aston Villa at Galatasaray",
       "match_id": "espn:uefa.champions:401915300",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-11-22T15:26:09.036496+00:00",
+      "observed_at_utc": "2026-11-22T21:52:19.734845+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -350,7 +350,7 @@
       "match": "Borussia Dortmund at Arsenal",
       "match_id": "espn:uefa.champions:401915295",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-11-22T15:26:09.036496+00:00",
+      "observed_at_utc": "2026-11-22T21:52:19.734845+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -366,7 +366,7 @@
       "match": "AEK Athens at Como",
       "match_id": "espn:uefa.champions:401915296",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-11-22T15:26:09.036496+00:00",
+      "observed_at_utc": "2026-11-22T21:52:19.734845+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -382,7 +382,7 @@
       "match": "FC Porto at Feyenoord Rotterdam",
       "match_id": "espn:uefa.champions:401915294",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-11-22T15:26:09.036496+00:00",
+      "observed_at_utc": "2026-11-22T21:52:19.734845+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -398,7 +398,7 @@
       "match": "Napoli at Manchester City",
       "match_id": "espn:uefa.champions:401915379",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-11-22T15:26:09.036496+00:00",
+      "observed_at_utc": "2026-11-22T21:52:19.734845+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -414,7 +414,7 @@
       "match": "Lens at RB Leipzig",
       "match_id": "espn:uefa.champions:401915299",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-11-22T15:26:09.036496+00:00",
+      "observed_at_utc": "2026-11-22T21:52:19.734845+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -430,7 +430,7 @@
       "match": "PSV Eindhoven at Real Madrid",
       "match_id": "espn:uefa.champions:401915298",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-11-22T15:26:09.036496+00:00",
+      "observed_at_utc": "2026-11-22T21:52:19.734845+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -446,7 +446,7 @@
       "match": "Real Betis at Slovan Bratislava",
       "match_id": "espn:uefa.champions:401915297",
       "model_fair_status": "NON_TOP_FIVE_LEAGUE_UNSUPPORTED",
-      "observed_at_utc": "2026-11-22T15:26:09.036496+00:00",
+      "observed_at_utc": "2026-11-22T21:52:19.734845+00:00",
       "resolved_history_away_team": null,
       "resolved_history_home_team": null,
       "schedule_quality": "PROVIDER_SCHEDULE_UNCROSSCHECKED",
@@ -455,9 +455,9 @@
   ],
   "stats": {
     "fixtures": 28,
-    "modelled": 77,
-    "prospective_picks": 140,
+    "modelled": 21,
+    "prospective_picks": 84,
     "unmapped_or_unsupported": 63
   },
-  "updated_utc": "2026-11-22T15:26:06.925427+00:00"
+  "updated_utc": "2026-11-22T21:52:17.399337+00:00"
 }
