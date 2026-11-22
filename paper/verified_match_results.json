@@ -2492,8 +2492,120 @@
       "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
       "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261121&limit=100",
       "observed_utc": "2026-11-22T02:39:52.643013+00:00"
+    },
+    {
+      "match_id": "espn:eng.1:401879234",
+      "competition": "Premier League",
+      "match": "Brighton & Hove Albion at Hull City",
+      "kickoff_utc": "2026-11-22T14:00Z",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261122&limit=100",
+      "observed_utc": "2026-11-22T18:03:07.243741+00:00"
+    },
+    {
+      "match_id": "espn:esp.1:401882804",
+      "competition": "La Liga",
+      "match": "Villarreal at Barcelona",
+      "kickoff_utc": "2026-11-22T13:00Z",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=100",
+      "observed_utc": "2026-11-22T18:03:07.243741+00:00"
+    },
+    {
+      "match_id": "espn:esp.1:401882800",
+      "competition": "La Liga",
+      "match": "Real Sociedad at Racing Santander",
+      "kickoff_utc": "2026-11-22T15:15Z",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122&limit=100",
+      "observed_utc": "2026-11-22T18:03:07.243741+00:00"
+    },
+    {
+      "match_id": "espn:ita.1:401875008",
+      "competition": "Serie A",
+      "match": "Venezia at Juventus",
+      "kickoff_utc": "2026-11-22T11:30Z",
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=100",
+      "observed_utc": "2026-11-22T18:03:07.243741+00:00"
+    },
+    {
+      "match_id": "espn:ita.1:401875047",
+      "competition": "Serie A",
+      "match": "Udinese at Bologna",
+      "kickoff_utc": "2026-11-22T14:00Z",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=100",
+      "observed_utc": "2026-11-22T18:03:07.243741+00:00"
+    },
+    {
+      "match_id": "espn:ita.1:401874960",
+      "competition": "Serie A",
+      "match": "Genoa at Sassuolo",
+      "kickoff_utc": "2026-11-22T14:00Z",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261122&limit=100",
+      "observed_utc": "2026-11-22T18:03:07.243741+00:00"
+    },
+    {
+      "match_id": "espn:ger.1:401884733",
+      "competition": "Bundesliga",
+      "match": "Mainz at FC Augsburg",
+      "kickoff_utc": "2026-11-22T14:30Z",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261122&limit=100",
+      "observed_utc": "2026-11-22T18:03:07.243741+00:00"
+    },
+    {
+      "match_id": "espn:fra.1:401876397",
+      "competition": "Ligue 1",
+      "match": "Angers at Paris FC",
+      "kickoff_utc": "2026-11-22T14:00Z",
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "status": "FT",
+      "settlement_scope": "90_MIN_LEAGUE_REGULATION_ASSUMED_VERIFY_RULES",
+      "verified_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261122&limit=100",
+      "observed_utc": "2026-11-22T18:03:07.243741+00:00"
     }
   ],
   "note": "Only independently verified FT, correct 90min and settlement semantics; never inferred from prior recommendations.",
-  "updated_utc": "2026-11-22T10:21:19.898109+00:00"
+  "updated_utc": "2026-11-22T18:03:07.243741+00:00"
 }
