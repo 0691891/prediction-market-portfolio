@@ -20,6 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -48,4 +50,5 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add data/v04_data_health.json data/v04_fixture_universe.json data/v04_mapping_candidates.json data/football_intelligence.json data/model_fair.json data/board.json data/sportsbook_consensus.json data/market_snapshot.json data/market_candidates.json data/approval.json data/pit data/clv.json data/alpha_attribution.json data/kalshi_public_snapshot.json data/kalshi_research.json data/kalshi_clv.json data/kalshi_whatif.json data/kalshi_pit paper/observations.json paper/research_archive.json paper/hypothetical_performance.json
           git diff --cached --quiet || git commit -m "data: refresh v0.4 football research and source health"
+          git pull --rebase origin main
           git push
