@@ -1,8 +1,383 @@
 {
-  "updated_utc": "2026-11-25T04:56:00.802804+00:00",
-  "candidates": [],
-  "fixtures_scanned": 36,
-  "event_groups_scanned": 75,
+  "updated_utc": "2026-11-26T00:29:41.410742+00:00",
+  "candidates": [
+    {
+      "match_id": "espn:uefa.europa:401915519",
+      "match": "AFC Bournemouth at Celta Vigo",
+      "kickoff_utc": "2026-11-26T17:45Z",
+      "event_ticker": "KXUELGAME-26NOV26RCCBOU",
+      "candidate_markets": [
+        {
+          "ticker": "KXUELGAME-26NOV26RCCBOU-BOU",
+          "title": "Bournemouth wins",
+          "yes_ask_usd": 0.47,
+          "no_ask_usd": 0.54,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXUELGAME-26NOV26RCCBOU-RCC",
+          "title": "Celta Vigo wins",
+          "yes_ask_usd": 0.28,
+          "no_ask_usd": 0.74,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXUELGAME-26NOV26RCCBOU-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.28,
+          "no_ask_usd": 0.73,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:uefa.europa:401915517",
+      "match": "Bayer Leverkusen at Dinamo Zagreb",
+      "kickoff_utc": "2026-11-26T17:45Z",
+      "event_ticker": "KXUELGAME-26NOV26DINLEV",
+      "candidate_markets": [
+        {
+          "ticker": "KXUELGAME-26NOV26DINLEV-DIN",
+          "title": "Dinamo Zagreb wins",
+          "yes_ask_usd": 0.21,
+          "no_ask_usd": 0.8,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXUELGAME-26NOV26DINLEV-LEV",
+          "title": "Leverkusen wins",
+          "yes_ask_usd": 0.58,
+          "no_ask_usd": 0.43,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXUELGAME-26NOV26DINLEV-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.22,
+          "no_ask_usd": 0.79,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:uefa.europa:401915507",
+      "match": "Levski Sofia at Marseille",
+      "kickoff_utc": "2026-11-26T17:45Z",
+      "event_ticker": "KXUELGAME-26NOV26OLMLEV",
+      "candidate_markets": [
+        {
+          "ticker": "KXUELGAME-26NOV26OLMLEV-LEV",
+          "title": "Levski Sofia wins",
+          "yes_ask_usd": 0.11,
+          "no_ask_usd": 0.9,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXUELGAME-26NOV26OLMLEV-OLM",
+          "title": "Marseille wins",
+          "yes_ask_usd": 0.74,
+          "no_ask_usd": 0.27,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXUELGAME-26NOV26OLMLEV-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.17,
+          "no_ask_usd": 0.84,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:uefa.europa:401915521",
+      "match": "AC Milan at Olympiacos",
+      "kickoff_utc": "2026-11-26T17:45Z",
+      "event_ticker": "KXUELGAME-26NOV26OLYACM",
+      "candidate_markets": [
+        {
+          "ticker": "KXUELGAME-26NOV26OLYACM-ACM",
+          "title": "Milan wins",
+          "yes_ask_usd": 0.39,
+          "no_ask_usd": 0.62,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXUELGAME-26NOV26OLYACM-OLY",
+          "title": "Olympiacos wins",
+          "yes_ask_usd": 0.34,
+          "no_ask_usd": 0.67,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXUELGAME-26NOV26OLYACM-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.28,
+          "no_ask_usd": 0.73,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:uefa.europa:401915504",
+      "match": "Real Sociedad at Crystal Palace",
+      "kickoff_utc": "2026-11-26T20:00Z",
+      "event_ticker": "KXUELGAME-26NOV26CRYRSO",
+      "candidate_markets": [
+        {
+          "ticker": "KXUELGAME-26NOV26CRYRSO-CRY",
+          "title": "Crystal Palace wins",
+          "yes_ask_usd": 0.47,
+          "no_ask_usd": 0.54,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXUELGAME-26NOV26CRYRSO-RSO",
+          "title": "Real Sociedad wins",
+          "yes_ask_usd": 0.3,
+          "no_ask_usd": 0.71,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXUELGAME-26NOV26CRYRSO-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.25,
+          "no_ask_usd": 0.76,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:uefa.europa:401915516",
+      "match": "NK Celje at Ferencvaros",
+      "kickoff_utc": "2026-11-26T20:00Z",
+      "event_ticker": "KXUELGAME-26NOV26FTCCEL",
+      "candidate_markets": [
+        {
+          "ticker": "KXUELGAME-26NOV26FTCCEL-CEL",
+          "title": "NK Celje wins",
+          "yes_ask_usd": 0.12,
+          "no_ask_usd": 0.9,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXUELGAME-26NOV26FTCCEL-FTC",
+          "title": "Ferencvarosi wins",
+          "yes_ask_usd": 0.72,
+          "no_ask_usd": 0.29,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXUELGAME-26NOV26FTCCEL-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.18,
+          "no_ask_usd": 0.84,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:uefa.europa:401915502",
+      "match": "Omonia Nicosia at Juventus",
+      "kickoff_utc": "2026-11-26T20:00Z",
+      "event_ticker": "KXUELGAME-26NOV26JUVOMO",
+      "candidate_markets": [
+        {
+          "ticker": "KXUELGAME-26NOV26JUVOMO-JUV",
+          "title": "Juventus wins",
+          "yes_ask_usd": 0.84,
+          "no_ask_usd": 0.17,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXUELGAME-26NOV26JUVOMO-OMO",
+          "title": "Omonia Nicosia wins",
+          "yes_ask_usd": 0.06,
+          "no_ask_usd": 0.95,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXUELGAME-26NOV26JUVOMO-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.11,
+          "no_ask_usd": 0.9,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:uefa.europa:401915503",
+      "match": "Anderlecht at OFI Crete",
+      "kickoff_utc": "2026-11-26T20:00Z",
+      "event_ticker": "KXUELGAME-26NOV26OFIRSC",
+      "candidate_markets": [
+        {
+          "ticker": "KXUELGAME-26NOV26OFIRSC-OFI",
+          "title": "OFI Crete wins",
+          "yes_ask_usd": 0.22,
+          "no_ask_usd": 0.79,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXUELGAME-26NOV26OFIRSC-RSC",
+          "title": "Anderlecht wins",
+          "yes_ask_usd": 0.54,
+          "no_ask_usd": 0.47,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXUELGAME-26NOV26OFIRSC-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.25,
+          "no_ask_usd": 0.76,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:uefa.europa:401915512",
+      "match": "Celtic at Torreense",
+      "kickoff_utc": "2026-11-26T20:00Z",
+      "event_ticker": "KXUELGAME-26NOV26TORCEL",
+      "candidate_markets": [
+        {
+          "ticker": "KXUELGAME-26NOV26TORCEL-CEL",
+          "title": "Celtic wins",
+          "yes_ask_usd": 0.59,
+          "no_ask_usd": 0.42,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXUELGAME-26NOV26TORCEL-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.23,
+          "no_ask_usd": 0.78,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXUELGAME-26NOV26TORCEL-TOR",
+          "title": "Torreense wins",
+          "yes_ask_usd": 0.19,
+          "no_ask_usd": 0.82,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:ita.1:401875004",
+      "match": "Bologna at Venezia",
+      "kickoff_utc": "2026-11-27T19:45Z",
+      "event_ticker": "KXSERIEAGAME-26NOV27VENBFC",
+      "candidate_markets": [
+        {
+          "ticker": "KXSERIEAGAME-26NOV27VENBFC-BFC",
+          "title": "Bologna wins",
+          "yes_ask_usd": 0.44,
+          "no_ask_usd": 0.57,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26NOV27VENBFC-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.3,
+          "no_ask_usd": 0.72,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXSERIEAGAME-26NOV27VENBFC-VEN",
+          "title": "Venezia wins",
+          "yes_ask_usd": 0.28,
+          "no_ask_usd": 0.73,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    },
+    {
+      "match_id": "espn:eng.1:401879225",
+      "match": "Chelsea at Nottingham Forest",
+      "kickoff_utc": "2026-11-27T20:00Z",
+      "event_ticker": "KXEPLGAME-26NOV27NFOCFC",
+      "candidate_markets": [
+        {
+          "ticker": "KXEPLGAME-26NOV27NFOCFC-CFC",
+          "title": "Chelsea wins",
+          "yes_ask_usd": 0.35,
+          "no_ask_usd": 0.66,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXEPLGAME-26NOV27NFOCFC-NFO",
+          "title": "Nottingham Forest wins",
+          "yes_ask_usd": 0.38,
+          "no_ask_usd": 0.63,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        },
+        {
+          "ticker": "KXEPLGAME-26NOV27NFOCFC-TIE",
+          "title": "Tie is the result",
+          "yes_ask_usd": 0.29,
+          "no_ask_usd": 0.73,
+          "status": "active",
+          "fetched_utc": "2026-11-26T00:29:36.173219+00:00"
+        }
+      ],
+      "status": "MANUAL_EVENT_DATE_RULES_AND_SIDE_REVIEW",
+      "reason": "Both team labels observed in event market group, but identity and settlement not yet independently verified."
+    }
+  ],
+  "fixtures_scanned": 32,
+  "event_groups_scanned": 91,
   "approved_mapping_count": 0,
   "rule": "Do not promote fuzzy suggestions to approved ticker mapping without exact match/market rules."
 }
